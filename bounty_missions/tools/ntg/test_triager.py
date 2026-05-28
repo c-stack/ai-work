@@ -93,6 +93,42 @@ callback timeout after 50ms
         self.assertFalse(result.support_request_signals)
         self.assertGreater(result.actionability, 10)
 
+    def test_explicit_bounty_amount_is_extracted_from_issue_text(self) -> None:
+        issue = {
+            "title": "Fix retry loop for $300 bounty",
+            "body": """This payout is $300 for the contributor who fixes the retry loop.
+
+### Steps to reproduce
+
+1. Run the failing sync task.
+2. Observe the infinite retry.
+""",
+            "labels": [{"name": "bug"}],
+            "created_at": "2026-05-27T15:24:07Z",
+            "comments": 0,
+        }
+
+        result = self.triager.score_issue(self.base_item, issue, [], self.repo, ["TypeScript"])
+
+        self.assertEqual(result.bounty_amount_usd, 300)
+        self.assertIn(result.bounty_amount_signal, {"contextual_amount", "generic_amount"})
+
+    def test_algora_reward_is_preferred_when_present(self) -> None:
+        base_item = dict(self.base_item)
+        base_item["reward_usd"] = 500
+        issue = {
+            "title": "Reward issue",
+            "body": "Fix the login race condition.",
+            "labels": [{"name": "bug"}],
+            "created_at": "2026-05-27T15:24:07Z",
+            "comments": 0,
+        }
+
+        result = self.triager.score_issue(base_item, issue, [], self.repo, ["TypeScript"])
+
+        self.assertEqual(result.bounty_amount_usd, 500)
+        self.assertEqual(result.bounty_amount_signal, "algora_reward")
+
     def test_bounty_alert_repo_issue_is_skipped(self) -> None:
         issue = {
             "title": "🎯 Bounty Alert: 10 New Opportunityies found",

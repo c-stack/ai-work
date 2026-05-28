@@ -12,6 +12,41 @@ def load_json(path: Path, default: object) -> object:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def fmt_money(value: object) -> str:
+    try:
+        return f"${float(value):,.2f}"
+    except (TypeError, ValueError):
+        return "$0.00"
+
+
+def fmt_pct(value: object) -> str:
+    try:
+        return f"{float(value):.1f}%"
+    except (TypeError, ValueError):
+        return "0.0%"
+
+
+def render_status_options(current: str) -> str:
+    options = [
+        "discovered",
+        "queued",
+        "workspace_prepared",
+        "codex_attempted",
+        "patch_ready",
+        "submitted",
+        "merged",
+        "paid",
+        "declined",
+        "automation_failed",
+        "automation_timeout",
+    ]
+    rendered = []
+    for item in options:
+        selected = " selected" if item == current else ""
+        rendered.append(f"<option value='{escape(item)}'{selected}>{escape(item)}</option>")
+    return "".join(rendered)
+
+
 def render_dashboard(
     output_dir: Path,
     workspace_dir: Path,
@@ -56,20 +91,6 @@ def render_dashboard(
     )
 
 
-def fmt_money(value: object) -> str:
-    try:
-        return f"${float(value):,.2f}"
-    except (TypeError, ValueError):
-        return "$0.00"
-
-
-def fmt_pct(value: object) -> str:
-    try:
-        return f"{float(value):.1f}%"
-    except (TypeError, ValueError):
-        return "0.0%"
-
-
 def build_html(
     *,
     run_summary: dict,
@@ -91,6 +112,9 @@ def build_html(
     recent_runs = monitoring_metrics.get("recent_runs", [])
     recent_automation = monitoring_metrics.get("recent_automation", [])
     business_model = monitoring_metrics.get("business_model", {})
+    ledger = monitoring_metrics.get("ledger", {})
+    ledger_summary = ledger.get("summary", {})
+    ledger_items = ledger.get("items", [])
     web_url = service_state.get("web_url") or runtime_status.get("web_url") or ""
 
     change_items = []
@@ -189,6 +213,25 @@ def build_html(
     if not automation_rows:
         automation_rows.append("<tr><td colspan='6'>No AI automation runs yet.</td></tr>")
 
+    ledger_rows = []
+    for item in ledger_items[:25]:
+        issue_key = escape(str(item.get("key", "")))
+        ledger_rows.append(
+            "<tr>"
+            f"<td><strong>{escape(str(item.get('repo', '-')))}#{escape(str(item.get('number', '-')))}</strong><br><span class='muted'>{escape(str(item.get('title', '-')))}</span></td>"
+            f"<td>{escape(str(item.get('latest_recommendation', '-')))}</td>"
+            f"<td>{escape(str(item.get('last_automation_status', '-')))}</td>"
+            f"<td>{fmt_money(item.get('estimated_value_usd', 0.0))}</td>"
+            f"<td><input class='ledger-input ledger-claimed' data-key='{issue_key}' value='{escape(str(item.get('claimed_value_usd', 0.0)))}'></td>"
+            f"<td><input class='ledger-input ledger-actual' data-key='{issue_key}' value='{escape(str(item.get('actual_revenue_usd', 0.0)))}'></td>"
+            f"<td><select class='ledger-select ledger-status' data-key='{issue_key}'>{render_status_options(str(item.get('status', 'discovered')))}</select></td>"
+            f"<td><input class='ledger-input ledger-notes' data-key='{issue_key}' value='{escape(str(item.get('notes', '')))}'></td>"
+            f"<td><button class='ledger-save' data-key='{issue_key}'>Save</button></td>"
+            "</tr>"
+        )
+    if not ledger_rows:
+        ledger_rows.append("<tr><td colspan='9'>No ledger items tracked yet.</td></tr>")
+
     generated_at = run_summary.get("generated_at_utc", "-")
     alert_status = alert_summary.get("delivery_status", "-")
     alert_new_queue_count = alert_summary.get("new_queue_count", 0)
@@ -207,7 +250,6 @@ def build_html(
     :root {{
       --bg: #0b1217;
       --panel: rgba(16, 24, 32, 0.9);
-      --panel-2: rgba(22, 32, 43, 0.92);
       --text: #ecf3f9;
       --muted: #97a6ba;
       --accent: #7ed39b;
@@ -353,6 +395,19 @@ def build_html(
       font-size: 12px;
       color: var(--muted);
     }}
+    input, select {{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 8px 9px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: rgba(9, 14, 19, 0.8);
+      color: var(--text);
+    }}
+    .ledger-save {{
+      width: 100%;
+      padding: 8px 10px;
+    }}
   </style>
 </head>
 <body>
@@ -385,6 +440,17 @@ def build_html(
       <div class="card"><div class="muted">AI runs with worklog</div><div class="metric">{escape(str(totals.get('total_ai_worklogs', 0)))}</div></div>
       <div class="card"><div class="muted">Active queue EV</div><div class="metric">{fmt_money(totals.get('estimated_active_revenue_usd', 0.0))}</div></div>
       <div class="card"><div class="muted">7d new queue EV</div><div class="metric">{fmt_money(totals.get('estimated_new_revenue_7d_usd', 0.0))}</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card"><div class="muted">Tracked issues</div><div class="metric">{escape(str(totals.get('tracked_issues', 0)))}</div></div>
+      <div class="card"><div class="muted">AI completed</div><div class="metric">{escape(str(totals.get('ai_completed_issues', 0)))}</div></div>
+      <div class="card"><div class="muted">Submitted</div><div class="metric">{escape(str(totals.get('submitted_issues', 0)))}</div></div>
+      <div class="card"><div class="muted">Paid</div><div class="metric">{escape(str(totals.get('paid_issues', 0)))}</div></div>
+      <div class="card"><div class="muted">Claimed revenue</div><div class="metric">{fmt_money(totals.get('claimed_revenue_usd', 0.0))}</div></div>
+      <div class="card"><div class="muted">Actual revenue</div><div class="metric">{fmt_money(totals.get('actual_revenue_usd', 0.0))}</div></div>
+      <div class="card"><div class="muted">Patch ready</div><div class="metric">{escape(str(ledger_summary.get('patch_ready_issues', 0)))}</div></div>
+      <div class="card"><div class="muted">Pipeline EV</div><div class="metric">{fmt_money(ledger_summary.get('estimated_pipeline_revenue_usd', 0.0))}</div></div>
     </div>
 
     <div class="grid">
@@ -423,6 +489,21 @@ def build_html(
         </thead>
         <tbody>
           {''.join(queue_value_rows)}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="sectionhead">
+        <h2>Bounty Ledger</h2>
+        <div class="muted">Edit status and revenue directly here. This is your actual经营台账.</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Issue</th><th>Reco</th><th>AI</th><th>EV</th><th>Claimed</th><th>Actual</th><th>Status</th><th>Notes</th><th>Save</th></tr>
+        </thead>
+        <tbody>
+          {''.join(ledger_rows)}
         </tbody>
       </table>
     </div>
@@ -486,6 +567,7 @@ def build_html(
     const runState = document.getElementById("run-state");
     const lastFinish = document.getElementById("last-finish");
     const manualCount = document.getElementById("manual-count");
+    const ledgerButtons = Array.from(document.querySelectorAll(".ledger-save"));
 
     async function refreshRuntime() {{
       try {{
@@ -525,6 +607,43 @@ def build_html(
       }});
       refreshRuntime();
       setInterval(refreshRuntime, 15000);
+    }}
+
+    for (const saveButton of ledgerButtons) {{
+      saveButton.addEventListener("click", async () => {{
+        const key = saveButton.dataset.key;
+        const claimed = document.querySelector(`.ledger-claimed[data-key="${{key}}"]`);
+        const actual = document.querySelector(`.ledger-actual[data-key="${{key}}"]`);
+        const status = document.querySelector(`.ledger-status[data-key="${{key}}"]`);
+        const notes = document.querySelector(`.ledger-notes[data-key="${{key}}"]`);
+        saveButton.disabled = true;
+        feedback.textContent = `Saving ${{key}} ...`;
+        feedback.classList.remove("error");
+        try {{
+          const response = await fetch("/api/ledger/update", {{
+            method: "POST",
+            headers: {{ "Content-Type": "application/json" }},
+            body: JSON.stringify({{
+              key,
+              status: status ? status.value : "",
+              claimed_value_usd: claimed ? claimed.value : "",
+              actual_revenue_usd: actual ? actual.value : "",
+              notes: notes ? notes.value : "",
+            }}),
+          }});
+          const payload = await response.json();
+          if (!response.ok || !payload.ok) {{
+            throw new Error(payload.error || "save failed");
+          }}
+          feedback.textContent = `Saved ${{key}}`;
+          setTimeout(() => window.location.reload(), 500);
+        }} catch (error) {{
+          feedback.textContent = error.message || "save failed";
+          feedback.classList.add("error");
+        }} finally {{
+          saveButton.disabled = false;
+        }}
+      }});
     }}
   </script>
 </body>

@@ -141,6 +141,13 @@ LANGUAGE_FIT = {
     "PHP": 6,
 }
 
+CONTEXTUAL_BOUNTY_AMOUNT_PATTERNS = [
+    re.compile(r"(?:bounty|reward|payout|prize|payment|paid|earn|claim)[^$\n]{0,32}\$([0-9][0-9,]{1,6})", re.IGNORECASE),
+    re.compile(r"\$([0-9][0-9,]{1,6})[^.\n]{0,24}(?:bounty|reward|payout|prize|payment)", re.IGNORECASE),
+    re.compile(r"(?:bounty|reward|payout|prize|payment)[^0-9\n]{0,24}([0-9][0-9,]{1,6})\s*(?:usd|dollars?)", re.IGNORECASE),
+]
+GENERIC_BOUNTY_AMOUNT_PATTERN = re.compile(r"\$([0-9][0-9,]{1,6})")
+
 
 @dataclass
 class TriagedOpportunity:
@@ -151,6 +158,8 @@ class TriagedOpportunity:
     scanner_score: int
     bounty_confidence: int
     actionability: int
+    bounty_amount_usd: int
+    bounty_amount_signal: str
     language_fit: int
     competition_risk: int
     total_score: int
@@ -414,6 +423,14 @@ class GitHubIssueTriager:
         meta_bounty_signals = [
             name for name, pattern in META_BOUNTY_PATTERNS if re.search(pattern, combined)
         ]
+        bounty_amount_usd, bounty_amount_signal = self.extract_bounty_amount_usd(
+            base_item,
+            title=title,
+            body=body,
+            comment_text=comment_text,
+            matched_positive=matched_positive,
+            matched_platform=matched_platform,
+        )
         empty_response_count = body.lower().count("_no response_")
         empty_log_block = bool(
             re.search(r"relevant log output\s*```(?:shell)?\s*```", body, re.IGNORECASE | re.DOTALL)
@@ -429,6 +446,7 @@ class GitHubIssueTriager:
             bounty_confidence += 10
         if matched_platform and not matched_positive and "bounty" not in title.lower():
             bounty_confidence -= 12
+        bounty_confidence += self.score_bounty_amount_bonus(bounty_amount_usd)
         bounty_confidence -= min(18, len(support_request_signals) * 4)
         if bounty_uncertainty_signals and not matched_platform:
             bounty_confidence -= 18
@@ -448,6 +466,8 @@ class GitHubIssueTriager:
             actionability += 4
         actionability += min(20, len(matched_actionable) * 4)
         actionability += min(10, len(matched_task_terms) * 2)
+        if bounty_amount_usd:
+            actionability += 2
         if "documentation" in label_text.lower() or "blog" in label_text.lower():
             actionability -= 4
         if empty_response_count >= 2:
@@ -551,6 +571,8 @@ class GitHubIssueTriager:
             scanner_score=base_item["score"],
             bounty_confidence=bounty_confidence,
             actionability=actionability,
+            bounty_amount_usd=bounty_amount_usd,
+            bounty_amount_signal=bounty_amount_signal,
             language_fit=language_fit,
             competition_risk=competition_risk,
             total_score=total_score,
@@ -571,6 +593,54 @@ class GitHubIssueTriager:
             decision_reason=decision_reason,
             decision_signals=decision_signals,
         )
+
+    @staticmethod
+    def score_bounty_amount_bonus(bounty_amount_usd: int) -> int:
+        if bounty_amount_usd >= 1000:
+            return 18
+        if bounty_amount_usd >= 500:
+            return 12
+        if bounty_amount_usd >= 200:
+            return 8
+        if bounty_amount_usd >= 100:
+            return 5
+        if bounty_amount_usd >= 50:
+            return 2
+        return 0
+
+    def extract_bounty_amount_usd(
+        self,
+        base_item: dict[str, Any],
+        *,
+        title: str,
+        body: str,
+        comment_text: str,
+        matched_positive: list[str],
+        matched_platform: list[str],
+    ) -> tuple[int, str]:
+        reward_usd = int(base_item.get("reward_usd", 0) or 0)
+        if reward_usd > 0:
+            return reward_usd, "algora_reward"
+
+        text = f"{title}\n{body}\n{comment_text}"
+        for pattern in CONTEXTUAL_BOUNTY_AMOUNT_PATTERNS:
+            match = pattern.search(text)
+            if not match:
+                continue
+            try:
+                return int(match.group(1).replace(",", "")), "contextual_amount"
+            except ValueError:
+                continue
+
+        if matched_positive or matched_platform:
+            match = GENERIC_BOUNTY_AMOUNT_PATTERN.search(text)
+            if match:
+                try:
+                    return int(match.group(1).replace(",", "")), "generic_amount"
+                except ValueError:
+                    pass
+
+        return 0, ""
 
     def build_decision_reason(
         self,
