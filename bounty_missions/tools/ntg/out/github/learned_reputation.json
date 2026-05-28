@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-28T20:38:44Z",
+  "generated_at_utc": "2026-05-28T22:47:27Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,15 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "algora-io/algora": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        308
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -266,6 +275,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "algora-io/algora",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        308
       ]
     }
   ]

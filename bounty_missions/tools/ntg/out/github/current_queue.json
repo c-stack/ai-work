@@ -1,6 +1,28 @@
 {
-  "generated_at_utc": "2026-05-28T20:38:44Z",
+  "generated_at_utc": "2026-05-28T22:47:27Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "algora-io/algora",
+      "number": 308,
+      "title": "Question about pending bounty reward claims",
+      "url": "https://github.com/algora-io/algora/issues/308",
+      "recommendation": "review",
+      "total_score": 82,
+      "repo_primary_language": "Elixir",
+      "bounty_confidence": 35,
+      "actionability": 5,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "support:asks-for-help"
+      ]
+    }
+  ]
 }

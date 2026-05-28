@@ -1,16 +1,32 @@
 {
-  "generated_at_utc": "2026-05-28T20:38:44Z",
+  "generated_at_utc": "2026-05-28T22:47:27Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 18,
-    "merged": 19
+    "merged": 20
   },
   "recommendations": {
     "pursue": 0,
-    "review": 0,
+    "review": 1,
     "skip": 19
   },
   "top_candidates": [
+    {
+      "repo": "algora-io/algora",
+      "number": 308,
+      "title": "Question about pending bounty reward claims",
+      "recommendation": "review",
+      "total_score": 82,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "support:asks-for-help"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -132,26 +148,6 @@
     },
     {
       "repo": "archestra-ai/archestra",
-      "number": 5033,
-      "title": "Bad UX on Knowledge/Connectors file upload failure",
-      "recommendation": "skip",
-      "total_score": 55,
-      "bounty_amount_usd": 20,
-      "competition_risk": 31,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
       "number": 4758,
       "title": "Improve usage limits visibility UX and DX",
       "recommendation": "skip",
@@ -194,24 +190,23 @@
       ]
     },
     {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
+      "repo": "archestra-ai/archestra",
+      "number": 5033,
+      "title": "Bad UX on Knowledge/Connectors file upload failure",
       "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "total_score": 45,
+      "bounty_amount_usd": 20,
+      "competition_risk": 33,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
+        "negative:migration",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:3",
         "support:support-politeness"
       ]
     }

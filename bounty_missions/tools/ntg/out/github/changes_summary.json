@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "algora-io/algora",
+      "number": 308,
+      "title": "Question about pending bounty reward claims",
+      "url": "https://github.com/algora-io/algora/issues/308",
+      "recommendation": "review",
+      "total_score": 82
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -50,14 +58,6 @@
     },
     {
       "repo": "archestra-ai/archestra",
-      "number": 5033,
-      "title": "Bad UX on Knowledge/Connectors file upload failure",
-      "url": "https://github.com/archestra-ai/archestra/issues/5033",
-      "recommendation": "skip",
-      "total_score": 55
-    },
-    {
-      "repo": "archestra-ai/archestra",
       "number": 4758,
       "title": "Improve usage limits visibility UX and DX",
       "url": "https://github.com/archestra-ai/archestra/issues/4758",
@@ -69,6 +69,14 @@
       "number": 389,
       "title": "feat: Support for `/retry`",
       "url": "https://github.com/antinomyhq/forge/issues/389",
+      "recommendation": "skip",
+      "total_score": 45
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 5033,
+      "title": "Bad UX on Knowledge/Connectors file upload failure",
+      "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
       "total_score": 45
     },
