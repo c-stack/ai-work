@@ -962,6 +962,19 @@ def load_mission_log_entries(path: Path) -> list[dict]:
     return entries
 
 
+def classify_external_pr_feedback(comment_text: str) -> str:
+    text = comment_text.lower()
+    if not text:
+        return ""
+    if "not valid" in text and "gemini" in text:
+        return "invalid_generated_template"
+    if "setup instructions" in text or "vulnerable setup" in text:
+        return "proof_required"
+    if "closing this pr" in text or "closing this pull request" in text:
+        return "closed_by_maintainer"
+    return ""
+
+
 def fetch_pull_request_statuses(entries: list[dict], token: str) -> dict[int, dict]:
     statuses: dict[int, dict] = {}
     if not entries or not token:
@@ -985,11 +998,29 @@ def fetch_pull_request_statuses(entries: list[dict], token: str) -> dict[int, di
         except Exception:
             continue
         payload = response.json()
+        latest_comment_author = ""
+        latest_comment_body = ""
+        latest_comment_created_at = ""
+        comments_response = session.get(
+            f"https://api.github.com/repos/{entry['repo']}/issues/{pr_number}/comments",
+            params={"per_page": 20},
+            timeout=20,
+        )
+        if comments_response.ok:
+            comments_payload = comments_response.json()
+            if isinstance(comments_payload, list) and comments_payload:
+                latest_comment = comments_payload[-1]
+                latest_comment_author = str((latest_comment.get("user") or {}).get("login") or "")
+                latest_comment_body = str(latest_comment.get("body") or "")
+                latest_comment_created_at = str(latest_comment.get("created_at") or "")
         statuses[pr_number] = {
             "state": payload.get("state", ""),
             "merged_at": payload.get("merged_at"),
             "title": payload.get("title") or entry["cve_id"],
             "html_url": payload.get("html_url") or entry["pr_url"],
+            "latest_comment_author": latest_comment_author,
+            "latest_comment_body": latest_comment_body,
+            "latest_comment_created_at": latest_comment_created_at,
         }
     return statuses
 
@@ -1059,6 +1090,10 @@ def sync_external_pr_history(
             "last_automation_exit_code": existing.get("last_automation_exit_code"),
             "last_automation_at_utc": str(existing.get("last_automation_at_utc", "")),
             "notes": str(existing.get("notes", "")),
+            "closure_reason": classify_external_pr_feedback(str(pr_status.get("latest_comment_body", ""))) or str(existing.get("closure_reason", "")),
+            "review_feedback_excerpt": str(pr_status.get("latest_comment_body") or existing.get("review_feedback_excerpt", ""))[:280],
+            "review_feedback_author": str(pr_status.get("latest_comment_author") or existing.get("review_feedback_author", "")),
+            "review_feedback_at_utc": str(pr_status.get("latest_comment_created_at") or existing.get("review_feedback_at_utc", "")),
             "updated_at_utc": run_finished_at_utc,
             "status_history": existing.get("status_history", []),
         }
