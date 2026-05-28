@@ -26,6 +26,11 @@ Files that make GitHub-hosted execution work:
 - `bounty_missions/tools/ntg/service.github.yaml`: GitHub-oriented service config
 - `bounty_missions/tools/ntg/sync_github_secrets.py`: syncs local credentials into repo secrets
 
+Current publishing status:
+
+- the workflow file is prepared locally, but the PAT from `auth` does not have GitHub `workflow` scope
+- because of that, the remote repo can receive the service code and secrets, but cannot accept `.github/workflows/ntg-radar.yml` until a broader PAT is used
+
 Required secrets:
 
 - `NTG_GITHUB_TOKEN`: used for GitHub API access during scanning
