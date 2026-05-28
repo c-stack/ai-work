@@ -1,0 +1,272 @@
+{
+  "generated_at_utc": "2026-05-28T17:46:26Z",
+  "history_window_runs": 12,
+  "history_min_skip_runs": 4,
+  "history_min_unique_issues": 2,
+  "blocked_repos": [
+    "archestra-ai/archestra"
+  ],
+  "repo_stats": {
+    "projectdiscovery/nuclei": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        6532,
+        6674
+      ]
+    },
+    "archestra-ai/archestra": {
+      "total_seen": 4,
+      "skip_count": 4,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        3855,
+        4758,
+        4998,
+        5033
+      ]
+    },
+    "Dokploy/templates": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        152
+      ]
+    },
+    "Tarsnap/tarsnap": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        684
+      ]
+    },
+    "tailcallhq/tailcallhq.github.io": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        373
+      ]
+    },
+    "antinomyhq/forge": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        389
+      ]
+    },
+    "tscircuit/dsn-converter": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        54
+      ]
+    },
+    "Dokploy/dokploy": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        416,
+        1413
+      ]
+    },
+    "revertinc/revert": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        372,
+        551
+      ]
+    },
+    "tscircuit/circuit-json-to-readable-netlist": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        4
+      ]
+    },
+    "tailcallhq/graphql-conf-2024": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1
+      ]
+    },
+    "tailcallhq/rust-grpc": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        44
+      ]
+    },
+    "tscircuit/jlcsearch": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        92
+      ]
+    }
+  },
+  "top_repeat_skips": [
+    {
+      "repo": "archestra-ai/archestra",
+      "total_seen": 4,
+      "skip_count": 4,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        3855,
+        4758,
+        4998,
+        5033
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        372,
+        551
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        6532,
+        6674
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        416,
+        1413
+      ]
+    },
+    {
+      "repo": "tscircuit/jlcsearch",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        92
+      ]
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        54
+      ]
+    },
+    {
+      "repo": "tscircuit/circuit-json-to-readable-netlist",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        4
+      ]
+    },
+    {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        373
+      ]
+    },
+    {
+      "repo": "tailcallhq/rust-grpc",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        44
+      ]
+    },
+    {
+      "repo": "tailcallhq/graphql-conf-2024",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        389
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        684
+      ]
+    },
+    {
+      "repo": "Dokploy/templates",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        152
+      ]
+    }
+  ]
+}

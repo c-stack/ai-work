@@ -1,0 +1,229 @@
+{
+  "generated_at_utc": "2026-05-28T17:46:26Z",
+  "source_counts": {
+    "github": 1,
+    "algora": 18,
+    "merged": 19
+  },
+  "recommendations": {
+    "pursue": 0,
+    "review": 0,
+    "skip": 19
+  },
+  "top_candidates": [
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6674,
+      "title": "Replace panic with error handling in template loader when dialers are missing",
+      "recommendation": "skip",
+      "total_score": 82,
+      "bounty_amount_usd": 100,
+      "competition_risk": 40,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4998,
+      "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
+      "recommendation": "skip",
+      "total_score": 78,
+      "bounty_amount_usd": 4000,
+      "competition_risk": 37,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:article",
+        "action:regression",
+        "task:support",
+        "task:replace",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/templates",
+      "number": 152,
+      "title": "Get Your Custom Dokploy Templates Built!",
+      "recommendation": "skip",
+      "total_score": 73,
+      "bounty_amount_usd": 1000,
+      "competition_risk": 53,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:implement",
+        "task:remove",
+        "claims:2",
+        "existing-work:1"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 3855,
+      "title": "Create WindMill MCP Apps MCP server",
+      "recommendation": "skip",
+      "total_score": 69,
+      "bounty_amount_usd": 400,
+      "competition_risk": 28,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:4",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 684,
+      "title": "Bug bounty: cosmetic typos in docs and source comments",
+      "recommendation": "skip",
+      "total_score": 65,
+      "bounty_amount_usd": 0,
+      "competition_risk": 27,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "task:error",
+        "task:bug",
+        "existing-work:2"
+      ]
+    },
+    {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "number": 373,
+      "title": "feature: design and develop a UI to generate tailcall configurations",
+      "recommendation": "skip",
+      "total_score": 58,
+      "bounty_amount_usd": 500,
+      "competition_risk": 43,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 5033,
+      "title": "Bad UX on Knowledge/Connectors file upload failure",
+      "recommendation": "skip",
+      "total_score": 55,
+      "bounty_amount_usd": 20,
+      "competition_risk": 31,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4758,
+      "title": "Improve usage limits visibility UX and DX",
+      "recommendation": "skip",
+      "total_score": 46,
+      "bounty_amount_usd": 150,
+      "competition_risk": 47,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:spam",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    }
+  ],
+  "triage_policy": {
+    "profile": "aggressive",
+    "skip_competition_risk": 24,
+    "pursue_min_bounty_confidence": 16,
+    "pursue_min_actionability": 10,
+    "pursue_max_competition_risk": 16,
+    "review_min_bounty_confidence": 8,
+    "review_min_actionability": 4,
+    "weak_bounty_penalty_threshold": 10
+  }
+}
