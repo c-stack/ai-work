@@ -15,3 +15,6 @@ bounty_missions/tools/ntg/out/github/runs/
 bounty_missions/tools/ntg/out/github/site/
 bounty_missions/tools/ntg/out/github/automation/
 bounty_missions/tools/ntg/out/github/alerts/history/
+bounty_missions/tools/ntg/out/repo_seeds_auto.txt
+bounty_missions/tools/ntg/out/local/
+bounty_missions/tools/ntg/service.local.yaml
