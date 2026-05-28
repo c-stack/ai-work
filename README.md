@@ -34,14 +34,22 @@ Current publishing status:
 Required secrets:
 
 - `NTG_GITHUB_TOKEN`: used for GitHub API access during scanning
-- `OPENAI_API_KEY` or `CODEX_API_KEY`: required only if you want GitHub Actions to actually run Codex auto-fix
 
 Optional secrets:
 
 - `NTG_GITHUB_USERNAME`
 - `NTG_GITHUB_PASSWORD`
+- `OPENAI_API_KEY`
+- `CODEX_API_KEY`
 
-Without an OpenAI/Codex API key, the scan and triage pipeline still runs on GitHub, but `run_codex_fix.sh` will skip automation cleanly.
+Codex execution modes:
+
+- GitHub-hosted runner: normally needs `OPENAI_API_KEY` or `CODEX_API_KEY`
+- local machine or self-hosted runner: can reuse an already working local `codex` installation through `~/.codex/config.toml` or `~/.codex/auth.json`
+
+Without either API-key secrets or local Codex config on the runner, the scan and triage pipeline still runs, but `run_codex_fix.sh` will skip automation cleanly.
+
+If you want "GitHub 发现单子，Mac 上直接用本机 codex 修复", the right deployment target is a self-hosted GitHub Actions runner on this Mac, not a GitHub-hosted runner.
 
 ## Local Files
 

@@ -11,8 +11,8 @@ if ! command -v codex >/dev/null 2>&1; then
   exit 0
 fi
 
-if [[ -z "${OPENAI_API_KEY:-}" && -z "${CODEX_API_KEY:-}" ]]; then
-  echo "OPENAI_API_KEY/CODEX_API_KEY not configured; skipping automation for ${REPO_SLUG}#${ISSUE_NUMBER}"
+if [[ -z "${OPENAI_API_KEY:-}" && -z "${CODEX_API_KEY:-}" && ! -f "${HOME}/.codex/config.toml" && ! -f "${HOME}/.codex/auth.json" ]]; then
+  echo "codex auth/provider config not found; skipping automation for ${REPO_SLUG}#${ISSUE_NUMBER}"
   exit 0
 fi
 
