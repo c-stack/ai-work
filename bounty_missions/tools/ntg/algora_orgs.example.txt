@@ -1,0 +1,3 @@
+# One Algora org slug per line
+activepieces
+revertinc

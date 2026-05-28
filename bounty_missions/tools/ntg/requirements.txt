@@ -1,0 +1,5 @@
+# Nuclei Template Generator Requirements
+requests
+pyyaml
+rich
+PyNaCl

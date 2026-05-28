@@ -1,0 +1,18 @@
+# Curated public Algora org slugs observed with reachable bounty boards
+activepieces
+projectdiscovery
+revertinc
+dokploy
+coollabsio
+zio
+getkyo
+golemcloud
+tscircuit
+mediar-ai
+px4
+archestra-ai
+tailcallhq
+twentyhq
+maybe-finance
+capgo
+zed-industries

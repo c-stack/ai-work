@@ -1,0 +1,3 @@
+# Preferred: store the GitHub token in macOS Keychain under service `codex-github-token`
+# Fallback file format if you really need a local file:
+token: ghp_your_token_here

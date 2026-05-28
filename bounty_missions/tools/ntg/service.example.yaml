@@ -1,0 +1,53 @@
+service:
+  auth_file: auth
+  output_dir: bounty_missions/tools/ntg/out
+  snapshot_root: bounty_missions/tools/ntg/out/runs
+  workspace_dir: bounty_missions/workspaces
+  dashboard_target: bounty_missions/tools/ntg/out/site/index.html
+  interval_seconds: 3600
+
+pipeline:
+  targets_config: bounty_missions/tools/ntg/targets.example.yaml
+  algora_org_file: bounty_missions/tools/ntg/algora_orgs.curated.txt
+  repo_seed_file: bounty_missions/tools/ntg/out/repo_seeds_auto.txt
+  reputation_config: bounty_missions/tools/ntg/reputation.example.yaml
+  learned_reputation_path: bounty_missions/tools/ntg/out/learned_reputation.json
+  refresh_repo_seeds: true
+  days: 1
+  limit: 1
+  min_score: 25
+  triage_limit: 12
+  history_window_runs: 12
+  history_min_skip_runs: 4
+  history_min_unique_issues: 2
+
+triage:
+  profile: aggressive
+  skip_competition_risk: 24
+  pursue_min_bounty_confidence: 16
+  pursue_min_actionability: 10
+  pursue_max_competition_risk: 16
+  review_min_bounty_confidence: 8
+  review_min_actionability: 4
+  weak_bounty_penalty_threshold: 10
+
+workspace:
+  recommendations:
+    - pursue
+    - review
+  max_items: 3
+
+notifications:
+  send_when: changes_only
+  timeout_seconds: 10
+  webhook_url:
+  headers: {}
+
+automation:
+  command: []
+  trigger_on:
+    - pursue
+  trigger_mode: new_queue_items
+  max_items: 1
+  timeout_seconds: 1800
+  extra_env: {}

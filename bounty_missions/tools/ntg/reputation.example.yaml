@@ -1,0 +1,24 @@
+blocked_repos:
+  - dev-kp-eloper/bountyscout
+  - fuzoe/pd-hunter
+  - asaadnashed/bounty-autopilot
+  - wearshoes/anthropicnotification
+
+blocked_repo_patterns:
+  - "(^|/)bountyscout$"
+  - "(^|/)pd-hunter$"
+  - "(^|/)bounty-autopilot$"
+  - "(^|/)issuehunt-stats$"
+  - "(^|/)anthropicnotification$"
+  - "(^|/)claude-builders-bounty$"
+
+blocked_description_patterns:
+  - "\\bbounty alert\\b"
+  - "\\bissue alerts?\\b"
+  - "\\bnotification\\b"
+  - "\\bautopilot\\b"
+  - "\\bbounty board\\b"
+  - "\\bscout(?:ing)? github for active bounties\\b"
+  - "\\bopportunit(?:y|ies)\\b"
+
+min_stars_unscoped: 15

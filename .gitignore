@@ -1,0 +1,17 @@
+auth
+.env
+.env.*
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+bounty_missions/workspaces/
+bounty_missions/tools/ntg/out/logs/
+bounty_missions/tools/ntg/out/runs/
+bounty_missions/tools/ntg/out/site/
+bounty_missions/tools/ntg/out/github/runs/
+bounty_missions/tools/ntg/out/github/site/
+bounty_missions/tools/ntg/out/github/automation/
+bounty_missions/tools/ntg/out/github/alerts/history/

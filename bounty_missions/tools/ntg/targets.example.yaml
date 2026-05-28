@@ -1,0 +1,26 @@
+targets:
+  - name: "ProjectDiscovery Templates"
+    repo: "projectdiscovery/nuclei-templates"
+    labels:
+      - "💎 Bounty"
+    keywords:
+      - "bounty"
+      - "cve"
+      - "kev"
+
+  - name: "ProjectDiscovery Engine"
+    repo: "projectdiscovery/nuclei"
+    keywords:
+      - "bounty"
+      - "reward"
+      - "good first issue"
+
+  - name: "Wide Search Example"
+    keywords:
+      - "bug bounty"
+      - "algora"
+      - "polar.sh"
+    exclude_keywords:
+      - "polars"
+      - "not bounty"
+      - "spam"
