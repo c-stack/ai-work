@@ -59,6 +59,7 @@ def render_dashboard(
     monitoring_metrics = load_json(output_dir / "monitoring_metrics.json", {})
     service_state = load_json(output_dir / "service_state.json", {})
     runtime_status = load_json(output_dir / "runtime_status.json", {})
+    template_factory = load_json(output_dir / "template_factory.json", {})
 
     workspaces = []
     if workspace_dir.exists():
@@ -86,6 +87,7 @@ def render_dashboard(
             monitoring_metrics=monitoring_metrics,
             service_state=service_state,
             runtime_status=runtime_status,
+            template_factory=template_factory,
         ),
         encoding="utf-8",
     )
@@ -101,6 +103,7 @@ def build_html(
     monitoring_metrics: dict,
     service_state: dict,
     runtime_status: dict,
+    template_factory: dict,
 ) -> str:
     source_counts = run_summary.get("source_counts", {})
     recommendations = run_summary.get("recommendations", {})
@@ -115,6 +118,11 @@ def build_html(
     ledger = monitoring_metrics.get("ledger", {})
     ledger_summary = ledger.get("summary", {})
     ledger_items = ledger.get("items", [])
+    template_factory_summary = template_factory.get("summary", {})
+    template_factory_targets = template_factory.get("next_targets", [])
+    template_factory_local = template_factory.get("local_templates", [])
+    explicit_bounty_items = [item for item in triaged if float(item.get("bounty_amount_usd", 0) or 0) > 0]
+    same_day_attempt_count = int(template_factory_summary.get("ready_template_count", 0)) + len(explicit_bounty_items)
     web_url = service_state.get("web_url") or runtime_status.get("web_url") or ""
 
     change_items = []
@@ -231,6 +239,60 @@ def build_html(
         )
     if not ledger_rows:
         ledger_rows.append("<tr><td colspan='9'>No ledger items tracked yet.</td></tr>")
+
+    template_target_rows = []
+    for item in template_factory_targets[:12]:
+        template_target_rows.append(
+            "<tr>"
+            f"<td><strong>{escape(str(item.get('cve_id', '-')))}</strong><br><span class='muted'>{escape(str(item.get('hint', '')))}</span></td>"
+            f"<td>{escape(str(item.get('action', '-')))}</td>"
+            f"<td>{'yes' if item.get('has_template') else 'no'}</td>"
+            f"<td>{'yes' if item.get('submitted') else 'no'}</td>"
+            f"<td>{'yes' if item.get('upstream_present') else 'no'}</td>"
+            f"<td>{fmt_money(item.get('estimated_value_usd', 0.0))}</td>"
+            "</tr>"
+        )
+    if not template_target_rows:
+        template_target_rows.append("<tr><td colspan='6'>No next-target CVEs tracked yet.</td></tr>")
+
+    ready_template_rows = []
+    for item in [row for row in template_factory_local if row.get("status") == "ready"][:12]:
+        ready_template_rows.append(
+            "<tr>"
+            f"<td>{escape(str(item.get('cve_id', '-')))}</td>"
+            f"<td>{escape(str(item.get('status', '-')))}</td>"
+            f"<td>{fmt_money(item.get('estimated_value_usd', 0.0))}</td>"
+            f"<td><code>{escape(str(item.get('path', '-')))}</code></td>"
+            "</tr>"
+        )
+    if not ready_template_rows:
+        ready_template_rows.append("<tr><td colspan='4'>No local ready-to-submit templates yet.</td></tr>")
+
+    same_day_rows = []
+    for item in template_factory_targets:
+        if item.get("action") != "ready_to_submit":
+            continue
+        same_day_rows.append(
+            "<tr>"
+            f"<td>template_factory</td>"
+            f"<td>{escape(str(item.get('cve_id', '-')))}</td>"
+            f"<td>{escape(str(item.get('hint', '')))}</td>"
+            f"<td>{fmt_money(item.get('estimated_value_usd', 0.0))}</td>"
+            f"<td>ready_to_submit</td>"
+            "</tr>"
+        )
+    for item in explicit_bounty_items[:12]:
+        same_day_rows.append(
+            "<tr>"
+            f"<td>explicit_bounty</td>"
+            f"<td>{escape(str(item.get('repo', '-')))}#{escape(str(item.get('number', '-')))}</td>"
+            f"<td>{escape(str(item.get('title', '-')))}</td>"
+            f"<td>{fmt_money(item.get('bounty_amount_usd', 0.0))}</td>"
+            f"<td>{escape(str(item.get('decision_reason', '-')))}</td>"
+            "</tr>"
+        )
+    if not same_day_rows:
+        same_day_rows.append("<tr><td colspan='5'>No same-day candidate inventory yet.</td></tr>")
 
     generated_at = run_summary.get("generated_at_utc", "-")
     alert_status = alert_summary.get("delivery_status", "-")
@@ -422,6 +484,7 @@ def build_html(
         <div class="pill">Last finish: <span id="last-finish">{escape(str(last_run_finished))}</span></div>
         <div class="pill">Manual triggers: <span id="manual-count">{escape(str(manual_triggers))}</span></div>
         <button id="run-now-btn" {'disabled' if not web_url else ''}>Run Now</button>
+        <button id="generate-templates-btn" {'disabled' if not web_url else ''}>Generate Templates</button>
       </div>
     </div>
 
@@ -451,6 +514,63 @@ def build_html(
       <div class="card"><div class="muted">Actual revenue</div><div class="metric">{fmt_money(totals.get('actual_revenue_usd', 0.0))}</div></div>
       <div class="card"><div class="muted">Patch ready</div><div class="metric">{escape(str(ledger_summary.get('patch_ready_issues', 0)))}</div></div>
       <div class="card"><div class="muted">Pipeline EV</div><div class="metric">{fmt_money(ledger_summary.get('estimated_pipeline_revenue_usd', 0.0))}</div></div>
+    </div>
+
+    <div class="grid">
+      <div class="card"><div class="muted">Same-day attempts</div><div class="metric">{escape(str(same_day_attempt_count))}</div></div>
+      <div class="card"><div class="muted">Local templates</div><div class="metric">{escape(str(template_factory_summary.get('local_template_count', 0)))}</div></div>
+      <div class="card"><div class="muted">Ready templates</div><div class="metric">{escape(str(template_factory_summary.get('ready_template_count', 0)))}</div></div>
+      <div class="card"><div class="muted">Submitted templates</div><div class="metric">{escape(str(template_factory_summary.get('submitted_template_count', 0)))}</div></div>
+      <div class="card"><div class="muted">Next targets</div><div class="metric">{escape(str(template_factory_summary.get('next_target_count', 0)))}</div></div>
+      <div class="card"><div class="muted">Need generation</div><div class="metric">{escape(str(template_factory_summary.get('next_target_missing_template_count', 0)))}</div></div>
+      <div class="card"><div class="muted">Ready next targets</div><div class="metric">{escape(str(template_factory_summary.get('next_target_ready_count', 0)))}</div></div>
+      <div class="card"><div class="muted">Avg template payout</div><div class="metric">{fmt_money(template_factory_summary.get('average_template_pr_value_usd', 0.0))}</div></div>
+      <div class="card"><div class="muted">Template lane EV</div><div class="metric">{fmt_money(template_factory_summary.get('estimated_next_target_revenue_usd', 0.0))}</div></div>
+    </div>
+
+    <div class="section">
+      <div class="sectionhead">
+        <h2>Same-Day Revenue Sprint</h2>
+        <div class="muted">Today’s throughput inventory combines ready template PRs and currently visible explicit-bounty tasks.</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Lane</th><th>Target</th><th>Title / Hint</th><th>Value</th><th>Why It Matters</th></tr>
+        </thead>
+        <tbody>
+          {''.join(same_day_rows)}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="sectionhead">
+        <h2>Template Factory</h2>
+        <div class="muted">This lane is for high-throughput nuclei-style bounty submissions instead of generic issue scanning.</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>CVE</th><th>Action</th><th>Has Local Template</th><th>Submitted</th><th>Already Upstream</th><th>EV</th></tr>
+        </thead>
+        <tbody>
+          {''.join(template_target_rows)}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <div class="sectionhead">
+        <h2>Ready Local Templates</h2>
+        <div class="muted">These are local template assets not yet recorded as submitted and therefore closest to PR throughput.</div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>CVE</th><th>Status</th><th>EV</th><th>Path</th></tr>
+        </thead>
+        <tbody>
+          {''.join(ready_template_rows)}
+        </tbody>
+      </table>
     </div>
 
     <div class="grid">
@@ -563,6 +683,7 @@ def build_html(
   </div>
   <script>
     const button = document.getElementById("run-now-btn");
+    const generateButton = document.getElementById("generate-templates-btn");
     const feedback = document.getElementById("run-now-feedback");
     const runState = document.getElementById("run-state");
     const lastFinish = document.getElementById("last-finish");
@@ -607,6 +728,28 @@ def build_html(
       }});
       refreshRuntime();
       setInterval(refreshRuntime, 15000);
+    }}
+
+    if (generateButton && {str(bool(web_url)).lower()}) {{
+      generateButton.addEventListener("click", async () => {{
+        generateButton.disabled = true;
+        feedback.textContent = "Generating template skeletons...";
+        feedback.classList.remove("error");
+        try {{
+          const response = await fetch("/api/template-factory/generate", {{ method: "POST" }});
+          const payload = await response.json();
+          if (!response.ok || !payload.ok) {{
+            throw new Error(payload.error || "generation failed");
+          }}
+          feedback.textContent = payload.message || "template generation complete";
+          setTimeout(() => window.location.reload(), 500);
+        }} catch (error) {{
+          feedback.textContent = error.message || "template generation failed";
+          feedback.classList.add("error");
+        }} finally {{
+          generateButton.disabled = false;
+        }}
+      }});
     }}
 
     for (const saveButton of ledgerButtons) {{

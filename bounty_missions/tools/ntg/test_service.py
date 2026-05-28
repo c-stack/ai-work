@@ -4,7 +4,10 @@ from pathlib import Path
 from unittest import mock
 
 from service import (
+    build_template_factory_payload,
+    generate_next_template_skeletons,
     load_mission_log_entries,
+    parse_next_target_cves_from_mission_log,
     run_automation,
     select_automation_items,
     sync_bounty_ledger,
@@ -204,6 +207,107 @@ class ServiceAutomationTest(unittest.TestCase):
             self.assertEqual(entries[0]["pr_number"], 16285)
             self.assertEqual(entries[0]["cve_id"], "CVE-2020-10987")
             self.assertEqual(entries[0]["reward_estimate_usd"], 75.0)
+
+    def test_parse_next_target_cves_from_mission_log(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            mission_log = root / "mission_log.md"
+            mission_log.write_text(
+                """
+## 📝 Ongoing Research
+- Next Targets: CVE-2020-28949 (Archive_Tar), CVE-2020-14871 (Solaris PAM).
+""".strip(),
+                encoding="utf-8",
+            )
+
+            entries = parse_next_target_cves_from_mission_log(mission_log)
+
+            self.assertEqual(
+                entries,
+                [
+                    {"cve_id": "CVE-2020-28949", "hint": "Archive_Tar"},
+                    {"cve_id": "CVE-2020-14871", "hint": "Solaris PAM"},
+                ],
+            )
+
+    def test_build_template_factory_payload_classifies_templates(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            template_dir = root / "templates"
+            template_dir.mkdir()
+            (template_dir / "CVE-2020-28949.yaml").write_text("id: cve-2020-28949\n", encoding="utf-8")
+            (template_dir / "CVE-2020-14871.yaml").write_text("id: cve-2020-14871\n", encoding="utf-8")
+            upstream_dir = root / "upstream"
+            (upstream_dir / "http/cves/2020").mkdir(parents=True)
+            (upstream_dir / "http/cves/2020/CVE-2020-14871.yaml").write_text("id: cve-2020-14871\n", encoding="utf-8")
+            mission_log = root / "mission_log.md"
+            mission_log.write_text(
+                """
+| PR # | Target CVE | Status | Reward Est. | Link |
+| 16285 | CVE-2020-10987 | Open / Pending Review | $50 - $100 | [View PR](https://github.com/projectdiscovery/nuclei-templates/pull/16285) |
+
+## 📝 Ongoing Research
+- Next Targets: CVE-2020-28949 (Archive_Tar), CVE-2020-14871 (Solaris PAM), CVE-2020-10987 (Tenda AC15).
+""".strip(),
+                encoding="utf-8",
+            )
+
+            payload = build_template_factory_payload(
+                config={
+                    "template_factory": {
+                        "template_dir": str(template_dir),
+                        "upstream_repo_checkout": str(upstream_dir),
+                    }
+                },
+                repo_root=root,
+                ledger_payload={
+                    "items": [
+                        {
+                            "latest_recommendation": "external_pr",
+                            "claimed_value_usd": 75.0,
+                        }
+                    ]
+                },
+                mission_log_path=mission_log,
+            )
+
+            self.assertEqual(payload["summary"]["local_template_count"], 2)
+            self.assertEqual(payload["summary"]["next_target_count"], 3)
+            self.assertEqual(payload["summary"]["next_target_ready_count"], 1)
+            self.assertEqual(payload["summary"]["next_target_missing_template_count"], 0)
+            actions = {item["cve_id"]: item["action"] for item in payload["next_targets"]}
+            self.assertEqual(actions["CVE-2020-28949"], "ready_to_submit")
+            self.assertEqual(actions["CVE-2020-14871"], "already_upstream")
+            self.assertEqual(actions["CVE-2020-10987"], "tracked_submitted")
+
+    def test_generate_next_template_skeletons_creates_missing_targets(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            template_dir = root / "templates"
+            template_dir.mkdir()
+            mission_log = root / "mission_log.md"
+            mission_log.write_text(
+                """
+## 📝 Ongoing Research
+- Next Targets: CVE-2020-28949 (Archive_Tar), CVE-2020-14871 (Solaris PAM).
+""".strip(),
+                encoding="utf-8",
+            )
+
+            payload = generate_next_template_skeletons(
+                config={
+                    "template_factory": {
+                        "template_dir": str(template_dir),
+                        "generate_limit": 5,
+                    }
+                },
+                repo_root=root,
+                mission_log_path=mission_log,
+            )
+
+            self.assertEqual(payload["created_count"], 2)
+            self.assertTrue((template_dir / "CVE-2020-28949.yaml").exists())
+            self.assertTrue((template_dir / "CVE-2020-14871.yaml").exists())
 
     def test_sync_external_pr_history_sets_issue_key_and_submitted_status(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

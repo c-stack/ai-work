@@ -24,6 +24,7 @@ warnings.filterwarnings(
 )
 
 from dashboard import render_dashboard
+from generator import NucleiTemplateGenerator
 from github_auth import load_github_token
 from notifier import load_json as load_json_file
 from notifier import notify
@@ -69,6 +70,7 @@ MISSION_LOG_ROW_PATTERN = re.compile(
     r"\|\s*(\d+)\s*\|\s*(CVE-[0-9-]+)\s*\|\s*([^|]+?)\s*\|\s*\$([^|]+?)\s*\|\s*\[View PR\]\((https://github\.com/[^)]+)\)",
     re.IGNORECASE,
 )
+MISSION_LOG_NEXT_TARGET_PATTERN = re.compile(r"(CVE-\d{4}-\d+)(?:\s*\(([^)]+)\))?", re.IGNORECASE)
 
 
 class SafeFormatDict(dict):
@@ -736,6 +738,211 @@ def parse_reward_estimate_usd(value: str) -> float:
     return round(sum(matches) / len(matches), 2)
 
 
+def resolve_template_dir(config: dict, repo_root: Path) -> Path:
+    factory_config = (config.get("template_factory", {}) or {})
+    configured = factory_config.get("template_dir")
+    if configured:
+        return Path(str(configured))
+    return repo_root / "bounty_missions/tools/ntg/templates"
+
+
+def resolve_upstream_templates_repo(config: dict, repo_root: Path) -> Path | None:
+    factory_config = (config.get("template_factory", {}) or {})
+    configured = factory_config.get("upstream_repo_checkout")
+    if configured:
+        return Path(str(configured))
+    candidate = repo_root / "nuclei-templates-repo"
+    if candidate.exists():
+        return candidate
+    return None
+
+
+def parse_next_target_cves_from_mission_log(path: Path | None) -> list[dict[str, str]]:
+    if path is None or not path.exists():
+        return []
+    text = path.read_text(encoding="utf-8")
+    next_line = ""
+    for line in text.splitlines():
+        if line.lower().startswith("- next targets:"):
+            next_line = line.split(":", 1)[1]
+            break
+    if not next_line:
+        return []
+
+    entries: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for cve_id, hint in MISSION_LOG_NEXT_TARGET_PATTERN.findall(next_line):
+        normalized = cve_id.upper()
+        if normalized in seen:
+            continue
+        seen.add(normalized)
+        entries.append(
+            {
+                "cve_id": normalized,
+                "hint": hint.strip(),
+            }
+        )
+    return entries
+
+
+def list_local_template_cves(template_dir: Path) -> dict[str, Path]:
+    if not template_dir.exists():
+        return {}
+    templates: dict[str, Path] = {}
+    for path in sorted(template_dir.glob("CVE-*.yaml")):
+        templates[path.stem.upper()] = path
+    return templates
+
+
+def list_upstream_template_cves(upstream_repo: Path | None) -> set[str]:
+    if upstream_repo is None or not upstream_repo.exists():
+        return set()
+    return {
+        path.stem.upper()
+        for path in upstream_repo.rglob("CVE-*.yaml")
+        if path.is_file()
+    }
+
+
+def build_template_factory_payload(
+    *,
+    config: dict,
+    repo_root: Path,
+    ledger_payload: dict,
+    mission_log_path: Path | None,
+) -> dict:
+    template_dir = resolve_template_dir(config, repo_root)
+    upstream_repo = resolve_upstream_templates_repo(config, repo_root)
+    local_templates = list_local_template_cves(template_dir)
+    upstream_templates = list_upstream_template_cves(upstream_repo)
+    next_targets = parse_next_target_cves_from_mission_log(mission_log_path)
+    mission_entries = load_mission_log_entries(mission_log_path) if mission_log_path else []
+    submitted_cves = {str(entry.get("cve_id", "")).upper() for entry in mission_entries if entry.get("cve_id")}
+
+    submitted_reward_values = [
+        float(item.get("claimed_value_usd", 0.0) or 0.0)
+        for item in ledger_payload.get("items", [])
+        if str(item.get("latest_recommendation", "")) == "external_pr"
+        and float(item.get("claimed_value_usd", 0.0) or 0.0) > 0
+    ]
+    average_pr_value = round(
+        sum(submitted_reward_values) / len(submitted_reward_values),
+        2,
+    ) if submitted_reward_values else 75.0
+
+    local_rows: list[dict[str, Any]] = []
+    ready_count = 0
+    submitted_count = 0
+    upstream_count = 0
+    for cve_id, path in sorted(local_templates.items()):
+        status = "ready"
+        if cve_id in submitted_cves:
+            status = "submitted"
+            submitted_count += 1
+        elif cve_id in upstream_templates:
+            status = "upstream_present"
+            upstream_count += 1
+        else:
+            ready_count += 1
+        local_rows.append(
+            {
+                "cve_id": cve_id,
+                "path": str(path),
+                "status": status,
+                "estimated_value_usd": average_pr_value if status == "ready" else 0.0,
+            }
+        )
+
+    next_target_rows: list[dict[str, Any]] = []
+    for target in next_targets:
+        cve_id = target["cve_id"]
+        has_template = cve_id in local_templates
+        submitted = cve_id in submitted_cves
+        upstream_present = cve_id in upstream_templates
+        if submitted:
+            action = "tracked_submitted"
+        elif upstream_present:
+            action = "already_upstream"
+        elif has_template:
+            action = "ready_to_submit"
+        else:
+            action = "generate_template"
+        next_target_rows.append(
+            {
+                "cve_id": cve_id,
+                "hint": target.get("hint", ""),
+                "has_template": has_template,
+                "submitted": submitted,
+                "upstream_present": upstream_present,
+                "action": action,
+                "estimated_value_usd": average_pr_value if action in {"generate_template", "ready_to_submit"} else 0.0,
+            }
+        )
+
+    return {
+        "generated_at_utc": utc_now(),
+        "summary": {
+            "local_template_count": len(local_templates),
+            "ready_template_count": ready_count,
+            "submitted_template_count": submitted_count,
+            "upstream_present_count": upstream_count,
+            "next_target_count": len(next_target_rows),
+            "next_target_missing_template_count": sum(1 for item in next_target_rows if item["action"] == "generate_template"),
+            "next_target_ready_count": sum(1 for item in next_target_rows if item["action"] == "ready_to_submit"),
+            "estimated_ready_revenue_usd": round(ready_count * average_pr_value, 2),
+            "estimated_next_target_revenue_usd": round(
+                sum(float(item.get("estimated_value_usd", 0.0) or 0.0) for item in next_target_rows),
+                2,
+            ),
+            "average_template_pr_value_usd": average_pr_value,
+        },
+        "local_templates": local_rows,
+        "next_targets": next_target_rows[:20],
+        "template_dir": str(template_dir),
+        "upstream_repo_checkout": str(upstream_repo) if upstream_repo is not None else "",
+    }
+
+
+def generate_next_template_skeletons(
+    *,
+    config: dict,
+    repo_root: Path,
+    mission_log_path: Path | None,
+) -> dict:
+    template_dir = resolve_template_dir(config, repo_root)
+    generator = NucleiTemplateGenerator(output_dir=str(template_dir))
+    existing = list_local_template_cves(template_dir)
+    targets = parse_next_target_cves_from_mission_log(mission_log_path)
+    limit = int(((config.get("template_factory", {}) or {}).get("generate_limit", 3)) or 3)
+
+    created: list[dict[str, str]] = []
+    for target in targets:
+        if len(created) >= limit:
+            break
+        cve_id = target["cve_id"]
+        if cve_id in existing:
+            continue
+        hint = target.get("hint", "").strip()
+        description = f"Investigate detection template for {cve_id}"
+        if hint:
+            description = f"Investigate detection template for {cve_id} ({hint})"
+        path = generator.generate_skeleton(cve_id, "high", description)
+        created.append(
+            {
+                "cve_id": cve_id,
+                "path": str(path),
+            }
+        )
+        existing[cve_id] = Path(path)
+
+    return {
+        "generated_at_utc": utc_now(),
+        "created_count": len(created),
+        "created": created,
+        "template_dir": str(template_dir),
+    }
+
+
 def load_mission_log_entries(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -1078,8 +1285,21 @@ def build_web_config(config: dict) -> dict[str, Any]:
     }
 
 
+def resolve_mission_log_path(config: dict) -> Path | None:
+    business_config = (config.get("business", {}) or {})
+    configured = business_config.get("mission_log_path")
+    if not configured:
+        return None
+    return Path(str(configured))
+
+
+def write_template_factory_snapshot(output_dir: Path, payload: dict) -> None:
+    write_json(output_dir / "template_factory.json", payload)
+
+
 def start_control_server(
     *,
+    config_path: Path,
     output_dir: Path,
     dashboard_target: Path,
     controller: ServiceController,
@@ -1141,6 +1361,7 @@ def start_control_server(
                     "service_state": load_json_file(output_dir / "service_state.json", {}),
                     "monitoring_metrics": load_json_file(output_dir / "monitoring_metrics.json", {}),
                     "ledger": load_json_file(output_dir / "bounty_ledger.json", {}),
+                    "template_factory": load_json_file(output_dir / "template_factory.json", {}),
                 }
                 self._send_json(payload)
                 return
@@ -1161,6 +1382,50 @@ def start_control_server(
                     }
                 )
                 return
+            if path == "/api/template-factory/generate":
+                try:
+                    config = load_config(config_path)
+                    repo_root = config_path.resolve().parents[3]
+                    mission_log_path = resolve_mission_log_path(config)
+                    generation_payload = generate_next_template_skeletons(
+                        config=config,
+                        repo_root=repo_root,
+                        mission_log_path=mission_log_path,
+                    )
+                    ledger_payload = load_json_file(resolve_ledger_path(config, output_dir), {"items": [], "summary": {}})
+                    template_factory_payload = build_template_factory_payload(
+                        config=config,
+                        repo_root=repo_root,
+                        ledger_payload=ledger_payload,
+                        mission_log_path=mission_log_path,
+                    )
+                    write_template_factory_snapshot(output_dir, template_factory_payload)
+                    state_payload = load_json_file(output_dir / "service_state.json", {})
+                    state_payload["template_factory"] = {
+                        "path": str(output_dir / "template_factory.json"),
+                        "ready_template_count": template_factory_payload.get("summary", {}).get("ready_template_count", 0),
+                        "next_target_ready_count": template_factory_payload.get("summary", {}).get("next_target_ready_count", 0),
+                        "next_target_missing_template_count": template_factory_payload.get("summary", {}).get("next_target_missing_template_count", 0),
+                        "estimated_next_target_revenue_usd": template_factory_payload.get("summary", {}).get("estimated_next_target_revenue_usd", 0.0),
+                    }
+                    write_service_state(output_dir, state_payload)
+                    render_dashboard(
+                        output_dir,
+                        Path(load_json_file(output_dir / "service_state.json", {}).get("prepared_workspaces_root", "bounty_missions/workspaces")),
+                        dashboard_target,
+                    )
+                    self._send_json(
+                        {
+                            "ok": True,
+                            "message": f"generated {generation_payload.get('created_count', 0)} template skeletons",
+                            "generation": generation_payload,
+                            "template_factory": template_factory_payload,
+                        }
+                    )
+                    return
+                except Exception as exc:
+                    self._send_json({"ok": False, "error": str(exc)}, status=HTTPStatus.BAD_REQUEST)
+                    return
             if path == "/api/ledger/update":
                 try:
                     body = self._read_json_body()
@@ -1205,7 +1470,7 @@ def run_once(config_path: Path, controller: ServiceController | None = None) -> 
     service_config = config.get("service", {})
     business_config = load_business_config(config)
     web_config = build_web_config(config)
-    mission_log_path = Path(str((config.get("business", {}) or {}).get("mission_log_path"))) if (config.get("business", {}) or {}).get("mission_log_path") else None
+    mission_log_path = resolve_mission_log_path(config)
     dashboard_target = Path(
         service_config.get("dashboard_target", "bounty_missions/tools/ntg/out/site/index.html")
     )
@@ -1300,6 +1565,13 @@ def run_once(config_path: Path, controller: ServiceController | None = None) -> 
             github_token=github_token,
             run_finished_at_utc=run_finished_at_utc,
         )
+        template_factory_payload = build_template_factory_payload(
+            config=config,
+            repo_root=repo_root,
+            ledger_payload=ledger_payload,
+            mission_log_path=mission_log_path,
+        )
+        write_template_factory_snapshot(output_dir, template_factory_payload)
         history_payload = append_monitoring_history(
             output_dir,
             run_entry=run_entry,
@@ -1324,6 +1596,13 @@ def run_once(config_path: Path, controller: ServiceController | None = None) -> 
             "path": str(resolve_ledger_path(config, output_dir)),
             "tracked_issues": ledger_payload.get("summary", {}).get("tracked_issues", 0),
             "actual_revenue_usd": ledger_payload.get("summary", {}).get("actual_revenue_usd", 0.0),
+        }
+        state_payload["template_factory"] = {
+            "path": str(output_dir / "template_factory.json"),
+            "ready_template_count": template_factory_payload.get("summary", {}).get("ready_template_count", 0),
+            "next_target_ready_count": template_factory_payload.get("summary", {}).get("next_target_ready_count", 0),
+            "next_target_missing_template_count": template_factory_payload.get("summary", {}).get("next_target_missing_template_count", 0),
+            "estimated_next_target_revenue_usd": template_factory_payload.get("summary", {}).get("estimated_next_target_revenue_usd", 0.0),
         }
         state_payload["prepared_workspaces_root"] = str(workspace_dir)
         state_payload["runtime"] = controller.snapshot() if controller is not None else {}
@@ -1424,6 +1703,7 @@ def main() -> int:
     web_url = f"http://{web_config['host']}:{web_config['port']}/" if web_config.get("enabled") else ""
     controller.configure(output_dir=output_dir, dashboard_target=dashboard_target, web_url=web_url)
     server = start_control_server(
+        config_path=args.config,
         output_dir=output_dir,
         dashboard_target=dashboard_target,
         controller=controller,
