@@ -97,6 +97,14 @@
       "total_score": 43
     },
     {
+      "repo": "openmetaearth/me-hub",
+      "number": 108,
+      "title": "[Bug]: BUG BOUNTY",
+      "url": "https://github.com/openmetaearth/me-hub/issues/108",
+      "recommendation": "skip",
+      "total_score": 39
+    },
+    {
       "repo": "revertinc/revert",
       "number": 372,
       "title": "[REVER-48] Workday Integration",
