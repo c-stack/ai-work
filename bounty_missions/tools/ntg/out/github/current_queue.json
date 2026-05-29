@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-05-29T10:15:53Z",
+  "generated_at_utc": "2026-05-29T13:36:52Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "repo": "algora-io/algora",
@@ -22,6 +22,25 @@
         "bounty:/claim",
         "platform:algora",
         "support:asks-for-help"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 45539,
+      "title": "Github write access for llvc-ttnn model bringup",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/45539",
+      "recommendation": "review",
+      "total_score": 78,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 6,
+      "bounty_amount_usd": 1500,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "template-gaps:1"
       ]
     }
   ]

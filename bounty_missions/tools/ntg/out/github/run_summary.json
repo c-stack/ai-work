@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-05-29T10:15:53Z",
+  "generated_at_utc": "2026-05-29T13:36:52Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 18,
-    "merged": 21
+    "merged": 22
   },
   "recommendations": {
     "pursue": 0,
-    "review": 1,
+    "review": 2,
     "skip": 20
   },
   "top_candidates": [
@@ -68,6 +68,20 @@
         "claims:3",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 45539,
+      "title": "Github write access for llvc-ttnn model bringup",
+      "recommendation": "review",
+      "total_score": 78,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "template-gaps:1"
       ]
     },
     {
@@ -189,28 +203,6 @@
         "task:support",
         "task:implement",
         "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

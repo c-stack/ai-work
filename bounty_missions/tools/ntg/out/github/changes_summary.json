@@ -25,6 +25,14 @@
       "total_score": 78
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 45539,
+      "title": "Github write access for llvc-ttnn model bringup",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/45539",
+      "recommendation": "review",
+      "total_score": 78
+    },
+    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
