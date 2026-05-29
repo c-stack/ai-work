@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-29T17:46:07Z",
+  "generated_at_utc": "2026-05-29T20:40:01Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -40,12 +40,13 @@
       ]
     },
     "tenstorrent/tt-metal": {
-      "total_seen": 1,
-      "skip_count": 0,
+      "total_seen": 2,
+      "skip_count": 1,
       "review_count": 1,
       "pursue_count": 0,
       "unique_issues": [
-        45539
+        45539,
+        45607
       ]
     },
     "Dokploy/templates": {
@@ -208,6 +209,17 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        45539,
+        45607
+      ]
+    },
+    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -305,16 +317,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        45539
       ]
     },
     {

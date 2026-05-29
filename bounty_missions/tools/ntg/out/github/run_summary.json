@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-05-29T17:46:07Z",
+  "generated_at_utc": "2026-05-29T20:40:01Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 19,
-    "merged": 23
+    "merged": 24
   },
   "recommendations": {
     "pursue": 0,
     "review": 2,
-    "skip": 21
+    "skip": 22
   },
   "top_candidates": [
     {
@@ -124,6 +124,20 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 45607,
+      "title": "[Bounty $5000] Optimise exp(x) for fp32",
+      "recommendation": "skip",
+      "total_score": 61,
+      "bounty_amount_usd": 5000,
+      "competition_risk": 17,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "claims:1"
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -183,26 +197,6 @@
         "task:support",
         "claims:3",
         "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:2",
         "support:support-politeness"
       ]
     }
