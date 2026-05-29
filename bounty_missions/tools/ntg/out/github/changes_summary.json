@@ -97,12 +97,20 @@
       "total_score": 43
     },
     {
+      "repo": "classroomio/classroomio",
+      "number": 662,
+      "title": "Unauthenticated Checkout API Exposes Authenticated User PII and Live Stripe Key",
+      "url": "https://github.com/classroomio/classroomio/issues/662",
+      "recommendation": "skip",
+      "total_score": 41
+    },
+    {
       "repo": "openmetaearth/me-hub",
       "number": 108,
       "title": "[Bug]: BUG BOUNTY",
       "url": "https://github.com/openmetaearth/me-hub/issues/108",
       "recommendation": "skip",
-      "total_score": 39
+      "total_score": 40
     },
     {
       "repo": "revertinc/revert",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-29T05:40:13Z",
+  "generated_at_utc": "2026-05-29T10:15:53Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -82,6 +82,15 @@
       "unique_issues": [
         416,
         1413
+      ]
+    },
+    "classroomio/classroomio": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        662
       ]
     },
     "openmetaearth/me-hub": {
@@ -255,6 +264,16 @@
       "pursue_count": 0,
       "unique_issues": [
         108
+      ]
+    },
+    {
+      "repo": "classroomio/classroomio",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        662
       ]
     },
     {
