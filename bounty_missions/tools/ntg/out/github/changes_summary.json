@@ -41,14 +41,6 @@
       "total_score": 69
     },
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 684,
-      "title": "Bug bounty: cosmetic typos in docs and source comments",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/684",
-      "recommendation": "skip",
-      "total_score": 65
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",

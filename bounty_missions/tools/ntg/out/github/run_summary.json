@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-05-28T22:47:27Z",
+  "generated_at_utc": "2026-05-29T00:21:42Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 18,
-    "merged": 20
+    "merged": 19
   },
   "recommendations": {
     "pursue": 0,
     "review": 1,
-    "skip": 19
+    "skip": 18
   },
   "top_candidates": [
     {
@@ -110,24 +110,6 @@
       ]
     },
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 684,
-      "title": "Bug bounty: cosmetic typos in docs and source comments",
-      "recommendation": "skip",
-      "total_score": 65,
-      "bounty_amount_usd": 0,
-      "competition_risk": 27,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "task:error",
-        "task:bug",
-        "existing-work:2"
-      ]
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -207,6 +189,28 @@
         "task:support",
         "task:implement",
         "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }
