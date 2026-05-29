@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-05-29T13:36:52Z",
+  "generated_at_utc": "2026-05-29T17:46:07Z",
   "source_counts": {
     "github": 4,
-    "algora": 18,
-    "merged": 22
+    "algora": 19,
+    "merged": 23
   },
   "recommendations": {
     "pursue": 0,
     "review": 2,
-    "skip": 20
+    "skip": 21
   },
   "top_candidates": [
     {
@@ -144,6 +144,27 @@
     },
     {
       "repo": "archestra-ai/archestra",
+      "number": 5033,
+      "title": "Bad UX on Knowledge/Connectors file upload failure",
+      "recommendation": "skip",
+      "total_score": 52,
+      "bounty_amount_usd": 50,
+      "competition_risk": 33,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:migration",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
       "number": 4758,
       "title": "Improve usage limits visibility UX and DX",
       "recommendation": "skip",
@@ -182,27 +203,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 5033,
-      "title": "Bad UX on Knowledge/Connectors file upload failure",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 20,
-      "competition_risk": 33,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:3",
         "support:support-politeness"
       ]
     }
