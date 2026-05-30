@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-05-30T00:19:39Z",
+  "generated_at_utc": "2026-05-30T05:01:46Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "repo": "openmetaearth/me-hub",
+      "number": 123,
+      "title": "[Bug Report Bounty]:",
+      "url": "https://github.com/openmetaearth/me-hub/issues/123",
+      "recommendation": "pursue",
+      "total_score": 87,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 22,
+      "actionability": 24,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:error",
+        "task:bug",
+        "template-gaps:2"
+      ]
+    },
     {
       "repo": "algora-io/algora",
       "number": 308,

@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "openmetaearth/me-hub",
+      "number": 123,
+      "title": "[Bug Report Bounty]:",
+      "url": "https://github.com/openmetaearth/me-hub/issues/123",
+      "recommendation": "pursue",
+      "total_score": 87
+    },
+    {
       "repo": "algora-io/algora",
       "number": 308,
       "title": "Question about pending bounty reward claims",

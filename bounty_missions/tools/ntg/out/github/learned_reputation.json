@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-30T00:19:39Z",
+  "generated_at_utc": "2026-05-30T05:01:46Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,16 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "openmetaearth/me-hub": {
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        108,
+        123
+      ]
+    },
     "algora-io/algora": {
       "total_seen": 1,
       "skip_count": 0,
@@ -102,15 +112,6 @@
       "pursue_count": 0,
       "unique_issues": [
         662
-      ]
-    },
-    "openmetaearth/me-hub": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        108
       ]
     },
     "revertinc/revert": {
@@ -220,6 +221,17 @@
       ]
     },
     {
+      "repo": "openmetaearth/me-hub",
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        108,
+        123
+      ]
+    },
+    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -277,16 +289,6 @@
       "pursue_count": 0,
       "unique_issues": [
         1
-      ]
-    },
-    {
-      "repo": "openmetaearth/me-hub",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        108
       ]
     },
     {

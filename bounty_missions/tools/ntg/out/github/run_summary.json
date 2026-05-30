@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-05-30T00:19:39Z",
+  "generated_at_utc": "2026-05-30T05:01:46Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 19,
-    "merged": 24
+    "merged": 25
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 2,
     "skip": 22
   },
   "top_candidates": [
+    {
+      "repo": "openmetaearth/me-hub",
+      "number": 123,
+      "title": "[Bug Report Bounty]:",
+      "recommendation": "pursue",
+      "total_score": 87,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:error",
+        "task:bug",
+        "template-gaps:2"
+      ]
+    },
     {
       "repo": "algora-io/algora",
       "number": 308,
@@ -174,29 +192,6 @@
         "task:support",
         "task:implement",
         "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 46,
-      "bounty_amount_usd": 150,
-      "competition_risk": 47,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
