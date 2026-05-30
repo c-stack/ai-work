@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-05-30T17:21:55Z",
+  "generated_at_utc": "2026-05-30T19:42:28Z",
   "source_counts": {
     "github": 5,
-    "algora": 19,
-    "merged": 24
+    "algora": 15,
+    "merged": 20
   },
   "recommendations": {
     "pursue": 0,
     "review": 2,
-    "skip": 22
+    "skip": 18
   },
   "top_candidates": [
     {
@@ -138,25 +138,6 @@
       ]
     },
     {
-      "repo": "tailcallhq/tailcallhq.github.io",
-      "number": 373,
-      "title": "feature: design and develop a UI to generate tailcall configurations",
-      "recommendation": "skip",
-      "total_score": 58,
-      "bounty_amount_usd": 500,
-      "competition_risk": 43,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 5033,
       "title": "Bad UX on Knowledge/Connectors file upload failure",
@@ -196,6 +177,28 @@
         "task:fix",
         "task:support",
         "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
         "existing-work:1",
         "support:support-politeness"
       ]
