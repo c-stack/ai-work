@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-30T19:42:28Z",
+  "generated_at_utc": "2026-05-30T21:15:45Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -58,6 +58,24 @@
         152
       ]
     },
+    "tailcallhq/tailcallhq.github.io": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        373
+      ]
+    },
+    "antinomyhq/forge": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        389
+      ]
+    },
     "tscircuit/dsn-converter": {
       "total_seen": 1,
       "skip_count": 1,
@@ -112,6 +130,24 @@
       "pursue_count": 0,
       "unique_issues": [
         4
+      ]
+    },
+    "tailcallhq/graphql-conf-2024": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1
+      ]
+    },
+    "tailcallhq/rust-grpc": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        44
       ]
     },
     "tscircuit/jlcsearch": {
@@ -214,6 +250,36 @@
       ]
     },
     {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        373
+      ]
+    },
+    {
+      "repo": "tailcallhq/rust-grpc",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        44
+      ]
+    },
+    {
+      "repo": "tailcallhq/graphql-conf-2024",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1
+      ]
+    },
+    {
       "repo": "openmetaearth/me-hub",
       "total_seen": 1,
       "skip_count": 1,
@@ -231,6 +297,16 @@
       "pursue_count": 0,
       "unique_issues": [
         662
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        389
       ]
     },
     {
