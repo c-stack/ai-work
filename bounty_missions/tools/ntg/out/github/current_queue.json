@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-05-30T21:15:45Z",
+  "generated_at_utc": "2026-05-30T22:15:32Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "algora-io/algora",
@@ -9,7 +9,7 @@
       "title": "Question about pending bounty reward claims",
       "url": "https://github.com/algora-io/algora/issues/308",
       "recommendation": "review",
-      "total_score": 82,
+      "total_score": 81,
       "repo_primary_language": "Elixir",
       "bounty_confidence": 35,
       "actionability": 5,
@@ -41,6 +41,28 @@
       "decision_signals": [
         "bounty:bounty",
         "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 45607,
+      "title": "[Bounty $5000] Optimise exp(x) for fp32",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/45607",
+      "recommendation": "review",
+      "total_score": 77,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 40,
+      "actionability": 16,
+      "bounty_amount_usd": 5000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:implement",
+        "task:add ",
+        "claims:1"
       ]
     }
   ]

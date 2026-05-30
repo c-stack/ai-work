@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-30T21:15:45Z",
+  "generated_at_utc": "2026-05-30T22:15:32Z",
   "source_counts": {
     "github": 5,
     "algora": 19,
@@ -7,26 +7,10 @@
   },
   "recommendations": {
     "pursue": 0,
-    "review": 2,
-    "skip": 22
+    "review": 3,
+    "skip": 21
   },
   "top_candidates": [
-    {
-      "repo": "algora-io/algora",
-      "number": 308,
-      "title": "Question about pending bounty reward claims",
-      "recommendation": "review",
-      "total_score": 82,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "support:asks-for-help"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -46,6 +30,22 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 308,
+      "title": "Question about pending bounty reward claims",
+      "recommendation": "review",
+      "total_score": 81,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "support:asks-for-help"
       ]
     },
     {
@@ -85,6 +85,23 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 45607,
+      "title": "[Bounty $5000] Optimise exp(x) for fp32",
+      "recommendation": "review",
+      "total_score": 77,
+      "bounty_amount_usd": 5000,
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:implement",
+        "task:add ",
+        "claims:1"
+      ]
+    },
+    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -121,20 +138,6 @@
         "task:implement",
         "claims:4",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 45607,
-      "title": "[Bounty $5000] Optimise exp(x) for fp32",
-      "recommendation": "skip",
-      "total_score": 61,
-      "bounty_amount_usd": 5000,
-      "competition_risk": 17,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "claims:1"
       ]
     },
     {
