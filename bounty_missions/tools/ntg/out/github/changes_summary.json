@@ -6,7 +6,7 @@
       "title": "[BUG BOUNTY] [Medium] [WStaking/Consensus] ReplaceConsensusPubKey resets downtime signing history",
       "url": "https://github.com/openmetaearth/me-hub/issues/367",
       "recommendation": "pursue",
-      "total_score": 132
+      "total_score": 131
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -81,6 +81,14 @@
       "total_score": 52
     },
     {
+      "repo": "tscircuit/schematic-trace-solver",
+      "number": 29,
+      "title": "New Phase To combine same-net trace segments that are close together",
+      "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+      "recommendation": "skip",
+      "total_score": 47
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 4758,
       "title": "Improve usage limits visibility UX and DX",
@@ -137,20 +145,20 @@
       "total_score": 39
     },
     {
+      "repo": "tscircuit/schematic-trace-solver",
+      "number": 34,
+      "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
+      "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+      "recommendation": "skip",
+      "total_score": 37
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 4468,
       "title": "Add support for Anthropic Workload Identity Federation (keyless auth)",
       "url": "https://github.com/archestra-ai/archestra/issues/4468",
       "recommendation": "skip",
       "total_score": 34
-    },
-    {
-      "repo": "tscircuit/circuit-json-to-readable-netlist",
-      "number": 4,
-      "title": "Undefined in readable netlists, pin labels are too short, just \"pin14\" instead of full pin labels",
-      "url": "https://github.com/tscircuit/circuit-json-to-readable-netlist/issues/4",
-      "recommendation": "skip",
-      "total_score": 33
     },
     {
       "repo": "revertinc/revert",

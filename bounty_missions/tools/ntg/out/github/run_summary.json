@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-05-31T00:18:07Z",
+  "generated_at_utc": "2026-05-31T04:56:16Z",
   "source_counts": {
     "github": 5,
-    "algora": 19,
-    "merged": 24
+    "algora": 20,
+    "merged": 25
   },
   "recommendations": {
     "pursue": 1,
     "review": 3,
-    "skip": 20
+    "skip": 21
   },
   "top_candidates": [
     {
@@ -16,7 +16,7 @@
       "number": 367,
       "title": "[BUG BOUNTY] [Medium] [WStaking/Consensus] ReplaceConsensusPubKey resets downtime signing history",
       "recommendation": "pursue",
-      "total_score": 132,
+      "total_score": 131,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

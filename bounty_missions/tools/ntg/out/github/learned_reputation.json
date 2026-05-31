@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-31T00:18:07Z",
+  "generated_at_utc": "2026-05-31T04:56:16Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -76,6 +76,16 @@
         373
       ]
     },
+    "tscircuit/schematic-trace-solver": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        29,
+        34
+      ]
+    },
     "antinomyhq/forge": {
       "total_seen": 1,
       "skip_count": 1,
@@ -123,15 +133,6 @@
         551
       ]
     },
-    "tscircuit/circuit-json-to-readable-netlist": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        4
-      ]
-    },
     "tailcallhq/graphql-conf-2024": {
       "total_seen": 1,
       "skip_count": 1,
@@ -173,6 +174,17 @@
         4758,
         4998,
         5033
+      ]
+    },
+    {
+      "repo": "tscircuit/schematic-trace-solver",
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        29,
+        34
       ]
     },
     {
@@ -226,16 +238,6 @@
       "pursue_count": 0,
       "unique_issues": [
         54
-      ]
-    },
-    {
-      "repo": "tscircuit/circuit-json-to-readable-netlist",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        4
       ]
     },
     {
