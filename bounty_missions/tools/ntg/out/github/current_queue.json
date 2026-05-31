@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-31T18:18:49Z",
+  "generated_at_utc": "2026-05-31T20:22:02Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -49,7 +49,7 @@
       "title": "[Bounty $5000] Optimise exp(x) for fp32",
       "url": "https://github.com/tenstorrent/tt-metal/issues/45607",
       "recommendation": "review",
-      "total_score": 77,
+      "total_score": 76,
       "repo_primary_language": "C++",
       "bounty_confidence": 40,
       "actionability": 16,

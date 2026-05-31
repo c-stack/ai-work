@@ -38,7 +38,7 @@
       "title": "[Bounty $5000] Optimise exp(x) for fp32",
       "url": "https://github.com/tenstorrent/tt-metal/issues/45607",
       "recommendation": "review",
-      "total_score": 77
+      "total_score": 76
     },
     {
       "repo": "Dokploy/templates",

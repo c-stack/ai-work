@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-31T18:18:49Z",
+  "generated_at_utc": "2026-05-31T20:22:02Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
@@ -89,7 +89,7 @@
       "number": 45607,
       "title": "[Bounty $5000] Optimise exp(x) for fp32",
       "recommendation": "review",
-      "total_score": 77,
+      "total_score": 76,
       "bounty_amount_usd": 5000,
       "competition_risk": 18,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
