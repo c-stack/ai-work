@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-05-30T23:17:13Z",
+  "generated_at_utc": "2026-05-31T00:18:07Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "repo": "openmetaearth/me-hub",
+      "number": 367,
+      "title": "[BUG BOUNTY] [Medium] [WStaking/Consensus] ReplaceConsensusPubKey resets downtime signing history",
+      "url": "https://github.com/openmetaearth/me-hub/issues/367",
+      "recommendation": "pursue",
+      "total_score": 132,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 34,
+      "actionability": 56,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:replace"
+      ]
+    },
     {
       "repo": "algora-io/algora",
       "number": 308,

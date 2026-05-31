@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-05-30T23:17:13Z",
+  "generated_at_utc": "2026-05-31T00:18:07Z",
   "source_counts": {
     "github": 5,
     "algora": 19,
     "merged": 24
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 3,
-    "skip": 21
+    "skip": 20
   },
   "top_candidates": [
+    {
+      "repo": "openmetaearth/me-hub",
+      "number": 367,
+      "title": "[BUG BOUNTY] [Medium] [WStaking/Consensus] ReplaceConsensusPubKey resets downtime signing history",
+      "recommendation": "pursue",
+      "total_score": 132,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:replace"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -177,29 +195,6 @@
         "task:support",
         "task:implement",
         "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 46,
-      "bounty_amount_usd": 150,
-      "competition_risk": 47,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

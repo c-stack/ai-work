@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-30T23:17:13Z",
+  "generated_at_utc": "2026-05-31T00:18:07Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,15 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "openmetaearth/me-hub": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        367
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -102,15 +111,6 @@
       "pursue_count": 0,
       "unique_issues": [
         662
-      ]
-    },
-    "openmetaearth/me-hub": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        108
       ]
     },
     "revertinc/revert": {
@@ -269,16 +269,6 @@
       ]
     },
     {
-      "repo": "openmetaearth/me-hub",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        108
-      ]
-    },
-    {
       "repo": "classroomio/classroomio",
       "total_seen": 1,
       "skip_count": 1,
@@ -317,6 +307,16 @@
       "unique_issues": [
         45539,
         45607
+      ]
+    },
+    {
+      "repo": "openmetaearth/me-hub",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        367
       ]
     },
     {
