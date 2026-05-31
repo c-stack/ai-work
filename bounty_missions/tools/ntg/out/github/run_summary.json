@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-31T12:22:26Z",
+  "generated_at_utc": "2026-05-31T14:57:04Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
@@ -75,7 +75,7 @@
       "number": 45539,
       "title": "Github write access for llvc-ttnn model bringup",
       "recommendation": "review",
-      "total_score": 78,
+      "total_score": 77,
       "bounty_amount_usd": 1500,
       "competition_risk": 0,
       "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",

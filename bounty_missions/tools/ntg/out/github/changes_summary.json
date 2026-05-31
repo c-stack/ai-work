@@ -30,7 +30,7 @@
       "title": "Github write access for llvc-ttnn model bringup",
       "url": "https://github.com/tenstorrent/tt-metal/issues/45539",
       "recommendation": "review",
-      "total_score": 78
+      "total_score": 77
     },
     {
       "repo": "tenstorrent/tt-metal",

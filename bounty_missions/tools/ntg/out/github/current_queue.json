@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-31T12:22:26Z",
+  "generated_at_utc": "2026-05-31T14:57:04Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -30,7 +30,7 @@
       "title": "Github write access for llvc-ttnn model bringup",
       "url": "https://github.com/tenstorrent/tt-metal/issues/45539",
       "recommendation": "review",
-      "total_score": 78,
+      "total_score": 77,
       "repo_primary_language": "C++",
       "bounty_confidence": 30,
       "actionability": 6,
