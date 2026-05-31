@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "openmetaearth/me-hub",
-      "number": 367,
-      "title": "[BUG BOUNTY] [Medium] [WStaking/Consensus] ReplaceConsensusPubKey resets downtime signing history",
-      "url": "https://github.com/openmetaearth/me-hub/issues/367",
-      "recommendation": "pursue",
-      "total_score": 131
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -134,7 +126,7 @@
       "title": "Unauthenticated Checkout API Exposes Authenticated User PII and Live Stripe Key",
       "url": "https://github.com/classroomio/classroomio/issues/662",
       "recommendation": "skip",
-      "total_score": 41
+      "total_score": 40
     },
     {
       "repo": "revertinc/revert",

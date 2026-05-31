@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-05-31T04:56:16Z",
+  "generated_at_utc": "2026-05-31T08:23:42Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 20,
-    "merged": 25
+    "merged": 24
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 3,
     "skip": 21
   },
   "top_candidates": [
-    {
-      "repo": "openmetaearth/me-hub",
-      "number": 367,
-      "title": "[BUG BOUNTY] [Medium] [WStaking/Consensus] ReplaceConsensusPubKey resets downtime signing history",
-      "recommendation": "pursue",
-      "total_score": 131,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:replace"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -194,6 +176,26 @@
         "action:error",
         "task:support",
         "task:implement",
+        "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/schematic-trace-solver",
+      "number": 29,
+      "title": "New Phase To combine same-net trace segments that are close together",
+      "recommendation": "skip",
+      "total_score": 47,
+      "bounty_amount_usd": 100,
+      "competition_risk": 44,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:support",
         "claims:3",
         "support:support-politeness"
       ]
