@@ -9,6 +9,14 @@
       "total_score": 82
     },
     {
+      "repo": "ValveSoftware/Dota2-Gameplay",
+      "number": 32892,
+      "title": "Bug bounty hunter immortal tines of tybara",
+      "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/32892",
+      "recommendation": "pursue",
+      "total_score": 81
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",

@@ -1,8 +1,28 @@
 {
-  "generated_at_utc": "2026-06-01T21:06:43Z",
+  "generated_at_utc": "2026-06-01T23:11:34Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "repo": "ValveSoftware/Dota2-Gameplay",
+      "number": 32892,
+      "title": "Bug bounty hunter immortal tines of tybara",
+      "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/32892",
+      "recommendation": "pursue",
+      "total_score": 81,
+      "repo_primary_language": "",
+      "bounty_confidence": 34,
+      "actionability": 10,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 45539,
