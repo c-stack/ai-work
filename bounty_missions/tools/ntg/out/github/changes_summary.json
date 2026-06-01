@@ -25,14 +25,6 @@
       "total_score": 77
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 45607,
-      "title": "[Bounty $5000] Optimise exp(x) for fp32",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/45607",
-      "recommendation": "review",
-      "total_score": 75
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -47,6 +39,14 @@
       "url": "https://github.com/archestra-ai/archestra/issues/3855",
       "recommendation": "skip",
       "total_score": 69
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 45607,
+      "title": "[Bounty $5000] Optimise exp(x) for fp32",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/45607",
+      "recommendation": "skip",
+      "total_score": 60
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",
