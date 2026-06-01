@@ -9,14 +9,6 @@
       "total_score": 82
     },
     {
-      "repo": "algora-io/algora",
-      "number": 308,
-      "title": "Question about pending bounty reward claims",
-      "url": "https://github.com/algora-io/algora/issues/308",
-      "recommendation": "review",
-      "total_score": 81
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
@@ -135,6 +127,14 @@
       "url": "https://github.com/revertinc/revert/issues/372",
       "recommendation": "skip",
       "total_score": 39
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 321,
+      "title": "Unable to manage payout account - need to switch to USDC",
+      "url": "https://github.com/algora-io/algora/issues/321",
+      "recommendation": "skip",
+      "total_score": 38
     },
     {
       "repo": "tscircuit/schematic-trace-solver",

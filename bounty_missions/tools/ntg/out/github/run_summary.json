@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-31T23:20:39Z",
+  "generated_at_utc": "2026-06-01T05:17:20Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
@@ -7,8 +7,8 @@
   },
   "recommendations": {
     "pursue": 0,
-    "review": 3,
-    "skip": 21
+    "review": 2,
+    "skip": 22
   },
   "top_candidates": [
     {
@@ -30,22 +30,6 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "algora-io/algora",
-      "number": 308,
-      "title": "Question about pending bounty reward claims",
-      "recommendation": "review",
-      "total_score": 81,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "support:asks-for-help"
       ]
     },
     {
@@ -197,6 +181,29 @@
         "task:fix",
         "task:support",
         "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4758,
+      "title": "Improve usage limits visibility UX and DX",
+      "recommendation": "skip",
+      "total_score": 46,
+      "bounty_amount_usd": 150,
+      "competition_risk": 47,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:spam",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:3",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-31T23:20:39Z",
+  "generated_at_utc": "2026-06-01T05:17:20Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -15,15 +15,6 @@
       "unique_issues": [
         6532,
         6674
-      ]
-    },
-    "algora-io/algora": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        308
       ]
     },
     "archestra-ai/archestra": {
@@ -122,6 +113,15 @@
       "unique_issues": [
         372,
         551
+      ]
+    },
+    "algora-io/algora": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        321
       ]
     },
     "tailcallhq/graphql-conf-2024": {
@@ -282,6 +282,16 @@
       ]
     },
     {
+      "repo": "algora-io/algora",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        321
+      ]
+    },
+    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -300,16 +310,6 @@
       "unique_issues": [
         45539,
         45607
-      ]
-    },
-    {
-      "repo": "algora-io/algora",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        308
       ]
     }
   ]
