@@ -118,7 +118,7 @@
       "title": "Unable to manage payout account - need to switch to USDC",
       "url": "https://github.com/algora-io/algora/issues/321",
       "recommendation": "skip",
-      "total_score": 38
+      "total_score": 37
     },
     {
       "repo": "algora-io/algora",
@@ -126,7 +126,7 @@
       "title": "Unable to manage payout account - need to switch to USDC",
       "url": "https://github.com/algora-io/algora/issues/320",
       "recommendation": "skip",
-      "total_score": 38
+      "total_score": 37
     },
     {
       "repo": "tscircuit/schematic-trace-solver",
