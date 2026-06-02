@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-01T23:11:34Z",
+  "generated_at_utc": "2026-06-02T01:37:58Z",
   "source_counts": {
-    "github": 5,
+    "github": 3,
     "algora": 20,
-    "merged": 25
+    "merged": 23
   },
   "recommendations": {
     "pursue": 1,
-    "review": 1,
-    "skip": 23
+    "review": 0,
+    "skip": 22
   },
   "top_candidates": [
     {
@@ -70,20 +70,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 45539,
-      "title": "Github write access for llvc-ttnn model bringup",
-      "recommendation": "review",
-      "total_score": 77,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "template-gaps:1"
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -120,20 +106,6 @@
         "task:implement",
         "claims:4",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 45607,
-      "title": "[Bounty $5000] Optimise exp(x) for fp32",
-      "recommendation": "skip",
-      "total_score": 60,
-      "bounty_amount_usd": 5000,
-      "competition_risk": 17,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "claims:1"
       ]
     },
     {
@@ -193,6 +165,49 @@
         "task:fix",
         "task:support",
         "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4758,
+      "title": "Improve usage limits visibility UX and DX",
+      "recommendation": "skip",
+      "total_score": 46,
+      "bounty_amount_usd": 150,
+      "competition_risk": 47,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:spam",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
         "support:support-politeness"
       ]
     }

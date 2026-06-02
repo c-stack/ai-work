@@ -25,14 +25,6 @@
       "total_score": 78
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 45539,
-      "title": "Github write access for llvc-ttnn model bringup",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/45539",
-      "recommendation": "review",
-      "total_score": 77
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -47,14 +39,6 @@
       "url": "https://github.com/archestra-ai/archestra/issues/3855",
       "recommendation": "skip",
       "total_score": 69
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 45607,
-      "title": "[Bounty $5000] Optimise exp(x) for fp32",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/45607",
-      "recommendation": "skip",
-      "total_score": 60
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",
@@ -121,14 +105,6 @@
       "total_score": 43
     },
     {
-      "repo": "classroomio/classroomio",
-      "number": 662,
-      "title": "Unauthenticated Checkout API Exposes Authenticated User PII and Live Stripe Key",
-      "url": "https://github.com/classroomio/classroomio/issues/662",
-      "recommendation": "skip",
-      "total_score": 40
-    },
-    {
       "repo": "revertinc/revert",
       "number": 372,
       "title": "[REVER-48] Workday Integration",
@@ -141,6 +117,14 @@
       "number": 321,
       "title": "Unable to manage payout account - need to switch to USDC",
       "url": "https://github.com/algora-io/algora/issues/321",
+      "recommendation": "skip",
+      "total_score": 38
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 320,
+      "title": "Unable to manage payout account - need to switch to USDC",
+      "url": "https://github.com/algora-io/algora/issues/320",
       "recommendation": "skip",
       "total_score": 38
     },
