@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-02T16:56:25Z",
+  "generated_at_utc": "2026-06-02T20:21:08Z",
   "source_counts": {
     "github": 3,
     "algora": 20,
@@ -173,9 +173,9 @@
       "number": 4758,
       "title": "Improve usage limits visibility UX and DX",
       "recommendation": "skip",
-      "total_score": 46,
+      "total_score": 45,
       "bounty_amount_usd": 150,
-      "competition_risk": 47,
+      "competition_risk": 48,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",

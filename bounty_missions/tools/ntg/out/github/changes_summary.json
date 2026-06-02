@@ -70,7 +70,7 @@
       "title": "Improve usage limits visibility UX and DX",
       "url": "https://github.com/archestra-ai/archestra/issues/4758",
       "recommendation": "skip",
-      "total_score": 46
+      "total_score": 45
     },
     {
       "repo": "antinomyhq/forge",
