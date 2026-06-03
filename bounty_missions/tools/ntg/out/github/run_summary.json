@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-03T01:48:15Z",
+  "generated_at_utc": "2026-06-03T07:14:24Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 20,
-    "merged": 24
+    "merged": 23
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
     "skip": 23
   },
@@ -16,7 +16,7 @@
       "number": 3582,
       "title": "Production config should require JWT_SECRET",
       "recommendation": "skip",
-      "total_score": 91,
+      "total_score": 90,
       "bounty_amount_usd": 0,
       "competition_risk": 21,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -51,21 +51,6 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "ValveSoftware/Dota2-Gameplay",
-      "number": 32892,
-      "title": "Bug bounty hunter immortal tines of tybara",
-      "recommendation": "pursue",
-      "total_score": 81,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
       ]
     },
     {
@@ -209,6 +194,26 @@
         "task:support",
         "claims:3",
         "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
         "support:support-politeness"
       ]
     }

@@ -6,7 +6,7 @@
       "title": "Production config should require JWT_SECRET",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
       "recommendation": "skip",
-      "total_score": 91
+      "total_score": 90
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -15,14 +15,6 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "ValveSoftware/Dota2-Gameplay",
-      "number": 32892,
-      "title": "Bug bounty hunter immortal tines of tybara",
-      "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/32892",
-      "recommendation": "pursue",
-      "total_score": 81
     },
     {
       "repo": "archestra-ai/archestra",
