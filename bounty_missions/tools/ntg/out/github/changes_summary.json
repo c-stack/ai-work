@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 3582,
+      "title": "Production config should require JWT_SECRET",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
+      "recommendation": "skip",
+      "total_score": 91
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
