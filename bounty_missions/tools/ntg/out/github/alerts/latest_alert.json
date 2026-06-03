@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-03T07:14:24Z",
+  "generated_at_utc": "2026-06-03T12:13:32Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260603T071313Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260603T121215Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -29,7 +29,7 @@
         "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
         "url": "https://github.com/archestra-ai/archestra/issues/4998",
         "recommendation": "skip",
-        "total_score": 78
+        "total_score": 77
       },
       {
         "repo": "Dokploy/templates",

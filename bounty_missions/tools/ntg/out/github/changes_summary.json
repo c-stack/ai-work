@@ -22,7 +22,7 @@
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
       "url": "https://github.com/archestra-ai/archestra/issues/4998",
       "recommendation": "skip",
-      "total_score": 78
+      "total_score": 77
     },
     {
       "repo": "Dokploy/templates",
