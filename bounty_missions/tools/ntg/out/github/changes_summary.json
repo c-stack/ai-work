@@ -33,6 +33,14 @@
       "total_score": 73
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46006,
+      "title": "[Bounty $5000] exp2 fp32 precision",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
+      "recommendation": "skip",
+      "total_score": 72
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 3855,
       "title": "Create WindMill MCP Apps MCP server",

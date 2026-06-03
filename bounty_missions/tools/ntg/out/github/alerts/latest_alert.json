@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-03T17:19:32Z",
+  "generated_at_utc": "2026-06-03T21:31:39Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260603T171816Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260603T213037Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -38,6 +38,14 @@
         "url": "https://github.com/Dokploy/templates/issues/152",
         "recommendation": "skip",
         "total_score": 73
+      },
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 46006,
+        "title": "[Bounty $5000] exp2 fp32 precision",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
+        "recommendation": "skip",
+        "total_score": 72
       },
       {
         "repo": "archestra-ai/archestra",

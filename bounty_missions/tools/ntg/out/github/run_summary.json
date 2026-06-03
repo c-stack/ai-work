@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-03T17:19:32Z",
+  "generated_at_utc": "2026-06-03T21:31:39Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 20,
-    "merged": 23
+    "merged": 24
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 23
+    "skip": 24
   },
   "top_candidates": [
     {
@@ -93,6 +93,20 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46006,
+      "title": "[Bounty $5000] exp2 fp32 precision",
+      "recommendation": "skip",
+      "total_score": 72,
+      "bounty_amount_usd": 5000,
+      "competition_risk": 0,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:spam"
       ]
     },
     {
@@ -194,26 +208,6 @@
         "task:support",
         "claims:3",
         "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:2",
         "support:support-politeness"
       ]
     }
