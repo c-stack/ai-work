@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-03T21:31:39Z",
+  "generated_at_utc": "2026-06-04T00:01:51Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260603T213037Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260604T000051Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -14,6 +14,22 @@
         "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
         "recommendation": "skip",
         "total_score": 90
+      },
+      {
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 3673,
+        "title": "API workspace test script should target concrete test files (reissue via #743)",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3673",
+        "recommendation": "skip",
+        "total_score": 86
+      },
+      {
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 3572,
+        "title": "API test script should target test files instead of the test directory",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3572",
+        "recommendation": "skip",
+        "total_score": 84
       },
       {
         "repo": "projectdiscovery/nuclei",
@@ -40,20 +56,20 @@
         "total_score": 73
       },
       {
-        "repo": "tenstorrent/tt-metal",
-        "number": 46006,
-        "title": "[Bounty $5000] exp2 fp32 precision",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
-        "recommendation": "skip",
-        "total_score": 72
-      },
-      {
         "repo": "archestra-ai/archestra",
         "number": 3855,
         "title": "Create WindMill MCP Apps MCP server",
         "url": "https://github.com/archestra-ai/archestra/issues/3855",
         "recommendation": "skip",
         "total_score": 69
+      },
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 46006,
+        "title": "[Bounty $5000] exp2 fp32 precision",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
+        "recommendation": "skip",
+        "total_score": 64
       },
       {
         "repo": "tailcallhq/tailcallhq.github.io",
@@ -126,22 +142,6 @@
         "url": "https://github.com/revertinc/revert/issues/372",
         "recommendation": "skip",
         "total_score": 39
-      },
-      {
-        "repo": "algora-io/algora",
-        "number": 321,
-        "title": "Unable to manage payout account - need to switch to USDC",
-        "url": "https://github.com/algora-io/algora/issues/321",
-        "recommendation": "skip",
-        "total_score": 37
-      },
-      {
-        "repo": "algora-io/algora",
-        "number": 320,
-        "title": "Unable to manage payout account - need to switch to USDC",
-        "url": "https://github.com/algora-io/algora/issues/320",
-        "recommendation": "skip",
-        "total_score": 37
       },
       {
         "repo": "tscircuit/schematic-trace-solver",

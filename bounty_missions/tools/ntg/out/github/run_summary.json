@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-03T21:31:39Z",
+  "generated_at_utc": "2026-06-04T00:01:51Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
@@ -28,6 +28,46 @@
         "action:error",
         "task:add ",
         "task:error",
+        "claims:1",
+        "existing-work:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 3673,
+      "title": "API workspace test script should target concrete test files (reissue via #743)",
+      "recommendation": "skip",
+      "total_score": 86,
+      "bounty_amount_usd": 0,
+      "competition_risk": 15,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:fix",
+        "task:fix",
+        "task:implement",
+        "existing-work:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 3572,
+      "title": "API test script should target test files instead of the test directory",
+      "recommendation": "skip",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 21,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug",
         "claims:1",
         "existing-work:1"
       ]
@@ -96,20 +136,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 46006,
-      "title": "[Bounty $5000] exp2 fp32 precision",
-      "recommendation": "skip",
-      "total_score": 72,
-      "bounty_amount_usd": 5000,
-      "competition_risk": 0,
-      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:spam"
-      ]
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 3855,
       "title": "Create WindMill MCP Apps MCP server",
@@ -126,6 +152,21 @@
         "task:implement",
         "claims:4",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46006,
+      "title": "[Bounty $5000] exp2 fp32 precision",
+      "recommendation": "skip",
+      "total_score": 64,
+      "bounty_amount_usd": 5000,
+      "competition_risk": 9,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:spam",
+        "claims:1"
       ]
     },
     {
@@ -165,49 +206,6 @@
         "task:support",
         "task:implement",
         "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/schematic-trace-solver",
-      "number": 29,
-      "title": "New Phase To combine same-net trace segments that are close together",
-      "recommendation": "skip",
-      "total_score": 47,
-      "bounty_amount_usd": 100,
-      "competition_risk": 44,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 150,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
