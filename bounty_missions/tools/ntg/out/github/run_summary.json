@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-04T16:30:36Z",
+  "generated_at_utc": "2026-06-04T19:32:17Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
@@ -154,21 +154,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 46006,
-      "title": "[Bounty $5000] exp2 fp32 precision",
-      "recommendation": "skip",
-      "total_score": 64,
-      "bounty_amount_usd": 5000,
-      "competition_risk": 9,
-      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:spam",
-        "claims:1"
-      ]
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -206,6 +191,21 @@
         "task:implement",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46006,
+      "title": "[Bounty $5000] exp2 fp32 precision",
+      "recommendation": "skip",
+      "total_score": 51,
+      "bounty_amount_usd": 5000,
+      "competition_risk": 17,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:spam",
+        "claims:1"
       ]
     }
   ],

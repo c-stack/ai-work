@@ -57,14 +57,6 @@
       "total_score": 69
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 46006,
-      "title": "[Bounty $5000] exp2 fp32 precision",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
-      "recommendation": "skip",
-      "total_score": 64
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -79,6 +71,14 @@
       "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
       "total_score": 52
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46006,
+      "title": "[Bounty $5000] exp2 fp32 precision",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
+      "recommendation": "skip",
+      "total_score": 51
     },
     {
       "repo": "tscircuit/schematic-trace-solver",
