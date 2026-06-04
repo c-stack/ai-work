@@ -1,37 +1,16 @@
 {
-  "generated_at_utc": "2026-06-04T21:54:53Z",
+  "generated_at_utc": "2026-06-04T23:38:37Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
     "merged": 24
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 2,
     "review": 0,
-    "skip": 24
+    "skip": 22
   },
   "top_candidates": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4510,
-      "title": "User creation should preserve server-owned id",
-      "recommendation": "skip",
-      "total_score": 97,
-      "bounty_amount_usd": 0,
-      "competition_risk": 21,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:fix",
-        "task:add ",
-        "claims:1",
-        "existing-work:1"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 3582,
@@ -55,23 +34,35 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 3572,
-      "title": "API test script should target test files instead of the test directory",
-      "recommendation": "skip",
-      "total_score": 84,
+      "number": 4516,
+      "title": "Payment currency should normalize before intent creation (reissue via #743)",
+      "recommendation": "pursue",
+      "total_score": 85,
       "bounty_amount_usd": 0,
-      "competition_risk": 21,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "bounty:/claim",
         "platform:algora",
         "action:expected behavior",
         "action:regression",
-        "task:add ",
-        "task:bug",
-        "claims:1",
-        "existing-work:1"
+        "task:add "
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4512,
+      "title": "Payment currency should be normalized before intent creation",
+      "recommendation": "pursue",
+      "total_score": 83,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression"
       ]
     },
     {

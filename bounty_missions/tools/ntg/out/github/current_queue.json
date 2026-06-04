@@ -1,6 +1,50 @@
 {
-  "generated_at_utc": "2026-06-04T21:54:53Z",
+  "generated_at_utc": "2026-06-04T23:38:37Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4516,
+      "title": "Payment currency should normalize before intent creation (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4516",
+      "recommendation": "pursue",
+      "total_score": 85,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 24,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add "
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4512,
+      "title": "Payment currency should be normalized before intent creation",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4512",
+      "recommendation": "pursue",
+      "total_score": 83,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 22,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression"
+      ]
+    }
+  ]
 }

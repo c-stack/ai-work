@@ -2,14 +2,6 @@
   "new_items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4510,
-      "title": "User creation should preserve server-owned id",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4510",
-      "recommendation": "skip",
-      "total_score": 97
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
       "number": 3582,
       "title": "Production config should require JWT_SECRET",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
@@ -18,11 +10,19 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 3572,
-      "title": "API test script should target test files instead of the test directory",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3572",
-      "recommendation": "skip",
-      "total_score": 84
+      "number": 4516,
+      "title": "Payment currency should normalize before intent creation (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4516",
+      "recommendation": "pursue",
+      "total_score": 85
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4512,
+      "title": "Payment currency should be normalized before intent creation",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4512",
+      "recommendation": "pursue",
+      "total_score": 83
     },
     {
       "repo": "projectdiscovery/nuclei",
