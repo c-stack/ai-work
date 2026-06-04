@@ -1,12 +1,20 @@
 {
-  "generated_at_utc": "2026-06-04T09:01:56Z",
+  "generated_at_utc": "2026-06-04T21:54:53Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260604T090053Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260604T215348Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
+      {
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 4510,
+        "title": "User creation should preserve server-owned id",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4510",
+        "recommendation": "skip",
+        "total_score": 97
+      },
       {
         "repo": "SecureBananaLabs/bug-bounty",
         "number": 3582,
@@ -14,14 +22,6 @@
         "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
         "recommendation": "skip",
         "total_score": 90
-      },
-      {
-        "repo": "SecureBananaLabs/bug-bounty",
-        "number": 3673,
-        "title": "API workspace test script should target concrete test files (reissue via #743)",
-        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3673",
-        "recommendation": "skip",
-        "total_score": 86
       },
       {
         "repo": "SecureBananaLabs/bug-bounty",
@@ -64,14 +64,6 @@
         "total_score": 69
       },
       {
-        "repo": "tenstorrent/tt-metal",
-        "number": 46006,
-        "title": "[Bounty $5000] exp2 fp32 precision",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
-        "recommendation": "skip",
-        "total_score": 64
-      },
-      {
         "repo": "tailcallhq/tailcallhq.github.io",
         "number": 373,
         "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -86,6 +78,14 @@
         "url": "https://github.com/archestra-ai/archestra/issues/5033",
         "recommendation": "skip",
         "total_score": 52
+      },
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 46006,
+        "title": "[Bounty $5000] exp2 fp32 precision",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
+        "recommendation": "skip",
+        "total_score": 51
       },
       {
         "repo": "tscircuit/schematic-trace-solver",

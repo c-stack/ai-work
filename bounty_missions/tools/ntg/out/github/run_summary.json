@@ -1,32 +1,35 @@
 {
-  "generated_at_utc": "2026-06-04T19:32:17Z",
+  "generated_at_utc": "2026-06-04T21:54:53Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
     "merged": 24
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 23
+    "skip": 24
   },
   "top_candidates": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4343,
-      "title": "Payment intent should reject unsupported currencies",
-      "recommendation": "pursue",
-      "total_score": 99,
+      "number": 4510,
+      "title": "User creation should preserve server-owned id",
+      "recommendation": "skip",
+      "total_score": 97,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 21,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
+        "bounty:/claim",
         "platform:algora",
         "action:expected behavior",
-        "action:error",
+        "action:regression",
         "task:fix",
-        "task:support"
+        "task:add ",
+        "claims:1",
+        "existing-work:1"
       ]
     },
     {
