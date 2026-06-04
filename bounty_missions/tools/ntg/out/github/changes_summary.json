@@ -2,19 +2,19 @@
   "new_items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4343,
+      "title": "Payment intent should reject unsupported currencies",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4343",
+      "recommendation": "pursue",
+      "total_score": 99
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
       "number": 3582,
       "title": "Production config should require JWT_SECRET",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
       "recommendation": "skip",
       "total_score": 90
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 3673,
-      "title": "API workspace test script should target concrete test files (reissue via #743)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3673",
-      "recommendation": "skip",
-      "total_score": 86
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",

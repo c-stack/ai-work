@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-06-04T09:01:56Z",
+  "generated_at_utc": "2026-06-04T12:20:11Z",
   "source_counts": {
     "github": 4,
     "algora": 20,
     "merged": 24
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
-    "skip": 24
+    "skip": 23
   },
   "top_candidates": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4343,
+      "title": "Payment intent should reject unsupported currencies",
+      "recommendation": "pursue",
+      "total_score": 99,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:support"
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 3582,
@@ -29,25 +47,6 @@
         "task:add ",
         "task:error",
         "claims:1",
-        "existing-work:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 3673,
-      "title": "API workspace test script should target concrete test files (reissue via #743)",
-      "recommendation": "skip",
-      "total_score": 86,
-      "bounty_amount_usd": 0,
-      "competition_risk": 15,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:implement",
         "existing-work:1"
       ]
     },
