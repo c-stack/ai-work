@@ -2,11 +2,19 @@
   "new_items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4533,
+      "title": "Health endpoint should use shared success envelope (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4533",
+      "recommendation": "pursue",
+      "total_score": 91
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
       "number": 3582,
       "title": "Production config should require JWT_SECRET",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
       "recommendation": "skip",
-      "total_score": 90
+      "total_score": 89
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
@@ -15,14 +23,6 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4516",
       "recommendation": "pursue",
       "total_score": 85
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4512,
-      "title": "Payment currency should be normalized before intent creation",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4512",
-      "recommendation": "pursue",
-      "total_score": 83
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -57,6 +57,14 @@
       "total_score": 69
     },
     {
+      "repo": "wienerlabs/covenant",
+      "number": 100,
+      "title": "C-050: Bug-bounty scope + disclosure policy",
+      "url": "https://github.com/wienerlabs/covenant/issues/100",
+      "recommendation": "pursue",
+      "total_score": 66
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -71,14 +79,6 @@
       "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
       "total_score": 52
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 46006,
-      "title": "[Bounty $5000] exp2 fp32 precision",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/46006",
-      "recommendation": "skip",
-      "total_score": 51
     },
     {
       "repo": "tscircuit/schematic-trace-solver",
