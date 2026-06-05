@@ -46,7 +46,7 @@
       "title": "C-050: Bug-bounty scope + disclosure policy",
       "url": "https://github.com/wienerlabs/covenant/issues/100",
       "recommendation": "pursue",
-      "total_score": 66
+      "total_score": 65
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-05T21:45:59Z",
+  "generated_at_utc": "2026-06-05T23:39:17Z",
   "source_counts": {
     "github": 2,
     "algora": 20,
@@ -115,7 +115,7 @@
       "number": 100,
       "title": "C-050: Bug-bounty scope + disclosure policy",
       "recommendation": "pursue",
-      "total_score": 66,
+      "total_score": 65,
       "bounty_amount_usd": 0,
       "competition_risk": 8,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
