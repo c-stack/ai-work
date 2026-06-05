@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4629,
+      "title": "Proposal controller forwards raw body to service without validation",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4629",
+      "recommendation": "pursue",
+      "total_score": 95
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
       "number": 4533,
       "title": "Health endpoint should use shared success envelope (reissue via #743)",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4533",
@@ -15,14 +23,6 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/3582",
       "recommendation": "skip",
       "total_score": 89
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4516,
-      "title": "Payment currency should normalize before intent creation (reissue via #743)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4516",
-      "recommendation": "pursue",
-      "total_score": 85
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -55,14 +55,6 @@
       "url": "https://github.com/archestra-ai/archestra/issues/3855",
       "recommendation": "skip",
       "total_score": 69
-    },
-    {
-      "repo": "wienerlabs/covenant",
-      "number": 100,
-      "title": "C-050: Bug-bounty scope + disclosure policy",
-      "url": "https://github.com/wienerlabs/covenant/issues/100",
-      "recommendation": "pursue",
-      "total_score": 66
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",

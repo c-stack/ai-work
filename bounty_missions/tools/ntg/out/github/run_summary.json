@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-06-05T04:48:24Z",
+  "generated_at_utc": "2026-06-05T08:53:47Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 20,
-    "merged": 24
+    "merged": 23
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 2,
     "review": 0,
     "skip": 21
   },
   "top_candidates": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4629,
+      "title": "Proposal controller forwards raw body to service without validation",
+      "recommendation": "pursue",
+      "total_score": 95,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:add ",
+        "task:error"
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 4533,
@@ -47,23 +65,6 @@
         "task:error",
         "claims:1",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4516,
-      "title": "Payment currency should normalize before intent creation (reissue via #743)",
-      "recommendation": "pursue",
-      "total_score": 85,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:add "
       ]
     },
     {
@@ -149,21 +150,6 @@
       ]
     },
     {
-      "repo": "wienerlabs/covenant",
-      "number": 100,
-      "title": "C-050: Bug-bounty scope + disclosure policy",
-      "recommendation": "pursue",
-      "total_score": 66,
-      "bounty_amount_usd": 0,
-      "competition_risk": 8,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:acceptance criteria",
-        "task:bug"
-      ]
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -199,6 +185,26 @@
         "action:error",
         "task:support",
         "task:implement",
+        "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/schematic-trace-solver",
+      "number": 29,
+      "title": "New Phase To combine same-net trace segments that are close together",
+      "recommendation": "skip",
+      "total_score": 47,
+      "bounty_amount_usd": 100,
+      "competition_risk": 44,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:support",
         "claims:3",
         "support:support-politeness"
       ]
