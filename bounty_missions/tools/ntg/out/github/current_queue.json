@@ -1,31 +1,8 @@
 {
-  "generated_at_utc": "2026-06-05T08:53:47Z",
+  "generated_at_utc": "2026-06-05T12:21:37Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4629,
-      "title": "Proposal controller forwards raw body to service without validation",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4629",
-      "recommendation": "pursue",
-      "total_score": 95,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 34,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:add ",
-        "task:error"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 4533,
@@ -45,6 +22,28 @@
         "platform:algora",
         "action:expected behavior",
         "action:regression",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4723,
+      "title": "fix: Prevent admin role self-assignment during registration (mirror of #4718)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4723",
+      "recommendation": "pursue",
+      "total_score": 77,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 16,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
         "task:bug"
       ]
     }
