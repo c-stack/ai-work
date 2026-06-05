@@ -1,54 +1,16 @@
 {
-  "generated_at_utc": "2026-06-05T12:21:37Z",
+  "generated_at_utc": "2026-06-05T16:10:33Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 20,
-    "merged": 23
+    "merged": 22
   },
   "recommendations": {
     "pursue": 2,
     "review": 0,
-    "skip": 21
+    "skip": 20
   },
   "top_candidates": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4533,
-      "title": "Health endpoint should use shared success envelope (reissue via #743)",
-      "recommendation": "pursue",
-      "total_score": 91,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 3582,
-      "title": "Production config should require JWT_SECRET",
-      "recommendation": "skip",
-      "total_score": 89,
-      "bounty_amount_usd": 0,
-      "competition_risk": 21,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:add ",
-        "task:error",
-        "claims:1",
-        "existing-work:1"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -149,6 +111,21 @@
       ]
     },
     {
+      "repo": "wienerlabs/covenant",
+      "number": 100,
+      "title": "C-050: Bug-bounty scope + disclosure policy",
+      "recommendation": "pursue",
+      "total_score": 66,
+      "bounty_amount_usd": 0,
+      "competition_risk": 8,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:acceptance criteria",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -205,6 +182,29 @@
         "task:fix",
         "task:support",
         "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4758,
+      "title": "Improve usage limits visibility UX and DX",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 150,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:spam",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:3",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }

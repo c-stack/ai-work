@@ -1,30 +1,8 @@
 {
-  "generated_at_utc": "2026-06-05T12:21:37Z",
+  "generated_at_utc": "2026-06-05T16:10:33Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4533,
-      "title": "Health endpoint should use shared success envelope (reissue via #743)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4533",
-      "recommendation": "pursue",
-      "total_score": 91,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 30,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:bug"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 4723,
@@ -44,6 +22,26 @@
         "platform:algora",
         "action:fix",
         "task:fix",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "wienerlabs/covenant",
+      "number": 100,
+      "title": "C-050: Bug-bounty scope + disclosure policy",
+      "url": "https://github.com/wienerlabs/covenant/issues/100",
+      "recommendation": "pursue",
+      "total_score": 66,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 22,
+      "actionability": 14,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 8,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:acceptance criteria",
         "task:bug"
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-05T12:21:37Z",
+  "generated_at_utc": "2026-06-05T16:10:33Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,17 +7,6 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 3,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 2,
-      "unique_issues": [
-        3582,
-        4533,
-        4723
-      ]
-    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -26,6 +15,15 @@
       "unique_issues": [
         6532,
         6674
+      ]
+    },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        4723
       ]
     },
     "archestra-ai/archestra": {
@@ -48,6 +46,15 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    "wienerlabs/covenant": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        100
       ]
     },
     "tailcallhq/tailcallhq.github.io": {
@@ -195,18 +202,6 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 3,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 2,
-      "unique_issues": [
-        3582,
-        4533,
-        4723
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -274,6 +269,26 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "wienerlabs/covenant",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        100
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        4723
       ]
     }
   ]
