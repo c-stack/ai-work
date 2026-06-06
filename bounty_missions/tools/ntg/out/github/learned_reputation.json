@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-06T08:04:04Z",
+  "generated_at_utc": "2026-06-06T10:22:53Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -28,15 +28,6 @@
         4758,
         4998,
         5033
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        4723
       ]
     },
     "Dokploy/templates": {
@@ -92,6 +83,15 @@
       "pursue_count": 0,
       "unique_issues": [
         54
+      ]
+    },
+    "algora-io/algora": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        329
       ]
     },
     "Dokploy/dokploy": {
@@ -262,6 +262,16 @@
       ]
     },
     {
+      "repo": "algora-io/algora",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        329
+      ]
+    },
+    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -279,16 +289,6 @@
       "pursue_count": 1,
       "unique_issues": [
         100
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        4723
       ]
     }
   ]

@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-06T08:04:04Z",
+  "generated_at_utc": "2026-06-06T10:22:53Z",
   "source_counts": {
     "github": 2,
     "algora": 20,
     "merged": 22
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
-    "skip": 20
+    "skip": 21
   },
   "top_candidates": [
     {
@@ -52,23 +52,6 @@
         "claims:3",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4723,
-      "title": "fix: Prevent admin role self-assignment during registration (mirror of #4718)",
-      "recommendation": "pursue",
-      "total_score": 75,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:bug"
       ]
     },
     {
@@ -205,6 +188,26 @@
         "task:support",
         "claims:3",
         "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
         "support:support-politeness"
       ]
     }
