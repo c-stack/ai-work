@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-06T04:21:20Z",
+  "generated_at_utc": "2026-06-06T08:04:04Z",
   "source_counts": {
     "github": 2,
     "algora": 20,
@@ -33,23 +33,6 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4723,
-      "title": "fix: Prevent admin role self-assignment during registration (mirror of #4718)",
-      "recommendation": "pursue",
-      "total_score": 77,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:bug"
-      ]
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
@@ -69,6 +52,23 @@
         "claims:3",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4723,
+      "title": "fix: Prevent admin role self-assignment during registration (mirror of #4718)",
+      "recommendation": "pursue",
+      "total_score": 75,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:bug"
       ]
     },
     {

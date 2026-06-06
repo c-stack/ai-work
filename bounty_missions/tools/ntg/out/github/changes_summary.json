@@ -9,20 +9,20 @@
       "total_score": 82
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 4723,
-      "title": "fix: Prevent admin role self-assignment during registration (mirror of #4718)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4723",
-      "recommendation": "pursue",
-      "total_score": 77
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
       "url": "https://github.com/archestra-ai/archestra/issues/4998",
       "recommendation": "skip",
       "total_score": 76
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 4723,
+      "title": "fix: Prevent admin role self-assignment during registration (mirror of #4718)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/4723",
+      "recommendation": "pursue",
+      "total_score": 75
     },
     {
       "repo": "Dokploy/templates",
