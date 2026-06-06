@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-06T14:54:31Z",
+  "generated_at_utc": "2026-06-06T16:20:35Z",
   "source_counts": {
     "github": 1,
-    "algora": 16,
-    "merged": 17
+    "algora": 20,
+    "merged": 21
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 17
+    "skip": 21
   },
   "top_candidates": [
     {
@@ -94,6 +94,25 @@
       ]
     },
     {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "number": 373,
+      "title": "feature: design and develop a UI to generate tailcall configurations",
+      "recommendation": "skip",
+      "total_score": 58,
+      "bounty_amount_usd": 500,
+      "competition_risk": 43,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 5033,
       "title": "Bad UX on Knowledge/Connectors file upload failure",
@@ -158,6 +177,26 @@
       ]
     },
     {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6532,
       "title": "Integrate typos tool into CI",
@@ -177,43 +216,6 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 170,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "algora-io/algora",
-      "number": 329,
-      "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
-      "recommendation": "skip",
-      "total_score": 43,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:broken",
-        "task:bug",
-        "support:personal-account-device"
       ]
     }
   ],
