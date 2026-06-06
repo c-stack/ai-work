@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-06T18:22:32Z",
+  "generated_at_utc": "2026-06-06T20:36:32Z",
   "source_counts": {
     "github": 1,
     "algora": 20,
@@ -72,6 +72,26 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 329,
+      "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
+      "recommendation": "skip",
+      "total_score": 70,
+      "bounty_amount_usd": 0,
+      "competition_risk": 18,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:broken",
+        "existing-work:1",
+        "support:personal-account-device"
       ]
     },
     {
@@ -193,28 +213,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

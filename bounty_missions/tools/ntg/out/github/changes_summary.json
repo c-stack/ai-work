@@ -25,6 +25,14 @@
       "total_score": 73
     },
     {
+      "repo": "algora-io/algora",
+      "number": 329,
+      "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
+      "url": "https://github.com/algora-io/algora/issues/329",
+      "recommendation": "skip",
+      "total_score": 70
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 3855,
       "title": "Create WindMill MCP Apps MCP server",
@@ -87,14 +95,6 @@
       "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
       "total_score": 44
-    },
-    {
-      "repo": "algora-io/algora",
-      "number": 329,
-      "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
-      "url": "https://github.com/algora-io/algora/issues/329",
-      "recommendation": "skip",
-      "total_score": 43
     },
     {
       "repo": "Dokploy/dokploy",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-06T18:22:32Z",
+  "generated_at_utc": "2026-06-06T20:36:32Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -39,6 +39,15 @@
         152
       ]
     },
+    "algora-io/algora": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        329
+      ]
+    },
     "tailcallhq/tailcallhq.github.io": {
       "total_seen": 1,
       "skip_count": 1,
@@ -74,15 +83,6 @@
       "pursue_count": 0,
       "unique_issues": [
         54
-      ]
-    },
-    "algora-io/algora": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        329
       ]
     },
     "Dokploy/dokploy": {
