@@ -41,14 +41,6 @@
       "total_score": 69
     },
     {
-      "repo": "wienerlabs/covenant",
-      "number": 100,
-      "title": "C-050: Bug-bounty scope + disclosure policy",
-      "url": "https://github.com/wienerlabs/covenant/issues/100",
-      "recommendation": "pursue",
-      "total_score": 65
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
