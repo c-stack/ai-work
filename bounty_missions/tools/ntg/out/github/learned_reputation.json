@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-08T19:36:40Z",
+  "generated_at_utc": "2026-06-08T22:02:36Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -140,6 +140,15 @@
       "unique_issues": [
         92
       ]
+    },
+    "tenstorrent/tt-metal": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        46412
+      ]
     }
   },
   "top_repeat_skips": [
@@ -219,6 +228,16 @@
       "pursue_count": 0,
       "unique_issues": [
         54
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        46412
       ]
     },
     {

@@ -169,6 +169,14 @@
       "total_score": 17
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46412,
+      "title": "[tt-train]: GRPO Training Does Not Work With Small Microbatch Sizes.",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/46412",
+      "recommendation": "skip",
+      "total_score": 9
+    },
+    {
       "repo": "Dokploy/dokploy",
       "number": 416,
       "title": "Ability to backup to more destination types",
