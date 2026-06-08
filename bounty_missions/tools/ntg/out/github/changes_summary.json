@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "agentscope-ai/QwenPaw",
+      "number": 5016,
+      "title": "[Bug]: Web Console multi-agent chat is unstable: selected agent can reply but new chats are not reliably registered/displayed",
+      "url": "https://github.com/agentscope-ai/QwenPaw/issues/5016",
+      "recommendation": "pursue",
+      "total_score": 114
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -30,7 +38,7 @@
       "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
       "url": "https://github.com/algora-io/algora/issues/329",
       "recommendation": "skip",
-      "total_score": 70
+      "total_score": 69
     },
     {
       "repo": "archestra-ai/archestra",

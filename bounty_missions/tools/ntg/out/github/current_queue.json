@@ -1,6 +1,31 @@
 {
-  "generated_at_utc": "2026-06-08T07:04:55Z",
+  "generated_at_utc": "2026-06-08T12:10:12Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "agentscope-ai/QwenPaw",
+      "number": 5016,
+      "title": "[Bug]: Web Console multi-agent chat is unstable: selected agent can reply but new chats are not reliably registered/displayed",
+      "url": "https://github.com/agentscope-ai/QwenPaw/issues/5016",
+      "recommendation": "pursue",
+      "total_score": 114,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 20,
+      "actionability": 49,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 4,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:steps to reproduce",
+        "action:error",
+        "task:fix",
+        "task:support",
+        "support:support-politeness"
+      ]
+    }
+  ]
 }
