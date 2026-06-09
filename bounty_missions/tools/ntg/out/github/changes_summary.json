@@ -9,6 +9,14 @@
       "total_score": 92
     },
     {
+      "repo": "SecOpsNews/news",
+      "number": 69753,
+      "title": "[SecurityWeek] Will AI Kill the Bug Bounty Industry?",
+      "url": "https://github.com/SecOpsNews/news/issues/69753",
+      "recommendation": "pursue",
+      "total_score": 83
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -143,14 +151,6 @@
       "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
       "recommendation": "skip",
       "total_score": 37
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4468,
-      "title": "Add support for Anthropic Workload Identity Federation (keyless auth)",
-      "url": "https://github.com/archestra-ai/archestra/issues/4468",
-      "recommendation": "skip",
-      "total_score": 34
     },
     {
       "repo": "revertinc/revert",

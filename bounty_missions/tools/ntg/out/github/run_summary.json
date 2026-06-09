@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-09T12:17:04Z",
+  "generated_at_utc": "2026-06-09T15:31:05Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 20,
-    "merged": 25
+    "merged": 26
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
-    "skip": 24
+    "skip": 23
   },
   "top_candidates": [
     {
@@ -28,6 +28,21 @@
         "action:fix",
         "task:fix",
         "task:error"
+      ]
+    },
+    {
+      "repo": "SecOpsNews/news",
+      "number": 69753,
+      "title": "[SecurityWeek] Will AI Kill the Bug Bounty Industry?",
+      "recommendation": "pursue",
+      "total_score": 83,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
       ]
     },
     {
@@ -189,24 +204,6 @@
         "task:implement",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "polarsource/polar",
-      "number": 12267,
-      "title": "[Bug] Auth: Google OAuth state cookie lost during onboarding personal step",
-      "recommendation": "skip",
-      "total_score": 48,
-      "bounty_amount_usd": 0,
-      "competition_risk": 20,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:error",
-        "existing-work:1"
       ]
     }
   ],

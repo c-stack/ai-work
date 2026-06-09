@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-09T12:17:04Z",
+  "generated_at_utc": "2026-06-09T15:31:05Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,6 +14,15 @@
       "pursue_count": 1,
       "unique_issues": [
         355
+      ]
+    },
+    "SecOpsNews/news": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        69753
       ]
     },
     "projectdiscovery/nuclei": {
@@ -36,13 +45,12 @@
       ]
     },
     "archestra-ai/archestra": {
-      "total_seen": 5,
-      "skip_count": 5,
+      "total_seen": 4,
+      "skip_count": 4,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
         3855,
-        4468,
         4758,
         4998,
         5033
@@ -172,13 +180,12 @@
   "top_repeat_skips": [
     {
       "repo": "archestra-ai/archestra",
-      "total_seen": 5,
-      "skip_count": 5,
+      "total_seen": 4,
+      "skip_count": 4,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
         3855,
-        4468,
         4758,
         4998,
         5033
@@ -346,6 +353,16 @@
       "pursue_count": 1,
       "unique_issues": [
         355
+      ]
+    },
+    {
+      "repo": "SecOpsNews/news",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        69753
       ]
     }
   ]

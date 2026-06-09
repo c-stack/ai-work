@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-06-09T12:17:04Z",
+  "generated_at_utc": "2026-06-09T15:31:05Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "repo": "ksimback/hermes-ecosystem",
@@ -25,6 +25,26 @@
         "action:fix",
         "task:fix",
         "task:error"
+      ]
+    },
+    {
+      "repo": "SecOpsNews/news",
+      "number": 69753,
+      "title": "[SecurityWeek] Will AI Kill the Bug Bounty Industry?",
+      "url": "https://github.com/SecOpsNews/news/issues/69753",
+      "recommendation": "pursue",
+      "total_score": 83,
+      "repo_primary_language": "SCSS",
+      "bounty_confidence": 34,
+      "actionability": 10,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
       ]
     }
   ]
