@@ -1,16 +1,35 @@
 {
-  "generated_at_utc": "2026-06-09T04:36:30Z",
+  "generated_at_utc": "2026-06-09T08:42:49Z",
   "source_counts": {
-    "github": 3,
+    "github": 5,
     "algora": 20,
-    "merged": 23
+    "merged": 25
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
-    "skip": 23
+    "skip": 24
   },
   "top_candidates": [
+    {
+      "repo": "ksimback/hermes-ecosystem",
+      "number": 355,
+      "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
+      "recommendation": "pursue",
+      "total_score": 92,
+      "bounty_amount_usd": 0,
+      "competition_risk": 7,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "negative:migration",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -173,46 +192,21 @@
       ]
     },
     {
-      "repo": "tscircuit/schematic-trace-solver",
-      "number": 29,
-      "title": "New Phase To combine same-net trace segments that are close together",
+      "repo": "polarsource/polar",
+      "number": 12267,
+      "title": "[Bug] Auth: Google OAuth state cookie lost during onboarding personal step",
       "recommendation": "skip",
-      "total_score": 47,
-      "bounty_amount_usd": 100,
-      "competition_risk": 44,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 150,
-      "competition_risk": 48,
+      "total_score": 48,
+      "bounty_amount_usd": 0,
+      "competition_risk": 20,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
+        "platform:polar.sh",
+        "action:steps to reproduce",
+        "action:expected behavior",
         "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
+        "task:error",
+        "existing-work:1"
       ]
     }
   ],

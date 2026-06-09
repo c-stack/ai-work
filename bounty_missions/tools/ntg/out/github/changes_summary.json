@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "ksimback/hermes-ecosystem",
+      "number": 355,
+      "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
+      "url": "https://github.com/ksimback/hermes-ecosystem/issues/355",
+      "recommendation": "pursue",
+      "total_score": 92
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -63,6 +71,14 @@
       "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
       "total_score": 52
+    },
+    {
+      "repo": "polarsource/polar",
+      "number": 12267,
+      "title": "[Bug] Auth: Google OAuth state cookie lost during onboarding personal step",
+      "url": "https://github.com/polarsource/polar/issues/12267",
+      "recommendation": "skip",
+      "total_score": 48
     },
     {
       "repo": "tscircuit/schematic-trace-solver",

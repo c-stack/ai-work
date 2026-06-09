@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-09T04:36:30Z",
+  "generated_at_utc": "2026-06-09T08:42:49Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,15 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "ksimback/hermes-ecosystem": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        355
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -64,6 +73,15 @@
       "pursue_count": 0,
       "unique_issues": [
         373
+      ]
+    },
+    "polarsource/polar": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        12267
       ]
     },
     "tscircuit/schematic-trace-solver": {
@@ -271,6 +289,16 @@
       ]
     },
     {
+      "repo": "polarsource/polar",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        12267
+      ]
+    },
+    {
       "repo": "antinomyhq/forge",
       "total_seen": 1,
       "skip_count": 1,
@@ -308,6 +336,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "ksimback/hermes-ecosystem",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        355
       ]
     }
   ]
