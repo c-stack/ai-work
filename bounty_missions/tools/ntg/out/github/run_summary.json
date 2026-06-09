@@ -1,35 +1,16 @@
 {
-  "generated_at_utc": "2026-06-08T23:37:58Z",
+  "generated_at_utc": "2026-06-09T04:36:30Z",
   "source_counts": {
     "github": 3,
     "algora": 20,
     "merged": 23
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 22
+    "skip": 23
   },
   "top_candidates": [
-    {
-      "repo": "agentscope-ai/QwenPaw",
-      "number": 5016,
-      "title": "[Bug]: Web Console multi-agent chat is unstable: selected agent can reply but new chats are not reliably registered/displayed",
-      "recommendation": "pursue",
-      "total_score": 114,
-      "bounty_amount_usd": 0,
-      "competition_risk": 4,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "support:support-politeness"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -49,6 +30,25 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 5162,
+      "title": "Reject upload requests that omit the multipart file field",
+      "recommendation": "skip",
+      "total_score": 80,
+      "bounty_amount_usd": 0,
+      "competition_risk": 16,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "existing-work:1"
       ]
     },
     {

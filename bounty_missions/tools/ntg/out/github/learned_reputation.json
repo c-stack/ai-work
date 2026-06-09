@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-08T23:37:58Z",
+  "generated_at_utc": "2026-06-09T04:36:30Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,15 +7,6 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
-    "agentscope-ai/QwenPaw": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        5016
-      ]
-    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -24,6 +15,15 @@
       "unique_issues": [
         6532,
         6674
+      ]
+    },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        5162
       ]
     },
     "archestra-ai/archestra": {
@@ -291,6 +291,16 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        5162
+      ]
+    },
+    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -298,16 +308,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "agentscope-ai/QwenPaw",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        5016
       ]
     }
   ]

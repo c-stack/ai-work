@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-08T07:04:55Z",
+  "generated_at_utc": "2026-06-09T04:36:30Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260608T070349Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260609T043524Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -14,6 +14,14 @@
         "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
         "recommendation": "skip",
         "total_score": 82
+      },
+      {
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 5162,
+        "title": "Reject upload requests that omit the multipart file field",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/5162",
+        "recommendation": "skip",
+        "total_score": 80
       },
       {
         "repo": "archestra-ai/archestra",
@@ -37,7 +45,7 @@
         "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
         "url": "https://github.com/algora-io/algora/issues/329",
         "recommendation": "skip",
-        "total_score": 70
+        "total_score": 69
       },
       {
         "repo": "archestra-ai/archestra",
@@ -166,6 +174,14 @@
         "url": "https://github.com/tscircuit/jlcsearch/issues/92",
         "recommendation": "skip",
         "total_score": 17
+      },
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 46412,
+        "title": "[tt-train]: GRPO Training Does Not Work With Small Microbatch Sizes.",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/46412",
+        "recommendation": "skip",
+        "total_score": 9
       },
       {
         "repo": "Dokploy/dokploy",

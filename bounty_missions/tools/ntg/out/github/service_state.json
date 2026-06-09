@@ -1,26 +1,51 @@
 {
   "config": "bounty_missions/tools/ntg/service.github.yaml",
   "pipeline_result": {
-    "exit_code": 1,
-    "snapshot_dir": "",
+    "exit_code": 0,
+    "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260609T043524Z",
     "output_dir": "bounty_missions/tools/ntg/out/github",
-    "merged_count": 0,
+    "merged_count": 23,
     "pursue_count": 0,
-    "review_count": 0
+    "review_count": 0,
+    "queue_count": 0,
+    "triage_profile": "aggressive",
+    "learned_blocked_repo_count": 1
   },
   "prepared_workspaces": [],
   "dashboard": "bounty_missions/tools/ntg/out/github/site/index.html",
   "current_queue": "bounty_missions/tools/ntg/out/github/current_queue.json",
   "web_url": "",
-  "error": "[Errno 2] No such file or directory: 'rg'",
+  "notifications": {
+    "queue_count": 0,
+    "new_queue_count": 0,
+    "changed_queue_count": 0,
+    "delivery_status": "skipped",
+    "delivery_detail": "send_when condition not met",
+    "latest_json_path": "bounty_missions/tools/ntg/out/github/alerts/latest_alert.json",
+    "latest_markdown_path": "bounty_missions/tools/ntg/out/github/alerts/latest_alert.md"
+  },
+  "automation": [],
   "monitoring": {
     "history_path": "bounty_missions/tools/ntg/out/github/monitoring_history.json",
     "metrics_path": "bounty_missions/tools/ntg/out/github/monitoring_metrics.json",
-    "estimated_active_revenue_usd": 0.0
+    "estimated_active_revenue_usd": 0
   },
+  "ledger": {
+    "path": "bounty_missions/tools/ntg/out/github/bounty_ledger.json",
+    "tracked_issues": 23,
+    "actual_revenue_usd": 0.0
+  },
+  "template_factory": {
+    "path": "bounty_missions/tools/ntg/out/github/template_factory.json",
+    "ready_template_count": 11,
+    "next_target_ready_count": 0,
+    "next_target_missing_template_count": 0,
+    "estimated_next_target_revenue_usd": 0
+  },
+  "prepared_workspaces_root": "bounty_missions/workspaces",
   "runtime": {
     "run_in_progress": true,
-    "last_run_started_at_utc": "2026-06-08T23:36:48Z",
+    "last_run_started_at_utc": "2026-06-09T04:35:24Z",
     "last_run_finished_at_utc": "",
     "last_exit_code": null,
     "last_error": "",
