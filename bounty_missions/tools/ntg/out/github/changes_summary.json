@@ -81,14 +81,6 @@
       "total_score": 52
     },
     {
-      "repo": "polarsource/polar",
-      "number": 12267,
-      "title": "[Bug] Auth: Google OAuth state cookie lost during onboarding personal step",
-      "url": "https://github.com/polarsource/polar/issues/12267",
-      "recommendation": "skip",
-      "total_score": 48
-    },
-    {
       "repo": "tscircuit/schematic-trace-solver",
       "number": 29,
       "title": "New Phase To combine same-net trace segments that are close together",
@@ -153,6 +145,14 @@
       "total_score": 37
     },
     {
+      "repo": "archestra-ai/archestra",
+      "number": 4468,
+      "title": "Add support for Anthropic Workload Identity Federation (keyless auth)",
+      "url": "https://github.com/archestra-ai/archestra/issues/4468",
+      "recommendation": "skip",
+      "total_score": 34
+    },
+    {
       "repo": "revertinc/revert",
       "number": 551,
       "title": "[REVER-51] Workable Integration",
@@ -182,7 +182,7 @@
       "title": "Add `is_extended_promotional ` column to components (from data source)",
       "url": "https://github.com/tscircuit/jlcsearch/issues/92",
       "recommendation": "skip",
-      "total_score": 17
+      "total_score": 16
     },
     {
       "repo": "tenstorrent/tt-metal",
