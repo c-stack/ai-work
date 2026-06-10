@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T01:31:57Z",
+  "generated_at_utc": "2026-06-10T06:43:23Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,15 +7,6 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        6175
-      ]
-    },
     "ksimback/hermes-ecosystem": {
       "total_seen": 1,
       "skip_count": 0,
@@ -25,13 +16,15 @@
         355
       ]
     },
-    "SecOpsNews/news": {
-      "total_seen": 1,
-      "skip_count": 0,
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 3,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 2,
       "unique_issues": [
-        69753
+        6330,
+        6332,
+        6334
       ]
     },
     "projectdiscovery/nuclei": {
@@ -83,15 +76,6 @@
       "unique_issues": [
         29,
         34
-      ]
-    },
-    "algora-io/algora": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        336
       ]
     },
     "antinomyhq/forge": {
@@ -229,6 +213,18 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 3,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 2,
+      "unique_issues": [
+        6330,
+        6332,
+        6334
+      ]
+    },
+    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -299,16 +295,6 @@
       ]
     },
     {
-      "repo": "algora-io/algora",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        336
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -326,26 +312,6 @@
       "pursue_count": 1,
       "unique_issues": [
         355
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        6175
-      ]
-    },
-    {
-      "repo": "SecOpsNews/news",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        69753
       ]
     }
   ]
