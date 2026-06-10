@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T11:04:48Z",
+  "generated_at_utc": "2026-06-10T14:31:05Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -56,17 +56,18 @@
       "title": "[SecurityWeek] Will AI Kill the Bug Bounty Industry?",
       "url": "https://github.com/SecOpsNews/news/issues/69753",
       "recommendation": "pursue",
-      "total_score": 83,
+      "total_score": 82,
       "repo_primary_language": "SCSS",
       "bounty_confidence": 34,
-      "actionability": 10,
+      "actionability": 12,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
+        "task:remove",
         "task:bug"
       ]
     }
