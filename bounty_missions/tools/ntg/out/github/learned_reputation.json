@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T20:46:41Z",
+  "generated_at_utc": "2026-06-10T22:57:55Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -47,12 +47,13 @@
       ]
     },
     "archestra-ai/archestra": {
-      "total_seen": 4,
-      "skip_count": 4,
+      "total_seen": 5,
+      "skip_count": 5,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
         3855,
+        4468,
         4758,
         4998,
         5033
@@ -76,16 +77,6 @@
         373
       ]
     },
-    "tscircuit/schematic-trace-solver": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        29,
-        34
-      ]
-    },
     "antinomyhq/forge": {
       "total_seen": 1,
       "skip_count": 1,
@@ -93,15 +84,6 @@
       "pursue_count": 0,
       "unique_issues": [
         389
-      ]
-    },
-    "tscircuit/dsn-converter": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        54
       ]
     },
     "Dokploy/dokploy": {
@@ -122,6 +104,24 @@
       "unique_issues": [
         372,
         551
+      ]
+    },
+    "tscircuit/schematic-trace-solver": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        34
+      ]
+    },
+    "tscircuit/dsn-converter": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        54
       ]
     },
     "tailcallhq/graphql-conf-2024": {
@@ -164,12 +164,13 @@
   "top_repeat_skips": [
     {
       "repo": "archestra-ai/archestra",
-      "total_seen": 4,
-      "skip_count": 4,
+      "total_seen": 5,
+      "skip_count": 5,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
         3855,
+        4468,
         4758,
         4998,
         5033
@@ -185,17 +186,6 @@
         6330,
         6332,
         6334
-      ]
-    },
-    {
-      "repo": "tscircuit/schematic-trace-solver",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        29,
-        34
       ]
     },
     {
@@ -229,6 +219,16 @@
       "unique_issues": [
         416,
         1413
+      ]
+    },
+    {
+      "repo": "tscircuit/schematic-trace-solver",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        34
       ]
     },
     {

@@ -89,14 +89,6 @@
       "total_score": 52
     },
     {
-      "repo": "tscircuit/schematic-trace-solver",
-      "number": 29,
-      "title": "New Phase To combine same-net trace segments that are close together",
-      "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
-      "recommendation": "skip",
-      "total_score": 47
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4758,
       "title": "Improve usage limits visibility UX and DX",
@@ -117,14 +109,6 @@
       "number": 6532,
       "title": "Integrate typos tool into CI",
       "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
-      "recommendation": "skip",
-      "total_score": 44
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
       "total_score": 44
     },
@@ -151,6 +135,22 @@
       "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
       "recommendation": "skip",
       "total_score": 37
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4468,
+      "title": "Add support for Anthropic Workload Identity Federation (keyless auth)",
+      "url": "https://github.com/archestra-ai/archestra/issues/4468",
+      "recommendation": "skip",
+      "total_score": 34
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+      "recommendation": "skip",
+      "total_score": 29
     },
     {
       "repo": "revertinc/revert",
@@ -190,7 +190,7 @@
       "title": "[tt-train]: GRPO Training Does Not Work With Small Microbatch Sizes.",
       "url": "https://github.com/tenstorrent/tt-metal/issues/46412",
       "recommendation": "skip",
-      "total_score": 9
+      "total_score": 8
     },
     {
       "repo": "Dokploy/dokploy",
