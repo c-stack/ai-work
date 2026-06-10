@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T06:43:23Z",
+  "generated_at_utc": "2026-06-10T11:04:48Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -18,13 +18,22 @@
     },
     "SecureBananaLabs/bug-bounty": {
       "total_seen": 3,
-      "skip_count": 1,
+      "skip_count": 2,
       "review_count": 0,
-      "pursue_count": 2,
+      "pursue_count": 1,
       "unique_issues": [
         6330,
         6332,
         6334
+      ]
+    },
+    "SecOpsNews/news": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        69753
       ]
     },
     "projectdiscovery/nuclei": {
@@ -38,13 +47,12 @@
       ]
     },
     "archestra-ai/archestra": {
-      "total_seen": 5,
-      "skip_count": 5,
+      "total_seen": 4,
+      "skip_count": 4,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
         3855,
-        4468,
         4758,
         4998,
         5033
@@ -156,16 +164,27 @@
   "top_repeat_skips": [
     {
       "repo": "archestra-ai/archestra",
-      "total_seen": 5,
-      "skip_count": 5,
+      "total_seen": 4,
+      "skip_count": 4,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
         3855,
-        4468,
         4758,
         4998,
         5033
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 3,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        6330,
+        6332,
+        6334
       ]
     },
     {
@@ -210,18 +229,6 @@
       "unique_issues": [
         416,
         1413
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 3,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 2,
-      "unique_issues": [
-        6330,
-        6332,
-        6334
       ]
     },
     {
@@ -312,6 +319,16 @@
       "pursue_count": 1,
       "unique_issues": [
         355
+      ]
+    },
+    {
+      "repo": "SecOpsNews/news",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        69753
       ]
     }
   ]

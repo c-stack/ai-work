@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-10T06:43:23Z",
+  "generated_at_utc": "2026-06-10T11:04:48Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -51,27 +51,23 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6332,
-      "title": "Payment currency should normalize to lowercase before processing",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6332",
+      "repo": "SecOpsNews/news",
+      "number": 69753,
+      "title": "[SecurityWeek] Will AI Kill the Bug Bounty Industry?",
+      "url": "https://github.com/SecOpsNews/news/issues/69753",
       "recommendation": "pursue",
-      "total_score": 84,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 32,
+      "total_score": 83,
+      "repo_primary_language": "SCSS",
+      "bounty_confidence": 34,
+      "actionability": 10,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 9,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
+        "bounty:bug bounty",
         "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:fix",
-        "task:add ",
-        "claims:1"
+        "task:bug"
       ]
     }
   ]
