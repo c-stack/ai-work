@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-06-09T22:52:04Z",
+  "generated_at_utc": "2026-06-10T01:31:57Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6175,
+      "title": "Upload endpoint should reject missing file payloads (reissue)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6175",
+      "recommendation": "pursue",
+      "total_score": 97,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 36,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,

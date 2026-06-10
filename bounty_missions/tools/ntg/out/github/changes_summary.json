@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6175,
+      "title": "Upload endpoint should reject missing file payloads (reissue)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6175",
+      "recommendation": "pursue",
+      "total_score": 97
+    },
+    {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,
       "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
@@ -25,14 +33,6 @@
       "total_score": 82
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 5162,
-      "title": "Reject upload requests that omit the multipart file field",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/5162",
-      "recommendation": "skip",
-      "total_score": 80
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
@@ -47,14 +47,6 @@
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 73
-    },
-    {
-      "repo": "algora-io/algora",
-      "number": 329,
-      "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
-      "url": "https://github.com/algora-io/algora/issues/329",
-      "recommendation": "skip",
-      "total_score": 69
     },
     {
       "repo": "archestra-ai/archestra",
@@ -87,6 +79,14 @@
       "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
       "recommendation": "skip",
       "total_score": 47
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 336,
+      "title": "TSPerf challenge submission: TS Type Meter",
+      "url": "https://github.com/algora-io/algora/issues/336",
+      "recommendation": "skip",
+      "total_score": 45
     },
     {
       "repo": "archestra-ai/archestra",

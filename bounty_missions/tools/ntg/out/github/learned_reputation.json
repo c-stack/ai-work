@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-09T22:52:04Z",
+  "generated_at_utc": "2026-06-10T01:31:57Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,15 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        6175
+      ]
+    },
     "ksimback/hermes-ecosystem": {
       "total_seen": 1,
       "skip_count": 0,
@@ -35,15 +44,6 @@
         6674
       ]
     },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        5162
-      ]
-    },
     "archestra-ai/archestra": {
       "total_seen": 5,
       "skip_count": 5,
@@ -66,15 +66,6 @@
         152
       ]
     },
-    "algora-io/algora": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        329
-      ]
-    },
     "tailcallhq/tailcallhq.github.io": {
       "total_seen": 1,
       "skip_count": 1,
@@ -92,6 +83,15 @@
       "unique_issues": [
         29,
         34
+      ]
+    },
+    "algora-io/algora": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        336
       ]
     },
     "antinomyhq/forge": {
@@ -305,17 +305,7 @@
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
-        329
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        5162
+        336
       ]
     },
     {
@@ -336,6 +326,16 @@
       "pursue_count": 1,
       "unique_issues": [
         355
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        6175
       ]
     },
     {
