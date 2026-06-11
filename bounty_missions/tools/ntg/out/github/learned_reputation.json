@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-11T01:40:52Z",
+  "generated_at_utc": "2026-06-11T07:06:11Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,6 +14,17 @@
       "pursue_count": 1,
       "unique_issues": [
         355
+      ]
+    },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 3,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        6330,
+        6332,
+        6334
       ]
     },
     "SecOpsNews/news": {
@@ -33,15 +44,6 @@
       "unique_issues": [
         6532,
         6674
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        6332
       ]
     },
     "archestra-ai/archestra": {
@@ -175,6 +177,18 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 3,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        6330,
+        6332,
+        6334
+      ]
+    },
+    {
       "repo": "revertinc/revert",
       "total_seen": 2,
       "skip_count": 2,
@@ -285,16 +299,6 @@
       "pursue_count": 0,
       "unique_issues": [
         389
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        6332
       ]
     },
     {

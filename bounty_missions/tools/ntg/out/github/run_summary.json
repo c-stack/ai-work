@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-11T01:40:52Z",
+  "generated_at_utc": "2026-06-11T07:06:11Z",
   "source_counts": {
-    "github": 4,
+    "github": 6,
     "algora": 19,
-    "merged": 23
+    "merged": 25
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 3,
     "review": 0,
-    "skip": 21
+    "skip": 22
   },
   "top_candidates": [
     {
@@ -28,6 +28,24 @@
         "action:fix",
         "task:fix",
         "task:error"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6334,
+      "title": "User service should not store submitted passwords",
+      "recommendation": "pursue",
+      "total_score": 89,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:fix",
+        "task:fix",
+        "task:add "
       ]
     },
     {
@@ -71,6 +89,27 @@
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 6332,
       "title": "Payment currency should normalize to lowercase before processing",
+      "recommendation": "skip",
+      "total_score": 79,
+      "bounty_amount_usd": 0,
+      "competition_risk": 28,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6330,
+      "title": "Auth middleware should parse Bearer scheme case-insensitively",
       "recommendation": "skip",
       "total_score": 79,
       "bounty_amount_usd": 0,
@@ -165,50 +204,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 5033,
-      "title": "Bad UX on Knowledge/Connectors file upload failure",
-      "recommendation": "skip",
-      "total_score": 52,
-      "bounty_amount_usd": 50,
-      "competition_risk": 33,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 150,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
