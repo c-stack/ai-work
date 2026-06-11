@@ -9,14 +9,6 @@
       "total_score": 92
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
-      "recommendation": "pursue",
-      "total_score": 89
-    },
-    {
       "repo": "SecOpsNews/news",
       "number": 69753,
       "title": "[SecurityWeek] Will AI Kill the Bug Bounty Industry?",
@@ -37,14 +29,6 @@
       "number": 6332,
       "title": "Payment currency should normalize to lowercase before processing",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6332",
-      "recommendation": "skip",
-      "total_score": 79
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6330,
-      "title": "Auth middleware should parse Bearer scheme case-insensitively",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6330",
       "recommendation": "skip",
       "total_score": 79
     },
