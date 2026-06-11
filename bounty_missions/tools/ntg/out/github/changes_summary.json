@@ -6,7 +6,7 @@
       "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
       "url": "https://github.com/ksimback/hermes-ecosystem/issues/355",
       "recommendation": "pursue",
-      "total_score": 92
+      "total_score": 91
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
@@ -54,7 +54,7 @@
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
       "url": "https://github.com/archestra-ai/archestra/issues/4998",
       "recommendation": "skip",
-      "total_score": 76
+      "total_score": 75
     },
     {
       "repo": "Dokploy/templates",

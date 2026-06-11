@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-11T07:06:11Z",
+  "generated_at_utc": "2026-06-11T11:50:11Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -9,7 +9,7 @@
       "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
       "url": "https://github.com/ksimback/hermes-ecosystem/issues/355",
       "recommendation": "pursue",
-      "total_score": 92,
+      "total_score": 91,
       "repo_primary_language": "HTML",
       "bounty_confidence": 24,
       "actionability": 28,

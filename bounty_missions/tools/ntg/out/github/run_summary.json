@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-11T07:06:11Z",
+  "generated_at_utc": "2026-06-11T11:50:11Z",
   "source_counts": {
     "github": 6,
     "algora": 19,
@@ -16,7 +16,7 @@
       "number": 355,
       "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
       "recommendation": "pursue",
-      "total_score": 92,
+      "total_score": 91,
       "bounty_amount_usd": 0,
       "competition_risk": 7,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -132,9 +132,9 @@
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
       "recommendation": "skip",
-      "total_score": 76,
+      "total_score": 75,
       "bounty_amount_usd": 4000,
-      "competition_risk": 39,
+      "competition_risk": 40,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
