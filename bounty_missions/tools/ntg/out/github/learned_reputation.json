@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-11T11:50:11Z",
+  "generated_at_utc": "2026-06-11T16:22:00Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,15 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "agentscope-ai/QwenPaw": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        5016
+      ]
+    },
     "ksimback/hermes-ecosystem": {
       "total_seen": 1,
       "skip_count": 0,
@@ -25,15 +34,6 @@
         6330,
         6332,
         6334
-      ]
-    },
-    "SecOpsNews/news": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        69753
       ]
     },
     "projectdiscovery/nuclei": {
@@ -322,13 +322,13 @@
       ]
     },
     {
-      "repo": "SecOpsNews/news",
+      "repo": "agentscope-ai/QwenPaw",
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        69753
+        5016
       ]
     }
   ]

@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "agentscope-ai/QwenPaw",
+      "number": 5016,
+      "title": "[Bug]: Web Console multi-agent chat is unstable: selected agent can reply but new chats are not reliably registered/displayed",
+      "url": "https://github.com/agentscope-ai/QwenPaw/issues/5016",
+      "recommendation": "pursue",
+      "total_score": 113
+    },
+    {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,
       "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
@@ -15,14 +23,6 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
       "recommendation": "pursue",
       "total_score": 89
-    },
-    {
-      "repo": "SecOpsNews/news",
-      "number": 69753,
-      "title": "[SecurityWeek] Will AI Kill the Bug Bounty Industry?",
-      "url": "https://github.com/SecOpsNews/news/issues/69753",
-      "recommendation": "pursue",
-      "total_score": 82
     },
     {
       "repo": "projectdiscovery/nuclei",
