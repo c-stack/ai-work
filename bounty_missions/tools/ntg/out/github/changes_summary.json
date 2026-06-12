@@ -25,14 +25,6 @@
       "total_score": 78
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6330,
-      "title": "Auth middleware should parse Bearer scheme case-insensitively",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6330",
-      "recommendation": "skip",
-      "total_score": 78
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
@@ -127,6 +119,14 @@
       "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
       "recommendation": "skip",
       "total_score": 37
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 337,
+      "title": "TSPerf challenge submission: bonginkan/tsperf-vscode",
+      "url": "https://github.com/algora-io/algora/issues/337",
+      "recommendation": "skip",
+      "total_score": 36
     },
     {
       "repo": "archestra-ai/archestra",
