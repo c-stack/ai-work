@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-12T05:04:40Z",
+  "generated_at_utc": "2026-06-12T09:13:52Z",
   "source_counts": {
     "github": 4,
     "algora": 19,
@@ -56,7 +56,7 @@
       "number": 6332,
       "title": "Payment currency should normalize to lowercase before processing",
       "recommendation": "skip",
-      "total_score": 79,
+      "total_score": 78,
       "bounty_amount_usd": 0,
       "competition_risk": 28,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -77,7 +77,7 @@
       "number": 6330,
       "title": "Auth middleware should parse Bearer scheme case-insensitively",
       "recommendation": "skip",
-      "total_score": 79,
+      "total_score": 78,
       "bounty_amount_usd": 0,
       "competition_risk": 28,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -89,27 +89,6 @@
         "action:regression",
         "task:fix",
         "task:add ",
-        "claims:2",
-        "existing-work:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "recommendation": "skip",
-      "total_score": 76,
-      "bounty_amount_usd": 0,
-      "competition_risk": 30,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:implement",
         "claims:2",
         "existing-work:1"
       ]
@@ -134,6 +113,27 @@
         "claims:3",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6334,
+      "title": "User service should not store submitted passwords",
+      "recommendation": "skip",
+      "total_score": 75,
+      "bounty_amount_usd": 0,
+      "competition_risk": 30,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:fix",
+        "task:fix",
+        "task:implement",
+        "claims:2",
+        "existing-work:1"
       ]
     },
     {

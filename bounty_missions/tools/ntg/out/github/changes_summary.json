@@ -22,7 +22,7 @@
       "title": "Payment currency should normalize to lowercase before processing",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6332",
       "recommendation": "skip",
-      "total_score": 79
+      "total_score": 78
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
@@ -30,21 +30,21 @@
       "title": "Auth middleware should parse Bearer scheme case-insensitively",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6330",
       "recommendation": "skip",
-      "total_score": 79
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
-      "recommendation": "skip",
-      "total_score": 76
+      "total_score": 78
     },
     {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
       "url": "https://github.com/archestra-ai/archestra/issues/4998",
+      "recommendation": "skip",
+      "total_score": 75
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6334,
+      "title": "User service should not store submitted passwords",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
       "recommendation": "skip",
       "total_score": 75
     },
