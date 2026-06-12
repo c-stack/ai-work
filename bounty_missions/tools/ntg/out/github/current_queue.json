@@ -1,32 +1,8 @@
 {
-  "generated_at_utc": "2026-06-11T23:57:18Z",
+  "generated_at_utc": "2026-06-12T05:04:40Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 1,
   "items": [
-    {
-      "repo": "agentscope-ai/QwenPaw",
-      "number": 5016,
-      "title": "[Bug]: Web Console multi-agent chat is unstable: selected agent can reply but new chats are not reliably registered/displayed",
-      "url": "https://github.com/agentscope-ai/QwenPaw/issues/5016",
-      "recommendation": "pursue",
-      "total_score": 113,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 20,
-      "actionability": 49,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 4,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "support:support-politeness"
-      ]
-    },
     {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,
@@ -49,29 +25,6 @@
         "action:fix",
         "task:fix",
         "task:error"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
-      "recommendation": "pursue",
-      "total_score": 89,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 28,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:add "
       ]
     }
   ]

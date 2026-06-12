@@ -1,35 +1,16 @@
 {
-  "generated_at_utc": "2026-06-11T23:57:18Z",
+  "generated_at_utc": "2026-06-12T05:04:40Z",
   "source_counts": {
-    "github": 6,
+    "github": 4,
     "algora": 19,
-    "merged": 25
+    "merged": 23
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 1,
     "review": 0,
     "skip": 22
   },
   "top_candidates": [
-    {
-      "repo": "agentscope-ai/QwenPaw",
-      "number": 5016,
-      "title": "[Bug]: Web Console multi-agent chat is unstable: selected agent can reply but new chats are not reliably registered/displayed",
-      "recommendation": "pursue",
-      "total_score": 113,
-      "bounty_amount_usd": 0,
-      "competition_risk": 4,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "support:support-politeness"
-      ]
-    },
     {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,
@@ -47,24 +28,6 @@
         "action:fix",
         "task:fix",
         "task:error"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "recommendation": "pursue",
-      "total_score": 89,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:add "
       ]
     },
     {
@@ -126,6 +89,27 @@
         "action:regression",
         "task:fix",
         "task:add ",
+        "claims:2",
+        "existing-work:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6334,
+      "title": "User service should not store submitted passwords",
+      "recommendation": "skip",
+      "total_score": 76,
+      "bounty_amount_usd": 0,
+      "competition_risk": 30,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:fix",
+        "task:fix",
+        "task:implement",
         "claims:2",
         "existing-work:1"
       ]
@@ -207,6 +191,27 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 5033,
+      "title": "Bad UX on Knowledge/Connectors file upload failure",
+      "recommendation": "skip",
+      "total_score": 52,
+      "bounty_amount_usd": 50,
+      "competition_risk": 33,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:migration",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:3",
         "support:support-politeness"
       ]
     }

@@ -1,28 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "agentscope-ai/QwenPaw",
-      "number": 5016,
-      "title": "[Bug]: Web Console multi-agent chat is unstable: selected agent can reply but new chats are not reliably registered/displayed",
-      "url": "https://github.com/agentscope-ai/QwenPaw/issues/5016",
-      "recommendation": "pursue",
-      "total_score": 113
-    },
-    {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,
       "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
       "url": "https://github.com/ksimback/hermes-ecosystem/issues/355",
       "recommendation": "pursue",
       "total_score": 91
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
-      "recommendation": "pursue",
-      "total_score": 89
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -47,6 +31,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6330",
       "recommendation": "skip",
       "total_score": 79
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6334,
+      "title": "User service should not store submitted passwords",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
+      "recommendation": "skip",
+      "total_score": 76
     },
     {
       "repo": "archestra-ai/archestra",
@@ -183,14 +175,6 @@
       "url": "https://github.com/tscircuit/jlcsearch/issues/92",
       "recommendation": "skip",
       "total_score": 16
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 46412,
-      "title": "[tt-train]: GRPO Training Does Not Work With Small Microbatch Sizes.",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/46412",
-      "recommendation": "skip",
-      "total_score": 8
     },
     {
       "repo": "Dokploy/dokploy",

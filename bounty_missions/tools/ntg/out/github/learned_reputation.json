@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-11T23:57:18Z",
+  "generated_at_utc": "2026-06-12T05:04:40Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,15 +7,6 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
-    "agentscope-ai/QwenPaw": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        5016
-      ]
-    },
     "ksimback/hermes-ecosystem": {
       "total_seen": 1,
       "skip_count": 0,
@@ -23,17 +14,6 @@
       "pursue_count": 1,
       "unique_issues": [
         355
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 3,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        6330,
-        6332,
-        6334
       ]
     },
     "projectdiscovery/nuclei": {
@@ -44,6 +24,17 @@
       "unique_issues": [
         6532,
         6674
+      ]
+    },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 3,
+      "skip_count": 3,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        6330,
+        6332,
+        6334
       ]
     },
     "archestra-ai/archestra": {
@@ -150,15 +141,6 @@
       "unique_issues": [
         92
       ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        46412
-      ]
     }
   },
   "top_repeat_skips": [
@@ -179,9 +161,9 @@
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "total_seen": 3,
-      "skip_count": 2,
+      "skip_count": 3,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
         6330,
         6332,
@@ -252,16 +234,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        46412
-      ]
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "total_seen": 1,
       "skip_count": 1,
@@ -319,16 +291,6 @@
       "pursue_count": 1,
       "unique_issues": [
         355
-      ]
-    },
-    {
-      "repo": "agentscope-ai/QwenPaw",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        5016
       ]
     }
   ]
