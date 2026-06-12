@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46862,
+      "title": "[Bounty $5000] [SFPU] Optimize `atanh`, `asinh`, and `acosh` with Numerically Stable `log1p`-Based Implementations (WH B0/BH)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/46862",
+      "recommendation": "review",
+      "total_score": 95
+    },
+    {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,
       "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
@@ -70,7 +78,7 @@
       "title": "Bad UX on Knowledge/Connectors file upload failure",
       "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
-      "total_score": 52
+      "total_score": 51
     },
     {
       "repo": "archestra-ai/archestra",

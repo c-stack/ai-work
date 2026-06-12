@@ -1,16 +1,36 @@
 {
-  "generated_at_utc": "2026-06-12T19:22:44Z",
+  "generated_at_utc": "2026-06-12T22:01:57Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 19,
-    "merged": 23
+    "merged": 24
   },
   "recommendations": {
     "pursue": 1,
-    "review": 0,
+    "review": 1,
     "skip": 22
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46862,
+      "title": "[Bounty $5000] [SFPU] Optimize `atanh`, `asinh`, and `acosh` with Numerically Stable `log1p`-Based Implementations (WH B0/BH)",
+      "recommendation": "review",
+      "total_score": 95,
+      "bounty_amount_usd": 5000,
+      "competition_risk": 17,
+      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "negative:alternatives",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
     {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,
@@ -178,9 +198,9 @@
       "number": 5033,
       "title": "Bad UX on Knowledge/Connectors file upload failure",
       "recommendation": "skip",
-      "total_score": 52,
+      "total_score": 51,
       "bounty_amount_usd": 50,
-      "competition_risk": 33,
+      "competition_risk": 34,
       "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",
@@ -191,29 +211,6 @@
         "task:support",
         "task:implement",
         "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 150,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

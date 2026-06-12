@@ -1,8 +1,33 @@
 {
-  "generated_at_utc": "2026-06-12T19:22:44Z",
+  "generated_at_utc": "2026-06-12T22:01:57Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 46862,
+      "title": "[Bounty $5000] [SFPU] Optimize `atanh`, `asinh`, and `acosh` with Numerically Stable `log1p`-Based Implementations (WH B0/BH)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/46862",
+      "recommendation": "review",
+      "total_score": 95,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 20,
+      "actionability": 54,
+      "bounty_amount_usd": 5000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 17,
+      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "negative:alternatives",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
     {
       "repo": "ksimback/hermes-ecosystem",
       "number": 355,

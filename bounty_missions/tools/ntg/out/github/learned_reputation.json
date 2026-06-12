@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-12T19:22:44Z",
+  "generated_at_utc": "2026-06-12T22:01:57Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,15 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "tenstorrent/tt-metal": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        46862
+      ]
+    },
     "ksimback/hermes-ecosystem": {
       "total_seen": 1,
       "skip_count": 0,
@@ -298,6 +307,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        46862
       ]
     },
     {
