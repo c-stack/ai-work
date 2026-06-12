@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-12T22:01:57Z",
+  "generated_at_utc": "2026-06-12T23:51:59Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
@@ -15,7 +15,7 @@
       "actionability": 54,
       "bounty_amount_usd": 5000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 17,
+      "competition_risk": 18,
       "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
       "decision_signals": [
         "bounty:bounty",
