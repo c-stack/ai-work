@@ -9,14 +9,6 @@
       "total_score": 95
     },
     {
-      "repo": "ksimback/hermes-ecosystem",
-      "number": 355,
-      "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
-      "url": "https://github.com/ksimback/hermes-ecosystem/issues/355",
-      "recommendation": "pursue",
-      "total_score": 91
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -31,6 +23,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6332",
       "recommendation": "skip",
       "total_score": 78
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "number": 67139,
+      "title": "[Feature Request] Add Fable support to Claude Code CLI for cybersecurity workflows for users accepted to your Cyber Verified Program.",
+      "url": "https://github.com/anthropics/claude-code/issues/67139",
+      "recommendation": "review",
+      "total_score": 76
     },
     {
       "repo": "archestra-ai/archestra",

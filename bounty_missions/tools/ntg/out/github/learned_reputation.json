@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-12T23:51:59Z",
+  "generated_at_utc": "2026-06-13T04:52:38Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,15 +14,6 @@
       "pursue_count": 0,
       "unique_issues": [
         46862
-      ]
-    },
-    "ksimback/hermes-ecosystem": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        355
       ]
     },
     "projectdiscovery/nuclei": {
@@ -43,6 +34,15 @@
       "unique_issues": [
         6332,
         6334
+      ]
+    },
+    "anthropics/claude-code": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        67139
       ]
     },
     "archestra-ai/archestra": {
@@ -320,13 +320,13 @@
       ]
     },
     {
-      "repo": "ksimback/hermes-ecosystem",
+      "repo": "anthropics/claude-code",
       "total_seen": 1,
       "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
+      "review_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
-        355
+        67139
       ]
     }
   ]

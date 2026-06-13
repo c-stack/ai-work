@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-06-12T23:51:59Z",
+  "generated_at_utc": "2026-06-13T04:52:38Z",
   "source_counts": {
     "github": 5,
     "algora": 19,
     "merged": 24
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 1,
+    "pursue": 0,
+    "review": 2,
     "skip": 22
   },
   "top_candidates": [
@@ -29,25 +29,6 @@
         "task:fix",
         "task:support",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "ksimback/hermes-ecosystem",
-      "number": 355,
-      "title": "HermaGuard - Multi-Agent  Internal Bug Bounty Hunters",
-      "recommendation": "pursue",
-      "total_score": 91,
-      "bounty_amount_usd": 0,
-      "competition_risk": 7,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "negative:migration",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error"
       ]
     },
     {
@@ -90,6 +71,22 @@
         "task:add ",
         "claims:2",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "number": 67139,
+      "title": "[Feature Request] Add Fable support to Claude Code CLI for cybersecurity workflows for users accepted to your Cyber Verified Program.",
+      "recommendation": "review",
+      "total_score": 76,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:support",
+        "task:add "
       ]
     },
     {
