@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-06-13T11:25:46Z",
+  "generated_at_utc": "2026-06-13T14:27:34Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -26,27 +26,6 @@
         "task:fix",
         "task:support",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "number": 67139,
-      "title": "[Feature Request] Add Fable support to Claude Code CLI for cybersecurity workflows for users accepted to your Cyber Verified Program.",
-      "url": "https://github.com/anthropics/claude-code/issues/67139",
-      "recommendation": "review",
-      "total_score": 76,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 24,
-      "actionability": 6,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:support",
-        "task:add "
       ]
     }
   ]

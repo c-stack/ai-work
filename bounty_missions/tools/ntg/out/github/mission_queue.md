@@ -3,4 +3,3 @@
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
 | review | 95 | tenstorrent/tt-metal | 46862 | C++ | Bounty signals exist, but noisy wording needs a manual sanity check. | bounty:bounty, negative:benchmark, negative:alternatives, action:error | [open](https://github.com/tenstorrent/tt-metal/issues/46862) |
-| review | 76 | anthropics/claude-code | 67139 | Python | Likely bounty, but the issue still needs manual scoping before coding. | bounty:bug bounty, bounty:bounty, task:support, task:add  | [open](https://github.com/anthropics/claude-code/issues/67139) |

@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-06-13T11:25:46Z",
+  "generated_at_utc": "2026-06-13T14:27:34Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 19,
-    "merged": 24
+    "merged": 23
   },
   "recommendations": {
     "pursue": 0,
-    "review": 2,
+    "review": 1,
     "skip": 22
   },
   "top_candidates": [
@@ -71,22 +71,6 @@
         "task:add ",
         "claims:2",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "number": 67139,
-      "title": "[Feature Request] Add Fable support to Claude Code CLI for cybersecurity workflows for users accepted to your Cyber Verified Program.",
-      "recommendation": "review",
-      "total_score": 76,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:support",
-        "task:add "
       ]
     },
     {
@@ -208,6 +192,29 @@
         "task:support",
         "task:implement",
         "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4758,
+      "title": "Improve usage limits visibility UX and DX",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 150,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:spam",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:3",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }

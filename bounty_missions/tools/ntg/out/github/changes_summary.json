@@ -25,14 +25,6 @@
       "total_score": 78
     },
     {
-      "repo": "anthropics/claude-code",
-      "number": 67139,
-      "title": "[Feature Request] Add Fable support to Claude Code CLI for cybersecurity workflows for users accepted to your Cyber Verified Program.",
-      "url": "https://github.com/anthropics/claude-code/issues/67139",
-      "recommendation": "review",
-      "total_score": 76
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
