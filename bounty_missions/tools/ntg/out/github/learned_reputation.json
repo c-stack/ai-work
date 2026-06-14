@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-14T12:16:37Z",
+  "generated_at_utc": "2026-06-14T14:32:43Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,15 +14,6 @@
       "pursue_count": 0,
       "unique_issues": [
         46862
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        6882
       ]
     },
     "projectdiscovery/nuclei": {
@@ -66,16 +57,6 @@
         373
       ]
     },
-    "algora-io/algora": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        337,
-        338
-      ]
-    },
     "antinomyhq/forge": {
       "total_seen": 1,
       "skip_count": 1,
@@ -112,6 +93,16 @@
       "pursue_count": 0,
       "unique_issues": [
         34
+      ]
+    },
+    "algora-io/algora": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        337,
+        340
       ]
     },
     "tscircuit/dsn-converter": {
@@ -196,7 +187,7 @@
       "pursue_count": 0,
       "unique_issues": [
         337,
-        338
+        340
       ]
     },
     {
@@ -298,16 +289,6 @@
       "pursue_count": 0,
       "unique_issues": [
         46862
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        6882
       ]
     }
   ]

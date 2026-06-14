@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-14T12:16:37Z",
+  "generated_at_utc": "2026-06-14T14:32:43Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 19,
-    "merged": 23
+    "merged": 22
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 1,
     "skip": 21
   },
@@ -29,24 +29,6 @@
         "task:fix",
         "task:support",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6882,
-      "title": "Login should reject unverified credentials",
-      "recommendation": "pursue",
-      "total_score": 93,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:add ",
-        "task:bug"
       ]
     },
     {
@@ -151,23 +133,6 @@
       ]
     },
     {
-      "repo": "algora-io/algora",
-      "number": 338,
-      "title": "TSPerf challenge submission: tsperf-type-lens",
-      "recommendation": "skip",
-      "total_score": 51,
-      "bounty_amount_usd": 0,
-      "competition_risk": 6,
-      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
-      "decision_signals": [
-        "platform:algora",
-        "negative:benchmark",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 5033,
       "title": "Bad UX on Knowledge/Connectors file upload failure",
@@ -207,6 +172,48 @@
         "task:fix",
         "task:support",
         "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
         "existing-work:1",
         "support:support-politeness"
       ]

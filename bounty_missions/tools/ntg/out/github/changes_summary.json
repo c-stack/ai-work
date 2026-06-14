@@ -9,14 +9,6 @@
       "total_score": 95
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6882,
-      "title": "Login should reject unverified credentials",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6882",
-      "recommendation": "pursue",
-      "total_score": 93
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -55,14 +47,6 @@
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
       "recommendation": "skip",
       "total_score": 58
-    },
-    {
-      "repo": "algora-io/algora",
-      "number": 338,
-      "title": "TSPerf challenge submission: tsperf-type-lens",
-      "url": "https://github.com/algora-io/algora/issues/338",
-      "recommendation": "skip",
-      "total_score": 51
     },
     {
       "repo": "archestra-ai/archestra",
@@ -143,6 +127,14 @@
       "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
       "total_score": 29
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 340,
+      "title": "Please reset payout account and enable USDC payout address",
+      "url": "https://github.com/algora-io/algora/issues/340",
+      "recommendation": "skip",
+      "total_score": 23
     },
     {
       "repo": "revertinc/revert",
