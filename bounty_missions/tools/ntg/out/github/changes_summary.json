@@ -9,6 +9,14 @@
       "total_score": 95
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6882,
+      "title": "Login should reject unverified credentials",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6882",
+      "recommendation": "pursue",
+      "total_score": 93
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -17,26 +25,10 @@
       "total_score": 82
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6332,
-      "title": "Payment currency should normalize to lowercase before processing",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6332",
-      "recommendation": "skip",
-      "total_score": 78
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
       "url": "https://github.com/archestra-ai/archestra/issues/4998",
-      "recommendation": "skip",
-      "total_score": 75
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6334",
       "recommendation": "skip",
       "total_score": 75
     },
@@ -63,6 +55,14 @@
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
       "recommendation": "skip",
       "total_score": 58
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 338,
+      "title": "TSPerf challenge submission: tsperf-type-lens",
+      "url": "https://github.com/algora-io/algora/issues/338",
+      "recommendation": "skip",
+      "total_score": 51
     },
     {
       "repo": "archestra-ai/archestra",

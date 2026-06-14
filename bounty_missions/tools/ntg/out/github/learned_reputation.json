@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-13T22:20:29Z",
+  "generated_at_utc": "2026-06-14T00:21:59Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -16,6 +16,15 @@
         46862
       ]
     },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        6882
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -24,16 +33,6 @@
       "unique_issues": [
         6532,
         6674
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        6332,
-        6334
       ]
     },
     "archestra-ai/archestra": {
@@ -65,6 +64,16 @@
       "pursue_count": 0,
       "unique_issues": [
         373
+      ]
+    },
+    "algora-io/algora": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        337,
+        338
       ]
     },
     "antinomyhq/forge": {
@@ -103,15 +112,6 @@
       "pursue_count": 0,
       "unique_issues": [
         34
-      ]
-    },
-    "algora-io/algora": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        337
       ]
     },
     "tscircuit/dsn-converter": {
@@ -189,14 +189,14 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
+      "repo": "algora-io/algora",
       "total_seen": 2,
       "skip_count": 2,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
-        6332,
-        6334
+        337,
+        338
       ]
     },
     {
@@ -281,16 +281,6 @@
       ]
     },
     {
-      "repo": "algora-io/algora",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        337
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -308,6 +298,16 @@
       "pursue_count": 0,
       "unique_issues": [
         46862
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        6882
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-06-13T22:20:29Z",
+  "generated_at_utc": "2026-06-14T00:21:59Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -26,6 +26,29 @@
         "task:fix",
         "task:support",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6882,
+      "title": "Login should reject unverified credentials",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/6882",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
       ]
     }
   ]

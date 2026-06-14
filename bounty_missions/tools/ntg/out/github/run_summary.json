@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-13T22:20:29Z",
+  "generated_at_utc": "2026-06-14T00:21:59Z",
   "source_counts": {
     "github": 4,
     "algora": 19,
     "merged": 23
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 1,
-    "skip": 22
+    "skip": 21
   },
   "top_candidates": [
     {
@@ -29,6 +29,24 @@
         "task:fix",
         "task:support",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 6882,
+      "title": "Login should reject unverified credentials",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
       ]
     },
     {
@@ -53,27 +71,6 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6332,
-      "title": "Payment currency should normalize to lowercase before processing",
-      "recommendation": "skip",
-      "total_score": 78,
-      "bounty_amount_usd": 0,
-      "competition_risk": 28,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1"
-      ]
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 4998,
       "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
@@ -93,27 +90,6 @@
         "claims:3",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 6334,
-      "title": "User service should not store submitted passwords",
-      "recommendation": "skip",
-      "total_score": 75,
-      "bounty_amount_usd": 0,
-      "competition_risk": 30,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:implement",
-        "claims:2",
-        "existing-work:1"
       ]
     },
     {
@@ -172,6 +148,23 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "algora-io/algora",
+      "number": 338,
+      "title": "TSPerf challenge submission: tsperf-type-lens",
+      "recommendation": "skip",
+      "total_score": 51,
+      "bounty_amount_usd": 0,
+      "competition_risk": 6,
+      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "decision_signals": [
+        "platform:algora",
+        "negative:benchmark",
+        "action:fix",
+        "task:fix",
+        "task:implement"
       ]
     },
     {
