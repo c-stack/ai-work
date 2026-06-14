@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-14T16:47:31Z",
+  "generated_at_utc": "2026-06-14T18:45:44Z",
   "source_counts": {
     "github": 2,
     "algora": 19,
@@ -99,9 +99,9 @@
       "number": 3855,
       "title": "Create WindMill MCP Apps MCP server",
       "recommendation": "skip",
-      "total_score": 69,
+      "total_score": 68,
       "bounty_amount_usd": 400,
-      "competition_risk": 28,
+      "competition_risk": 29,
       "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",
