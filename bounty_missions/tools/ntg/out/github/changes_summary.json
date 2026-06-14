@@ -6,7 +6,7 @@
       "title": "[Bounty $5000] [SFPU] Optimize `atanh`, `asinh`, and `acosh` with Numerically Stable `log1p`-Based Implementations (WH B0/BH)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/46862",
       "recommendation": "review",
-      "total_score": 95
+      "total_score": 87
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -127,14 +127,6 @@
       "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
       "total_score": 29
-    },
-    {
-      "repo": "algora-io/algora",
-      "number": 340,
-      "title": "Please reset payout account and enable USDC payout address",
-      "url": "https://github.com/algora-io/algora/issues/340",
-      "recommendation": "skip",
-      "total_score": 23
     },
     {
       "repo": "revertinc/revert",
