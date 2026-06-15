@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-15T07:40:19Z",
+  "generated_at_utc": "2026-06-15T14:36:04Z",
   "source_counts": {
     "github": 2,
     "algora": 19,
@@ -16,7 +16,7 @@
       "number": 46862,
       "title": "[Bounty $5000] [SFPU] Optimize `atanh`, `asinh`, and `acosh` with Numerically Stable `log1p`-Based Implementations (WH B0/BH)",
       "recommendation": "review",
-      "total_score": 87,
+      "total_score": 88,
       "bounty_amount_usd": 5000,
       "competition_risk": 20,
       "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",

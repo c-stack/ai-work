@@ -6,7 +6,7 @@
       "title": "[Bounty $5000] [SFPU] Optimize `atanh`, `asinh`, and `acosh` with Numerically Stable `log1p`-Based Implementations (WH B0/BH)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/46862",
       "recommendation": "review",
-      "total_score": 87
+      "total_score": 88
     },
     {
       "repo": "projectdiscovery/nuclei",
