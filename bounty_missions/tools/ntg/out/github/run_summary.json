@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-06-15T19:09:46Z",
+  "generated_at_utc": "2026-06-15T21:50:33Z",
   "source_counts": {
-    "github": 2,
+    "github": 3,
     "algora": 19,
-    "merged": 21
+    "merged": 22
   },
   "recommendations": {
     "pursue": 0,
-    "review": 1,
+    "review": 2,
     "skip": 20
   },
   "top_candidates": [
@@ -18,7 +18,7 @@
       "recommendation": "review",
       "total_score": 88,
       "bounty_amount_usd": 5000,
-      "competition_risk": 20,
+      "competition_risk": 21,
       "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
       "decision_signals": [
         "bounty:bounty",
@@ -92,6 +92,19 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 47128,
+      "title": "[Bounty $5] FRAME INTERPOLATION  bring up using TTNN APIs",
+      "recommendation": "review",
+      "total_score": 70,
+      "bounty_amount_usd": 0,
+      "competition_risk": 4,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty"
       ]
     },
     {
@@ -193,28 +206,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

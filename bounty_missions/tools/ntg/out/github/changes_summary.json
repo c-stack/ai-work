@@ -33,6 +33,14 @@
       "total_score": 73
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 47128,
+      "title": "[Bounty $5] FRAME INTERPOLATION  bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/47128",
+      "recommendation": "review",
+      "total_score": 70
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 3855,
       "title": "Create WindMill MCP Apps MCP server",

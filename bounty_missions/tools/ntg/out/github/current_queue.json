@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-06-15T19:09:46Z",
+  "generated_at_utc": "2026-06-15T21:50:33Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -15,7 +15,7 @@
       "actionability": 58,
       "bounty_amount_usd": 5000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 20,
+      "competition_risk": 21,
       "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
       "decision_signals": [
         "bounty:bounty",
@@ -26,6 +26,24 @@
         "task:fix",
         "task:support",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 47128,
+      "title": "[Bounty $5] FRAME INTERPOLATION  bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/47128",
+      "recommendation": "review",
+      "total_score": 70,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 22,
+      "actionability": 8,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 4,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty"
       ]
     }
   ]
