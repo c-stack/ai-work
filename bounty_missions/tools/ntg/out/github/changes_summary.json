@@ -54,7 +54,7 @@
       "title": "Bad UX on Knowledge/Connectors file upload failure",
       "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
-      "total_score": 51
+      "total_score": 50
     },
     {
       "repo": "archestra-ai/archestra",
