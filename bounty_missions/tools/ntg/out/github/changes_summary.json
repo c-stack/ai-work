@@ -6,7 +6,7 @@
       "title": "PR template omits Algora claim marker for bounty submissions",
       "url": "https://github.com/xevrion-v2/agent-playground/issues/1813",
       "recommendation": "pursue",
-      "total_score": 118
+      "total_score": 106
     },
     {
       "repo": "projectdiscovery/nuclei",

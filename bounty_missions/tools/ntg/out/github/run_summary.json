@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-16T05:34:19Z",
+  "generated_at_utc": "2026-06-16T11:35:25Z",
   "source_counts": {
     "github": 3,
     "algora": 19,
@@ -16,9 +16,9 @@
       "number": 1813,
       "title": "PR template omits Algora claim marker for bounty submissions",
       "recommendation": "pursue",
-      "total_score": 118,
+      "total_score": 106,
       "bounty_amount_usd": 50,
-      "competition_risk": 0,
+      "competition_risk": 15,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -26,7 +26,9 @@
         "platform:algora",
         "action:expected behavior",
         "action:acceptance criteria",
-        "task:bug"
+        "task:add ",
+        "task:bug",
+        "claims:2"
       ]
     },
     {
