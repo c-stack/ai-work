@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-09T04:36:30Z",
+  "generated_at_utc": "2026-06-16T00:03:06Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260609T043524Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260616T000212Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -16,20 +16,12 @@
         "total_score": 82
       },
       {
-        "repo": "SecureBananaLabs/bug-bounty",
-        "number": 5162,
-        "title": "Reject upload requests that omit the multipart file field",
-        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/5162",
-        "recommendation": "skip",
-        "total_score": 80
-      },
-      {
         "repo": "archestra-ai/archestra",
         "number": 4998,
         "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
         "url": "https://github.com/archestra-ai/archestra/issues/4998",
         "recommendation": "skip",
-        "total_score": 76
+        "total_score": 75
       },
       {
         "repo": "Dokploy/templates",
@@ -40,20 +32,12 @@
         "total_score": 73
       },
       {
-        "repo": "algora-io/algora",
-        "number": 329,
-        "title": "[Bug] Successful GitHub login redirects to /home which returns 404",
-        "url": "https://github.com/algora-io/algora/issues/329",
-        "recommendation": "skip",
-        "total_score": 69
-      },
-      {
         "repo": "archestra-ai/archestra",
         "number": 3855,
         "title": "Create WindMill MCP Apps MCP server",
         "url": "https://github.com/archestra-ai/archestra/issues/3855",
         "recommendation": "skip",
-        "total_score": 69
+        "total_score": 68
       },
       {
         "repo": "tailcallhq/tailcallhq.github.io",
@@ -69,15 +53,7 @@
         "title": "Bad UX on Knowledge/Connectors file upload failure",
         "url": "https://github.com/archestra-ai/archestra/issues/5033",
         "recommendation": "skip",
-        "total_score": 52
-      },
-      {
-        "repo": "tscircuit/schematic-trace-solver",
-        "number": 29,
-        "title": "New Phase To combine same-net trace segments that are close together",
-        "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
-        "recommendation": "skip",
-        "total_score": 47
+        "total_score": 50
       },
       {
         "repo": "archestra-ai/archestra",
@@ -100,14 +76,6 @@
         "number": 6532,
         "title": "Integrate typos tool into CI",
         "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
-        "recommendation": "skip",
-        "total_score": 44
-      },
-      {
-        "repo": "tscircuit/dsn-converter",
-        "number": 54,
-        "title": "We can't convert Smoothie Board to Circuit JSON",
-        "url": "https://github.com/tscircuit/dsn-converter/issues/54",
         "recommendation": "skip",
         "total_score": 44
       },
@@ -144,6 +112,22 @@
         "total_score": 34
       },
       {
+        "repo": "tscircuit/dsn-converter",
+        "number": 54,
+        "title": "We can't convert Smoothie Board to Circuit JSON",
+        "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+        "recommendation": "skip",
+        "total_score": 29
+      },
+      {
+        "repo": "algora-io/algora",
+        "number": 340,
+        "title": "Please reset payout account and enable USDC payout address",
+        "url": "https://github.com/algora-io/algora/issues/340",
+        "recommendation": "skip",
+        "total_score": 23
+      },
+      {
         "repo": "revertinc/revert",
         "number": 551,
         "title": "[REVER-51] Workable Integration",
@@ -173,15 +157,7 @@
         "title": "Add `is_extended_promotional ` column to components (from data source)",
         "url": "https://github.com/tscircuit/jlcsearch/issues/92",
         "recommendation": "skip",
-        "total_score": 17
-      },
-      {
-        "repo": "tenstorrent/tt-metal",
-        "number": 46412,
-        "title": "[tt-train]: GRPO Training Does Not Work With Small Microbatch Sizes.",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/46412",
-        "recommendation": "skip",
-        "total_score": 9
+        "total_score": 16
       },
       {
         "repo": "Dokploy/dokploy",

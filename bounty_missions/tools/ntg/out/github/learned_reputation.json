@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-15T21:50:33Z",
+  "generated_at_utc": "2026-06-16T00:03:06Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,16 +7,6 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
-    "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 0,
-      "unique_issues": [
-        46862,
-        47128
-      ]
-    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -96,15 +86,6 @@
         34
       ]
     },
-    "algora-io/algora": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        337
-      ]
-    },
     "tscircuit/dsn-converter": {
       "total_seen": 1,
       "skip_count": 1,
@@ -112,6 +93,15 @@
       "pursue_count": 0,
       "unique_issues": [
         54
+      ]
+    },
+    "algora-io/algora": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        340
       ]
     },
     "tailcallhq/graphql-conf-2024": {
@@ -267,7 +257,7 @@
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
-        337
+        340
       ]
     },
     {
@@ -278,17 +268,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 0,
-      "unique_issues": [
-        46862,
-        47128
       ]
     }
   ]

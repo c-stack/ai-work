@@ -1,36 +1,16 @@
 {
-  "generated_at_utc": "2026-06-15T21:50:33Z",
+  "generated_at_utc": "2026-06-16T00:03:06Z",
   "source_counts": {
-    "github": 3,
+    "github": 1,
     "algora": 19,
-    "merged": 22
+    "merged": 20
   },
   "recommendations": {
     "pursue": 0,
-    "review": 2,
+    "review": 0,
     "skip": 20
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 46862,
-      "title": "[Bounty $5000] [SFPU] Optimize `atanh`, `asinh`, and `acosh` with Numerically Stable `log1p`-Based Implementations (WH B0/BH)",
-      "recommendation": "review",
-      "total_score": 88,
-      "bounty_amount_usd": 5000,
-      "competition_risk": 21,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "negative:benchmarks",
-        "action:error",
-        "action:failing",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -92,19 +72,6 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 47128,
-      "title": "[Bounty $5] FRAME INTERPOLATION  bring up using TTNN APIs",
-      "recommendation": "review",
-      "total_score": 70,
-      "bounty_amount_usd": 0,
-      "competition_risk": 4,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty"
       ]
     },
     {
@@ -207,6 +174,50 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 43,
+      "bounty_amount_usd": 100,
+      "competition_risk": 59,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
       ]
     }
   ],
