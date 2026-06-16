@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-16T17:22:30Z",
+  "generated_at_utc": "2026-06-16T21:21:12Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,16 +7,6 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
-    "xevrion-v2/agent-playground": {
-      "total_seen": 2,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        1812,
-        1813
-      ]
-    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -49,13 +39,23 @@
         152
       ]
     },
-    "SecureBananaLabs/bug-bounty": {
+    "xevrion-v2/agent-playground": {
       "total_seen": 1,
       "skip_count": 1,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
-        7290
+        1812
+      ]
+    },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        7290,
+        7458
       ]
     },
     "tailcallhq/tailcallhq.github.io": {
@@ -180,6 +180,17 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        7290,
+        7458
+      ]
+    },
+    {
       "repo": "Dokploy/dokploy",
       "total_seen": 2,
       "skip_count": 2,
@@ -192,13 +203,12 @@
     },
     {
       "repo": "xevrion-v2/agent-playground",
-      "total_seen": 2,
+      "total_seen": 1,
       "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
-        1812,
-        1813
+        1812
       ]
     },
     {
@@ -269,16 +279,6 @@
       "pursue_count": 0,
       "unique_issues": [
         389
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        7290
       ]
     },
     {

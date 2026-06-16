@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-16T00:03:06Z",
+  "generated_at_utc": "2026-06-16T21:21:12Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260616T000212Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260616T212004Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -38,6 +38,30 @@
         "url": "https://github.com/archestra-ai/archestra/issues/3855",
         "recommendation": "skip",
         "total_score": 68
+      },
+      {
+        "repo": "xevrion-v2/agent-playground",
+        "number": 1812,
+        "title": "Urgent \u2013 Payment Issue for Bounty #17",
+        "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
+        "recommendation": "skip",
+        "total_score": 63
+      },
+      {
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 7290,
+        "title": "Urgent \u2013 Payment Issue for Bounty #2885",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7290",
+        "recommendation": "skip",
+        "total_score": 62
+      },
+      {
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 7458,
+        "title": "Urgent: Payout blocked for completed bounty #2885",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7458",
+        "recommendation": "skip",
+        "total_score": 62
       },
       {
         "repo": "tailcallhq/tailcallhq.github.io",
@@ -118,14 +142,6 @@
         "url": "https://github.com/tscircuit/dsn-converter/issues/54",
         "recommendation": "skip",
         "total_score": 29
-      },
-      {
-        "repo": "algora-io/algora",
-        "number": 340,
-        "title": "Please reset payout account and enable USDC payout address",
-        "url": "https://github.com/algora-io/algora/issues/340",
-        "recommendation": "skip",
-        "total_score": 23
       },
       {
         "repo": "revertinc/revert",
