@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-16T11:35:25Z",
+  "generated_at_utc": "2026-06-16T17:22:30Z",
   "source_counts": {
     "github": 3,
     "algora": 19,
@@ -18,7 +18,7 @@
       "recommendation": "pursue",
       "total_score": 106,
       "bounty_amount_usd": 50,
-      "competition_risk": 15,
+      "competition_risk": 16,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
