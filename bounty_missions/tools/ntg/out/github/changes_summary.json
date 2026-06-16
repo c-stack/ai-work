@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "xevrion-v2/agent-playground",
+      "number": 1813,
+      "title": "PR template omits Algora claim marker for bounty submissions",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/1813",
+      "recommendation": "pursue",
+      "total_score": 118
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -31,6 +39,22 @@
       "url": "https://github.com/archestra-ai/archestra/issues/3855",
       "recommendation": "skip",
       "total_score": 68
+    },
+    {
+      "repo": "xevrion-v2/agent-playground",
+      "number": 1812,
+      "title": "Urgent \u2013 Payment Issue for Bounty #17",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
+      "recommendation": "skip",
+      "total_score": 63
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7290,
+      "title": "Urgent \u2013 Payment Issue for Bounty #2885",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7290",
+      "recommendation": "skip",
+      "total_score": 62
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",
@@ -111,14 +135,6 @@
       "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
       "total_score": 29
-    },
-    {
-      "repo": "algora-io/algora",
-      "number": 340,
-      "title": "Please reset payout account and enable USDC payout address",
-      "url": "https://github.com/algora-io/algora/issues/340",
-      "recommendation": "skip",
-      "total_score": 23
     },
     {
       "repo": "revertinc/revert",

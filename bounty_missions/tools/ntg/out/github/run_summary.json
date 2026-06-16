@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-06-16T00:03:06Z",
+  "generated_at_utc": "2026-06-16T05:34:19Z",
   "source_counts": {
-    "github": 1,
+    "github": 3,
     "algora": 19,
-    "merged": 20
+    "merged": 22
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
-    "skip": 20
+    "skip": 21
   },
   "top_candidates": [
+    {
+      "repo": "xevrion-v2/agent-playground",
+      "number": 1813,
+      "title": "PR template omits Algora claim marker for bounty submissions",
+      "recommendation": "pursue",
+      "total_score": 118,
+      "bounty_amount_usd": 50,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:acceptance criteria",
+        "task:bug"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -94,6 +112,40 @@
       ]
     },
     {
+      "repo": "xevrion-v2/agent-playground",
+      "number": 1812,
+      "title": "Urgent \u2013 Payment Issue for Bounty #17",
+      "recommendation": "skip",
+      "total_score": 63,
+      "bounty_amount_usd": 0,
+      "competition_risk": 12,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:support",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7290,
+      "title": "Urgent \u2013 Payment Issue for Bounty #2885",
+      "recommendation": "skip",
+      "total_score": 62,
+      "bounty_amount_usd": 0,
+      "competition_risk": 12,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:support",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -154,70 +206,6 @@
         "claims:3",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 43,
-      "bounty_amount_usd": 100,
-      "competition_risk": 59,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
       ]
     }
   ],
