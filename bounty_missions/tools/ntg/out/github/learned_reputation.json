@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-16T23:49:14Z",
+  "generated_at_utc": "2026-06-17T05:17:55Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -39,6 +39,15 @@
         152
       ]
     },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        7290
+      ]
+    },
     "xevrion-v2/agent-playground": {
       "total_seen": 1,
       "skip_count": 1,
@@ -46,16 +55,6 @@
       "pursue_count": 0,
       "unique_issues": [
         1812
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        7290,
-        7458
       ]
     },
     "tailcallhq/tailcallhq.github.io": {
@@ -180,17 +179,6 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        7290,
-        7458
-      ]
-    },
-    {
       "repo": "Dokploy/dokploy",
       "total_seen": 2,
       "skip_count": 2,
@@ -279,6 +267,16 @@
       "pursue_count": 0,
       "unique_issues": [
         389
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        7290
       ]
     },
     {

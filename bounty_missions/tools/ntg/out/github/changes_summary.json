@@ -33,14 +33,6 @@
       "total_score": 68
     },
     {
-      "repo": "xevrion-v2/agent-playground",
-      "number": 1812,
-      "title": "Urgent \u2013 Payment Issue for Bounty #17",
-      "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
-      "recommendation": "skip",
-      "total_score": 63
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 7290,
       "title": "Urgent \u2013 Payment Issue for Bounty #2885",
@@ -49,10 +41,10 @@
       "total_score": 62
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7458,
-      "title": "Urgent: Payout blocked for completed bounty #2885",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7458",
+      "repo": "xevrion-v2/agent-playground",
+      "number": 1812,
+      "title": "Urgent \u2013 Payment Issue for Bounty #17",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
       "recommendation": "skip",
       "total_score": 62
     },
