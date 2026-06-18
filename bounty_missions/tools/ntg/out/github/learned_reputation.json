@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-18T01:43:17Z",
+  "generated_at_utc": "2026-06-18T07:07:18Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -39,15 +39,6 @@
         152
       ]
     },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        7290
-      ]
-    },
     "xevrion-v2/agent-playground": {
       "total_seen": 1,
       "skip_count": 1,
@@ -55,6 +46,15 @@
       "pursue_count": 0,
       "unique_issues": [
         1812
+      ]
+    },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        7290
       ]
     },
     "tailcallhq/tailcallhq.github.io": {

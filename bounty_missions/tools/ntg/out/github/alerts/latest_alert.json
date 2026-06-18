@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-18T01:43:17Z",
+  "generated_at_utc": "2026-06-18T07:07:18Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260618T014213Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260618T070613Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -40,20 +40,20 @@
         "total_score": 68
       },
       {
-        "repo": "SecureBananaLabs/bug-bounty",
-        "number": 7290,
-        "title": "Urgent \u2013 Payment Issue for Bounty #2885",
-        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7290",
-        "recommendation": "skip",
-        "total_score": 62
-      },
-      {
         "repo": "xevrion-v2/agent-playground",
         "number": 1812,
         "title": "Urgent \u2013 Payment Issue for Bounty #17",
         "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
         "recommendation": "skip",
         "total_score": 62
+      },
+      {
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 7290,
+        "title": "Urgent \u2013 Payment Issue for Bounty #2885",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7290",
+        "recommendation": "skip",
+        "total_score": 61
       },
       {
         "repo": "tailcallhq/tailcallhq.github.io",

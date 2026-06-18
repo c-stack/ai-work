@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-18T01:43:17Z",
+  "generated_at_utc": "2026-06-18T07:07:18Z",
   "source_counts": {
     "github": 2,
     "algora": 19,
@@ -94,9 +94,9 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7290,
-      "title": "Urgent \u2013 Payment Issue for Bounty #2885",
+      "repo": "xevrion-v2/agent-playground",
+      "number": 1812,
+      "title": "Urgent \u2013 Payment Issue for Bounty #17",
       "recommendation": "skip",
       "total_score": 62,
       "bounty_amount_usd": 0,
@@ -111,11 +111,11 @@
       ]
     },
     {
-      "repo": "xevrion-v2/agent-playground",
-      "number": 1812,
-      "title": "Urgent \u2013 Payment Issue for Bounty #17",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7290,
+      "title": "Urgent \u2013 Payment Issue for Bounty #2885",
       "recommendation": "skip",
-      "total_score": 62,
+      "total_score": 61,
       "bounty_amount_usd": 0,
       "competition_risk": 12,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
