@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-19T10:58:13Z",
+  "generated_at_utc": "2026-06-19T17:27:18Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260619T105705Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260619T172612Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -112,12 +112,12 @@
         "total_score": 39
       },
       {
-        "repo": "tscircuit/schematic-trace-solver",
-        "number": 34,
-        "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
-        "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+        "repo": "tscircuit/dsn-converter",
+        "number": 54,
+        "title": "We can't convert Smoothie Board to Circuit JSON",
+        "url": "https://github.com/tscircuit/dsn-converter/issues/54",
         "recommendation": "skip",
-        "total_score": 37
+        "total_score": 36
       },
       {
         "repo": "archestra-ai/archestra",
@@ -126,14 +126,6 @@
         "url": "https://github.com/archestra-ai/archestra/issues/4468",
         "recommendation": "skip",
         "total_score": 34
-      },
-      {
-        "repo": "tscircuit/dsn-converter",
-        "number": 54,
-        "title": "We can't convert Smoothie Board to Circuit JSON",
-        "url": "https://github.com/tscircuit/dsn-converter/issues/54",
-        "recommendation": "skip",
-        "total_score": 29
       },
       {
         "repo": "revertinc/revert",

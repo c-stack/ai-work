@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-19T14:22:54Z",
+  "generated_at_utc": "2026-06-19T17:27:18Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -39,13 +39,13 @@
         152
       ]
     },
-    "algora-io/algora": {
+    "SecureBananaLabs/bug-bounty": {
       "total_seen": 1,
-      "skip_count": 0,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
-        346
+        7290
       ]
     },
     "xevrion-v2/agent-playground": {
@@ -93,15 +93,6 @@
       "unique_issues": [
         372,
         551
-      ]
-    },
-    "tscircuit/schematic-trace-solver": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        34
       ]
     },
     "tscircuit/dsn-converter": {
@@ -200,16 +191,6 @@
       ]
     },
     {
-      "repo": "tscircuit/schematic-trace-solver",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        34
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -270,6 +251,16 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        7290
+      ]
+    },
+    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -277,16 +268,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "algora-io/algora",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        346
       ]
     }
   ]

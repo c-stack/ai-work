@@ -33,12 +33,12 @@
       "total_score": 68
     },
     {
-      "repo": "algora-io/algora",
-      "number": 346,
-      "title": "Payout via PayPal for deltapro12 \u2014 Stripe setup incomplete (tscircuit docs-old bounties)",
-      "url": "https://github.com/algora-io/algora/issues/346",
-      "recommendation": "pursue",
-      "total_score": 67
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7290,
+      "title": "Urgent \u2013 Payment Issue for Bounty #2885",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7290",
+      "recommendation": "skip",
+      "total_score": 61
     },
     {
       "repo": "xevrion-v2/agent-playground",
@@ -105,12 +105,12 @@
       "total_score": 39
     },
     {
-      "repo": "tscircuit/schematic-trace-solver",
-      "number": 34,
-      "title": "Merge same-net trace lines that are close together (make at the same Y or same X)",
-      "url": "https://github.com/tscircuit/schematic-trace-solver/issues/34",
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
-      "total_score": 37
+      "total_score": 36
     },
     {
       "repo": "archestra-ai/archestra",
@@ -119,14 +119,6 @@
       "url": "https://github.com/archestra-ai/archestra/issues/4468",
       "recommendation": "skip",
       "total_score": 34
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "url": "https://github.com/tscircuit/dsn-converter/issues/54",
-      "recommendation": "skip",
-      "total_score": 29
     },
     {
       "repo": "revertinc/revert",

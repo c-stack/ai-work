@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-19T14:22:54Z",
+  "generated_at_utc": "2026-06-19T17:27:18Z",
   "source_counts": {
-    "github": 2,
-    "algora": 19,
+    "github": 3,
+    "algora": 18,
     "merged": 21
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
     "skip": 20
   },
@@ -94,19 +94,20 @@
       ]
     },
     {
-      "repo": "algora-io/algora",
-      "number": 346,
-      "title": "Payout via PayPal for deltapro12 \u2014 Stripe setup incomplete (tscircuit docs-old bounties)",
-      "recommendation": "pursue",
-      "total_score": 67,
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7290,
+      "title": "Urgent \u2013 Payment Issue for Bounty #2885",
+      "recommendation": "skip",
+      "total_score": 61,
       "bounty_amount_usd": 0,
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 12,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
         "task:support",
-        "claims:1"
+        "existing-work:1",
+        "support:support-politeness"
       ]
     },
     {
