@@ -1,6 +1,28 @@
 {
-  "generated_at_utc": "2026-06-19T10:58:13Z",
+  "generated_at_utc": "2026-06-19T14:22:54Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "algora-io/algora",
+      "number": 346,
+      "title": "Payout via PayPal for deltapro12 \u2014 Stripe setup incomplete (tscircuit docs-old bounties)",
+      "url": "https://github.com/algora-io/algora/issues/346",
+      "recommendation": "pursue",
+      "total_score": 67,
+      "repo_primary_language": "Elixir",
+      "bounty_confidence": 17,
+      "actionability": 16,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 9,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:support",
+        "claims:1"
+      ]
+    }
+  ]
 }
