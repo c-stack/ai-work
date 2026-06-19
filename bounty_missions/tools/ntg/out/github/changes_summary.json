@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "Tarsnap/tarsnap",
+      "number": 696,
+      "title": "[bug bounty] --verify-config crashes on passphrase without an argument",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/696",
+      "recommendation": "skip",
+      "total_score": 110
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -33,18 +41,18 @@
       "total_score": 68
     },
     {
-      "repo": "xevrion-v2/agent-playground",
-      "number": 1812,
-      "title": "Urgent \u2013 Payment Issue for Bounty #17",
-      "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
-      "recommendation": "skip",
-      "total_score": 62
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 7290,
       "title": "Urgent \u2013 Payment Issue for Bounty #2885",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7290",
+      "recommendation": "skip",
+      "total_score": 61
+    },
+    {
+      "repo": "xevrion-v2/agent-playground",
+      "number": 1812,
+      "title": "Urgent \u2013 Payment Issue for Bounty #17",
+      "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
       "recommendation": "skip",
       "total_score": 61
     },
