@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-19T20:04:31Z",
+  "generated_at_utc": "2026-06-19T21:35:35Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -64,6 +64,15 @@
       "pursue_count": 0,
       "unique_issues": [
         373
+      ]
+    },
+    "AmanVarshney01/create-better-t-stack": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1077
       ]
     },
     "antinomyhq/forge": {
@@ -268,6 +277,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "AmanVarshney01/create-better-t-stack",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1077
       ]
     }
   ]

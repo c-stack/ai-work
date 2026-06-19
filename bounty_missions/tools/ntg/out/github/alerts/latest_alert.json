@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-19T20:04:31Z",
+  "generated_at_utc": "2026-06-19T21:35:35Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260619T200328Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260619T213433Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -70,6 +70,14 @@
         "url": "https://github.com/archestra-ai/archestra/issues/5033",
         "recommendation": "skip",
         "total_score": 50
+      },
+      {
+        "repo": "AmanVarshney01/create-better-t-stack",
+        "number": 1077,
+        "title": "Enhancement: add Mollie as a payment provider option in the builder (next to Polar.sh)",
+        "url": "https://github.com/AmanVarshney01/create-better-t-stack/issues/1077",
+        "recommendation": "skip",
+        "total_score": 49
       },
       {
         "repo": "archestra-ai/archestra",

@@ -65,6 +65,14 @@
       "total_score": 50
     },
     {
+      "repo": "AmanVarshney01/create-better-t-stack",
+      "number": 1077,
+      "title": "Enhancement: add Mollie as a payment provider option in the builder (next to Polar.sh)",
+      "url": "https://github.com/AmanVarshney01/create-better-t-stack/issues/1077",
+      "recommendation": "skip",
+      "total_score": 49
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 4758,
       "title": "Improve usage limits visibility UX and DX",
