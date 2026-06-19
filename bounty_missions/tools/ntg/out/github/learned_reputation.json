@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-19T05:25:43Z",
+  "generated_at_utc": "2026-06-19T10:58:13Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,15 +7,6 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
-    "Tarsnap/tarsnap": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        696
-      ]
-    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -276,16 +267,6 @@
       "pursue_count": 0,
       "unique_issues": [
         389
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        696
       ]
     },
     {

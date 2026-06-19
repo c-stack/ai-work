@@ -1,35 +1,16 @@
 {
-  "generated_at_utc": "2026-06-19T05:25:43Z",
+  "generated_at_utc": "2026-06-19T10:58:13Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 19,
-    "merged": 22
+    "merged": 21
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 22
+    "skip": 21
   },
   "top_candidates": [
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 696,
-      "title": "[bug bounty] --verify-config crashes on passphrase without an argument",
-      "recommendation": "skip",
-      "total_score": 110,
-      "bounty_amount_usd": 0,
-      "competition_risk": 15,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:error",
-        "existing-work:1"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -206,6 +187,26 @@
         "task:support",
         "claims:3",
         "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
         "support:support-politeness"
       ]
     }
