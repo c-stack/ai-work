@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T10:14:56Z",
+  "generated_at_utc": "2026-06-20T12:11:34Z",
   "source_counts": {
     "github": 4,
     "algora": 18,
@@ -16,7 +16,7 @@
       "number": 7920,
       "title": "Refresh endpoint should require a valid refresh token",
       "recommendation": "pursue",
-      "total_score": 97,
+      "total_score": 96,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

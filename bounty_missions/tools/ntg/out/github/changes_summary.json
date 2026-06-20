@@ -6,7 +6,7 @@
       "title": "Refresh endpoint should require a valid refresh token",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7920",
       "recommendation": "pursue",
-      "total_score": 97
+      "total_score": 96
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",

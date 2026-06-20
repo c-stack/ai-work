@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T10:14:56Z",
+  "generated_at_utc": "2026-06-20T12:11:34Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -9,7 +9,7 @@
       "title": "Refresh endpoint should require a valid refresh token",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7920",
       "recommendation": "pursue",
-      "total_score": 97,
+      "total_score": 96,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
       "actionability": 36,
