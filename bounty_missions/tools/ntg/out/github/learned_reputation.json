@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-20T20:42:45Z",
+  "generated_at_utc": "2026-06-20T22:36:15Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -41,15 +41,6 @@
         5033
       ]
     },
-    "Dokploy/templates": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        152
-      ]
-    },
     "tailcallhq/tailcallhq.github.io": {
       "total_seen": 1,
       "skip_count": 1,
@@ -75,16 +66,6 @@
       "pursue_count": 0,
       "unique_issues": [
         389
-      ]
-    },
-    "Dokploy/dokploy": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        416,
-        1413
       ]
     },
     "revertinc/revert": {
@@ -172,17 +153,6 @@
       ]
     },
     {
-      "repo": "Dokploy/dokploy",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        416,
-        1413
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -240,16 +210,6 @@
       "pursue_count": 0,
       "unique_issues": [
         389
-      ]
-    },
-    {
-      "repo": "Dokploy/templates",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        152
       ]
     },
     {

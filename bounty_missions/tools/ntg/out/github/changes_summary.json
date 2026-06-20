@@ -33,14 +33,6 @@
       "total_score": 75
     },
     {
-      "repo": "Dokploy/templates",
-      "number": 152,
-      "title": "Get Your Custom Dokploy Templates Built!",
-      "url": "https://github.com/Dokploy/templates/issues/152",
-      "recommendation": "skip",
-      "total_score": 73
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 7710,
       "title": "Payment currency should normalize before intent creation",
@@ -105,14 +97,6 @@
       "total_score": 44
     },
     {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "url": "https://github.com/Dokploy/dokploy/issues/1413",
-      "recommendation": "skip",
-      "total_score": 43
-    },
-    {
       "repo": "revertinc/revert",
       "number": 372,
       "title": "[REVER-48] Workday Integration",
@@ -167,14 +151,6 @@
       "url": "https://github.com/tscircuit/jlcsearch/issues/92",
       "recommendation": "skip",
       "total_score": 16
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 416,
-      "title": "Ability to backup to more destination types",
-      "url": "https://github.com/Dokploy/dokploy/issues/416",
-      "recommendation": "skip",
-      "total_score": 5
     }
   ],
   "dropped_items": [],

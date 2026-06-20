@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-20T20:42:45Z",
+  "generated_at_utc": "2026-06-20T22:36:15Z",
   "source_counts": {
     "github": 4,
-    "algora": 18,
-    "merged": 22
+    "algora": 15,
+    "merged": 19
   },
   "recommendations": {
     "pursue": 3,
     "review": 0,
-    "skip": 19
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -87,26 +87,6 @@
         "claims:3",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/templates",
-      "number": 152,
-      "title": "Get Your Custom Dokploy Templates Built!",
-      "recommendation": "skip",
-      "total_score": 73,
-      "bounty_amount_usd": 1000,
-      "competition_risk": 53,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:implement",
-        "task:remove",
-        "claims:2",
-        "existing-work:1"
       ]
     },
     {
@@ -196,6 +176,29 @@
         "platform:polar.sh",
         "negative:alternatives",
         "task:add "
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 4758,
+      "title": "Improve usage limits visibility UX and DX",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 150,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:spam",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],
