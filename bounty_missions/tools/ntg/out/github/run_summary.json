@@ -1,16 +1,51 @@
 {
-  "generated_at_utc": "2026-06-19T23:15:59Z",
+  "generated_at_utc": "2026-06-20T01:32:15Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 18,
-    "merged": 21
+    "merged": 22
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 3,
     "review": 0,
-    "skip": 21
+    "skip": 19
   },
   "top_candidates": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7920,
+      "title": "Refresh endpoint should require a valid refresh token",
+      "recommendation": "pursue",
+      "total_score": 97,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:fix",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7720,
+      "title": "API test script should target test files instead of tests directory",
+      "recommendation": "pursue",
+      "total_score": 94,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:bug"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -75,6 +110,21 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7710,
+      "title": "Payment currency should normalize before intent creation",
+      "recommendation": "pursue",
+      "total_score": 70,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "archestra-ai/archestra",
       "number": 3855,
       "title": "Create WindMill MCP Apps MCP server",
@@ -90,40 +140,6 @@
         "task:support",
         "task:implement",
         "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7290,
-      "title": "Urgent \u2013 Payment Issue for Bounty #2885",
-      "recommendation": "skip",
-      "total_score": 61,
-      "bounty_amount_usd": 0,
-      "competition_risk": 12,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:support",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "xevrion-v2/agent-playground",
-      "number": 1812,
-      "title": "Urgent \u2013 Payment Issue for Bounty #17",
-      "recommendation": "skip",
-      "total_score": 61,
-      "bounty_amount_usd": 0,
-      "competition_risk": 12,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:support",
-        "existing-work:1",
         "support:support-politeness"
       ]
     },
@@ -180,29 +196,6 @@
         "platform:polar.sh",
         "negative:alternatives",
         "task:add "
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 150,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
       ]
     }
   ],

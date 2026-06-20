@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-19T23:15:59Z",
+  "generated_at_utc": "2026-06-20T01:32:15Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,17 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 3,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 3,
+      "unique_issues": [
+        7710,
+        7720,
+        7920
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -37,24 +48,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        7290
-      ]
-    },
-    "xevrion-v2/agent-playground": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        1812
       ]
     },
     "tailcallhq/tailcallhq.github.io": {
@@ -190,16 +183,6 @@
       ]
     },
     {
-      "repo": "xevrion-v2/agent-playground",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        1812
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -260,16 +243,6 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        7290
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -287,6 +260,18 @@
       "pursue_count": 0,
       "unique_issues": [
         1077
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 3,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 3,
+      "unique_issues": [
+        7710,
+        7720,
+        7920
       ]
     }
   ]

@@ -1,6 +1,72 @@
 {
-  "generated_at_utc": "2026-06-19T23:15:59Z",
+  "generated_at_utc": "2026-06-20T01:32:15Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 3,
+  "items": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7920,
+      "title": "Refresh endpoint should require a valid refresh token",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7920",
+      "recommendation": "pursue",
+      "total_score": 97,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 36,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:fix",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7720,
+      "title": "API test script should target test files instead of tests directory",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7720",
+      "recommendation": "pursue",
+      "total_score": 94,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 34,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7710,
+      "title": "Payment currency should normalize before intent creation",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7710",
+      "recommendation": "pursue",
+      "total_score": 70,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 10,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug"
+      ]
+    }
+  ]
 }
