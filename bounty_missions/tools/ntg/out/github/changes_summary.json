@@ -78,7 +78,7 @@
       "title": "Enhancement: add Mollie as a payment provider option in the builder (next to Polar.sh)",
       "url": "https://github.com/AmanVarshney01/create-better-t-stack/issues/1077",
       "recommendation": "skip",
-      "total_score": 49
+      "total_score": 48
     },
     {
       "repo": "archestra-ai/archestra",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-21T20:03:23Z",
+  "generated_at_utc": "2026-06-21T21:43:26Z",
   "source_counts": {
     "github": 4,
     "algora": 18,
@@ -193,7 +193,7 @@
       "number": 1077,
       "title": "Enhancement: add Mollie as a payment provider option in the builder (next to Polar.sh)",
       "recommendation": "skip",
-      "total_score": 49,
+      "total_score": 48,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
