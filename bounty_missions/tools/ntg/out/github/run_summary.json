@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-06-20T22:36:15Z",
+  "generated_at_utc": "2026-06-21T01:40:39Z",
   "source_counts": {
     "github": 4,
-    "algora": 15,
-    "merged": 19
+    "algora": 18,
+    "merged": 22
   },
   "recommendations": {
     "pursue": 3,
     "review": 0,
-    "skip": 16
+    "skip": 19
   },
   "top_candidates": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7922,
+      "title": "GET /api/users should require authentication (reissue via #743)",
+      "recommendation": "pursue",
+      "total_score": 108,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:root cause",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 7920,
@@ -31,19 +49,21 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7720,
-      "title": "API test script should target test files instead of tests directory",
+      "number": 7995,
+      "title": "API test script should discover test files",
       "recommendation": "pursue",
-      "total_score": 94,
+      "total_score": 95,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 9,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "action:fix",
+        "action:steps to reproduce",
+        "action:root cause",
         "task:fix",
-        "task:bug"
+        "task:bug",
+        "claims:1"
       ]
     },
     {
@@ -90,18 +110,23 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7710,
-      "title": "Payment currency should normalize before intent creation",
-      "recommendation": "pursue",
-      "total_score": 70,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "repo": "Dokploy/templates",
+      "number": 152,
+      "title": "Get Your Custom Dokploy Templates Built!",
+      "recommendation": "skip",
+      "total_score": 73,
+      "bounty_amount_usd": 1000,
+      "competition_risk": 53,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
+        "bounty:/claim",
         "platform:algora",
-        "task:bug"
+        "action:error",
+        "task:implement",
+        "task:remove",
+        "claims:2",
+        "existing-work:1"
       ]
     },
     {
@@ -176,29 +201,6 @@
         "platform:polar.sh",
         "negative:alternatives",
         "task:add "
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 150,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
       ]
     }
   ],

@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7922,
+      "title": "GET /api/users should require authentication (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7922",
+      "recommendation": "pursue",
+      "total_score": 108
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
       "number": 7920,
       "title": "Refresh endpoint should require a valid refresh token",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7920",
@@ -10,11 +18,11 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7720,
-      "title": "API test script should target test files instead of tests directory",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7720",
+      "number": 7995,
+      "title": "API test script should discover test files",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7995",
       "recommendation": "pursue",
-      "total_score": 94
+      "total_score": 95
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -33,12 +41,12 @@
       "total_score": 75
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7710,
-      "title": "Payment currency should normalize before intent creation",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7710",
-      "recommendation": "pursue",
-      "total_score": 70
+      "repo": "Dokploy/templates",
+      "number": 152,
+      "title": "Get Your Custom Dokploy Templates Built!",
+      "url": "https://github.com/Dokploy/templates/issues/152",
+      "recommendation": "skip",
+      "total_score": 73
     },
     {
       "repo": "archestra-ai/archestra",
@@ -97,6 +105,14 @@
       "total_score": 44
     },
     {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "url": "https://github.com/Dokploy/dokploy/issues/1413",
+      "recommendation": "skip",
+      "total_score": 43
+    },
+    {
       "repo": "revertinc/revert",
       "number": 372,
       "title": "[REVER-48] Workday Integration",
@@ -151,6 +167,14 @@
       "url": "https://github.com/tscircuit/jlcsearch/issues/92",
       "recommendation": "skip",
       "total_score": 16
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 416,
+      "title": "Ability to backup to more destination types",
+      "url": "https://github.com/Dokploy/dokploy/issues/416",
+      "recommendation": "skip",
+      "total_score": 5
     }
   ],
   "dropped_items": [],

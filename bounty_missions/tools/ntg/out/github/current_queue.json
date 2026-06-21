@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-06-20T22:36:15Z",
+  "generated_at_utc": "2026-06-21T01:40:39Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 7922,
+      "title": "GET /api/users should require authentication (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7922",
+      "recommendation": "pursue",
+      "total_score": 108,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 48,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:root cause",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 7920,
@@ -28,44 +51,26 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7720,
-      "title": "API test script should target test files instead of tests directory",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7720",
+      "number": 7995,
+      "title": "API test script should discover test files",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7995",
       "recommendation": "pursue",
-      "total_score": 94,
+      "total_score": 95,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
-      "actionability": 34,
+      "actionability": 42,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
+      "competition_risk": 9,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "action:fix",
+        "action:steps to reproduce",
+        "action:root cause",
         "task:fix",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7710,
-      "title": "Payment currency should normalize before intent creation",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7710",
-      "recommendation": "pursue",
-      "total_score": 70,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 10,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:bug"
+        "task:bug",
+        "claims:1"
       ]
     }
   ]
