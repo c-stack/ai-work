@@ -22,7 +22,7 @@
       "title": "API test script should discover test files",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7995",
       "recommendation": "pursue",
-      "total_score": 95
+      "total_score": 94
     },
     {
       "repo": "projectdiscovery/nuclei",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-21T01:40:39Z",
+  "generated_at_utc": "2026-06-21T07:08:37Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -55,7 +55,7 @@
       "title": "API test script should discover test files",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7995",
       "recommendation": "pursue",
-      "total_score": 95,
+      "total_score": 94,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
       "actionability": 42,
