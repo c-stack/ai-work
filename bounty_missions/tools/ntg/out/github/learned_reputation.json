@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-21T23:45:31Z",
+  "generated_at_utc": "2026-06-22T05:31:41Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -8,14 +8,13 @@
   ],
   "repo_stats": {
     "SecureBananaLabs/bug-bounty": {
-      "total_seen": 3,
-      "skip_count": 0,
+      "total_seen": 2,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 3,
+      "pursue_count": 1,
       "unique_issues": [
-        7920,
-        7922,
-        7995
+        7995,
+        8065
       ]
     },
     "projectdiscovery/nuclei": {
@@ -26,6 +25,15 @@
       "unique_issues": [
         6532,
         6674
+      ]
+    },
+    "PHPOffice/PHPWord": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        2880
       ]
     },
     "archestra-ai/archestra": {
@@ -183,6 +191,17 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        7995,
+        8065
+      ]
+    },
+    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -243,6 +262,16 @@
       ]
     },
     {
+      "repo": "PHPOffice/PHPWord",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        2880
+      ]
+    },
+    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -260,18 +289,6 @@
       "pursue_count": 0,
       "unique_issues": [
         1077
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 3,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 3,
-      "unique_issues": [
-        7920,
-        7922,
-        7995
       ]
     }
   ]

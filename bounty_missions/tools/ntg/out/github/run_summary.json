@@ -1,52 +1,16 @@
 {
-  "generated_at_utc": "2026-06-21T23:45:31Z",
+  "generated_at_utc": "2026-06-22T05:31:41Z",
   "source_counts": {
     "github": 4,
     "algora": 18,
     "merged": 22
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 1,
     "review": 0,
-    "skip": 19
+    "skip": 21
   },
   "top_candidates": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7922,
-      "title": "GET /api/users should require authentication (reissue via #743)",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7920,
-      "title": "Refresh endpoint should require a valid refresh token",
-      "recommendation": "pursue",
-      "total_score": 96,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:fix",
-        "task:bug"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 7995,
@@ -64,6 +28,27 @@
         "task:fix",
         "task:bug",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8065,
+      "title": "Search endpoint should reject missing or blank queries",
+      "recommendation": "skip",
+      "total_score": 88,
+      "bounty_amount_usd": 0,
+      "competition_risk": 21,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:error",
+        "task:bug",
+        "claims:1",
+        "existing-work:1"
       ]
     },
     {
@@ -85,6 +70,23 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "PHPOffice/PHPWord",
+      "number": 2880,
+      "title": "Unable to load images in .docx",
+      "recommendation": "skip",
+      "total_score": 78,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:error"
       ]
     },
     {

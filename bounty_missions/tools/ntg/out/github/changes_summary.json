@@ -2,27 +2,19 @@
   "new_items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7922,
-      "title": "GET /api/users should require authentication (reissue via #743)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7922",
-      "recommendation": "pursue",
-      "total_score": 108
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7920,
-      "title": "Refresh endpoint should require a valid refresh token",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7920",
-      "recommendation": "pursue",
-      "total_score": 96
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
       "number": 7995,
       "title": "API test script should discover test files",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7995",
       "recommendation": "pursue",
       "total_score": 94
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8065,
+      "title": "Search endpoint should reject missing or blank queries",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8065",
+      "recommendation": "skip",
+      "total_score": 88
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -31,6 +23,14 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "PHPOffice/PHPWord",
+      "number": 2880,
+      "title": "Unable to load images in .docx",
+      "url": "https://github.com/PHPOffice/PHPWord/issues/2880",
+      "recommendation": "skip",
+      "total_score": 78
     },
     {
       "repo": "archestra-ai/archestra",

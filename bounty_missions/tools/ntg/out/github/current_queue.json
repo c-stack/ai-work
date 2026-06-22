@@ -1,54 +1,8 @@
 {
-  "generated_at_utc": "2026-06-21T23:45:31Z",
+  "generated_at_utc": "2026-06-22T05:31:41Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 1,
   "items": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7922,
-      "title": "GET /api/users should require authentication (reissue via #743)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7922",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 48,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7920,
-      "title": "Refresh endpoint should require a valid refresh token",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7920",
-      "recommendation": "pursue",
-      "total_score": 96,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 36,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:fix",
-        "task:bug"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 7995,
