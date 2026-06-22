@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-22T17:53:54Z",
+  "generated_at_utc": "2026-06-22T21:14:46Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -86,11 +86,12 @@
       ]
     },
     "Dokploy/dokploy": {
-      "total_seen": 1,
-      "skip_count": 1,
+      "total_seen": 2,
+      "skip_count": 2,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
+        416,
         1413
       ]
     },
@@ -176,6 +177,17 @@
       "unique_issues": [
         6532,
         6674
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        416,
+        1413
       ]
     },
     {
@@ -267,16 +279,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        1413
       ]
     },
     {
