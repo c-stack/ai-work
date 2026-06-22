@@ -167,14 +167,6 @@
       "url": "https://github.com/tscircuit/jlcsearch/issues/92",
       "recommendation": "skip",
       "total_score": 16
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 416,
-      "title": "Ability to backup to more destination types",
-      "url": "https://github.com/Dokploy/dokploy/issues/416",
-      "recommendation": "skip",
-      "total_score": 5
     }
   ],
   "dropped_items": [],
