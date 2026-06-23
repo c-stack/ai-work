@@ -1,9 +1,9 @@
 # NTG Alert
 
-- generated_at_utc: `2026-06-23T21:52:09Z`
+- generated_at_utc: `2026-06-23T23:31:47Z`
 - triage_profile: `aggressive`
 - queue_count: `0`
-- snapshot_dir: `bounty_missions/tools/ntg/out/github/runs/20260623T215114Z`
+- snapshot_dir: `bounty_missions/tools/ntg/out/github/runs/20260623T233057Z`
 
 ## New Queue Items
 
