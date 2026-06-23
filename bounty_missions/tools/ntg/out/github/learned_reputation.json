@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-23T10:45:03Z",
+  "generated_at_utc": "2026-06-23T13:47:42Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -37,15 +37,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    "MatteoGabriele/agentscan": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        198
       ]
     },
     "tailcallhq/tailcallhq.github.io": {
@@ -239,16 +230,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "MatteoGabriele/agentscan",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        198
       ]
     }
   ]

@@ -25,14 +25,6 @@
       "total_score": 73
     },
     {
-      "repo": "MatteoGabriele/agentscan",
-      "number": 198,
-      "title": "Use SecureBananaLabs/bug-bounty leaderboard.json",
-      "url": "https://github.com/MatteoGabriele/agentscan/issues/198",
-      "recommendation": "review",
-      "total_score": 69
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 3855,
       "title": "Create WindMill MCP Apps MCP server",

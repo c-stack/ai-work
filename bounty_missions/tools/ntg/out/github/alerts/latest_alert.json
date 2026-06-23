@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-19T23:15:59Z",
+  "generated_at_utc": "2026-06-23T13:47:42Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260619T231503Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260623T134642Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -40,22 +40,6 @@
         "total_score": 68
       },
       {
-        "repo": "SecureBananaLabs/bug-bounty",
-        "number": 7290,
-        "title": "Urgent \u2013 Payment Issue for Bounty #2885",
-        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7290",
-        "recommendation": "skip",
-        "total_score": 61
-      },
-      {
-        "repo": "xevrion-v2/agent-playground",
-        "number": 1812,
-        "title": "Urgent \u2013 Payment Issue for Bounty #17",
-        "url": "https://github.com/xevrion-v2/agent-playground/issues/1812",
-        "recommendation": "skip",
-        "total_score": 61
-      },
-      {
         "repo": "tailcallhq/tailcallhq.github.io",
         "number": 373,
         "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -70,14 +54,6 @@
         "url": "https://github.com/archestra-ai/archestra/issues/5033",
         "recommendation": "skip",
         "total_score": 50
-      },
-      {
-        "repo": "AmanVarshney01/create-better-t-stack",
-        "number": 1077,
-        "title": "Enhancement: add Mollie as a payment provider option in the builder (next to Polar.sh)",
-        "url": "https://github.com/AmanVarshney01/create-better-t-stack/issues/1077",
-        "recommendation": "skip",
-        "total_score": 49
       },
       {
         "repo": "archestra-ai/archestra",

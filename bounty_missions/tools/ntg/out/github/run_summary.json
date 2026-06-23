@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-06-23T10:45:03Z",
+  "generated_at_utc": "2026-06-23T13:47:42Z",
   "source_counts": {
-    "github": 1,
+    "github": 0,
     "algora": 18,
-    "merged": 19
+    "merged": 18
   },
   "recommendations": {
     "pursue": 0,
-    "review": 1,
+    "review": 0,
     "skip": 18
   },
   "top_candidates": [
@@ -72,21 +72,6 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "MatteoGabriele/agentscan",
-      "number": 198,
-      "title": "Use SecureBananaLabs/bug-bounty leaderboard.json",
-      "recommendation": "review",
-      "total_score": 69,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "task:add ",
-        "task:bug"
       ]
     },
     {
@@ -211,6 +196,28 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 43,
+      "bounty_amount_usd": 100,
+      "competition_risk": 59,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
       ]
     }
   ],
