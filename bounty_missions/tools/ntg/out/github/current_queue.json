@@ -1,30 +1,26 @@
 {
-  "generated_at_utc": "2026-06-22T22:56:49Z",
+  "generated_at_utc": "2026-06-23T01:24:13Z",
   "triage_profile": "aggressive",
   "count": 1,
   "items": [
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7995,
-      "title": "API test script should discover test files",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7995",
-      "recommendation": "pursue",
-      "total_score": 94,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 42,
+      "repo": "MatteoGabriele/agentscan",
+      "number": 198,
+      "title": "Use SecureBananaLabs/bug-bounty leaderboard.json",
+      "url": "https://github.com/MatteoGabriele/agentscan/issues/198",
+      "recommendation": "review",
+      "total_score": 69,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 22,
+      "actionability": 4,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
       "decision_signals": [
         "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:bug",
-        "claims:1"
+        "task:add ",
+        "task:bug"
       ]
     }
   ]

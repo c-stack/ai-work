@@ -1,56 +1,16 @@
 {
-  "generated_at_utc": "2026-06-22T22:56:49Z",
+  "generated_at_utc": "2026-06-23T01:24:13Z",
   "source_counts": {
-    "github": 4,
+    "github": 1,
     "algora": 18,
-    "merged": 22
+    "merged": 19
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 0,
-    "skip": 21
+    "pursue": 0,
+    "review": 1,
+    "skip": 18
   },
   "top_candidates": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7995,
-      "title": "API test script should discover test files",
-      "recommendation": "pursue",
-      "total_score": 94,
-      "bounty_amount_usd": 0,
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:bug",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 8065,
-      "title": "Search endpoint should reject missing or blank queries",
-      "recommendation": "skip",
-      "total_score": 88,
-      "bounty_amount_usd": 0,
-      "competition_risk": 21,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:error",
-        "task:bug",
-        "claims:1",
-        "existing-work:1"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -70,23 +30,6 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2880,
-      "title": "Unable to load images in .docx",
-      "recommendation": "skip",
-      "total_score": 78,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:error"
       ]
     },
     {
@@ -129,6 +72,21 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "MatteoGabriele/agentscan",
+      "number": 198,
+      "title": "Use SecureBananaLabs/bug-bounty leaderboard.json",
+      "recommendation": "review",
+      "total_score": 69,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:add ",
+        "task:bug"
       ]
     },
     {
@@ -191,18 +149,68 @@
       ]
     },
     {
-      "repo": "AmanVarshney01/create-better-t-stack",
-      "number": 1077,
-      "title": "Enhancement: add Mollie as a payment provider option in the builder (next to Polar.sh)",
+      "repo": "archestra-ai/archestra",
+      "number": 4758,
+      "title": "Improve usage limits visibility UX and DX",
       "recommendation": "skip",
-      "total_score": 48,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "total_score": 45,
+      "bounty_amount_usd": 150,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
-        "platform:polar.sh",
-        "negative:alternatives",
-        "task:add "
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:spam",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],

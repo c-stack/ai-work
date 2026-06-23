@@ -1,36 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 7995,
-      "title": "API test script should discover test files",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/7995",
-      "recommendation": "pursue",
-      "total_score": 94
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 8065,
-      "title": "Search endpoint should reject missing or blank queries",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8065",
-      "recommendation": "skip",
-      "total_score": 88
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2880,
-      "title": "Unable to load images in .docx",
-      "url": "https://github.com/PHPOffice/PHPWord/issues/2880",
-      "recommendation": "skip",
-      "total_score": 78
     },
     {
       "repo": "archestra-ai/archestra",
@@ -47,6 +23,14 @@
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 73
+    },
+    {
+      "repo": "MatteoGabriele/agentscan",
+      "number": 198,
+      "title": "Use SecureBananaLabs/bug-bounty leaderboard.json",
+      "url": "https://github.com/MatteoGabriele/agentscan/issues/198",
+      "recommendation": "review",
+      "total_score": 69
     },
     {
       "repo": "archestra-ai/archestra",
@@ -71,14 +55,6 @@
       "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
       "total_score": 50
-    },
-    {
-      "repo": "AmanVarshney01/create-better-t-stack",
-      "number": 1077,
-      "title": "Enhancement: add Mollie as a payment provider option in the builder (next to Polar.sh)",
-      "url": "https://github.com/AmanVarshney01/create-better-t-stack/issues/1077",
-      "recommendation": "skip",
-      "total_score": 48
     },
     {
       "repo": "archestra-ai/archestra",

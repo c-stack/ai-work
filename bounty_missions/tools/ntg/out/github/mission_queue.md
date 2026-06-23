@@ -2,4 +2,4 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
-| pursue | 94 | SecureBananaLabs/bug-bounty | 7995 | JavaScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, platform:algora, action:steps to reproduce, action:root cause | [open](https://github.com/SecureBananaLabs/bug-bounty/issues/7995) |
+| review | 69 | MatteoGabriele/agentscan | 198 | TypeScript | Likely bounty, but the issue still needs manual scoping before coding. | bounty:bounty, task:add , task:bug | [open](https://github.com/MatteoGabriele/agentscan/issues/198) |
