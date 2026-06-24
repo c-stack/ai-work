@@ -2,9 +2,9 @@
   "config": "bounty_missions/tools/ntg/service.github.yaml",
   "pipeline_result": {
     "exit_code": 0,
-    "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260624T214548Z",
+    "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260624T233405Z",
     "output_dir": "bounty_missions/tools/ntg/out/github",
-    "merged_count": 18,
+    "merged_count": 19,
     "pursue_count": 0,
     "review_count": 0,
     "queue_count": 0,
@@ -32,7 +32,7 @@
   },
   "ledger": {
     "path": "bounty_missions/tools/ntg/out/github/bounty_ledger.json",
-    "tracked_issues": 18,
+    "tracked_issues": 19,
     "actual_revenue_usd": 0.0
   },
   "template_factory": {
@@ -45,7 +45,7 @@
   "prepared_workspaces_root": "bounty_missions/workspaces",
   "runtime": {
     "run_in_progress": true,
-    "last_run_started_at_utc": "2026-06-24T21:45:48Z",
+    "last_run_started_at_utc": "2026-06-24T23:34:05Z",
     "last_run_finished_at_utc": "",
     "last_exit_code": null,
     "last_error": "",

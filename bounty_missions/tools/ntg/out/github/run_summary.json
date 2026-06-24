@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-24T21:46:55Z",
+  "generated_at_utc": "2026-06-24T23:35:07Z",
   "source_counts": {
-    "github": 0,
+    "github": 1,
     "algora": 18,
-    "merged": 18
+    "merged": 19
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 18
+    "skip": 19
   },
   "top_candidates": [
     {

@@ -105,6 +105,14 @@
       "total_score": 34
     },
     {
+      "repo": "rodrgds/productplate",
+      "number": 2,
+      "title": "Polar.sh support",
+      "url": "https://github.com/rodrgds/productplate/issues/2",
+      "recommendation": "skip",
+      "total_score": 23
+    },
+    {
       "repo": "revertinc/revert",
       "number": 551,
       "title": "[REVER-51] Workable Integration",

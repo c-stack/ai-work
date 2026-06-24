@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-24T21:46:55Z",
+  "generated_at_utc": "2026-06-24T23:35:07Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260624T214548Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260624T233405Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -110,6 +110,14 @@
         "url": "https://github.com/archestra-ai/archestra/issues/4468",
         "recommendation": "skip",
         "total_score": 34
+      },
+      {
+        "repo": "rodrgds/productplate",
+        "number": 2,
+        "title": "Polar.sh support",
+        "url": "https://github.com/rodrgds/productplate/issues/2",
+        "recommendation": "skip",
+        "total_score": 23
       },
       {
         "repo": "revertinc/revert",
