@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-25T17:24:37Z",
+  "generated_at_utc": "2026-06-25T20:23:37Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -77,15 +77,6 @@
         551
       ]
     },
-    "tscircuit/dsn-converter": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        54
-      ]
-    },
     "rodrgds/productplate": {
       "total_seen": 1,
       "skip_count": 1,
@@ -93,6 +84,15 @@
       "pursue_count": 0,
       "unique_issues": [
         2
+      ]
+    },
+    "tscircuit/dsn-converter": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        54
       ]
     },
     "tailcallhq/graphql-conf-2024": {

@@ -89,6 +89,14 @@
       "total_score": 39
     },
     {
+      "repo": "rodrgds/productplate",
+      "number": 2,
+      "title": "Polar.sh support",
+      "url": "https://github.com/rodrgds/productplate/issues/2",
+      "recommendation": "skip",
+      "total_score": 37
+    },
+    {
       "repo": "tscircuit/dsn-converter",
       "number": 54,
       "title": "We can't convert Smoothie Board to Circuit JSON",
@@ -103,14 +111,6 @@
       "url": "https://github.com/archestra-ai/archestra/issues/4468",
       "recommendation": "skip",
       "total_score": 34
-    },
-    {
-      "repo": "rodrgds/productplate",
-      "number": 2,
-      "title": "Polar.sh support",
-      "url": "https://github.com/rodrgds/productplate/issues/2",
-      "recommendation": "skip",
-      "total_score": 23
     },
     {
       "repo": "revertinc/revert",
