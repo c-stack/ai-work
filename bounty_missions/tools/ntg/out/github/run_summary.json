@@ -1,16 +1,32 @@
 {
-  "generated_at_utc": "2026-06-26T20:59:37Z",
+  "generated_at_utc": "2026-06-26T22:37:34Z",
   "source_counts": {
-    "github": 6,
+    "github": 7,
     "algora": 18,
-    "merged": 24
+    "merged": 25
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 3,
     "review": 3,
     "skip": 19
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48311,
+      "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
+      "recommendation": "pursue",
+      "total_score": 112,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:support",
+        "task:implement"
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 8831,
@@ -175,25 +191,6 @@
         "task:support",
         "task:implement",
         "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tailcallhq/tailcallhq.github.io",
-      "number": 373,
-      "title": "feature: design and develop a UI to generate tailcall configurations",
-      "recommendation": "skip",
-      "total_score": 57,
-      "bounty_amount_usd": 500,
-      "competition_risk": 44,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
         "support:support-politeness"
       ]
     }

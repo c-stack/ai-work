@@ -2,6 +2,7 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
+| pursue | 112 | tenstorrent/tt-metal | 48311 | C++ | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, action:error, task:support, task:implement | [open](https://github.com/tenstorrent/tt-metal/issues/48311) |
 | pursue | 111 | SecureBananaLabs/bug-bounty | 8831 | JavaScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, platform:algora, action:steps to reproduce, action:root cause | [open](https://github.com/SecureBananaLabs/bug-bounty/issues/8831) |
 | pursue | 109 | SecureBananaLabs/bug-bounty | 8832 | JavaScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, platform:algora, action:steps to reproduce, action:root cause | [open](https://github.com/SecureBananaLabs/bug-bounty/issues/8832) |
 | review | 86 | tenstorrent/tt-metal | 48287 | C++ | Bounty looks real, but active discussion increases takeover risk. | bounty:bounty, action:root cause, action:error, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/48287) |

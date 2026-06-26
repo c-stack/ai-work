@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T20:59:37Z",
+  "generated_at_utc": "2026-06-26T22:37:34Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,17 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "tenstorrent/tt-metal": {
+      "total_seen": 3,
+      "skip_count": 0,
+      "review_count": 2,
+      "pursue_count": 1,
+      "unique_issues": [
+        48285,
+        48287,
+        48311
+      ]
+    },
     "SecureBananaLabs/bug-bounty": {
       "total_seen": 2,
       "skip_count": 0,
@@ -15,16 +26,6 @@
       "unique_issues": [
         8831,
         8832
-      ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 0,
-      "unique_issues": [
-        48285,
-        48287
       ]
     },
     "projectdiscovery/nuclei": {
@@ -282,13 +283,14 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
+      "total_seen": 3,
       "skip_count": 0,
       "review_count": 2,
-      "pursue_count": 0,
+      "pursue_count": 1,
       "unique_issues": [
         48285,
-        48287
+        48287,
+        48311
       ]
     },
     {
