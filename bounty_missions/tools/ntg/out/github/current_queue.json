@@ -1,8 +1,54 @@
 {
-  "generated_at_utc": "2026-06-26T19:04:54Z",
+  "generated_at_utc": "2026-06-26T20:59:37Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 5,
   "items": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8831,
+      "title": "Invalid PORT env crashes API startup",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8831",
+      "recommendation": "pursue",
+      "total_score": 111,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 50,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:root cause",
+        "task:fix",
+        "task:add "
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8832,
+      "title": "Auth routes should have a stricter rate limit (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8832",
+      "recommendation": "pursue",
+      "total_score": 109,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 48,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:root cause",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 48287,

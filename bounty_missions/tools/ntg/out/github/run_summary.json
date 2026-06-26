@@ -1,16 +1,52 @@
 {
-  "generated_at_utc": "2026-06-26T19:04:54Z",
+  "generated_at_utc": "2026-06-26T20:59:37Z",
   "source_counts": {
-    "github": 4,
+    "github": 6,
     "algora": 18,
-    "merged": 22
+    "merged": 24
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 2,
     "review": 3,
     "skip": 19
   },
   "top_candidates": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8831,
+      "title": "Invalid PORT env crashes API startup",
+      "recommendation": "pursue",
+      "total_score": 111,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:root cause",
+        "task:fix",
+        "task:add "
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8832,
+      "title": "Auth routes should have a stricter rate limit (reissue via #743)",
+      "recommendation": "pursue",
+      "total_score": 109,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:root cause",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 48287,
@@ -158,50 +194,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 5033,
-      "title": "Bad UX on Knowledge/Connectors file upload failure",
-      "recommendation": "skip",
-      "total_score": 50,
-      "bounty_amount_usd": 50,
-      "competition_risk": 35,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 150,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:spam",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T19:04:54Z",
+  "generated_at_utc": "2026-06-26T20:59:37Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,6 +7,16 @@
     "archestra-ai/archestra"
   ],
   "repo_stats": {
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 2,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 2,
+      "unique_issues": [
+        8831,
+        8832
+      ]
+    },
     "tenstorrent/tt-metal": {
       "total_seen": 2,
       "skip_count": 0,
@@ -279,6 +289,17 @@
       "unique_issues": [
         48285,
         48287
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 2,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 2,
+      "unique_issues": [
+        8831,
+        8832
       ]
     },
     {

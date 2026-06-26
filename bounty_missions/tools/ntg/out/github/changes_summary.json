@@ -1,6 +1,22 @@
 {
   "new_items": [
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8831,
+      "title": "Invalid PORT env crashes API startup",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8831",
+      "recommendation": "pursue",
+      "total_score": 111
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 8832,
+      "title": "Auth routes should have a stricter rate limit (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8832",
+      "recommendation": "pursue",
+      "total_score": 109
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 48287,
       "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
