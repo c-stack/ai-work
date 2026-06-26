@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-06-26T01:30:55Z",
+  "generated_at_utc": "2026-06-26T06:21:51Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260626T012957Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260626T062058Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -101,7 +101,7 @@
         "title": "Polar.sh support",
         "url": "https://github.com/rodrgds/productplate/issues/2",
         "recommendation": "skip",
-        "total_score": 37
+        "total_score": 36
       },
       {
         "repo": "tscircuit/dsn-converter",
