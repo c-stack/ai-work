@@ -1,6 +1,71 @@
 {
-  "generated_at_utc": "2026-06-26T16:29:01Z",
+  "generated_at_utc": "2026-06-26T19:04:54Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 3,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48287,
+      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
+      "recommendation": "review",
+      "total_score": 86,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 40,
+      "actionability": 26,
+      "bounty_amount_usd": 10000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 20,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48285,
+      "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/48285",
+      "recommendation": "review",
+      "total_score": 79,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 40,
+      "actionability": 18,
+      "bounty_amount_usd": 2500,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "openmetaearth/me-hub",
+      "number": 1411,
+      "title": "[Bug]: bounty",
+      "url": "https://github.com/openmetaearth/me-hub/issues/1411",
+      "recommendation": "review",
+      "total_score": 73,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 22,
+      "actionability": 8,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:expected behavior",
+        "task:bug",
+        "template-gaps:4"
+      ]
+    }
+  ]
 }

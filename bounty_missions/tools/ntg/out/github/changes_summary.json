@@ -1,12 +1,28 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48287,
+      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
+      "recommendation": "review",
+      "total_score": 86
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48285,
+      "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/48285",
+      "recommendation": "review",
+      "total_score": 79
     },
     {
       "repo": "archestra-ai/archestra",
@@ -22,6 +38,14 @@
       "title": "Get Your Custom Dokploy Templates Built!",
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
+      "total_score": 73
+    },
+    {
+      "repo": "openmetaearth/me-hub",
+      "number": 1411,
+      "title": "[Bug]: bounty",
+      "url": "https://github.com/openmetaearth/me-hub/issues/1411",
+      "recommendation": "review",
       "total_score": 73
     },
     {
