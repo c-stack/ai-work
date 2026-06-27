@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T08:07:40Z",
+  "generated_at_utc": "2026-06-27T10:24:41Z",
   "source_counts": {
     "github": 6,
     "algora": 18,
@@ -65,12 +65,30 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 48285,
+      "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
+      "recommendation": "skip",
+      "total_score": 92,
+      "bounty_amount_usd": 2500,
+      "competition_risk": 29,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "claims:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 48287,
       "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
       "recommendation": "skip",
-      "total_score": 86,
+      "total_score": 85,
       "bounty_amount_usd": 10000,
-      "competition_risk": 27,
+      "competition_risk": 31,
       "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",
@@ -81,22 +99,6 @@
         "task:replace",
         "claims:2",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48285,
-      "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
-      "recommendation": "skip",
-      "total_score": 85,
-      "bounty_amount_usd": 2500,
-      "competition_risk": 24,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "action:regression",
-        "claims:2"
       ]
     },
     {

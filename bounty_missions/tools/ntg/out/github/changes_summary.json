@@ -26,17 +26,17 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 48287,
-      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
-      "recommendation": "skip",
-      "total_score": 86
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 48285,
       "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/48285",
+      "recommendation": "skip",
+      "total_score": 92
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48287,
+      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
       "recommendation": "skip",
       "total_score": 85
     },
