@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48311,
-      "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/48311",
-      "recommendation": "pursue",
-      "total_score": 112
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 8831,
       "title": "Invalid PORT env crashes API startup",
@@ -23,6 +15,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8832",
       "recommendation": "pursue",
       "total_score": 109
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48311,
+      "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/48311",
+      "recommendation": "pursue",
+      "total_score": 104
     },
     {
       "repo": "tenstorrent/tt-metal",

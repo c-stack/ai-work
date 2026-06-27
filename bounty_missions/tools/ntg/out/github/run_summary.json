@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T10:24:41Z",
+  "generated_at_utc": "2026-06-27T12:19:58Z",
   "source_counts": {
     "github": 6,
     "algora": 18,
@@ -11,22 +11,6 @@
     "skip": 20
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48311,
-      "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
-      "recommendation": "pursue",
-      "total_score": 112,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "task:support",
-        "task:implement"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 8831,
@@ -61,6 +45,23 @@
         "action:root cause",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48311,
+      "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
+      "recommendation": "pursue",
+      "total_score": 104,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 10,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:1"
       ]
     },
     {
