@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T14:56:27Z",
+  "generated_at_utc": "2026-06-27T16:20:55Z",
   "source_counts": {
     "github": 6,
     "algora": 18,
@@ -52,9 +52,9 @@
       "number": 48311,
       "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
       "recommendation": "pursue",
-      "total_score": 104,
+      "total_score": 103,
       "bounty_amount_usd": 1500,
-      "competition_risk": 10,
+      "competition_risk": 12,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",

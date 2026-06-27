@@ -22,7 +22,7 @@
       "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/48311",
       "recommendation": "pursue",
-      "total_score": 104
+      "total_score": 103
     },
     {
       "repo": "tenstorrent/tt-metal",
