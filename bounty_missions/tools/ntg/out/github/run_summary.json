@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-27T16:20:55Z",
+  "generated_at_utc": "2026-06-27T18:18:38Z",
   "source_counts": {
     "github": 6,
-    "algora": 18,
-    "merged": 24
+    "algora": 0,
+    "merged": 6
   },
   "recommendations": {
     "pursue": 3,
     "review": 1,
-    "skip": 20
+    "skip": 2
   },
   "top_candidates": [
     {
@@ -69,7 +69,7 @@
       "number": 48285,
       "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
       "recommendation": "skip",
-      "total_score": 92,
+      "total_score": 91,
       "bounty_amount_usd": 2500,
       "competition_risk": 29,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
@@ -87,7 +87,7 @@
       "number": 48287,
       "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
       "recommendation": "skip",
-      "total_score": 85,
+      "total_score": 84,
       "bounty_amount_usd": 10000,
       "competition_risk": 31,
       "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
@@ -100,69 +100,6 @@
         "task:replace",
         "claims:2",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6674,
-      "title": "Replace panic with error handling in template loader when dialers are missing",
-      "recommendation": "skip",
-      "total_score": 82,
-      "bounty_amount_usd": 100,
-      "competition_risk": 40,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4998,
-      "title": "Add Sorting Hat MCP server with Patronus-based tool authorization and Quidditch-style streaming UI",
-      "recommendation": "skip",
-      "total_score": 75,
-      "bounty_amount_usd": 4000,
-      "competition_risk": 40,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:article",
-        "action:regression",
-        "task:support",
-        "task:replace",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/templates",
-      "number": 152,
-      "title": "Get Your Custom Dokploy Templates Built!",
-      "recommendation": "skip",
-      "total_score": 73,
-      "bounty_amount_usd": 1000,
-      "competition_risk": 53,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:implement",
-        "task:remove",
-        "claims:2",
-        "existing-work:1"
       ]
     },
     {
@@ -179,25 +116,6 @@
         "action:expected behavior",
         "task:bug",
         "template-gaps:4"
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 3855,
-      "title": "Create WindMill MCP Apps MCP server",
-      "recommendation": "skip",
-      "total_score": 68,
-      "bounty_amount_usd": 400,
-      "competition_risk": 29,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
-        "support:support-politeness"
       ]
     }
   ],
