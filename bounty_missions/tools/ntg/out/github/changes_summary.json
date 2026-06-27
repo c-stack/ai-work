@@ -90,19 +90,19 @@
     },
     {
       "repo": "archestra-ai/archestra",
+      "number": 3218,
+      "title": "Auto sync permissions ACL support for Jira + Confluence knowledge connectors",
+      "url": "https://github.com/archestra-ai/archestra/issues/3218",
+      "recommendation": "skip",
+      "total_score": 56
+    },
+    {
+      "repo": "archestra-ai/archestra",
       "number": 5033,
       "title": "Bad UX on Knowledge/Connectors file upload failure",
       "url": "https://github.com/archestra-ai/archestra/issues/5033",
       "recommendation": "skip",
       "total_score": 50
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "number": 4758,
-      "title": "Improve usage limits visibility UX and DX",
-      "url": "https://github.com/archestra-ai/archestra/issues/4758",
-      "recommendation": "skip",
-      "total_score": 45
     },
     {
       "repo": "antinomyhq/forge",
@@ -135,14 +135,6 @@
       "url": "https://github.com/revertinc/revert/issues/372",
       "recommendation": "skip",
       "total_score": 39
-    },
-    {
-      "repo": "rodrgds/productplate",
-      "number": 2,
-      "title": "Polar.sh support",
-      "url": "https://github.com/rodrgds/productplate/issues/2",
-      "recommendation": "skip",
-      "total_score": 37
     },
     {
       "repo": "tscircuit/dsn-converter",

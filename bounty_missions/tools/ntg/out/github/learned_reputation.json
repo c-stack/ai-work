@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-26T22:37:34Z",
+  "generated_at_utc": "2026-06-27T00:21:11Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -44,9 +44,9 @@
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
+        3218,
         3855,
         4468,
-        4758,
         4998,
         5033
       ]
@@ -107,15 +107,6 @@
         551
       ]
     },
-    "rodrgds/productplate": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2
-      ]
-    },
     "tscircuit/dsn-converter": {
       "total_seen": 1,
       "skip_count": 1,
@@ -161,9 +152,9 @@
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
+        3218,
         3855,
         4468,
-        4758,
         4998,
         5033
       ]
@@ -249,16 +240,6 @@
       "pursue_count": 0,
       "unique_issues": [
         1
-      ]
-    },
-    {
-      "repo": "rodrgds/productplate",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2
       ]
     },
     {
