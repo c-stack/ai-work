@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T00:21:11Z",
+  "generated_at_utc": "2026-06-27T05:04:47Z",
   "source_counts": {
     "github": 6,
     "algora": 18,
@@ -64,24 +64,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48287,
-      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
-      "recommendation": "review",
-      "total_score": 86,
-      "bounty_amount_usd": 10000,
-      "competition_risk": 20,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:1"
-      ]
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -99,6 +81,25 @@
         "task:fix",
         "task:replace",
         "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 48287,
+      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 10000,
+      "competition_risk": 20,
+      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:1",
         "support:support-politeness"
       ]
     },
