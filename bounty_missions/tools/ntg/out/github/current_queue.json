@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T22:14:47Z",
+  "generated_at_utc": "2026-06-28T23:20:36Z",
   "triage_profile": "aggressive",
   "count": 5,
   "items": [
@@ -78,7 +78,7 @@
       "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/48311",
       "recommendation": "pursue",
-      "total_score": 97,
+      "total_score": 96,
       "repo_primary_language": "C++",
       "bounty_confidence": 36,
       "actionability": 27,
