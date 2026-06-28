@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-06-28T18:18:21Z",
+  "generated_at_utc": "2026-06-28T20:37:11Z",
   "source_counts": {
-    "github": 6,
+    "github": 7,
     "algora": 0,
-    "merged": 6
+    "merged": 7
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 4,
     "review": 1,
     "skip": 2
   },
@@ -16,7 +16,7 @@
       "number": 8831,
       "title": "Invalid PORT env crashes API startup",
       "recommendation": "pursue",
-      "total_score": 111,
+      "total_score": 110,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -34,7 +34,7 @@
       "number": 8832,
       "title": "Auth routes should have a stricter rate limit (reissue via #743)",
       "recommendation": "pursue",
-      "total_score": 109,
+      "total_score": 108,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -45,6 +45,24 @@
         "action:root cause",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 9127,
+      "title": "API test script treats tests directory as module",
+      "recommendation": "pursue",
+      "total_score": 103,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:root cause",
+        "task:fix",
+        "task:bug"
       ]
     },
     {
