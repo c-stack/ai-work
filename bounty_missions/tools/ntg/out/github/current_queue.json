@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T14:57:50Z",
+  "generated_at_utc": "2026-06-28T16:37:01Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -78,7 +78,7 @@
       "title": "[Bug]: bounty",
       "url": "https://github.com/openmetaearth/me-hub/issues/1411",
       "recommendation": "review",
-      "total_score": 73,
+      "total_score": 72,
       "repo_primary_language": "TypeScript",
       "bounty_confidence": 22,
       "actionability": 8,

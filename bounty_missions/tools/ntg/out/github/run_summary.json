@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T14:57:50Z",
+  "generated_at_utc": "2026-06-28T16:37:01Z",
   "source_counts": {
     "github": 6,
     "algora": 0,
@@ -108,7 +108,7 @@
       "number": 1411,
       "title": "[Bug]: bounty",
       "recommendation": "review",
-      "total_score": 73,
+      "total_score": 72,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
