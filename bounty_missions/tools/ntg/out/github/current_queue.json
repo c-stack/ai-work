@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-06-29T17:48:17Z",
+  "generated_at_utc": "2026-06-29T20:16:16Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 8831,
+      "number": 9150,
       "title": "Invalid PORT env crashes API startup",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8831",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9150",
       "recommendation": "pursue",
-      "total_score": 110,
+      "total_score": 97,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
-      "actionability": 50,
+      "actionability": 36,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
@@ -21,54 +21,7 @@
         "bounty:bounty",
         "platform:algora",
         "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 8832,
-      "title": "Auth routes should have a stricter rate limit (reissue via #743)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/8832",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 48,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9127,
-      "title": "API test script treats tests directory as module",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9127",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 42,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
+        "action:expected behavior",
         "task:bug"
       ]
     },
@@ -93,6 +46,46 @@
         "task:implement",
         "claims:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 9154,
+      "title": "Message routes should require authentication",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9154",
+      "recommendation": "pursue",
+      "total_score": 77,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 16,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 9152,
+      "title": "Invalid PORT env crashes API startup",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9152",
+      "recommendation": "pursue",
+      "total_score": 77,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 16,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug"
       ]
     }
   ]

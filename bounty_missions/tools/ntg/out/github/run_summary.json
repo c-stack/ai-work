@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-29T17:48:17Z",
+  "generated_at_utc": "2026-06-29T20:16:16Z",
   "source_counts": {
     "github": 6,
     "algora": 0,
@@ -13,10 +13,10 @@
   "top_candidates": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 8831,
+      "number": 9150,
       "title": "Invalid PORT env crashes API startup",
       "recommendation": "pursue",
-      "total_score": 110,
+      "total_score": 97,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -24,44 +24,7 @@
         "bounty:bounty",
         "platform:algora",
         "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 8832,
-      "title": "Auth routes should have a stricter rate limit (reissue via #743)",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9127,
-      "title": "API test script treats tests directory as module",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:root cause",
-        "task:fix",
+        "action:expected behavior",
         "task:bug"
       ]
     },
@@ -106,7 +69,7 @@
       "number": 48287,
       "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
       "recommendation": "skip",
-      "total_score": 84,
+      "total_score": 83,
       "bounty_amount_usd": 10000,
       "competition_risk": 31,
       "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
@@ -119,6 +82,36 @@
         "task:replace",
         "claims:2",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 9154,
+      "title": "Message routes should require authentication",
+      "recommendation": "pursue",
+      "total_score": 77,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 9152,
+      "title": "Invalid PORT env crashes API startup",
+      "recommendation": "pursue",
+      "total_score": 77,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug"
       ]
     }
   ],
