@@ -38,7 +38,7 @@
       "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/48285",
       "recommendation": "skip",
-      "total_score": 91
+      "total_score": 90
     },
     {
       "repo": "tenstorrent/tt-metal",
