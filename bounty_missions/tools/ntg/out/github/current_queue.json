@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-06-28T23:20:36Z",
+  "generated_at_utc": "2026-06-29T04:59:41Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
@@ -93,27 +93,6 @@
         "task:implement",
         "claims:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "openmetaearth/me-hub",
-      "number": 1411,
-      "title": "[Bug]: bounty",
-      "url": "https://github.com/openmetaearth/me-hub/issues/1411",
-      "recommendation": "review",
-      "total_score": 72,
-      "repo_primary_language": "TypeScript",
-      "bounty_confidence": 22,
-      "actionability": 8,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:expected behavior",
-        "task:bug",
-        "template-gaps:4"
       ]
     }
   ]

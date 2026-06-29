@@ -47,14 +47,6 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
       "recommendation": "skip",
       "total_score": 84
-    },
-    {
-      "repo": "openmetaearth/me-hub",
-      "number": 1411,
-      "title": "[Bug]: bounty",
-      "url": "https://github.com/openmetaearth/me-hub/issues/1411",
-      "recommendation": "review",
-      "total_score": 72
     }
   ],
   "dropped_items": [],

@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-06-28T23:20:36Z",
+  "generated_at_utc": "2026-06-29T04:59:41Z",
   "source_counts": {
-    "github": 7,
+    "github": 6,
     "algora": 0,
-    "merged": 7
+    "merged": 6
   },
   "recommendations": {
     "pursue": 4,
-    "review": 1,
+    "review": 0,
     "skip": 2
   },
   "top_candidates": [
@@ -119,22 +119,6 @@
         "task:replace",
         "claims:2",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "openmetaearth/me-hub",
-      "number": 1411,
-      "title": "[Bug]: bounty",
-      "recommendation": "review",
-      "total_score": 72,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:expected behavior",
-        "task:bug",
-        "template-gaps:4"
       ]
     }
   ],

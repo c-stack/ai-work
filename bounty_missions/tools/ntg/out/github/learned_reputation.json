@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T23:20:36Z",
+  "generated_at_utc": "2026-06-29T04:59:41Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -26,15 +26,6 @@
         48287,
         48311
       ]
-    },
-    "openmetaearth/me-hub": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        1411
-      ]
     }
   },
   "top_repeat_skips": [
@@ -60,16 +51,6 @@
         8831,
         8832,
         9127
-      ]
-    },
-    {
-      "repo": "openmetaearth/me-hub",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        1411
       ]
     }
   ]
