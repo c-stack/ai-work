@@ -9,14 +9,6 @@
       "total_score": 97
     },
     {
-      "repo": "cpinitiative/usaco-guide",
-      "number": 6338,
-      "title": "Contact Form Submission - Other (does you have bug bounty or security program)",
-      "url": "https://github.com/cpinitiative/usaco-guide/issues/6338",
-      "recommendation": "skip",
-      "total_score": 78
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 9154,
       "title": "Message routes should require authentication",
