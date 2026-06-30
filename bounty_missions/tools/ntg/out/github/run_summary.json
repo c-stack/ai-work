@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-29T23:16:26Z",
+  "generated_at_utc": "2026-06-30T01:27:21Z",
   "source_counts": {
-    "github": 6,
+    "github": 3,
     "algora": 0,
-    "merged": 6
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 3,
     "review": 0,
-    "skip": 2
+    "skip": 0
   },
   "top_candidates": [
     {
@@ -26,62 +26,6 @@
         "action:steps to reproduce",
         "action:expected behavior",
         "task:bug"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48311,
-      "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
-      "recommendation": "pursue",
-      "total_score": 96,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 12,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48285,
-      "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
-      "recommendation": "skip",
-      "total_score": 90,
-      "bounty_amount_usd": 2500,
-      "competition_risk": 29,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "claims:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48287,
-      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
-      "recommendation": "skip",
-      "total_score": 83,
-      "bounty_amount_usd": 10000,
-      "competition_risk": 31,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:2",
-        "support:support-politeness"
       ]
     },
     {

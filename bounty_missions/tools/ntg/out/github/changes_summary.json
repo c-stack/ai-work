@@ -9,30 +9,6 @@
       "total_score": 97
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48311,
-      "title": "[Bounty $1500] SAM2 bring up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/48311",
-      "recommendation": "pursue",
-      "total_score": 96
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48285,
-      "title": "[Bounty $2500] exp: perf regression (WH/BH) and -NaN edge case (WH)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/48285",
-      "recommendation": "skip",
-      "total_score": 90
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 48287,
-      "title": "[Bounty $10000] Improve tanh accuracy and performance (fp32)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/48287",
-      "recommendation": "skip",
-      "total_score": 83
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 9154,
       "title": "Message routes should require authentication",

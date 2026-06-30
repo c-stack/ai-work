@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-29T23:16:26Z",
+  "generated_at_utc": "2026-06-30T01:27:21Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -15,32 +15,9 @@
         9152,
         9154
       ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 3,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        48285,
-        48287,
-        48311
-      ]
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 3,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        48285,
-        48287,
-        48311
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "total_seen": 3,
