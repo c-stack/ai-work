@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-30T20:20:37Z",
+  "generated_at_utc": "2026-06-30T22:40:10Z",
   "source_counts": {
-    "github": 3,
-    "algora": 0,
-    "merged": 3
+    "github": 4,
+    "algora": 2,
+    "merged": 6
   },
   "recommendations": {
     "pursue": 3,
     "review": 0,
-    "skip": 0
+    "skip": 3
   },
   "top_candidates": [
     {
@@ -26,6 +26,27 @@
         "action:steps to reproduce",
         "action:expected behavior",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6674,
+      "title": "Replace panic with error handling in template loader when dialers are missing",
+      "recommendation": "skip",
+      "total_score": 82,
+      "bounty_amount_usd": 100,
+      "competition_risk": 40,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:3",
+        "support:support-politeness"
       ]
     },
     {
@@ -56,6 +77,43 @@
         "bounty:bounty",
         "platform:algora",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "OlympusDAO/olympus-contracts",
+      "number": 351,
+      "title": "Urgent",
+      "recommendation": "skip",
+      "total_score": 68,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],

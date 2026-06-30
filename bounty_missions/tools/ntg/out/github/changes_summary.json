@@ -9,6 +9,14 @@
       "total_score": 97
     },
     {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6674,
+      "title": "Replace panic with error handling in template loader when dialers are missing",
+      "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+      "recommendation": "skip",
+      "total_score": 82
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 9154,
       "title": "Message routes should require authentication",
@@ -23,6 +31,22 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9152",
       "recommendation": "pursue",
       "total_score": 77
+    },
+    {
+      "repo": "OlympusDAO/olympus-contracts",
+      "number": 351,
+      "title": "Urgent",
+      "url": "https://github.com/OlympusDAO/olympus-contracts/issues/351",
+      "recommendation": "skip",
+      "total_score": 68
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+      "recommendation": "skip",
+      "total_score": 44
     }
   ],
   "dropped_items": [],
