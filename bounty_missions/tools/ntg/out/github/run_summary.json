@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-06-30T06:32:41Z",
+  "generated_at_utc": "2026-06-30T10:36:39Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
     "pursue": 3,
     "review": 0,
-    "skip": 0
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -25,6 +25,21 @@
         "platform:algora",
         "action:steps to reproduce",
         "action:expected behavior",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "cpinitiative/usaco-guide",
+      "number": 6338,
+      "title": "Contact Form Submission - Other (does you have bug bounty or security program)",
+      "recommendation": "skip",
+      "total_score": 78,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
         "task:bug"
       ]
     },
