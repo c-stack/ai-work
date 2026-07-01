@@ -1,30 +1,29 @@
 {
-  "generated_at_utc": "2026-07-01T06:45:09Z",
+  "generated_at_utc": "2026-07-01T10:49:00Z",
   "source_counts": {
-    "github": 4,
+    "github": 2,
     "algora": 0,
-    "merged": 4
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 2,
     "review": 0,
-    "skip": 1
+    "skip": 0
   },
   "top_candidates": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9150,
-      "title": "Invalid PORT env crashes API startup",
+      "number": 9258,
+      "title": "Message routes should require authentication (Evelyn reissue via #743)",
       "recommendation": "pursue",
-      "total_score": 97,
+      "total_score": 81,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "action:steps to reproduce",
-        "action:expected behavior",
+        "action:regression",
         "task:bug"
       ]
     },
@@ -40,36 +39,6 @@
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9152,
-      "title": "Invalid PORT env crashes API startup",
-      "recommendation": "pursue",
-      "total_score": 77,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "OlympusDAO/olympus-contracts",
-      "number": 351,
-      "title": "Urgent",
-      "recommendation": "skip",
-      "total_score": 68,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
         "task:bug"
       ]
     }

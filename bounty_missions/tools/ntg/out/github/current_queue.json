@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-07-01T06:45:09Z",
+  "generated_at_utc": "2026-07-01T10:49:00Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9150,
-      "title": "Invalid PORT env crashes API startup",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9150",
+      "number": 9258,
+      "title": "Message routes should require authentication (Evelyn reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9258",
       "recommendation": "pursue",
-      "total_score": 97,
+      "total_score": 81,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
-      "actionability": 36,
+      "actionability": 20,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
@@ -20,8 +20,7 @@
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "action:steps to reproduce",
-        "action:expected behavior",
+        "action:regression",
         "task:bug"
       ]
     },
@@ -30,26 +29,6 @@
       "number": 9154,
       "title": "Message routes should require authentication",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9154",
-      "recommendation": "pursue",
-      "total_score": 77,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 16,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9152,
-      "title": "Invalid PORT env crashes API startup",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9152",
       "recommendation": "pursue",
       "total_score": 77,
       "repo_primary_language": "JavaScript",
