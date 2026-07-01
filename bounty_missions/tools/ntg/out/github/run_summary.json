@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-01T16:39:58Z",
+  "generated_at_utc": "2026-07-01T19:12:00Z",
   "source_counts": {
     "github": 2,
     "algora": 0,
@@ -32,7 +32,7 @@
       "number": 9154,
       "title": "Message routes should require authentication",
       "recommendation": "pursue",
-      "total_score": 77,
+      "total_score": 76,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

@@ -14,7 +14,7 @@
       "title": "Message routes should require authentication",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9154",
       "recommendation": "pursue",
-      "total_score": 77
+      "total_score": 76
     }
   ],
   "dropped_items": [],
