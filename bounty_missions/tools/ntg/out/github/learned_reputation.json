@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-01T20:54:15Z",
+  "generated_at_utc": "2026-07-01T22:40:20Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -11,8 +11,8 @@
       "review_count": 0,
       "pursue_count": 2,
       "unique_issues": [
-        9154,
-        9258
+        9152,
+        9154
       ]
     }
   },
@@ -24,8 +24,8 @@
       "review_count": 0,
       "pursue_count": 2,
       "unique_issues": [
-        9154,
-        9258
+        9152,
+        9154
       ]
     }
   ]

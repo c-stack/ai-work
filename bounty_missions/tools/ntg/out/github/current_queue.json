@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-07-01T20:54:15Z",
+  "generated_at_utc": "2026-07-01T22:40:20Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9258,
-      "title": "Message routes should require authentication (Evelyn reissue via #743)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9258",
+      "number": 9154,
+      "title": "Message routes should require authentication",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9154",
       "recommendation": "pursue",
-      "total_score": 81,
+      "total_score": 76,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
-      "actionability": 20,
+      "actionability": 16,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
@@ -20,15 +20,14 @@
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "action:regression",
         "task:bug"
       ]
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9154,
-      "title": "Message routes should require authentication",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9154",
+      "number": 9152,
+      "title": "Invalid PORT env crashes API startup",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9152",
       "recommendation": "pursue",
       "total_score": 76,
       "repo_primary_language": "JavaScript",
