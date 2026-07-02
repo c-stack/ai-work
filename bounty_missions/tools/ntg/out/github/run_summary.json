@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-02T19:51:51Z",
+  "generated_at_utc": "2026-07-02T21:32:30Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -46,7 +46,7 @@
       "number": 351,
       "title": "Urgent",
       "recommendation": "skip",
-      "total_score": 66,
+      "total_score": 65,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Issue details are too thin to estimate a quick fix path.",
