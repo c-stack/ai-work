@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-01T22:40:20Z",
+  "generated_at_utc": "2026-07-02T01:25:29Z",
   "source_counts": {
-    "github": 2,
+    "github": 3,
     "algora": 0,
-    "merged": 2
+    "merged": 3
   },
   "recommendations": {
     "pursue": 2,
     "review": 0,
-    "skip": 0
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -38,6 +38,21 @@
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "OlympusDAO/olympus-contracts",
+      "number": 351,
+      "title": "Urgent",
+      "recommendation": "skip",
+      "total_score": 66,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
         "task:bug"
       ]
     }

@@ -15,6 +15,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9152",
       "recommendation": "pursue",
       "total_score": 76
+    },
+    {
+      "repo": "OlympusDAO/olympus-contracts",
+      "number": 351,
+      "title": "Urgent",
+      "url": "https://github.com/OlympusDAO/olympus-contracts/issues/351",
+      "recommendation": "skip",
+      "total_score": 66
     }
   ],
   "dropped_items": [],
