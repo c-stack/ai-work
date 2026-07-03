@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-07-03T13:14:44Z",
+  "generated_at_utc": "2026-07-03T15:25:35Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 0,
-    "merged": 3
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9313,
-      "title": "Fix: Missing try...catch blocks in authController.js asynchronous handlers (Lynn-Lee reissue via #743)",
-      "recommendation": "pursue",
-      "total_score": 101,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:support"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 9297,
