@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-03T07:37:01Z",
+  "generated_at_utc": "2026-07-03T10:50:12Z",
   "source_counts": {
     "github": 3,
-    "algora": 2,
-    "merged": 5
+    "algora": 0,
+    "merged": 3
   },
   "recommendations": {
     "pursue": 2,
     "review": 0,
-    "skip": 3
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -45,46 +45,6 @@
         "action:fix",
         "task:fix",
         "task:replace"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 39,
-      "bounty_amount_usd": 100,
-      "competition_risk": 50,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "recommendation": "skip",
-      "total_score": 22,
-      "bounty_amount_usd": 100,
-      "competition_risk": 61,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
       ]
     },
     {
