@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-07-02T23:30:39Z",
+  "generated_at_utc": "2026-07-03T04:08:49Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9154,
-      "title": "Message routes should require authentication",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9154",
+      "number": 9313,
+      "title": "Fix: Missing try...catch blocks in authController.js asynchronous handlers (Lynn-Lee reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9313",
       "recommendation": "pursue",
-      "total_score": 76,
+      "total_score": 101,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
-      "actionability": 16,
+      "actionability": 40,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
@@ -20,19 +20,22 @@
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "task:bug"
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support"
       ]
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9152,
-      "title": "Invalid PORT env crashes API startup",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9152",
+      "number": 9297,
+      "title": "Freelancer search skills render mojibake separator",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9297",
       "recommendation": "pursue",
-      "total_score": 76,
+      "total_score": 95,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
-      "actionability": 16,
+      "actionability": 34,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
@@ -40,7 +43,10 @@
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "task:bug"
+        "action:steps to reproduce",
+        "action:fix",
+        "task:fix",
+        "task:replace"
       ]
     }
   ]

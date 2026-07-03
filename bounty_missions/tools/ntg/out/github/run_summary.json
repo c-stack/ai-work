@@ -1,59 +1,50 @@
 {
-  "generated_at_utc": "2026-07-02T23:30:39Z",
+  "generated_at_utc": "2026-07-03T04:08:49Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 0,
-    "merged": 3
+    "merged": 2
   },
   "recommendations": {
     "pursue": 2,
     "review": 0,
-    "skip": 1
+    "skip": 0
   },
   "top_candidates": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9154,
-      "title": "Message routes should require authentication",
+      "number": 9313,
+      "title": "Fix: Missing try...catch blocks in authController.js asynchronous handlers (Lynn-Lee reissue via #743)",
       "recommendation": "pursue",
-      "total_score": 76,
+      "total_score": 101,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "task:bug"
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support"
       ]
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9152,
-      "title": "Invalid PORT env crashes API startup",
+      "number": 9297,
+      "title": "Freelancer search skills render mojibake separator",
       "recommendation": "pursue",
-      "total_score": 76,
+      "total_score": 95,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "OlympusDAO/olympus-contracts",
-      "number": 351,
-      "title": "Urgent",
-      "recommendation": "skip",
-      "total_score": 65,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
+        "action:steps to reproduce",
+        "action:fix",
+        "task:fix",
+        "task:replace"
       ]
     }
   ],

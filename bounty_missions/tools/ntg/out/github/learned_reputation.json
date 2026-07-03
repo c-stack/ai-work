@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-02T23:30:39Z",
+  "generated_at_utc": "2026-07-03T04:08:49Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -11,31 +11,12 @@
       "review_count": 0,
       "pursue_count": 2,
       "unique_issues": [
-        9152,
-        9154
-      ]
-    },
-    "OlympusDAO/olympus-contracts": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        351
+        9297,
+        9313
       ]
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "OlympusDAO/olympus-contracts",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        351
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "total_seen": 2,
@@ -43,8 +24,8 @@
       "review_count": 0,
       "pursue_count": 2,
       "unique_issues": [
-        9152,
-        9154
+        9297,
+        9313
       ]
     }
   ]
