@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 9297,
-      "title": "Freelancer search skills render mojibake separator",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9297",
-      "recommendation": "pursue",
-      "total_score": 95
-    },
-    {
       "repo": "NativeBlade/NativeBlade",
       "number": 37,
       "title": "The polar.sh sponsorship link seems to lead nowhere (404).",
