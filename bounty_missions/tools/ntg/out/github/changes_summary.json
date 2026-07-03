@@ -15,6 +15,30 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/9297",
       "recommendation": "pursue",
       "total_score": 95
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 372,
+      "title": "[REVER-48] Workday Integration",
+      "url": "https://github.com/revertinc/revert/issues/372",
+      "recommendation": "skip",
+      "total_score": 39
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 551,
+      "title": "[REVER-51] Workable Integration",
+      "url": "https://github.com/revertinc/revert/issues/551",
+      "recommendation": "skip",
+      "total_score": 22
+    },
+    {
+      "repo": "NativeBlade/NativeBlade",
+      "number": 37,
+      "title": "The polar.sh sponsorship link seems to lead nowhere (404).",
+      "url": "https://github.com/NativeBlade/NativeBlade/issues/37",
+      "recommendation": "skip",
+      "total_score": 21
     }
   ],
   "dropped_items": [],
