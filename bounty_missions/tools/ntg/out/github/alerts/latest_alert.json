@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-04T04:01:48Z",
+  "generated_at_utc": "2026-07-04T07:20:25Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260704T040136Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260704T071440Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -13,7 +13,7 @@
         "title": "The polar.sh sponsorship link seems to lead nowhere (404).",
         "url": "https://github.com/NativeBlade/NativeBlade/issues/37",
         "recommendation": "skip",
-        "total_score": 21
+        "total_score": 20
       }
     ],
     "recommendation_changes": []
