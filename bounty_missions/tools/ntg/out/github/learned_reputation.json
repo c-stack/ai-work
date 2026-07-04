@@ -1,72 +1,9 @@
 {
-  "generated_at_utc": "2026-07-04T11:46:07Z",
+  "generated_at_utc": "2026-07-04T13:57:54Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
-  "repo_stats": {
-    "projectdiscovery/nuclei": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        6532,
-        6674
-      ]
-    },
-    "revertinc/revert": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        372,
-        551
-      ]
-    },
-    "NativeBlade/NativeBlade": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        37
-      ]
-    }
-  },
-  "top_repeat_skips": [
-    {
-      "repo": "revertinc/revert",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        372,
-        551
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        6532,
-        6674
-      ]
-    },
-    {
-      "repo": "NativeBlade/NativeBlade",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        37
-      ]
-    }
-  ]
+  "repo_stats": {},
+  "top_repeat_skips": []
 }
