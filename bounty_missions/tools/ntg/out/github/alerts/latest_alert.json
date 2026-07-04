@@ -1,12 +1,44 @@
 {
-  "generated_at_utc": "2026-07-04T09:32:08Z",
+  "generated_at_utc": "2026-07-04T11:46:07Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260704T093153Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260704T114550Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
+      {
+        "repo": "projectdiscovery/nuclei",
+        "number": 6674,
+        "title": "Replace panic with error handling in template loader when dialers are missing",
+        "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+        "recommendation": "skip",
+        "total_score": 82
+      },
+      {
+        "repo": "projectdiscovery/nuclei",
+        "number": 6532,
+        "title": "Integrate typos tool into CI",
+        "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+        "recommendation": "skip",
+        "total_score": 44
+      },
+      {
+        "repo": "revertinc/revert",
+        "number": 372,
+        "title": "[REVER-48] Workday Integration",
+        "url": "https://github.com/revertinc/revert/issues/372",
+        "recommendation": "skip",
+        "total_score": 39
+      },
+      {
+        "repo": "revertinc/revert",
+        "number": 551,
+        "title": "[REVER-51] Workable Integration",
+        "url": "https://github.com/revertinc/revert/issues/551",
+        "recommendation": "skip",
+        "total_score": 22
+      },
       {
         "repo": "NativeBlade/NativeBlade",
         "number": 37,
