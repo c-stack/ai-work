@@ -1,31 +1,16 @@
 {
-  "generated_at_utc": "2026-07-05T21:19:37Z",
+  "generated_at_utc": "2026-07-05T23:18:42Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 0,
-    "merged": 2
+    "merged": 1
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 2
+    "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "ietf-tools/datatracker",
-      "number": 11153,
-      "title": "Bug bounty",
-      "recommendation": "skip",
-      "total_score": 81,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
-      ]
-    },
     {
       "repo": "PHPOffice/PHPWord",
       "number": 2885,

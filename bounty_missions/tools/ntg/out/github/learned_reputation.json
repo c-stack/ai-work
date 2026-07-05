@@ -1,19 +1,10 @@
 {
-  "generated_at_utc": "2026-07-05T21:19:37Z",
+  "generated_at_utc": "2026-07-05T23:18:42Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "ietf-tools/datatracker": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        11153
-      ]
-    },
     "PHPOffice/PHPWord": {
       "total_seen": 1,
       "skip_count": 1,
@@ -25,16 +16,6 @@
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "ietf-tools/datatracker",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        11153
-      ]
-    },
     {
       "repo": "PHPOffice/PHPWord",
       "total_seen": 1,

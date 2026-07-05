@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "ietf-tools/datatracker",
-      "number": 11153,
-      "title": "Bug bounty",
-      "url": "https://github.com/ietf-tools/datatracker/issues/11153",
-      "recommendation": "skip",
-      "total_score": 81
-    },
-    {
       "repo": "PHPOffice/PHPWord",
       "number": 2885,
       "title": "Untracked files after test",
