@@ -6,7 +6,7 @@
       "title": "Bug bounty",
       "url": "https://github.com/ietf-tools/datatracker/issues/11153",
       "recommendation": "skip",
-      "total_score": 83
+      "total_score": 81
     },
     {
       "repo": "PHPOffice/PHPWord",
