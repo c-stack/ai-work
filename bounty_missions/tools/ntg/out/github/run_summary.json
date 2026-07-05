@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-05T19:45:14Z",
+  "generated_at_utc": "2026-07-05T21:19:37Z",
   "source_counts": {
     "github": 2,
     "algora": 0,
@@ -31,7 +31,7 @@
       "number": 2885,
       "title": "Untracked files after test",
       "recommendation": "skip",
-      "total_score": 71,
+      "total_score": 70,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",

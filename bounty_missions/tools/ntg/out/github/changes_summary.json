@@ -14,7 +14,7 @@
       "title": "Untracked files after test",
       "url": "https://github.com/PHPOffice/PHPWord/issues/2885",
       "recommendation": "skip",
-      "total_score": 71
+      "total_score": 70
     }
   ],
   "dropped_items": [],

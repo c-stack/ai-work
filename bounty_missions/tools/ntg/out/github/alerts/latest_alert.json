@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-05T19:45:14Z",
+  "generated_at_utc": "2026-07-05T21:19:37Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260705T194504Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260705T211926Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -21,7 +21,7 @@
         "title": "Untracked files after test",
         "url": "https://github.com/PHPOffice/PHPWord/issues/2885",
         "recommendation": "skip",
-        "total_score": 71
+        "total_score": 70
       }
     ],
     "recommendation_changes": []
