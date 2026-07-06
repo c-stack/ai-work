@@ -1,30 +1,9 @@
 {
-  "generated_at_utc": "2026-07-06T09:10:34Z",
+  "generated_at_utc": "2026-07-06T12:58:24Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
-  "repo_stats": {
-    "PHPOffice/PHPWord": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2885
-      ]
-    }
-  },
-  "top_repeat_skips": [
-    {
-      "repo": "PHPOffice/PHPWord",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2885
-      ]
-    }
-  ]
+  "repo_stats": {},
+  "top_repeat_skips": []
 }
