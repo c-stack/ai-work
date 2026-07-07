@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-06T22:37:56Z",
+  "generated_at_utc": "2026-07-07T00:20:09Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260706T223742Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260707T001954Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
       {
-        "repo": "PHPOffice/PHPWord",
-        "number": 2885,
-        "title": "Untracked files after test",
-        "url": "https://github.com/PHPOffice/PHPWord/issues/2885",
+        "repo": "SecureBananaLabs/bug-bounty",
+        "number": 10938,
+        "title": "Freelancer search skills should use ASCII comma separator",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/10938",
         "recommendation": "skip",
-        "total_score": 70
+        "total_score": 83
       }
     ],
     "recommendation_changes": []

@@ -1,12 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2885,
-      "title": "Untracked files after test",
-      "url": "https://github.com/PHPOffice/PHPWord/issues/2885",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 10938,
+      "title": "Freelancer search skills should use ASCII comma separator",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/10938",
       "recommendation": "skip",
-      "total_score": 70
+      "total_score": 83
     }
   ],
   "dropped_items": [],

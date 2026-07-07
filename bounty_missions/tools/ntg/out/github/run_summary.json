@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-06T09:10:34Z",
+  "generated_at_utc": "2026-07-07T00:20:09Z",
   "source_counts": {
     "github": 1,
     "algora": 0,
@@ -12,20 +12,23 @@
   },
   "top_candidates": [
     {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2885,
-      "title": "Untracked files after test",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 10938,
+      "title": "Freelancer search skills should use ASCII comma separator",
       "recommendation": "skip",
-      "total_score": 70,
+      "total_score": 83,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "competition_risk": 21,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
         "platform:algora",
         "action:steps to reproduce",
         "action:expected behavior",
-        "task:fix",
-        "task:add "
+        "task:bug",
+        "claims:1",
+        "existing-work:1"
       ]
     }
   ],
