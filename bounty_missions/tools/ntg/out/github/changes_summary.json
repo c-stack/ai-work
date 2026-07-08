@@ -14,7 +14,7 @@
       "title": "Freelancer search skills should use ASCII comma separator",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/10938",
       "recommendation": "skip",
-      "total_score": 83
+      "total_score": 82
     }
   ],
   "dropped_items": [],
