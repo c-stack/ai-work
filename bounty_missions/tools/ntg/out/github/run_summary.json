@@ -1,35 +1,16 @@
 {
-  "generated_at_utc": "2026-07-08T20:37:28Z",
+  "generated_at_utc": "2026-07-08T22:17:13Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
     "merged": 3
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
-    "skip": 1
+    "skip": 2
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 49307,
-      "title": "[Bounty $3000] Command-R bringup using TTNN APIs",
-      "recommendation": "pursue",
-      "total_score": 104,
-      "bounty_amount_usd": 3000,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "negative:benchmarks",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support"
-      ]
-    },
     {
       "repo": "pancakeswap/pancake-v3-contracts",
       "number": 32,
@@ -64,6 +45,25 @@
         "task:bug",
         "claims:1",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49307,
+      "title": "[Bounty] Command-R bringup using TTNN APIs",
+      "recommendation": "skip",
+      "total_score": 64,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "negative:benchmarks",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support"
       ]
     }
   ],

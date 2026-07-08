@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 49307,
-      "title": "[Bounty $3000] Command-R bringup using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
-      "recommendation": "pursue",
-      "total_score": 104
-    },
-    {
       "repo": "pancakeswap/pancake-v3-contracts",
       "number": 32,
       "title": "Bug Bounty",
@@ -23,6 +15,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/10938",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49307,
+      "title": "[Bounty] Command-R bringup using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
+      "recommendation": "skip",
+      "total_score": 64
     }
   ],
   "dropped_items": [],
