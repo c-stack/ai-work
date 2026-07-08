@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-08T11:57:33Z",
+  "generated_at_utc": "2026-07-08T14:40:49Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -25,6 +25,27 @@
         "action:fix",
         "task:fix",
         "task:support"
+      ]
+    },
+    {
+      "repo": "pancakeswap/pancake-v3-contracts",
+      "number": 32,
+      "title": "Bug Bounty",
+      "url": "https://github.com/pancakeswap/pancake-v3-contracts/issues/32",
+      "recommendation": "pursue",
+      "total_score": 96,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 34,
+      "actionability": 18,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:remove",
+        "task:bug"
       ]
     }
   ]

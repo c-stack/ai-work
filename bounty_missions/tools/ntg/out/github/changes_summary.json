@@ -9,6 +9,14 @@
       "total_score": 104
     },
     {
+      "repo": "pancakeswap/pancake-v3-contracts",
+      "number": 32,
+      "title": "Bug Bounty",
+      "url": "https://github.com/pancakeswap/pancake-v3-contracts/issues/32",
+      "recommendation": "pursue",
+      "total_score": 96
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 10938,
       "title": "Freelancer search skills should use ASCII comma separator",
