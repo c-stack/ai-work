@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49307,
+      "title": "[Bounty $3000] Command-R bringup using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
+      "recommendation": "pursue",
+      "total_score": 118
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 10938,
       "title": "Freelancer search skills should use ASCII comma separator",

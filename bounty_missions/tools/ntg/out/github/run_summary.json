@@ -1,16 +1,32 @@
 {
-  "generated_at_utc": "2026-07-07T21:42:47Z",
+  "generated_at_utc": "2026-07-08T00:13:08Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49307,
+      "title": "[Bounty $3000] Command-R bringup using TTNN APIs",
+      "recommendation": "pursue",
+      "total_score": 118,
+      "bounty_amount_usd": 3000,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:implement",
+        "task:add "
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 10938,
