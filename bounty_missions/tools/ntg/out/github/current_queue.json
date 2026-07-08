@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-08T06:38:59Z",
+  "generated_at_utc": "2026-07-08T09:37:20Z",
   "triage_profile": "aggressive",
   "count": 1,
   "items": [
@@ -9,19 +9,22 @@
       "title": "[Bounty $3000] Command-R bringup using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
       "recommendation": "pursue",
-      "total_score": 118,
+      "total_score": 104,
       "repo_primary_language": "C++",
-      "bounty_confidence": 40,
-      "actionability": 36,
+      "bounty_confidence": 20,
+      "actionability": 44,
       "bounty_amount_usd": 3000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
+        "negative:benchmark",
+        "negative:benchmarks",
         "action:error",
-        "task:implement",
-        "task:add "
+        "action:fix",
+        "task:fix",
+        "task:support"
       ]
     }
   ]

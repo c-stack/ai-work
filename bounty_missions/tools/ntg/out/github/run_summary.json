@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-08T06:38:59Z",
+  "generated_at_utc": "2026-07-08T09:37:20Z",
   "source_counts": {
     "github": 2,
     "algora": 0,
@@ -16,15 +16,18 @@
       "number": 49307,
       "title": "[Bounty $3000] Command-R bringup using TTNN APIs",
       "recommendation": "pursue",
-      "total_score": 118,
+      "total_score": 104,
       "bounty_amount_usd": 3000,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
+        "negative:benchmark",
+        "negative:benchmarks",
         "action:error",
-        "task:implement",
-        "task:add "
+        "action:fix",
+        "task:fix",
+        "task:support"
       ]
     },
     {
