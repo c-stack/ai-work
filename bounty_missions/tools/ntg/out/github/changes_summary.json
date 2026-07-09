@@ -22,7 +22,7 @@
       "title": "[Bounty] Command-R bringup using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
       "recommendation": "skip",
-      "total_score": 64
+      "total_score": 63
     }
   ],
   "dropped_items": [],
