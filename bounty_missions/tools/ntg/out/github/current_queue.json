@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-08T23:33:53Z",
+  "generated_at_utc": "2026-07-09T04:13:40Z",
   "triage_profile": "aggressive",
   "count": 1,
   "items": [
@@ -12,16 +12,16 @@
       "total_score": 96,
       "repo_primary_language": "TypeScript",
       "bounty_confidence": 34,
-      "actionability": 18,
+      "actionability": 20,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
-        "task:remove",
-        "task:bug"
+        "task:support",
+        "task:remove"
       ]
     }
   ]
