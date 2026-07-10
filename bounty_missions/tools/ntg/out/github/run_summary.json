@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-07-10T20:43:17Z",
+  "generated_at_utc": "2026-07-10T22:15:29Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 0,
-    "merged": 5
+    "merged": 6
   },
   "recommendations": {
     "pursue": 3,
-    "review": 0,
+    "review": 1,
     "skip": 2
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49631,
+      "title": "[Bounty $1,500] Optimise `deg2rad` / `rad2deg` (fp32/bf16)",
+      "recommendation": "review",
+      "total_score": 105,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:fix",
+        "task:fix",
+        "task:implement",
+        "claims:1"
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11000,
@@ -66,11 +84,11 @@
     {
       "repo": "tenstorrent/tt-metal",
       "number": 49625,
-      "title": "Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
+      "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
       "recommendation": "skip",
-      "total_score": 84,
-      "bounty_amount_usd": 0,
-      "competition_risk": 12,
+      "total_score": 93,
+      "bounty_amount_usd": 2500,
+      "competition_risk": 30,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
@@ -78,6 +96,7 @@
         "action:error",
         "task:fix",
         "task:implement",
+        "claims:1",
         "existing-work:1"
       ]
     },

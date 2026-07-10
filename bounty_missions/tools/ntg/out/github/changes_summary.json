@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49631,
+      "title": "[Bounty $1,500] Optimise `deg2rad` / `rad2deg` (fp32/bf16)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/49631",
+      "recommendation": "review",
+      "total_score": 105
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11000,
       "title": "User creation should validate payloads and block admin role self-assignment",
@@ -27,10 +35,10 @@
     {
       "repo": "tenstorrent/tt-metal",
       "number": 49625,
-      "title": "Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
+      "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49625",
       "recommendation": "skip",
-      "total_score": 84
+      "total_score": 93
     },
     {
       "repo": "tenstorrent/tt-metal",
