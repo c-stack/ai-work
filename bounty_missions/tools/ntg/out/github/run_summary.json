@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-10T07:53:29Z",
+  "generated_at_utc": "2026-07-10T11:19:23Z",
   "source_counts": {
-    "github": 3,
+    "github": 5,
     "algora": 0,
-    "merged": 3
+    "merged": 5
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 4,
     "review": 0,
     "skip": 1
   },
@@ -46,14 +46,50 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11046,
+      "title": "Upload endpoint should reject requests without a file",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11042,
+      "title": "Upload endpoint should reject requests without a file",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 49307,
       "title": "[Bounty] Command-R bringup using TTNN APIs",
       "recommendation": "skip",
-      "total_score": 63,
+      "total_score": 58,
       "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "competition_risk": 4,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",
         "negative:benchmark",
@@ -61,7 +97,8 @@
         "action:error",
         "action:fix",
         "task:fix",
-        "task:support"
+        "task:support",
+        "support:support-politeness"
       ]
     }
   ],

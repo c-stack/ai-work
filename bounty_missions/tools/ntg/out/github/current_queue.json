@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-10T07:53:29Z",
+  "generated_at_utc": "2026-07-10T11:19:23Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 4,
   "items": [
     {
       "repo": "SecureBananaLabs/bug-bounty",
@@ -45,6 +45,52 @@
         "bounty:bounty",
         "task:support",
         "task:remove"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11046,
+      "title": "Upload endpoint should reject requests without a file",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11046",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11042,
+      "title": "Upload endpoint should reject requests without a file",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11042",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
       ]
     }
   ]
