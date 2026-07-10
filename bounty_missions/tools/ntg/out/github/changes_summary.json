@@ -26,6 +26,14 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 49625,
+      "title": "Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/49625",
+      "recommendation": "skip",
+      "total_score": 84
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 49307,
       "title": "[Bounty] Command-R bringup using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49307",
