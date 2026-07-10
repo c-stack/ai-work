@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-07-09T23:36:39Z",
+  "generated_at_utc": "2026-07-10T04:14:59Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        11000
+      ]
+    },
     "pancakeswap/pancake-v3-contracts": {
       "total_seen": 1,
       "skip_count": 0,
@@ -12,15 +21,6 @@
       "pursue_count": 1,
       "unique_issues": [
         32
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        10938
       ]
     },
     "tenstorrent/tt-metal": {
@@ -45,16 +45,6 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        10938
-      ]
-    },
-    {
       "repo": "pancakeswap/pancake-v3-contracts",
       "total_seen": 1,
       "skip_count": 0,
@@ -62,6 +52,16 @@
       "pursue_count": 1,
       "unique_issues": [
         32
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        11000
       ]
     }
   ]

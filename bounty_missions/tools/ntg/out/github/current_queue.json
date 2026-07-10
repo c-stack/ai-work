@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-07-09T23:36:39Z",
+  "generated_at_utc": "2026-07-10T04:14:59Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11000,
+      "title": "User creation should validate payloads and block admin role self-assignment",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11000",
+      "recommendation": "pursue",
+      "total_score": 102,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 42,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:error"
+      ]
+    },
     {
       "repo": "pancakeswap/pancake-v3-contracts",
       "number": 32,
