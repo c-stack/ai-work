@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-11T13:54:12Z",
+  "generated_at_utc": "2026-07-11T15:15:37Z",
   "source_counts": {
     "github": 5,
     "algora": 0,
@@ -30,22 +30,6 @@
       ]
     },
     {
-      "repo": "pancakeswap/pancake-v3-contracts",
-      "number": 32,
-      "title": "Bug Bounty",
-      "recommendation": "pursue",
-      "total_score": 95,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:support",
-        "task:remove"
-      ]
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 49625,
       "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
@@ -62,6 +46,22 @@
         "task:implement",
         "claims:1",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "pancakeswap/pancake-v3-contracts",
+      "number": 32,
+      "title": "Bug Bounty",
+      "recommendation": "pursue",
+      "total_score": 94,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:support",
+        "task:remove"
       ]
     },
     {

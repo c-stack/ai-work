@@ -9,19 +9,19 @@
       "total_score": 107
     },
     {
-      "repo": "pancakeswap/pancake-v3-contracts",
-      "number": 32,
-      "title": "Bug Bounty",
-      "url": "https://github.com/pancakeswap/pancake-v3-contracts/issues/32",
-      "recommendation": "pursue",
-      "total_score": 95
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 49625,
       "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49625",
       "recommendation": "skip",
+      "total_score": 94
+    },
+    {
+      "repo": "pancakeswap/pancake-v3-contracts",
+      "number": 32,
+      "title": "Bug Bounty",
+      "url": "https://github.com/pancakeswap/pancake-v3-contracts/issues/32",
+      "recommendation": "pursue",
       "total_score": 94
     },
     {

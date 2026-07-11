@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-11T13:54:12Z",
+  "generated_at_utc": "2026-07-11T15:15:37Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -32,7 +32,7 @@
       "title": "Bug Bounty",
       "url": "https://github.com/pancakeswap/pancake-v3-contracts/issues/32",
       "recommendation": "pursue",
-      "total_score": 95,
+      "total_score": 94,
       "repo_primary_language": "TypeScript",
       "bounty_confidence": 34,
       "actionability": 20,
