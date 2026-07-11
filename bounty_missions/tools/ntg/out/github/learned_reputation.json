@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-11T16:11:51Z",
+  "generated_at_utc": "2026-07-11T17:16:10Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -33,9 +33,30 @@
         11042,
         11046
       ]
+    },
+    "projectdiscovery/nuclei": {
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        6532,
+        6674
+      ]
     }
   },
   "top_repeat_skips": [
+    {
+      "repo": "projectdiscovery/nuclei",
+      "total_seen": 2,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        6532,
+        6674
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "total_seen": 2,

@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-11T16:11:51Z",
+  "generated_at_utc": "2026-07-11T17:16:10Z",
   "source_counts": {
     "github": 5,
-    "algora": 0,
-    "merged": 5
+    "algora": 2,
+    "merged": 7
   },
   "recommendations": {
     "pursue": 3,
     "review": 1,
-    "skip": 1
+    "skip": 3
   },
   "top_candidates": [
     {
@@ -98,6 +98,49 @@
         "action:regression",
         "task:add ",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6674,
+      "title": "Replace panic with error handling in template loader when dialers are missing",
+      "recommendation": "skip",
+      "total_score": 82,
+      "bounty_amount_usd": 100,
+      "competition_risk": 40,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],
