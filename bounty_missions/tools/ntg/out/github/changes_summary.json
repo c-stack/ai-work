@@ -31,6 +31,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11046",
       "recommendation": "pursue",
       "total_score": 93
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11042,
+      "title": "Upload endpoint should reject requests without a file",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11042",
+      "recommendation": "pursue",
+      "total_score": 93
     }
   ],
   "dropped_items": [],
