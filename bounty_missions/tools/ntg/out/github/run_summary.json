@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-11T18:09:48Z",
+  "generated_at_utc": "2026-07-11T19:31:49Z",
   "source_counts": {
     "github": 5,
     "algora": 0,
@@ -34,7 +34,7 @@
       "number": 49625,
       "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
       "recommendation": "skip",
-      "total_score": 94,
+      "total_score": 95,
       "bounty_amount_usd": 2500,
       "competition_risk": 32,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",

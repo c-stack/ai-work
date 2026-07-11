@@ -14,7 +14,7 @@
       "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49625",
       "recommendation": "skip",
-      "total_score": 94
+      "total_score": 95
     },
     {
       "repo": "pancakeswap/pancake-v3-contracts",
