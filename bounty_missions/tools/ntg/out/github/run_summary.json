@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-10T23:14:59Z",
+  "generated_at_utc": "2026-07-11T00:11:24Z",
   "source_counts": {
-    "github": 6,
+    "github": 5,
     "algora": 0,
-    "merged": 6
+    "merged": 5
   },
   "recommendations": {
     "pursue": 3,
     "review": 1,
-    "skip": 2
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -27,24 +27,6 @@
         "task:fix",
         "task:implement",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11000,
-      "title": "User creation should validate payloads and block admin role self-assignment",
-      "recommendation": "pursue",
-      "total_score": 102,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:error"
       ]
     },
     {
@@ -82,6 +64,24 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11042,
+      "title": "Upload endpoint should reject requests without a file",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 49625,
       "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
@@ -98,26 +98,6 @@
         "task:implement",
         "claims:1",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 49307,
-      "title": "[Bounty] Command-R bringup using TTNN APIs",
-      "recommendation": "skip",
-      "total_score": 58,
-      "bounty_amount_usd": 0,
-      "competition_risk": 4,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "negative:benchmarks",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "support:support-politeness"
       ]
     }
   ],

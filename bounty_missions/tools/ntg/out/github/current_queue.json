@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-10T23:14:59Z",
+  "generated_at_utc": "2026-07-11T00:11:24Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -24,29 +24,6 @@
         "task:fix",
         "task:implement",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11000,
-      "title": "User creation should validate payloads and block admin role self-assignment",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11000",
-      "recommendation": "pursue",
-      "total_score": 102,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 42,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:error"
       ]
     },
     {
@@ -75,6 +52,29 @@
       "number": 11046,
       "title": "Upload endpoint should reject requests without a file",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11046",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:add ",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11042,
+      "title": "Upload endpoint should reject requests without a file",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11042",
       "recommendation": "pursue",
       "total_score": 93,
       "repo_primary_language": "JavaScript",
