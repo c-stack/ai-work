@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 49631,
-      "title": "[Bounty $1,500] Optimise `deg2rad` / `rad2deg` (fp32/bf16)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/49631",
-      "recommendation": "review",
-      "total_score": 107
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11114,
       "title": "Payment intent currency should be normalized before return (scoped, refs #743)",

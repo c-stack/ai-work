@@ -1,20 +1,10 @@
 {
-  "generated_at_utc": "2026-07-12T10:45:29Z",
+  "generated_at_utc": "2026-07-12T12:07:45Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        49625,
-        49631
-      ]
-    },
     "SecureBananaLabs/bug-bounty": {
       "total_seen": 2,
       "skip_count": 1,
@@ -24,20 +14,18 @@
         11046,
         11114
       ]
+    },
+    "tenstorrent/tt-metal": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        49625
+      ]
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        49625,
-        49631
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "total_seen": 2,
@@ -47,6 +35,16 @@
       "unique_issues": [
         11046,
         11114
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        49625
       ]
     }
   ]

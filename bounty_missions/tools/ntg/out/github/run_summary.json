@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-07-12T10:45:29Z",
+  "generated_at_utc": "2026-07-12T12:07:45Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 0,
-    "merged": 4
+    "merged": 3
   },
   "recommendations": {
     "pursue": 1,
-    "review": 1,
+    "review": 0,
     "skip": 2
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 49631,
-      "title": "[Bounty $1,500] Optimise `deg2rad` / `rad2deg` (fp32/bf16)",
-      "recommendation": "review",
-      "total_score": 107,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:fix",
-        "task:fix",
-        "task:implement",
-        "claims:1"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11114,
