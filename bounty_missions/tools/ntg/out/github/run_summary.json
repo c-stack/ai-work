@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-11T23:10:56Z",
+  "generated_at_utc": "2026-07-12T00:11:16Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 0,
-    "merged": 5
+    "merged": 4
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 2,
     "review": 1,
     "skip": 1
   },
@@ -46,22 +46,6 @@
         "task:implement",
         "claims:1",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "pancakeswap/pancake-v3-contracts",
-      "number": 32,
-      "title": "Bug Bounty",
-      "recommendation": "pursue",
-      "total_score": 94,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:support",
-        "task:remove"
       ]
     },
     {
