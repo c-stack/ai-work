@@ -9,6 +9,14 @@
       "total_score": 107
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11114,
+      "title": "Payment intent currency should be normalized before return (scoped, refs #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11114",
+      "recommendation": "skip",
+      "total_score": 99
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 49625,
       "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
@@ -21,14 +29,6 @@
       "number": 11046,
       "title": "Upload endpoint should reject requests without a file",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11046",
-      "recommendation": "pursue",
-      "total_score": 92
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11042,
-      "title": "Upload endpoint should reject requests without a file",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11042",
       "recommendation": "pursue",
       "total_score": 92
     }

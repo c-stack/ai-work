@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-12T09:16:50Z",
+  "generated_at_utc": "2026-07-12T10:45:29Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
     "merged": 4
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 1,
-    "skip": 1
+    "skip": 2
   },
   "top_candidates": [
     {
@@ -27,6 +27,25 @@
         "task:fix",
         "task:implement",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11114,
+      "title": "Payment intent currency should be normalized before return (scoped, refs #743)",
+      "recommendation": "skip",
+      "total_score": 99,
+      "bounty_amount_usd": 0,
+      "competition_risk": 15,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:add ",
+        "existing-work:1"
       ]
     },
     {
@@ -51,24 +70,6 @@
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11046,
-      "title": "Upload endpoint should reject requests without a file",
-      "recommendation": "pursue",
-      "total_score": 92,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:add ",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11042,
       "title": "Upload endpoint should reject requests without a file",
       "recommendation": "pursue",
       "total_score": 92,

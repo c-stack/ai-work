@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-12T09:16:50Z",
+  "generated_at_utc": "2026-07-12T10:45:29Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -31,29 +31,6 @@
       "number": 11046,
       "title": "Upload endpoint should reject requests without a file",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11046",
-      "recommendation": "pursue",
-      "total_score": 92,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 32,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:add ",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11042,
-      "title": "Upload endpoint should reject requests without a file",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11042",
       "recommendation": "pursue",
       "total_score": 92,
       "repo_primary_language": "JavaScript",
