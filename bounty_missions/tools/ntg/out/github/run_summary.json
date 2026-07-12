@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-12T06:47:14Z",
+  "generated_at_utc": "2026-07-12T09:16:50Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
@@ -53,7 +53,7 @@
       "number": 11046,
       "title": "Upload endpoint should reject requests without a file",
       "recommendation": "pursue",
-      "total_score": 93,
+      "total_score": 92,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -71,7 +71,7 @@
       "number": 11042,
       "title": "Upload endpoint should reject requests without a file",
       "recommendation": "pursue",
-      "total_score": 93,
+      "total_score": 92,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
