@@ -23,38 +23,6 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11046",
       "recommendation": "pursue",
       "total_score": 92
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6674,
-      "title": "Replace panic with error handling in template loader when dialers are missing",
-      "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
-      "recommendation": "skip",
-      "total_score": 82
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
-      "recommendation": "skip",
-      "total_score": 44
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "url": "https://github.com/revertinc/revert/issues/372",
-      "recommendation": "skip",
-      "total_score": 39
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "url": "https://github.com/revertinc/revert/issues/551",
-      "recommendation": "skip",
-      "total_score": 22
     }
   ],
   "dropped_items": [],

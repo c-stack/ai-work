@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-12T15:16:07Z",
+  "generated_at_utc": "2026-07-12T16:14:47Z",
   "source_counts": {
     "github": 3,
-    "algora": 4,
-    "merged": 7
+    "algora": 0,
+    "merged": 3
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 6
+    "skip": 2
   },
   "top_candidates": [
     {
@@ -65,89 +65,6 @@
         "action:regression",
         "task:add ",
         "task:bug"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6674,
-      "title": "Replace panic with error handling in template loader when dialers are missing",
-      "recommendation": "skip",
-      "total_score": 82,
-      "bounty_amount_usd": 100,
-      "competition_risk": 40,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 39,
-      "bounty_amount_usd": 100,
-      "competition_risk": 50,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "recommendation": "skip",
-      "total_score": 22,
-      "bounty_amount_usd": 100,
-      "competition_risk": 61,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
       ]
     }
   ],
