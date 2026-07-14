@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-07-14T03:33:31Z",
+  "generated_at_utc": "2026-07-14T06:24:46Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 717,
+      "title": "Bug Bounty Report \u2014 Tarsnap client: NULL dereference from unchecked strlist_init() in bsdtar_init()",
+      "recommendation": "pursue",
+      "total_score": 137,
+      "bounty_amount_usd": 100,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:failing"
+      ]
+    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11114,
