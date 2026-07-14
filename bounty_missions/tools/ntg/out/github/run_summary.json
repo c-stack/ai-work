@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-13T23:13:08Z",
+  "generated_at_utc": "2026-07-14T00:07:29Z",
   "source_counts": {
-    "github": 3,
+    "github": 1,
     "algora": 0,
-    "merged": 3
+    "merged": 1
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 2
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -28,43 +28,6 @@
         "task:fix",
         "task:add ",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 49625,
-      "title": "[Bounty $2,500] Optimise/improve accuracy for pow(x, y) fp32 (non-integer exponent)",
-      "recommendation": "skip",
-      "total_score": 94,
-      "bounty_amount_usd": 2500,
-      "competition_risk": 32,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:implement",
-        "claims:1",
-        "existing-work:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11046,
-      "title": "Upload endpoint should reject requests without a file",
-      "recommendation": "pursue",
-      "total_score": 92,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:regression",
-        "task:add ",
-        "task:bug"
       ]
     }
   ],

@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-07-07T21:42:47Z",
+  "generated_at_utc": "2026-07-14T00:07:29Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260707T214232Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260714T000721Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
       {
         "repo": "SecureBananaLabs/bug-bounty",
-        "number": 10938,
-        "title": "Freelancer search skills should use ASCII comma separator",
-        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/10938",
+        "number": 11114,
+        "title": "Payment intent currency should be normalized before return (scoped, refs #743)",
+        "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11114",
         "recommendation": "skip",
-        "total_score": 83
+        "total_score": 99
       }
     ],
     "recommendation_changes": []

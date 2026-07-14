@@ -2,4 +2,3 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
-| pursue | 92 | SecureBananaLabs/bug-bounty | 11046 | JavaScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, platform:algora, action:expected behavior, action:regression | [open](https://github.com/SecureBananaLabs/bug-bounty/issues/11046) |
