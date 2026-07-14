@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-14T09:17:25Z",
+  "generated_at_utc": "2026-07-14T10:58:09Z",
   "source_counts": {
     "github": 2,
     "algora": 0,
@@ -34,7 +34,7 @@
       "number": 11114,
       "title": "Payment intent currency should be normalized before return (scoped, refs #743)",
       "recommendation": "skip",
-      "total_score": 99,
+      "total_score": 98,
       "bounty_amount_usd": 0,
       "competition_risk": 15,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
