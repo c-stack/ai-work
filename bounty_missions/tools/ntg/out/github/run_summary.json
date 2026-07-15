@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-15T17:38:46Z",
+  "generated_at_utc": "2026-07-15T19:36:38Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 1
+    "skip": 2
   },
   "top_candidates": [
     {
@@ -28,6 +28,23 @@
         "task:fix",
         "task:add ",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49943,
+      "title": "[Bounty: $7500] Optimise atan/asin/acos (fp32)",
+      "recommendation": "skip",
+      "total_score": 71,
+      "bounty_amount_usd": 7500,
+      "competition_risk": 30,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "action:fix",
+        "task:fix",
+        "claims:3"
       ]
     }
   ],

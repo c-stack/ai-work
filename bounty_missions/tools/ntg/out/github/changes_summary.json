@@ -7,6 +7,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11114",
       "recommendation": "skip",
       "total_score": 98
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 49943,
+      "title": "[Bounty: $7500] Optimise atan/asin/acos (fp32)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/49943",
+      "recommendation": "skip",
+      "total_score": 71
     }
   ],
   "dropped_items": [],

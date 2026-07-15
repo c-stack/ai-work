@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-15T17:38:46Z",
+  "generated_at_utc": "2026-07-15T19:36:38Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260715T173833Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260715T193626Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -14,6 +14,14 @@
         "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11114",
         "recommendation": "skip",
         "total_score": 98
+      },
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 49943,
+        "title": "[Bounty: $7500] Optimise atan/asin/acos (fp32)",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/49943",
+        "recommendation": "skip",
+        "total_score": 71
       }
     ],
     "recommendation_changes": []
