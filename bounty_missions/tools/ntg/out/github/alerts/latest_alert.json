@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-14T03:33:31Z",
+  "generated_at_utc": "2026-07-15T14:09:11Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260714T033323Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260715T140900Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -13,7 +13,7 @@
         "title": "Payment intent currency should be normalized before return (scoped, refs #743)",
         "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11114",
         "recommendation": "skip",
-        "total_score": 99
+        "total_score": 98
       }
     ],
     "recommendation_changes": []

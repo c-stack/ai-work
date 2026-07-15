@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 717,
-      "title": "Bug Bounty Report \u2014 Tarsnap client: NULL dereference from unchecked strlist_init() in bsdtar_init()",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/717",
-      "recommendation": "pursue",
-      "total_score": 137
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11114,
       "title": "Payment intent currency should be normalized before return (scoped, refs #743)",
