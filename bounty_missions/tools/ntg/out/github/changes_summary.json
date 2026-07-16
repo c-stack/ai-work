@@ -6,7 +6,7 @@
       "title": "[Bounty: $7500] Performance/precision: atan/asin/acos (fp32)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49943",
       "recommendation": "skip",
-      "total_score": 83
+      "total_score": 75
     }
   ],
   "dropped_items": [],

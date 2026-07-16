@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-16T20:12:21Z",
+  "generated_at_utc": "2026-07-16T21:16:16Z",
   "source_counts": {
     "github": 1,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 49943,
       "title": "[Bounty: $7500] Performance/precision: atan/asin/acos (fp32)",
       "recommendation": "skip",
-      "total_score": 83,
+      "total_score": 75,
       "bounty_amount_usd": 7500,
       "competition_risk": 30,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
