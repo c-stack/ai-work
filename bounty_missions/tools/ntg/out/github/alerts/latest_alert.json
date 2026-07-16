@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-16T11:54:17Z",
+  "generated_at_utc": "2026-07-16T14:22:38Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260716T115402Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260716T142226Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -10,10 +10,10 @@
       {
         "repo": "tenstorrent/tt-metal",
         "number": 49943,
-        "title": "[Bounty: $7500] Optimise atan/asin/acos (fp32)",
+        "title": "[Bounty: $7500] Performance/precision: atan/asin/acos (fp32)",
         "url": "https://github.com/tenstorrent/tt-metal/issues/49943",
         "recommendation": "skip",
-        "total_score": 71
+        "total_score": 83
       }
     ],
     "recommendation_changes": []
