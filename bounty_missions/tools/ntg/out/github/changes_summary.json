@@ -1,28 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6674,
-      "title": "Replace panic with error handling in template loader when dialers are missing",
-      "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
-      "recommendation": "skip",
-      "total_score": 82
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 49943,
       "title": "[Bounty: $7500] Performance/precision: atan/asin/acos (fp32)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/49943",
       "recommendation": "skip",
       "total_score": 75
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
-      "recommendation": "skip",
-      "total_score": 44
     }
   ],
   "dropped_items": [],
