@@ -1,12 +1,20 @@
 {
-  "generated_at_utc": "2026-07-17T14:03:15Z",
+  "generated_at_utc": "2026-07-17T15:40:06Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260717T140259Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260717T153950Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
+      {
+        "repo": "projectdiscovery/nuclei",
+        "number": 6674,
+        "title": "Replace panic with error handling in template loader when dialers are missing",
+        "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+        "recommendation": "skip",
+        "total_score": 82
+      },
       {
         "repo": "tenstorrent/tt-metal",
         "number": 49943,
@@ -14,6 +22,14 @@
         "url": "https://github.com/tenstorrent/tt-metal/issues/49943",
         "recommendation": "skip",
         "total_score": 75
+      },
+      {
+        "repo": "projectdiscovery/nuclei",
+        "number": 6532,
+        "title": "Integrate typos tool into CI",
+        "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+        "recommendation": "skip",
+        "total_score": 44
       }
     ],
     "recommendation_changes": []
