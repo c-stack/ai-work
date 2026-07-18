@@ -1,31 +1,214 @@
 {
-  "generated_at_utc": "2026-07-18T12:04:45Z",
+  "generated_at_utc": "2026-07-18T15:15:31Z",
   "source_counts": {
-    "github": 1,
-    "algora": 0,
-    "merged": 1
+    "github": 0,
+    "algora": 14,
+    "merged": 14
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 1
+    "skip": 14
   },
   "top_candidates": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 49943,
-      "title": "[Bounty: $7500] Performance/precision: atan/asin/acos (fp32)",
+      "repo": "projectdiscovery/nuclei",
+      "number": 6674,
+      "title": "Replace panic with error handling in template loader when dialers are missing",
       "recommendation": "skip",
-      "total_score": 74,
-      "bounty_amount_usd": 7500,
-      "competition_risk": 30,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "total_score": 82,
+      "bounty_amount_usd": 100,
+      "competition_risk": 40,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",
         "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:3",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/templates",
+      "number": 152,
+      "title": "Get Your Custom Dokploy Templates Built!",
+      "recommendation": "skip",
+      "total_score": 74,
+      "bounty_amount_usd": 1000,
+      "competition_risk": 52,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:implement",
+        "task:remove",
+        "claims:2",
+        "existing-work:1"
+      ]
+    },
+    {
+      "repo": "archestra-ai/archestra",
+      "number": 3859,
+      "title": "json in mcp server args textarea",
+      "recommendation": "skip",
+      "total_score": 59,
+      "bounty_amount_usd": 100,
+      "competition_risk": 27,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:support",
+        "task:implement",
+        "claims:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "number": 373,
+      "title": "feature: design and develop a UI to generate tailcall configurations",
+      "recommendation": "skip",
+      "total_score": 57,
+      "bounty_amount_usd": 500,
+      "competition_risk": 44,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
         "action:fix",
         "task:fix",
-        "claims:3"
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 43,
+      "bounty_amount_usd": 100,
+      "competition_risk": 59,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 372,
+      "title": "[REVER-48] Workday Integration",
+      "recommendation": "skip",
+      "total_score": 39,
+      "bounty_amount_usd": 100,
+      "competition_risk": 50,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:4",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "recommendation": "skip",
+      "total_score": 36,
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 551,
+      "title": "[REVER-51] Workable Integration",
+      "recommendation": "skip",
+      "total_score": 22,
+      "bounty_amount_usd": 100,
+      "competition_risk": 61,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:migration",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],

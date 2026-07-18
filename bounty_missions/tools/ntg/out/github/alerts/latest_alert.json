@@ -1,19 +1,123 @@
 {
-  "generated_at_utc": "2026-07-18T13:49:08Z",
+  "generated_at_utc": "2026-07-18T15:15:31Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260718T134854Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260718T151435Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
       {
-        "repo": "tenstorrent/tt-metal",
-        "number": 49943,
-        "title": "[Bounty: $7500] Performance/precision: atan/asin/acos (fp32)",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/49943",
+        "repo": "projectdiscovery/nuclei",
+        "number": 6674,
+        "title": "Replace panic with error handling in template loader when dialers are missing",
+        "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
+        "recommendation": "skip",
+        "total_score": 82
+      },
+      {
+        "repo": "Dokploy/templates",
+        "number": 152,
+        "title": "Get Your Custom Dokploy Templates Built!",
+        "url": "https://github.com/Dokploy/templates/issues/152",
         "recommendation": "skip",
         "total_score": 74
+      },
+      {
+        "repo": "archestra-ai/archestra",
+        "number": 3859,
+        "title": "json in mcp server args textarea",
+        "url": "https://github.com/archestra-ai/archestra/issues/3859",
+        "recommendation": "skip",
+        "total_score": 59
+      },
+      {
+        "repo": "tailcallhq/tailcallhq.github.io",
+        "number": 373,
+        "title": "feature: design and develop a UI to generate tailcall configurations",
+        "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
+        "recommendation": "skip",
+        "total_score": 57
+      },
+      {
+        "repo": "antinomyhq/forge",
+        "number": 389,
+        "title": "feat: Support for `/retry`",
+        "url": "https://github.com/antinomyhq/forge/issues/389",
+        "recommendation": "skip",
+        "total_score": 45
+      },
+      {
+        "repo": "projectdiscovery/nuclei",
+        "number": 6532,
+        "title": "Integrate typos tool into CI",
+        "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+        "recommendation": "skip",
+        "total_score": 44
+      },
+      {
+        "repo": "Dokploy/dokploy",
+        "number": 1413,
+        "title": "Organisation and Teams Management",
+        "url": "https://github.com/Dokploy/dokploy/issues/1413",
+        "recommendation": "skip",
+        "total_score": 43
+      },
+      {
+        "repo": "revertinc/revert",
+        "number": 372,
+        "title": "[REVER-48] Workday Integration",
+        "url": "https://github.com/revertinc/revert/issues/372",
+        "recommendation": "skip",
+        "total_score": 39
+      },
+      {
+        "repo": "tscircuit/dsn-converter",
+        "number": 54,
+        "title": "We can't convert Smoothie Board to Circuit JSON",
+        "url": "https://github.com/tscircuit/dsn-converter/issues/54",
+        "recommendation": "skip",
+        "total_score": 36
+      },
+      {
+        "repo": "revertinc/revert",
+        "number": 551,
+        "title": "[REVER-51] Workable Integration",
+        "url": "https://github.com/revertinc/revert/issues/551",
+        "recommendation": "skip",
+        "total_score": 22
+      },
+      {
+        "repo": "tailcallhq/graphql-conf-2024",
+        "number": 1,
+        "title": "Auto generate PDF for the slides",
+        "url": "https://github.com/tailcallhq/graphql-conf-2024/issues/1",
+        "recommendation": "skip",
+        "total_score": 22
+      },
+      {
+        "repo": "tailcallhq/rust-grpc",
+        "number": 44,
+        "title": "Update all outdated dependencies",
+        "url": "https://github.com/tailcallhq/rust-grpc/issues/44",
+        "recommendation": "skip",
+        "total_score": 19
+      },
+      {
+        "repo": "tscircuit/jlcsearch",
+        "number": 92,
+        "title": "Add `is_extended_promotional ` column to components (from data source)",
+        "url": "https://github.com/tscircuit/jlcsearch/issues/92",
+        "recommendation": "skip",
+        "total_score": 16
+      },
+      {
+        "repo": "Dokploy/dokploy",
+        "number": 416,
+        "title": "Ability to backup to more destination types",
+        "url": "https://github.com/Dokploy/dokploy/issues/416",
+        "recommendation": "skip",
+        "total_score": 4
       }
     ],
     "recommendation_changes": []
