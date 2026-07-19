@@ -2,7 +2,7 @@
   "config": "bounty_missions/tools/ntg/service.github.yaml",
   "pipeline_result": {
     "exit_code": 0,
-    "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260719T135313Z",
+    "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260719T151446Z",
     "output_dir": "bounty_missions/tools/ntg/out/github",
     "merged_count": 14,
     "pursue_count": 0,
@@ -45,7 +45,7 @@
   "prepared_workspaces_root": "bounty_missions/workspaces",
   "runtime": {
     "run_in_progress": true,
-    "last_run_started_at_utc": "2026-07-19T13:53:13Z",
+    "last_run_started_at_utc": "2026-07-19T15:14:46Z",
     "last_run_finished_at_utc": "",
     "last_exit_code": null,
     "last_error": "",
