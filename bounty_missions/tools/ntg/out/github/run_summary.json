@@ -1,16 +1,47 @@
 {
-  "generated_at_utc": "2026-07-19T22:09:37Z",
+  "generated_at_utc": "2026-07-20T23:12:17Z",
   "source_counts": {
-    "github": 0,
+    "github": 2,
     "algora": 14,
-    "merged": 14
+    "merged": 16
   },
   "recommendations": {
-    "pursue": 0,
-    "review": 0,
+    "pursue": 1,
+    "review": 1,
     "skip": 14
   },
   "top_candidates": [
+    {
+      "repo": "modelcontextprotocol/servers",
+      "number": 4537,
+      "title": "Submit MCP server: bug-bounty-intelligence-mcp",
+      "recommendation": "pursue",
+      "total_score": 85,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "0xPolygon/heimdall-v2",
+      "number": 627,
+      "title": "Regarding bug bounty scope",
+      "recommendation": "review",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:fix",
+        "task:fix",
+        "task:bug"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -168,46 +199,6 @@
         "task:support",
         "task:implement",
         "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 36,
-      "bounty_amount_usd": 70,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "recommendation": "skip",
-      "total_score": 22,
-      "bounty_amount_usd": 100,
-      "competition_risk": 61,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
