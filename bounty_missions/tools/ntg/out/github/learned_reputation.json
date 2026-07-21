@@ -1,17 +1,27 @@
 {
-  "generated_at_utc": "2026-07-21T12:01:02Z",
+  "generated_at_utc": "2026-07-21T14:22:17Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
     "tenstorrent/tt-metal": {
+      "total_seen": 2,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 1,
+      "unique_issues": [
+        50522,
+        50612
+      ]
+    },
+    "lysine-dev/retrofit": {
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        50522
+        4708
       ]
     },
     "modelcontextprotocol/servers": {
@@ -251,12 +261,13 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
+      "total_seen": 2,
       "skip_count": 0,
-      "review_count": 0,
+      "review_count": 1,
       "pursue_count": 1,
       "unique_issues": [
-        50522
+        50522,
+        50612
       ]
     },
     {
@@ -267,6 +278,16 @@
       "pursue_count": 1,
       "unique_issues": [
         4537
+      ]
+    },
+    {
+      "repo": "lysine-dev/retrofit",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        4708
       ]
     },
     {

@@ -9,6 +9,14 @@
       "total_score": 116
     },
     {
+      "repo": "lysine-dev/retrofit",
+      "number": 4708,
+      "title": "Update CLA and bug bounty",
+      "url": "https://github.com/lysine-dev/retrofit/issues/4708",
+      "recommendation": "pursue",
+      "total_score": 100
+    },
+    {
       "repo": "modelcontextprotocol/servers",
       "number": 4537,
       "title": "Submit MCP server: bug-bounty-intelligence-mcp",
@@ -31,6 +39,14 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50612,
+      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50612",
+      "recommendation": "review",
+      "total_score": 78
     },
     {
       "repo": "Dokploy/templates",

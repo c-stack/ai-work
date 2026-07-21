@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-21T12:01:02Z",
+  "generated_at_utc": "2026-07-21T14:22:17Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 5,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -22,6 +22,27 @@
         "action:error",
         "task:support",
         "task:implement"
+      ]
+    },
+    {
+      "repo": "lysine-dev/retrofit",
+      "number": 4708,
+      "title": "Update CLA and bug bounty",
+      "url": "https://github.com/lysine-dev/retrofit/issues/4708",
+      "recommendation": "pursue",
+      "total_score": 100,
+      "repo_primary_language": "Java",
+      "bounty_confidence": 34,
+      "actionability": 24,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:add ",
+        "task:bug"
       ]
     },
     {
@@ -63,6 +84,25 @@
         "action:fix",
         "task:fix",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50612,
+      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50612",
+      "recommendation": "review",
+      "total_score": 78,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 6,
+      "bounty_amount_usd": 10000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark"
       ]
     }
   ]
