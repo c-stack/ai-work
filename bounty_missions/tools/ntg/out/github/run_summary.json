@@ -1,30 +1,31 @@
 {
-  "generated_at_utc": "2026-07-21T14:22:17Z",
+  "generated_at_utc": "2026-07-21T16:41:45Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 14,
-    "merged": 19
+    "merged": 20
   },
   "recommendations": {
     "pursue": 3,
-    "review": 2,
+    "review": 3,
     "skip": 14
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 50522,
-      "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
+      "number": 50622,
+      "title": "[repo-status] Daily Activity Report \u2014 2026-07-21",
       "recommendation": "pursue",
-      "total_score": 116,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 3,
+      "total_score": 122,
+      "bounty_amount_usd": 10000,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "action:error",
-        "task:support",
-        "task:implement"
+        "action:failing",
+        "action:fix",
+        "task:fix",
+        "task:support"
       ]
     },
     {
@@ -41,6 +42,23 @@
         "bounty:bounty",
         "task:add ",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50522,
+      "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
+      "recommendation": "review",
+      "total_score": 97,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:1"
       ]
     },
     {
@@ -62,7 +80,7 @@
       "number": 627,
       "title": "Regarding bug bounty scope",
       "recommendation": "review",
-      "total_score": 84,
+      "total_score": 83,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
@@ -96,20 +114,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50612,
-      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
-      "recommendation": "review",
-      "total_score": 78,
-      "bounty_amount_usd": 10000,
-      "competition_risk": 0,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark"
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -127,6 +131,22 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50612,
+      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
+      "recommendation": "review",
+      "total_score": 68,
+      "bounty_amount_usd": 10000,
+      "competition_risk": 20,
+      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "task:implement",
+        "claims:1"
       ]
     },
     {
@@ -159,26 +179,6 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
         "task:support",
         "task:implement",
         "claims:2",

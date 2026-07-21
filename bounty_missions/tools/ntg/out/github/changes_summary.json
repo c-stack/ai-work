@@ -2,11 +2,11 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 50522,
-      "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/50522",
+      "number": 50622,
+      "title": "[repo-status] Daily Activity Report \u2014 2026-07-21",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50622",
       "recommendation": "pursue",
-      "total_score": 116
+      "total_score": 122
     },
     {
       "repo": "lysine-dev/retrofit",
@@ -15,6 +15,14 @@
       "url": "https://github.com/lysine-dev/retrofit/issues/4708",
       "recommendation": "pursue",
       "total_score": 100
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50522,
+      "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50522",
+      "recommendation": "review",
+      "total_score": 97
     },
     {
       "repo": "modelcontextprotocol/servers",
@@ -30,7 +38,7 @@
       "title": "Regarding bug bounty scope",
       "url": "https://github.com/0xPolygon/heimdall-v2/issues/627",
       "recommendation": "review",
-      "total_score": 84
+      "total_score": 83
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -41,20 +49,20 @@
       "total_score": 82
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50612,
-      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/50612",
-      "recommendation": "review",
-      "total_score": 78
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 74
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50612,
+      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50612",
+      "recommendation": "review",
+      "total_score": 68
     },
     {
       "repo": "archestra-ai/archestra",
