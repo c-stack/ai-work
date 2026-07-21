@@ -1,16 +1,32 @@
 {
-  "generated_at_utc": "2026-07-21T00:12:25Z",
+  "generated_at_utc": "2026-07-21T03:45:38Z",
   "source_counts": {
-    "github": 2,
+    "github": 3,
     "algora": 14,
-    "merged": 16
+    "merged": 17
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 1,
     "skip": 14
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50522,
+      "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
+      "recommendation": "pursue",
+      "total_score": 118,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:support",
+        "task:implement"
+      ]
+    },
     {
       "repo": "modelcontextprotocol/servers",
       "number": 4537,
@@ -181,25 +197,6 @@
         "claims:5",
         "existing-work:1",
         "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 39,
-      "bounty_amount_usd": 100,
-      "competition_risk": 50,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
-        "support:support-politeness"
       ]
     }
   ],
