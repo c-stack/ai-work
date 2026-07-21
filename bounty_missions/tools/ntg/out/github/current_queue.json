@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-21T16:41:45Z",
+  "generated_at_utc": "2026-07-21T18:41:06Z",
   "triage_profile": "aggressive",
   "count": 6,
   "items": [
@@ -52,13 +52,13 @@
       "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/50522",
       "recommendation": "review",
-      "total_score": 97,
+      "total_score": 96,
       "repo_primary_language": "C++",
       "bounty_confidence": 40,
       "actionability": 36,
       "bounty_amount_usd": 1500,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 18,
+      "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
