@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50622,
-      "title": "[repo-status] Daily Activity Report \u2014 2026-07-21",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/50622",
-      "recommendation": "pursue",
-      "total_score": 122
-    },
-    {
       "repo": "lysine-dev/retrofit",
       "number": 4708,
       "title": "Update CLA and bug bounty",
@@ -25,12 +17,20 @@
       "total_score": 96
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11362,
+      "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11362",
+      "recommendation": "pursue",
+      "total_score": 85
+    },
+    {
       "repo": "modelcontextprotocol/servers",
       "number": 4537,
       "title": "Submit MCP server: bug-bounty-intelligence-mcp",
       "url": "https://github.com/modelcontextprotocol/servers/issues/4537",
       "recommendation": "pursue",
-      "total_score": 85
+      "total_score": 84
     },
     {
       "repo": "0xPolygon/heimdall-v2",
@@ -55,6 +55,14 @@
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 74
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11361,
+      "title": "Invalid PORT env crashes API startup",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11361",
+      "recommendation": "pursue",
+      "total_score": 69
     },
     {
       "repo": "tenstorrent/tt-metal",

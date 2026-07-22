@@ -1,33 +1,16 @@
 {
-  "generated_at_utc": "2026-07-22T06:42:53Z",
+  "generated_at_utc": "2026-07-22T09:39:16Z",
   "source_counts": {
-    "github": 6,
+    "github": 7,
     "algora": 14,
-    "merged": 20
+    "merged": 21
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 4,
     "review": 3,
     "skip": 14
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50622,
-      "title": "[repo-status] Daily Activity Report \u2014 2026-07-21",
-      "recommendation": "pursue",
-      "total_score": 122,
-      "bounty_amount_usd": 10000,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:failing",
-        "action:fix",
-        "task:fix",
-        "task:support"
-      ]
-    },
     {
       "repo": "lysine-dev/retrofit",
       "number": 4708,
@@ -62,11 +45,28 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11362,
+      "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
+      "recommendation": "pursue",
+      "total_score": 85,
+      "bounty_amount_usd": 0,
+      "competition_risk": 9,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "task:bug",
+        "claims:1"
+      ]
+    },
+    {
       "repo": "modelcontextprotocol/servers",
       "number": 4537,
       "title": "Submit MCP server: bug-bounty-intelligence-mcp",
       "recommendation": "pursue",
-      "total_score": 85,
+      "total_score": 84,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -134,6 +134,22 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11361,
+      "title": "Invalid PORT env crashes API startup",
+      "recommendation": "pursue",
+      "total_score": 69,
+      "bounty_amount_usd": 0,
+      "competition_risk": 9,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug",
+        "claims:1"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 50612,
       "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
@@ -163,25 +179,6 @@
         "task:support",
         "task:implement",
         "claims:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tailcallhq/tailcallhq.github.io",
-      "number": 373,
-      "title": "feature: design and develop a UI to generate tailcall configurations",
-      "recommendation": "skip",
-      "total_score": 57,
-      "bounty_amount_usd": 500,
-      "competition_risk": 44,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
         "support:support-politeness"
       ]
     }

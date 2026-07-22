@@ -1,21 +1,10 @@
 {
-  "generated_at_utc": "2026-07-22T06:42:53Z",
+  "generated_at_utc": "2026-07-22T09:39:16Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "tenstorrent/tt-metal": {
-      "total_seen": 3,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 1,
-      "unique_issues": [
-        50522,
-        50612,
-        50622
-      ]
-    },
     "lysine-dev/retrofit": {
       "total_seen": 1,
       "skip_count": 0,
@@ -23,6 +12,26 @@
       "pursue_count": 1,
       "unique_issues": [
         4708
+      ]
+    },
+    "tenstorrent/tt-metal": {
+      "total_seen": 2,
+      "skip_count": 0,
+      "review_count": 2,
+      "pursue_count": 0,
+      "unique_issues": [
+        50522,
+        50612
+      ]
+    },
+    "SecureBananaLabs/bug-bounty": {
+      "total_seen": 2,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 2,
+      "unique_issues": [
+        11361,
+        11362
       ]
     },
     "modelcontextprotocol/servers": {
@@ -262,14 +271,24 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "total_seen": 3,
+      "total_seen": 2,
       "skip_count": 0,
       "review_count": 2,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
         50522,
-        50612,
-        50622
+        50612
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 2,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 2,
+      "unique_issues": [
+        11361,
+        11362
       ]
     },
     {
