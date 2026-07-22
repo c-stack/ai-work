@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-22T14:22:57Z",
+  "generated_at_utc": "2026-07-22T16:46:09Z",
   "source_counts": {
-    "github": 6,
+    "github": 7,
     "algora": 14,
-    "merged": 20
+    "merged": 21
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 4,
     "review": 3,
     "skip": 14
   },
@@ -32,7 +32,7 @@
       "number": 50522,
       "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
       "recommendation": "review",
-      "total_score": 96,
+      "total_score": 97,
       "bounty_amount_usd": 1500,
       "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
@@ -59,6 +59,20 @@
         "action:expected behavior",
         "task:bug",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "number": 4537,
+      "title": "Submit MCP server: bug-bounty-intelligence-mcp",
+      "recommendation": "pursue",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:bug"
       ]
     },
     {
@@ -165,25 +179,6 @@
         "task:support",
         "task:implement",
         "claims:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tailcallhq/tailcallhq.github.io",
-      "number": 373,
-      "title": "feature: design and develop a UI to generate tailcall configurations",
-      "recommendation": "skip",
-      "total_score": 57,
-      "bounty_amount_usd": 500,
-      "competition_risk": 44,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
         "support:support-politeness"
       ]
     }
