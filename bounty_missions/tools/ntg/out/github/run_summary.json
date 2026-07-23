@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-23T20:20:57Z",
+  "generated_at_utc": "2026-07-23T22:15:10Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 14,
-    "merged": 19
+    "merged": 20
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 4,
     "review": 2,
     "skip": 14
   },
@@ -59,6 +59,20 @@
         "action:expected behavior",
         "task:bug",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "number": 4537,
+      "title": "Submit MCP server: bug-bounty-intelligence-mcp",
+      "recommendation": "pursue",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:bug"
       ]
     },
     {
@@ -165,26 +179,6 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
         "task:support",
         "task:implement",
         "claims:2",
