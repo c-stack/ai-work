@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-23T06:41:01Z",
+  "generated_at_utc": "2026-07-23T09:37:01Z",
   "triage_profile": "aggressive",
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "repo": "lysine-dev/retrofit",
@@ -127,27 +127,6 @@
         "bounty:bounty",
         "platform:algora",
         "task:bug",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50612,
-      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/50612",
-      "recommendation": "review",
-      "total_score": 68,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 30,
-      "actionability": 18,
-      "bounty_amount_usd": 10000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 20,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "task:implement",
         "claims:1"
       ]
     }

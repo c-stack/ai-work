@@ -65,14 +65,6 @@
       "total_score": 69
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50612,
-      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/50612",
-      "recommendation": "review",
-      "total_score": 68
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 3859,
       "title": "json in mcp server args textarea",

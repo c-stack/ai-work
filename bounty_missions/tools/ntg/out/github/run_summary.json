@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-07-23T06:41:01Z",
+  "generated_at_utc": "2026-07-23T09:37:01Z",
   "source_counts": {
-    "github": 7,
+    "github": 6,
     "algora": 14,
-    "merged": 21
+    "merged": 20
   },
   "recommendations": {
     "pursue": 4,
-    "review": 3,
+    "review": 2,
     "skip": 14
   },
   "top_candidates": [
@@ -150,22 +150,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50612,
-      "title": "[Bounty $10000] Equal-Count Welford Reduction Optimisation",
-      "recommendation": "review",
-      "total_score": 68,
-      "bounty_amount_usd": 10000,
-      "competition_risk": 20,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "task:implement",
-        "claims:1"
-      ]
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 3859,
       "title": "json in mcp server args textarea",
@@ -179,6 +163,25 @@
         "task:support",
         "task:implement",
         "claims:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "number": 373,
+      "title": "feature: design and develop a UI to generate tailcall configurations",
+      "recommendation": "skip",
+      "total_score": 57,
+      "bounty_amount_usd": 500,
+      "competition_risk": 44,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:2",
         "support:support-politeness"
       ]
     }
