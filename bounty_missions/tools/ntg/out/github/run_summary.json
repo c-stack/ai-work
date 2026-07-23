@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-23T00:16:21Z",
+  "generated_at_utc": "2026-07-23T03:48:39Z",
   "source_counts": {
     "github": 7,
     "algora": 14,
@@ -32,7 +32,7 @@
       "number": 50522,
       "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
       "recommendation": "review",
-      "total_score": 97,
+      "total_score": 96,
       "bounty_amount_usd": 1500,
       "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",

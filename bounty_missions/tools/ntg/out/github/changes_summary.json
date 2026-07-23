@@ -14,7 +14,7 @@
       "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/50522",
       "recommendation": "review",
-      "total_score": 97
+      "total_score": 96
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
