@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-23T18:38:14Z",
+  "generated_at_utc": "2026-07-23T20:20:57Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -31,15 +31,6 @@
       "unique_issues": [
         11361,
         11362
-      ]
-    },
-    "modelcontextprotocol/servers": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        4537
       ]
     },
     "projectdiscovery/nuclei": {
@@ -287,16 +278,6 @@
       "pursue_count": 0,
       "unique_issues": [
         50522
-      ]
-    },
-    {
-      "repo": "modelcontextprotocol/servers",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        4537
       ]
     },
     {

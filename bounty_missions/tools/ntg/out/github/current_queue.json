@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-23T18:38:14Z",
+  "generated_at_utc": "2026-07-23T20:20:57Z",
   "triage_profile": "aggressive",
-  "count": 6,
+  "count": 5,
   "items": [
     {
       "repo": "lysine-dev/retrofit",
@@ -66,25 +66,6 @@
         "action:expected behavior",
         "task:bug",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "modelcontextprotocol/servers",
-      "number": 4537,
-      "title": "Submit MCP server: bug-bounty-intelligence-mcp",
-      "url": "https://github.com/modelcontextprotocol/servers/issues/4537",
-      "recommendation": "pursue",
-      "total_score": 84,
-      "repo_primary_language": "TypeScript",
-      "bounty_confidence": 22,
-      "actionability": 16,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "task:bug"
       ]
     },
     {

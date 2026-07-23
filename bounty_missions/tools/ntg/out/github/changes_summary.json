@@ -25,14 +25,6 @@
       "total_score": 85
     },
     {
-      "repo": "modelcontextprotocol/servers",
-      "number": 4537,
-      "title": "Submit MCP server: bug-bounty-intelligence-mcp",
-      "url": "https://github.com/modelcontextprotocol/servers/issues/4537",
-      "recommendation": "pursue",
-      "total_score": 84
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
