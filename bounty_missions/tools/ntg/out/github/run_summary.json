@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-23T14:32:33Z",
+  "generated_at_utc": "2026-07-23T16:47:01Z",
   "source_counts": {
     "github": 6,
     "algora": 14,
@@ -76,23 +76,6 @@
       ]
     },
     {
-      "repo": "0xPolygon/heimdall-v2",
-      "number": 627,
-      "title": "Regarding bug bounty scope",
-      "recommendation": "review",
-      "total_score": 83,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:bug"
-      ]
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -111,6 +94,23 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "0xPolygon/heimdall-v2",
+      "number": 627,
+      "title": "Regarding bug bounty scope",
+      "recommendation": "review",
+      "total_score": 82,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:fix",
+        "task:fix",
+        "task:bug"
       ]
     },
     {

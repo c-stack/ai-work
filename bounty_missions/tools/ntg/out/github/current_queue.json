@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-23T14:32:33Z",
+  "generated_at_utc": "2026-07-23T16:47:01Z",
   "triage_profile": "aggressive",
   "count": 6,
   "items": [
@@ -93,7 +93,7 @@
       "title": "Regarding bug bounty scope",
       "url": "https://github.com/0xPolygon/heimdall-v2/issues/627",
       "recommendation": "review",
-      "total_score": 83,
+      "total_score": 82,
       "repo_primary_language": "Go",
       "bounty_confidence": 34,
       "actionability": 8,
