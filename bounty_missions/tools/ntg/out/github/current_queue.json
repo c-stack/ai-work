@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-23T12:03:09Z",
+  "generated_at_utc": "2026-07-23T14:32:33Z",
   "triage_profile": "aggressive",
   "count": 6,
   "items": [
@@ -9,7 +9,7 @@
       "title": "Update CLA and bug bounty",
       "url": "https://github.com/lysine-dev/retrofit/issues/4708",
       "recommendation": "pursue",
-      "total_score": 100,
+      "total_score": 99,
       "repo_primary_language": "Java",
       "bounty_confidence": 34,
       "actionability": 24,

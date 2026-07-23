@@ -2,7 +2,7 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
-| pursue | 100 | lysine-dev/retrofit | 4708 | Java | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bug bounty, bounty:bounty, task:add , task:bug | [open](https://github.com/lysine-dev/retrofit/issues/4708) |
+| pursue | 99 | lysine-dev/retrofit | 4708 | Java | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bug bounty, bounty:bounty, task:add , task:bug | [open](https://github.com/lysine-dev/retrofit/issues/4708) |
 | review | 96 | tenstorrent/tt-metal | 50522 | C++ | Bounty looks real, but active discussion increases takeover risk. | bounty:bounty, action:error, task:support, task:implement | [open](https://github.com/tenstorrent/tt-metal/issues/50522) |
 | pursue | 85 | SecureBananaLabs/bug-bounty | 11362 | JavaScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, platform:algora, action:expected behavior, task:bug | [open](https://github.com/SecureBananaLabs/bug-bounty/issues/11362) |
 | pursue | 84 | modelcontextprotocol/servers | 4537 | TypeScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, task:bug | [open](https://github.com/modelcontextprotocol/servers/issues/4537) |
