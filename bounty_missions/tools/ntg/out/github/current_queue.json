@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-24T06:40:09Z",
+  "generated_at_utc": "2026-07-24T09:34:51Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -52,7 +52,7 @@
       "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11362",
       "recommendation": "pursue",
-      "total_score": 85,
+      "total_score": 84,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
       "actionability": 32,
@@ -74,7 +74,7 @@
       "title": "Invalid PORT env crashes API startup",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11361",
       "recommendation": "pursue",
-      "total_score": 69,
+      "total_score": 68,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
       "actionability": 16,

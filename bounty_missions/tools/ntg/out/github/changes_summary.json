@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50956,
+      "title": "[repo-assist] Monthly Activity 2026-07",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50956",
+      "recommendation": "skip",
+      "total_score": 104
+    },
+    {
       "repo": "lysine-dev/retrofit",
       "number": 4708,
       "title": "Update CLA and bug bounty",
@@ -22,7 +30,7 @@
       "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11362",
       "recommendation": "pursue",
-      "total_score": 85
+      "total_score": 84
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -46,7 +54,7 @@
       "title": "Invalid PORT env crashes API startup",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11361",
       "recommendation": "pursue",
-      "total_score": 69
+      "total_score": 68
     },
     {
       "repo": "archestra-ai/archestra",

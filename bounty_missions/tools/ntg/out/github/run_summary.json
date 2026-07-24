@@ -1,16 +1,33 @@
 {
-  "generated_at_utc": "2026-07-24T06:40:09Z",
+  "generated_at_utc": "2026-07-24T09:34:51Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 14,
-    "merged": 18
+    "merged": 19
   },
   "recommendations": {
     "pursue": 3,
     "review": 1,
-    "skip": 14
+    "skip": 15
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50956,
+      "title": "[repo-assist] Monthly Activity 2026-07",
+      "recommendation": "skip",
+      "total_score": 104,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 12,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "existing-work:1"
+      ]
+    },
     {
       "repo": "lysine-dev/retrofit",
       "number": 4708,
@@ -49,7 +66,7 @@
       "number": 11362,
       "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
       "recommendation": "pursue",
-      "total_score": 85,
+      "total_score": 84,
       "bounty_amount_usd": 0,
       "competition_risk": 9,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -107,7 +124,7 @@
       "number": 11361,
       "title": "Invalid PORT env crashes API startup",
       "recommendation": "pursue",
-      "total_score": 69,
+      "total_score": 68,
       "bounty_amount_usd": 0,
       "competition_risk": 9,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -171,28 +188,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
