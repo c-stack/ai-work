@@ -25,6 +25,14 @@
       "total_score": 96
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50676,
+      "title": "[Bounty $2000] Fuse per-channel quantize/dequantize with a scalar zero-point",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50676",
+      "recommendation": "review",
+      "total_score": 88
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11362,
       "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",

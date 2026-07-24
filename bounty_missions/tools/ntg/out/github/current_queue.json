@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-24T17:52:48Z",
+  "generated_at_utc": "2026-07-24T19:47:05Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 5,
   "items": [
     {
       "repo": "lysine-dev/retrofit",
@@ -42,6 +42,26 @@
         "bounty:bounty",
         "action:error",
         "task:support",
+        "task:implement",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50676,
+      "title": "[Bounty $2000] Fuse per-channel quantize/dequantize with a scalar zero-point",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/50676",
+      "recommendation": "review",
+      "total_score": 88,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 40,
+      "actionability": 28,
+      "bounty_amount_usd": 2000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
         "task:implement",
         "claims:1"
       ]

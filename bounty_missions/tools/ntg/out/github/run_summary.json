@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-07-24T17:52:48Z",
+  "generated_at_utc": "2026-07-24T19:47:05Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 14,
-    "merged": 19
+    "merged": 20
   },
   "recommendations": {
     "pursue": 3,
-    "review": 1,
+    "review": 2,
     "skip": 15
   },
   "top_candidates": [
@@ -57,6 +57,21 @@
         "bounty:bounty",
         "action:error",
         "task:support",
+        "task:implement",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 50676,
+      "title": "[Bounty $2000] Fuse per-channel quantize/dequantize with a scalar zero-point",
+      "recommendation": "review",
+      "total_score": 88,
+      "bounty_amount_usd": 2000,
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
         "task:implement",
         "claims:1"
       ]
@@ -165,26 +180,6 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
         "task:support",
         "task:implement",
         "claims:2",
