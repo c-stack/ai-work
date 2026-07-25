@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-07-24T23:17:15Z",
+  "generated_at_utc": "2026-07-25T00:18:00Z",
   "source_counts": {
-    "github": 6,
+    "github": 4,
     "algora": 14,
-    "merged": 20
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 3,
-    "review": 2,
+    "pursue": 2,
+    "review": 1,
     "skip": 15
   },
   "top_candidates": [
@@ -26,39 +26,6 @@
         "task:fix",
         "task:support",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "lysine-dev/retrofit",
-      "number": 4708,
-      "title": "Update CLA and bug bounty",
-      "recommendation": "pursue",
-      "total_score": 99,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:add ",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50522,
-      "title": "[Bounty $1500] ModernBERT bring up using TTNN APIs",
-      "recommendation": "review",
-      "total_score": 96,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 20,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:1"
       ]
     },
     {
@@ -183,6 +150,48 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "antinomyhq/forge",
+      "number": 389,
+      "title": "feat: Support for `/retry`",
+      "recommendation": "skip",
+      "total_score": 45,
+      "bounty_amount_usd": 50,
+      "competition_risk": 48,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }
