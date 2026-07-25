@@ -18,11 +18,11 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11362,
-      "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11362",
+      "number": 11396,
+      "title": "Bug: User routes should require authentication",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11396",
       "recommendation": "pursue",
-      "total_score": 84
+      "total_score": 83
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -31,6 +31,14 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11393,
+      "title": "Bug: API test script should target test files explicitly",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11393",
+      "recommendation": "pursue",
+      "total_score": 77
     },
     {
       "repo": "Dokploy/templates",
@@ -47,14 +55,6 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/51110",
       "recommendation": "skip",
       "total_score": 72
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11361,
-      "title": "Invalid PORT env crashes API startup",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11361",
-      "recommendation": "pursue",
-      "total_score": 68
     },
     {
       "repo": "archestra-ai/archestra",

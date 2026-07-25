@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-25T09:13:07Z",
+  "generated_at_utc": "2026-07-25T10:44:31Z",
   "source_counts": {
     "github": 5,
     "algora": 14,
@@ -45,19 +45,19 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11362,
-      "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
+      "number": 11396,
+      "title": "Bug: User routes should require authentication",
       "recommendation": "pursue",
-      "total_score": 84,
+      "total_score": 83,
       "bounty_amount_usd": 0,
-      "competition_risk": 9,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "action:expected behavior",
-        "task:bug",
-        "claims:1"
+        "action:fix",
+        "task:fix",
+        "task:bug"
       ]
     },
     {
@@ -79,6 +79,21 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11393,
+      "title": "Bug: API test script should target test files explicitly",
+      "recommendation": "pursue",
+      "total_score": 77,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:bug"
       ]
     },
     {
@@ -117,22 +132,6 @@
         "action:fix",
         "task:fix",
         "task:support"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11361,
-      "title": "Invalid PORT env crashes API startup",
-      "recommendation": "pursue",
-      "total_score": 68,
-      "bounty_amount_usd": 0,
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:bug",
-        "claims:1"
       ]
     },
     {

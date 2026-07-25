@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-25T09:13:07Z",
+  "generated_at_utc": "2026-07-25T10:44:31Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -25,45 +25,44 @@
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11362,
-      "title": "Admin routes lack role-based access control \u2014 any authenticated user can access admin endpoints",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11362",
+      "number": 11396,
+      "title": "Bug: User routes should require authentication",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11396",
       "recommendation": "pursue",
-      "total_score": 84,
+      "total_score": 83,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
-      "actionability": 32,
+      "actionability": 22,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 9,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "action:expected behavior",
-        "task:bug",
-        "claims:1"
+        "action:fix",
+        "task:fix",
+        "task:bug"
       ]
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11361,
-      "title": "Invalid PORT env crashes API startup",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11361",
+      "number": 11393,
+      "title": "Bug: API test script should target test files explicitly",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11393",
       "recommendation": "pursue",
-      "total_score": 68,
+      "total_score": 77,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
       "actionability": 16,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 9,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
-        "task:bug",
-        "claims:1"
+        "task:bug"
       ]
     }
   ]
