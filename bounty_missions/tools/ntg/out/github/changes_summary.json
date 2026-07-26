@@ -49,14 +49,6 @@
       "total_score": 74
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 51110,
-      "title": "[repo-status] Daily Status Report \u2014 2026-07-25",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/51110",
-      "recommendation": "skip",
-      "total_score": 69
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 3859,
       "title": "json in mcp server args textarea",

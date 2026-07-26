@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-26T06:49:20Z",
+  "generated_at_utc": "2026-07-26T09:24:14Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 14,
-    "merged": 19
+    "merged": 18
   },
   "recommendations": {
     "pursue": 3,
     "review": 0,
-    "skip": 16
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -119,24 +119,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 51110,
-      "title": "[repo-status] Daily Status Report \u2014 2026-07-25",
-      "recommendation": "skip",
-      "total_score": 69,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:migration",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:support"
-      ]
-    },
-    {
       "repo": "archestra-ai/archestra",
       "number": 3859,
       "title": "json in mcp server args textarea",
@@ -189,6 +171,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }
