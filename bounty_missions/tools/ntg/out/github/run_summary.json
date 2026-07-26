@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-26T03:56:27Z",
+  "generated_at_utc": "2026-07-26T06:49:20Z",
   "source_counts": {
     "github": 5,
     "algora": 14,
@@ -123,9 +123,9 @@
       "number": 51110,
       "title": "[repo-status] Daily Status Report \u2014 2026-07-25",
       "recommendation": "skip",
-      "total_score": 72,
+      "total_score": 69,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
       "decision_signals": [
         "bounty:bounty",
