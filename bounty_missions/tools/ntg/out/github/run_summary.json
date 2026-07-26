@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-07-25T23:13:21Z",
+  "generated_at_utc": "2026-07-26T00:13:31Z",
   "source_counts": {
     "github": 5,
     "algora": 14,
     "merged": 19
   },
   "recommendations": {
-    "pursue": 2,
-    "review": 1,
+    "pursue": 3,
+    "review": 0,
     "skip": 16
   },
   "top_candidates": [
@@ -16,7 +16,7 @@
       "number": 50956,
       "title": "[repo-assist] Monthly Activity 2026-07",
       "recommendation": "skip",
-      "total_score": 102,
+      "total_score": 101,
       "bounty_amount_usd": 1500,
       "competition_risk": 15,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -29,18 +29,20 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50676,
-      "title": "[Bounty $2000] Fuse per-channel quantize/dequantize with a scalar zero-point",
-      "recommendation": "review",
-      "total_score": 88,
-      "bounty_amount_usd": 2000,
-      "competition_risk": 17,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11391,
+      "title": "Bug: Invalid PORT env crashes API startup",
+      "recommendation": "pursue",
+      "total_score": 83,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "task:implement",
-        "claims:1"
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:implement"
       ]
     },
     {

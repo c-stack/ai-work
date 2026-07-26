@@ -6,15 +6,15 @@
       "title": "[repo-assist] Monthly Activity 2026-07",
       "url": "https://github.com/tenstorrent/tt-metal/issues/50956",
       "recommendation": "skip",
-      "total_score": 102
+      "total_score": 101
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50676,
-      "title": "[Bounty $2000] Fuse per-channel quantize/dequantize with a scalar zero-point",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/50676",
-      "recommendation": "review",
-      "total_score": 88
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11391,
+      "title": "Bug: Invalid PORT env crashes API startup",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11391",
+      "recommendation": "pursue",
+      "total_score": 83
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
