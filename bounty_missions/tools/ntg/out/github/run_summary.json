@@ -1,33 +1,16 @@
 {
-  "generated_at_utc": "2026-07-26T23:12:46Z",
+  "generated_at_utc": "2026-07-27T00:13:15Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 14,
-    "merged": 18
+    "merged": 17
   },
   "recommendations": {
     "pursue": 3,
     "review": 0,
-    "skip": 15
+    "skip": 14
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50956,
-      "title": "[repo-assist] Monthly Activity 2026-07",
-      "recommendation": "skip",
-      "total_score": 101,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 15,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "existing-work:1"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11391,
@@ -194,6 +177,28 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 43,
+      "bounty_amount_usd": 100,
+      "competition_risk": 59,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
       ]
     }
   ],

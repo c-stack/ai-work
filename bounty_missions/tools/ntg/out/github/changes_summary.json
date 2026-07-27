@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 50956,
-      "title": "[repo-assist] Monthly Activity 2026-07",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/50956",
-      "recommendation": "skip",
-      "total_score": 101
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11391,
       "title": "Bug: Invalid PORT env crashes API startup",
