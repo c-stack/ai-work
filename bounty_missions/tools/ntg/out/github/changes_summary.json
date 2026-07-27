@@ -22,7 +22,7 @@
       "title": "Bug: User routes should require authentication",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11396",
       "recommendation": "pursue",
-      "total_score": 83
+      "total_score": 82
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -31,14 +31,6 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11393,
-      "title": "Bug: API test script should target test files explicitly",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11393",
-      "recommendation": "pursue",
-      "total_score": 77
     },
     {
       "repo": "Dokploy/templates",
