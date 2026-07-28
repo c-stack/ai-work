@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-28T03:35:59Z",
+  "generated_at_utc": "2026-07-28T06:40:49Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -31,7 +31,7 @@
       "title": "[BOUNTY] [MONEY] [$50] Implement Dodge Rolling",
       "url": "https://github.com/Iamgoofball/-tg-station/issues/338",
       "recommendation": "pursue",
-      "total_score": 102,
+      "total_score": 101,
       "repo_primary_language": "DM",
       "bounty_confidence": 41,
       "actionability": 32,
