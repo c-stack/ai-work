@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 51142,
-      "title": "[repo-status] \ud83c\udf1f Daily Status Report \u2014 2026-07-27",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/51142",
-      "recommendation": "pursue",
-      "total_score": 118
-    },
-    {
       "repo": "Iamgoofball/-tg-station",
       "number": 338,
       "title": "[BOUNTY] [MONEY] [$50] Implement Dodge Rolling",
