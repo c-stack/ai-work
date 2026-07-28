@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-07-28T16:51:46Z",
+  "generated_at_utc": "2026-07-28T18:46:31Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "Iamgoofball/-tg-station",
@@ -9,7 +9,7 @@
       "title": "[BOUNTY] [MONEY] [$50] Implement Dodge Rolling",
       "url": "https://github.com/Iamgoofball/-tg-station/issues/338",
       "recommendation": "pursue",
-      "total_score": 101,
+      "total_score": 102,
       "repo_primary_language": "DM",
       "bounty_confidence": 41,
       "actionability": 32,
@@ -25,6 +25,28 @@
         "task:fix",
         "task:implement",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51398,
+      "title": "Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51398",
+      "recommendation": "review",
+      "total_score": 90,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 36,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support"
       ]
     },
     {

@@ -6,7 +6,15 @@
       "title": "[BOUNTY] [MONEY] [$50] Implement Dodge Rolling",
       "url": "https://github.com/Iamgoofball/-tg-station/issues/338",
       "recommendation": "pursue",
-      "total_score": 101
+      "total_score": 102
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51398,
+      "title": "Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51398",
+      "recommendation": "review",
+      "total_score": 90
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",
