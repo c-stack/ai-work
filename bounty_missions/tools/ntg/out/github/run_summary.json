@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-29T21:12:45Z",
+  "generated_at_utc": "2026-07-29T22:14:03Z",
   "source_counts": {
     "github": 3,
     "algora": 14,
@@ -30,6 +30,24 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 51398,
+      "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
+      "recommendation": "review",
+      "total_score": 99,
+      "bounty_amount_usd": 7500,
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 51473,
       "title": "Optimise `deg2rad_bw` / `rad2deg_bw` (fp32/bf16)",
       "recommendation": "review",
@@ -42,23 +60,6 @@
         "action:fix",
         "task:fix",
         "task:implement"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 51398,
-      "title": "Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
-      "recommendation": "review",
-      "total_score": 90,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support"
       ]
     },
     {

@@ -10,19 +10,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 51398,
+      "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51398",
+      "recommendation": "review",
+      "total_score": 99
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 51473,
       "title": "Optimise `deg2rad_bw` / `rad2deg_bw` (fp32/bf16)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/51473",
       "recommendation": "review",
       "total_score": 94
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 51398,
-      "title": "Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/51398",
-      "recommendation": "review",
-      "total_score": 90
     },
     {
       "repo": "projectdiscovery/nuclei",
