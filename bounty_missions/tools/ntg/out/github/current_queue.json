@@ -1,8 +1,51 @@
 {
-  "generated_at_utc": "2026-07-29T12:21:22Z",
+  "generated_at_utc": "2026-07-29T15:19:45Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 3,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51476,
+      "title": "ttnn.div int32 (trunc/floor): dividend -2**31 returns -1 \u2014 the INT32_MIN guard is missing at one of three identical conversion sites",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51476",
+      "recommendation": "pursue",
+      "total_score": 134,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 62,
+      "bounty_amount_usd": 10000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51473,
+      "title": "Optimise `deg2rad_bw` / `rad2deg_bw` (fp32/bf16)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51473",
+      "recommendation": "review",
+      "total_score": 94,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 40,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:fix",
+        "task:fix",
+        "task:implement"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 51398,
