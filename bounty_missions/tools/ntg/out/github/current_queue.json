@@ -1,32 +1,8 @@
 {
-  "generated_at_utc": "2026-07-28T23:18:17Z",
+  "generated_at_utc": "2026-07-29T03:40:11Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 1,
   "items": [
-    {
-      "repo": "Iamgoofball/-tg-station",
-      "number": 338,
-      "title": "[BOUNTY] [MONEY] [$50] Implement Dodge Rolling",
-      "url": "https://github.com/Iamgoofball/-tg-station/issues/338",
-      "recommendation": "pursue",
-      "total_score": 102,
-      "repo_primary_language": "DM",
-      "bounty_confidence": 41,
-      "actionability": 32,
-      "bounty_amount_usd": 50,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 10,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:claim this issue",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:implement",
-        "claims:1"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 51398,
@@ -47,28 +23,6 @@
         "action:fix",
         "task:fix",
         "task:support"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11396,
-      "title": "Bug: User routes should require authentication",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11396",
-      "recommendation": "pursue",
-      "total_score": 82,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 17,
-      "actionability": 22,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:bug"
       ]
     }
   ]
