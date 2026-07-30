@@ -14,7 +14,7 @@
       "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/51398",
       "recommendation": "review",
-      "total_score": 99
+      "total_score": 98
     },
     {
       "repo": "tenstorrent/tt-metal",
