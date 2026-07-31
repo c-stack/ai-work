@@ -10,6 +10,14 @@
     },
     {
       "repo": "paraspell/xcm-tools",
+      "number": 2011,
+      "title": "[Bug bounty] Dedot signAndSubmitFinalized reports failed extrinsics as successful",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2011",
+      "recommendation": "pursue",
+      "total_score": 131
+    },
+    {
+      "repo": "paraspell/xcm-tools",
       "number": 1989,
       "title": "[Bug bounty] XCM Analyser rejects structured Plurality body variants",
       "url": "https://github.com/paraspell/xcm-tools/issues/1989",
@@ -18,19 +26,11 @@
     },
     {
       "repo": "paraspell/xcm-tools",
-      "number": 1971,
-      "title": "[Bug bounty] XCM Analyser crashes on valid Here locations",
-      "url": "https://github.com/paraspell/xcm-tools/issues/1971",
+      "number": 2004,
+      "title": "[Bug bounty] getSupportedFeeAssets borrows fee eligibility across selected exchanges",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2004",
       "recommendation": "pursue",
-      "total_score": 114
-    },
-    {
-      "repo": "paraspell/xcm-tools",
-      "number": 1977,
-      "title": "[Bug bounty] getSupportedAssets reports assets for unsupported Snowbridge origins",
-      "url": "https://github.com/paraspell/xcm-tools/issues/1977",
-      "recommendation": "pursue",
-      "total_score": 100
+      "total_score": 104
     },
     {
       "repo": "tenstorrent/tt-metal",

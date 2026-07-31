@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-31T03:53:40Z",
+  "generated_at_utc": "2026-07-31T07:14:24Z",
   "source_counts": {
     "github": 7,
     "algora": 14,
@@ -30,6 +30,24 @@
     },
     {
       "repo": "paraspell/xcm-tools",
+      "number": 2011,
+      "title": "[Bug bounty] Dedot signAndSubmitFinalized reports failed extrinsics as successful",
+      "recommendation": "pursue",
+      "total_score": 131,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:implement"
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
       "number": 1989,
       "title": "[Bug bounty] XCM Analyser rejects structured Plurality body variants",
       "recommendation": "pursue",
@@ -48,10 +66,10 @@
     },
     {
       "repo": "paraspell/xcm-tools",
-      "number": 1971,
-      "title": "[Bug bounty] XCM Analyser crashes on valid Here locations",
+      "number": 2004,
+      "title": "[Bug bounty] getSupportedFeeAssets borrows fee eligibility across selected exchanges",
       "recommendation": "pursue",
-      "total_score": 114,
+      "total_score": 104,
       "bounty_amount_usd": 0,
       "competition_risk": 11,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -59,26 +77,9 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "action:expected behavior",
-        "action:error",
+        "action:regression",
         "task:fix",
-        "task:error"
-      ]
-    },
-    {
-      "repo": "paraspell/xcm-tools",
-      "number": 1977,
-      "title": "[Bug bounty] getSupportedAssets reports assets for unsupported Snowbridge origins",
-      "recommendation": "pursue",
-      "total_score": 100,
-      "bounty_amount_usd": 0,
-      "competition_risk": 11,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "task:support",
-        "task:bug"
+        "task:support"
       ]
     },
     {

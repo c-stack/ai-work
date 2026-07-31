@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-31T03:53:40Z",
+  "generated_at_utc": "2026-07-31T07:14:24Z",
   "triage_profile": "aggressive",
   "count": 6,
   "items": [
@@ -27,6 +27,29 @@
     },
     {
       "repo": "paraspell/xcm-tools",
+      "number": 2011,
+      "title": "[Bug bounty] Dedot signAndSubmitFinalized reports failed extrinsics as successful",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2011",
+      "recommendation": "pursue",
+      "total_score": 131,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 34,
+      "actionability": 54,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:implement"
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
       "number": 1989,
       "title": "[Bug bounty] XCM Analyser rejects structured Plurality body variants",
       "url": "https://github.com/paraspell/xcm-tools/issues/1989",
@@ -50,14 +73,14 @@
     },
     {
       "repo": "paraspell/xcm-tools",
-      "number": 1971,
-      "title": "[Bug bounty] XCM Analyser crashes on valid Here locations",
-      "url": "https://github.com/paraspell/xcm-tools/issues/1971",
+      "number": 2004,
+      "title": "[Bug bounty] getSupportedFeeAssets borrows fee eligibility across selected exchanges",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2004",
       "recommendation": "pursue",
-      "total_score": 114,
+      "total_score": 104,
       "repo_primary_language": "TypeScript",
       "bounty_confidence": 34,
-      "actionability": 52,
+      "actionability": 42,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 11,
@@ -66,31 +89,9 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "action:expected behavior",
-        "action:error",
+        "action:regression",
         "task:fix",
-        "task:error"
-      ]
-    },
-    {
-      "repo": "paraspell/xcm-tools",
-      "number": 1977,
-      "title": "[Bug bounty] getSupportedAssets reports assets for unsupported Snowbridge origins",
-      "url": "https://github.com/paraspell/xcm-tools/issues/1977",
-      "recommendation": "pursue",
-      "total_score": 100,
-      "repo_primary_language": "TypeScript",
-      "bounty_confidence": 34,
-      "actionability": 38,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 11,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "task:support",
-        "task:bug"
+        "task:support"
       ]
     },
     {
