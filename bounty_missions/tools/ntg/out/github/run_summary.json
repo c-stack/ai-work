@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-31T12:17:22Z",
+  "generated_at_utc": "2026-07-31T14:40:32Z",
   "source_counts": {
     "github": 7,
     "algora": 14,
@@ -16,7 +16,7 @@
       "number": 51476,
       "title": "ttnn.div int32 (trunc/floor): dividend -2**31 returns -1 \u2014 the INT32_MIN guard is missing at one of three identical conversion sites",
       "recommendation": "pursue",
-      "total_score": 134,
+      "total_score": 133,
       "bounty_amount_usd": 10000,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -48,20 +48,20 @@
     },
     {
       "repo": "paraspell/xcm-tools",
-      "number": 2004,
-      "title": "[Bug bounty] getSupportedFeeAssets borrows fee eligibility across selected exchanges",
+      "number": 2026,
+      "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
       "recommendation": "pursue",
-      "total_score": 104,
+      "total_score": 121,
       "bounty_amount_usd": 0,
-      "competition_risk": 11,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
         "action:expected behavior",
-        "action:regression",
-        "task:fix",
-        "task:support"
+        "action:error",
+        "task:support",
+        "task:error"
       ]
     },
     {
@@ -106,7 +106,7 @@
       "number": 51473,
       "title": "Optimise `deg2rad_bw` / `rad2deg_bw` (fp32/bf16)",
       "recommendation": "review",
-      "total_score": 94,
+      "total_score": 93,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
