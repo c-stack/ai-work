@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-30T22:19:40Z",
+  "generated_at_utc": "2026-07-31T00:16:16Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,6 +14,15 @@
         51398,
         51473,
         51476
+      ]
+    },
+    "paraspell/xcm-tools": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        1971
       ]
     },
     "projectdiscovery/nuclei": {
@@ -262,6 +271,16 @@
         51398,
         51473,
         51476
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        1971
       ]
     }
   ]

@@ -9,6 +9,14 @@
       "total_score": 134
     },
     {
+      "repo": "paraspell/xcm-tools",
+      "number": 1971,
+      "title": "[Bug bounty] XCM Analyser crashes on valid Here locations",
+      "url": "https://github.com/paraspell/xcm-tools/issues/1971",
+      "recommendation": "pursue",
+      "total_score": 114
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 51398,
       "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
