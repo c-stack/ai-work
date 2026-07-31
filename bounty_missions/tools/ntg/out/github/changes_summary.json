@@ -18,19 +18,19 @@
     },
     {
       "repo": "paraspell/xcm-tools",
-      "number": 1989,
-      "title": "[Bug bounty] XCM Analyser rejects structured Plurality body variants",
-      "url": "https://github.com/paraspell/xcm-tools/issues/1989",
-      "recommendation": "pursue",
-      "total_score": 117
-    },
-    {
-      "repo": "paraspell/xcm-tools",
       "number": 2004,
       "title": "[Bug bounty] getSupportedFeeAssets borrows fee eligibility across selected exchanges",
       "url": "https://github.com/paraspell/xcm-tools/issues/2004",
       "recommendation": "pursue",
       "total_score": 104
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "number": 2014,
+      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2014",
+      "recommendation": "pursue",
+      "total_score": 103
     },
     {
       "repo": "tenstorrent/tt-metal",
