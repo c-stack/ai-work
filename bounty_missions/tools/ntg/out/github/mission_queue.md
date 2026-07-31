@@ -3,6 +3,8 @@
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
 | pursue | 134 | tenstorrent/tt-metal | 51476 | C++ | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, action:root cause, action:error, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/51476) |
+| pursue | 117 | paraspell/xcm-tools | 1989 | TypeScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bug bounty, bounty:bounty, action:expected behavior, action:error | [open](https://github.com/paraspell/xcm-tools/issues/1989) |
 | pursue | 114 | paraspell/xcm-tools | 1971 | TypeScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bug bounty, bounty:bounty, action:expected behavior, action:error | [open](https://github.com/paraspell/xcm-tools/issues/1971) |
+| pursue | 100 | paraspell/xcm-tools | 1977 | TypeScript | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bug bounty, bounty:bounty, action:expected behavior, task:support | [open](https://github.com/paraspell/xcm-tools/issues/1977) |
 | review | 98 | tenstorrent/tt-metal | 51398 | C++ | Bounty looks real, but active discussion increases takeover risk. | bounty:bounty, action:error, action:fix, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/51398) |
 | review | 94 | tenstorrent/tt-metal | 51473 | C++ | Plausible bounty with enough detail to inspect manually. | bounty:bounty, action:fix, task:fix, task:implement | [open](https://github.com/tenstorrent/tt-metal/issues/51473) |

@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-07-31T00:16:16Z",
+  "generated_at_utc": "2026-07-31T03:53:40Z",
   "source_counts": {
-    "github": 5,
+    "github": 7,
     "algora": 14,
-    "merged": 19
+    "merged": 21
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 4,
     "review": 2,
     "skip": 15
   },
@@ -30,6 +30,24 @@
     },
     {
       "repo": "paraspell/xcm-tools",
+      "number": 1989,
+      "title": "[Bug bounty] XCM Analyser rejects structured Plurality body variants",
+      "recommendation": "pursue",
+      "total_score": 117,
+      "bounty_amount_usd": 0,
+      "competition_risk": 4,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:error",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
       "number": 1971,
       "title": "[Bug bounty] XCM Analyser crashes on valid Here locations",
       "recommendation": "pursue",
@@ -44,6 +62,23 @@
         "action:error",
         "task:fix",
         "task:error"
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "number": 1977,
+      "title": "[Bug bounty] getSupportedAssets reports assets for unsupported Snowbridge origins",
+      "recommendation": "pursue",
+      "total_score": 100,
+      "bounty_amount_usd": 0,
+      "competition_risk": 11,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "task:support",
+        "task:bug"
       ]
     },
     {
@@ -154,48 +189,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

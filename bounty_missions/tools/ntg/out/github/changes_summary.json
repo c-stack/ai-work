@@ -10,11 +10,27 @@
     },
     {
       "repo": "paraspell/xcm-tools",
+      "number": 1989,
+      "title": "[Bug bounty] XCM Analyser rejects structured Plurality body variants",
+      "url": "https://github.com/paraspell/xcm-tools/issues/1989",
+      "recommendation": "pursue",
+      "total_score": 117
+    },
+    {
+      "repo": "paraspell/xcm-tools",
       "number": 1971,
       "title": "[Bug bounty] XCM Analyser crashes on valid Here locations",
       "url": "https://github.com/paraspell/xcm-tools/issues/1971",
       "recommendation": "pursue",
       "total_score": 114
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "number": 1977,
+      "title": "[Bug bounty] getSupportedAssets reports assets for unsupported Snowbridge origins",
+      "url": "https://github.com/paraspell/xcm-tools/issues/1977",
+      "recommendation": "pursue",
+      "total_score": 100
     },
     {
       "repo": "tenstorrent/tt-metal",
