@@ -10,14 +10,6 @@
     },
     {
       "repo": "paraspell/xcm-tools",
-      "number": 2011,
-      "title": "[Bug bounty] Dedot signAndSubmitFinalized reports failed extrinsics as successful",
-      "url": "https://github.com/paraspell/xcm-tools/issues/2011",
-      "recommendation": "skip",
-      "total_score": 118
-    },
-    {
-      "repo": "paraspell/xcm-tools",
       "number": 2026,
       "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
       "url": "https://github.com/paraspell/xcm-tools/issues/2026",
