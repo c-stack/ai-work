@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-31T10:00:14Z",
+  "generated_at_utc": "2026-07-31T12:17:22Z",
   "source_counts": {
     "github": 7,
     "algora": 14,
     "merged": 21
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 3,
     "review": 2,
-    "skip": 15
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -33,9 +33,9 @@
       "number": 2011,
       "title": "[Bug bounty] Dedot signAndSubmitFinalized reports failed extrinsics as successful",
       "recommendation": "pursue",
-      "total_score": 131,
+      "total_score": 129,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
@@ -65,24 +65,6 @@
       ]
     },
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2014,
-      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 51398,
       "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
@@ -98,6 +80,25 @@
         "task:fix",
         "task:support",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "number": 2014,
+      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
+      "recommendation": "skip",
+      "total_score": 97,
+      "bounty_amount_usd": 0,
+      "competition_risk": 16,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:implement",
+        "existing-work:1"
       ]
     },
     {
