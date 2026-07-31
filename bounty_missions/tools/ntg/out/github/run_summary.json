@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-07-31T14:40:32Z",
+  "generated_at_utc": "2026-07-31T16:57:50Z",
   "source_counts": {
     "github": 7,
     "algora": 14,
     "merged": 21
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 1,
     "review": 2,
-    "skip": 16
+    "skip": 18
   },
   "top_candidates": [
     {
@@ -32,36 +32,38 @@
       "repo": "paraspell/xcm-tools",
       "number": 2011,
       "title": "[Bug bounty] Dedot signAndSubmitFinalized reports failed extrinsics as successful",
-      "recommendation": "pursue",
-      "total_score": 129,
+      "recommendation": "skip",
+      "total_score": 118,
       "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 4,
+      "decision_reason": "This looks like bounty-program meta chatter or an alert feed, not a fixable task.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
         "action:expected behavior",
         "action:error",
         "task:fix",
-        "task:implement"
+        "task:implement",
+        "meta:bounty-program-meta"
       ]
     },
     {
       "repo": "paraspell/xcm-tools",
       "number": 2026,
       "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
-      "recommendation": "pursue",
-      "total_score": 121,
+      "recommendation": "skip",
+      "total_score": 108,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 3,
+      "decision_reason": "This looks like bounty-program meta chatter or an alert feed, not a fixable task.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
         "action:expected behavior",
         "action:error",
         "task:support",
-        "task:error"
+        "task:error",
+        "meta:bounty-program-meta"
       ]
     },
     {
@@ -83,25 +85,6 @@
       ]
     },
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2014,
-      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
-      "recommendation": "skip",
-      "total_score": 97,
-      "bounty_amount_usd": 0,
-      "competition_risk": 16,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:implement",
-        "existing-work:1"
-      ]
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 51473,
       "title": "Optimise `deg2rad_bw` / `rad2deg_bw` (fp32/bf16)",
@@ -115,6 +98,26 @@
         "action:fix",
         "task:fix",
         "task:implement"
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "number": 2014,
+      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
+      "recommendation": "skip",
+      "total_score": 85,
+      "bounty_amount_usd": 0,
+      "competition_risk": 18,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:implement",
+        "existing-work:1",
+        "meta:bounty-program-meta"
       ]
     },
     {

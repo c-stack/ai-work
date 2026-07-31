@@ -13,16 +13,16 @@
       "number": 2011,
       "title": "[Bug bounty] Dedot signAndSubmitFinalized reports failed extrinsics as successful",
       "url": "https://github.com/paraspell/xcm-tools/issues/2011",
-      "recommendation": "pursue",
-      "total_score": 129
+      "recommendation": "skip",
+      "total_score": 118
     },
     {
       "repo": "paraspell/xcm-tools",
       "number": 2026,
       "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
       "url": "https://github.com/paraspell/xcm-tools/issues/2026",
-      "recommendation": "pursue",
-      "total_score": 121
+      "recommendation": "skip",
+      "total_score": 108
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -33,20 +33,20 @@
       "total_score": 98
     },
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2014,
-      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
-      "url": "https://github.com/paraspell/xcm-tools/issues/2014",
-      "recommendation": "skip",
-      "total_score": 97
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 51473,
       "title": "Optimise `deg2rad_bw` / `rad2deg_bw` (fp32/bf16)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/51473",
       "recommendation": "review",
       "total_score": 93
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "number": 2014,
+      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2014",
+      "recommendation": "skip",
+      "total_score": 85
     },
     {
       "repo": "projectdiscovery/nuclei",
