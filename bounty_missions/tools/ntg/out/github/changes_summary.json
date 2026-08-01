@@ -9,20 +9,20 @@
       "total_score": 133
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51468,
+      "title": "`ttnn.pow(0, p)` returns `2^(-127p)` instead of `0` for every `p` in `(0, 1)` \u2014 the zero-base special case was written for negative exponents only",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51468",
+      "recommendation": "pursue",
+      "total_score": 116
+    },
+    {
       "repo": "paraspell/xcm-tools",
       "number": 2026,
       "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
       "url": "https://github.com/paraspell/xcm-tools/issues/2026",
       "recommendation": "skip",
       "total_score": 108
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 51398,
-      "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/51398",
-      "recommendation": "review",
-      "total_score": 98
     },
     {
       "repo": "tenstorrent/tt-metal",

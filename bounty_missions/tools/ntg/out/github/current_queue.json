@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-31T23:18:19Z",
+  "generated_at_utc": "2026-08-01T00:14:26Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -27,25 +27,24 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 51398,
-      "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/51398",
-      "recommendation": "review",
-      "total_score": 98,
+      "number": 51468,
+      "title": "`ttnn.pow(0, p)` returns `2^(-127p)` instead of `0` for every `p` in `(0, 1)` \u2014 the zero-base special case was written for negative exponents only",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51468",
+      "recommendation": "pursue",
+      "total_score": 116,
       "repo_primary_language": "C++",
-      "bounty_confidence": 40,
-      "actionability": 38,
-      "bounty_amount_usd": 7500,
+      "bounty_confidence": 30,
+      "actionability": 58,
+      "bounty_amount_usd": 2500,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 17,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "competition_risk": 8,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
+        "action:root cause",
         "action:error",
-        "action:fix",
         "task:fix",
-        "task:support",
-        "claims:1"
+        "task:support"
       ]
     },
     {

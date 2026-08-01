@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-07-31T23:18:19Z",
+  "generated_at_utc": "2026-08-01T00:14:26Z",
   "source_counts": {
     "github": 6,
     "algora": 14,
     "merged": 20
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 2,
+    "pursue": 2,
+    "review": 1,
     "skip": 17
   },
   "top_candidates": [
@@ -19,6 +19,23 @@
       "total_score": 133,
       "bounty_amount_usd": 10000,
       "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51468,
+      "title": "`ttnn.pow(0, p)` returns `2^(-127p)` instead of `0` for every `p` in `(0, 1)` \u2014 the zero-base special case was written for negative exponents only",
+      "recommendation": "pursue",
+      "total_score": 116,
+      "bounty_amount_usd": 2500,
+      "competition_risk": 8,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -45,24 +62,6 @@
         "task:support",
         "task:error",
         "meta:bounty-program-meta"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 51398,
-      "title": "[Bounty $7500] Gemma-2 (2B / 9B) text model bring-up using TTNN APIs",
-      "recommendation": "review",
-      "total_score": 98,
-      "bounty_amount_usd": 7500,
-      "competition_risk": 17,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:1"
       ]
     },
     {
