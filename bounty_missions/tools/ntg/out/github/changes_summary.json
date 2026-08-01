@@ -102,7 +102,7 @@
       "title": "Update Figma Community disclosures for CLI bridge network access",
       "url": "https://github.com/DirectedEdges/specs/issues/221",
       "recommendation": "skip",
-      "total_score": 37
+      "total_score": 36
     },
     {
       "repo": "tscircuit/dsn-converter",
