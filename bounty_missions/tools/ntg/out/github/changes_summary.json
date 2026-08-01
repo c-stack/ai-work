@@ -6,7 +6,7 @@
       "title": "ttnn.div int32 (trunc/floor): dividend -2**31 returns -1 \u2014 the INT32_MIN guard is missing at one of three identical conversion sites",
       "url": "https://github.com/tenstorrent/tt-metal/issues/51476",
       "recommendation": "pursue",
-      "total_score": 133
+      "total_score": 131
     },
     {
       "repo": "tenstorrent/tt-metal",
