@@ -33,14 +33,6 @@
       "total_score": 93
     },
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2014,
-      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
-      "url": "https://github.com/paraspell/xcm-tools/issues/2014",
-      "recommendation": "skip",
-      "total_score": 85
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",

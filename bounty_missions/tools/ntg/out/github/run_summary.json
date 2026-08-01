@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-01T09:21:20Z",
+  "generated_at_utc": "2026-08-01T11:35:38Z",
   "source_counts": {
-    "github": 6,
+    "github": 5,
     "algora": 14,
-    "merged": 20
+    "merged": 19
   },
   "recommendations": {
     "pursue": 2,
     "review": 1,
-    "skip": 17
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -78,26 +78,6 @@
         "action:fix",
         "task:fix",
         "task:implement"
-      ]
-    },
-    {
-      "repo": "paraspell/xcm-tools",
-      "number": 2014,
-      "title": "[Bug bounty] AcalaExchange omits slippage protection on swap transactions",
-      "recommendation": "skip",
-      "total_score": 85,
-      "bounty_amount_usd": 0,
-      "competition_risk": 18,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:implement",
-        "existing-work:1",
-        "meta:bounty-program-meta"
       ]
     },
     {
@@ -194,6 +174,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }
