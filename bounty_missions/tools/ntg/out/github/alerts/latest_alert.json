@@ -1,12 +1,20 @@
 {
-  "generated_at_utc": "2026-07-19T22:09:37Z",
+  "generated_at_utc": "2026-08-02T00:13:05Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260719T220852Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260802T001158Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
+      {
+        "repo": "paraspell/xcm-tools",
+        "number": 2026,
+        "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
+        "url": "https://github.com/paraspell/xcm-tools/issues/2026",
+        "recommendation": "skip",
+        "total_score": 108
+      },
       {
         "repo": "projectdiscovery/nuclei",
         "number": 6674,
@@ -70,6 +78,14 @@
         "url": "https://github.com/revertinc/revert/issues/372",
         "recommendation": "skip",
         "total_score": 39
+      },
+      {
+        "repo": "DirectedEdges/specs",
+        "number": 221,
+        "title": "Update Figma Community disclosures for CLI bridge network access",
+        "url": "https://github.com/DirectedEdges/specs/issues/221",
+        "recommendation": "skip",
+        "total_score": 36
       },
       {
         "repo": "tscircuit/dsn-converter",
