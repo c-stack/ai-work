@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-02T23:12:26Z",
+  "generated_at_utc": "2026-08-03T00:13:08Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 14,
-    "merged": 16
+    "merged": 15
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 16
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -191,18 +191,22 @@
       ]
     },
     {
-      "repo": "DirectedEdges/specs",
-      "number": 221,
-      "title": "Update Figma Community disclosures for CLI bridge network access",
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
       "recommendation": "skip",
       "total_score": 36,
-      "bounty_amount_usd": 0,
-      "competition_risk": 8,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
-        "platform:polar.sh",
-        "action:acceptance criteria",
-        "task:implement"
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
       ]
     }
   ],
