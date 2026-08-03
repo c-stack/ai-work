@@ -1,6 +1,29 @@
 {
-  "generated_at_utc": "2026-08-03T03:54:58Z",
+  "generated_at_utc": "2026-08-03T07:46:47Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51891,
+      "title": "[repo-status] Daily Activity Digest \u2014 2026-08-02 \u2192 2026-08-03 (UTC)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51891",
+      "recommendation": "review",
+      "total_score": 98,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 44,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add "
+      ]
+    }
+  ]
 }

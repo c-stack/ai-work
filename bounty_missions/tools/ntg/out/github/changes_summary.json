@@ -9,6 +9,14 @@
       "total_score": 107
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51891,
+      "title": "[repo-status] Daily Activity Digest \u2014 2026-08-02 \u2192 2026-08-03 (UTC)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/51891",
+      "recommendation": "review",
+      "total_score": 98
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",

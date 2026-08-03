@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-08-03T03:54:58Z",
+  "generated_at_utc": "2026-08-03T07:46:47Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 14,
-    "merged": 15
+    "merged": 16
   },
   "recommendations": {
     "pursue": 0,
-    "review": 0,
+    "review": 1,
     "skip": 15
   },
   "top_candidates": [
@@ -28,6 +28,23 @@
         "task:support",
         "task:error",
         "meta:bounty-program-meta"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 51891,
+      "title": "[repo-status] Daily Activity Digest \u2014 2026-08-02 \u2192 2026-08-03 (UTC)",
+      "recommendation": "review",
+      "total_score": 98,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add "
       ]
     },
     {
@@ -188,25 +205,6 @@
         "task:implement",
         "claims:4",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 36,
-      "bounty_amount_usd": 70,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
       ]
     }
   ],
