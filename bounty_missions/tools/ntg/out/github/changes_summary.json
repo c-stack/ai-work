@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 52014,
+      "title": "[Bounty $6,000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52014",
+      "recommendation": "pursue",
+      "total_score": 140
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 51891,
       "title": "[repo-status] Daily Activity Digest \u2014 2026-08-02 \u2192 2026-08-03 (UTC)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/51891",
@@ -102,7 +110,7 @@
       "title": "Update all outdated dependencies",
       "url": "https://github.com/tailcallhq/rust-grpc/issues/44",
       "recommendation": "skip",
-      "total_score": 19
+      "total_score": 18
     },
     {
       "repo": "tscircuit/jlcsearch",
