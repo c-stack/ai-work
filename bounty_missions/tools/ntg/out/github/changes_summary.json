@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2026,
-      "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
-      "url": "https://github.com/paraspell/xcm-tools/issues/2026",
-      "recommendation": "skip",
-      "total_score": 107
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 51891,
       "title": "[repo-status] Daily Activity Digest \u2014 2026-08-02 \u2192 2026-08-03 (UTC)",
