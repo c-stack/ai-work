@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-03T23:19:38Z",
+  "generated_at_utc": "2026-08-04T03:37:13Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -15,7 +15,7 @@
       "actionability": 58,
       "bounty_amount_usd": 6000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 17,
+      "competition_risk": 18,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -46,6 +46,28 @@
         "action:fix",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "monk-io/monk-plugin",
+      "number": 225,
+      "title": "[Bug bounty] Aborted Codex OAuth logins leave stale security approvals pending indefinitely",
+      "url": "https://github.com/monk-io/monk-plugin/issues/225",
+      "recommendation": "pursue",
+      "total_score": 98,
+      "repo_primary_language": "Shell",
+      "bounty_confidence": 34,
+      "actionability": 28,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:actual behavior",
+        "task:bug"
       ]
     }
   ]

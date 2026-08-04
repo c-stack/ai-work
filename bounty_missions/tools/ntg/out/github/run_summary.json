@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-03T23:19:38Z",
+  "generated_at_utc": "2026-08-04T03:37:13Z",
   "source_counts": {
-    "github": 2,
+    "github": 4,
     "algora": 14,
-    "merged": 16
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 2,
-    "skip": 14
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -18,7 +18,7 @@
       "recommendation": "review",
       "total_score": 119,
       "bounty_amount_usd": 6000,
-      "competition_risk": 17,
+      "competition_risk": 18,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -44,6 +44,23 @@
         "action:fix",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "monk-io/monk-plugin",
+      "number": 225,
+      "title": "[Bug bounty] Aborted Codex OAuth logins leave stale security approvals pending indefinitely",
+      "recommendation": "pursue",
+      "total_score": 98,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:actual behavior",
+        "task:bug"
       ]
     },
     {
@@ -124,6 +141,21 @@
       ]
     },
     {
+      "repo": "PHPOffice/PHPWord",
+      "number": 2895,
+      "title": "Add MacroExists public method to TemplateProcessor.php",
+      "recommendation": "skip",
+      "total_score": 48,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "platform:algora",
+        "action:expected behavior",
+        "task:add "
+      ]
+    },
+    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
@@ -162,47 +194,6 @@
         "task:add ",
         "claims:2",
         "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 43,
-      "bounty_amount_usd": 100,
-      "competition_risk": 59,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 39,
-      "bounty_amount_usd": 100,
-      "competition_risk": 50,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
         "support:support-politeness"
       ]
     }

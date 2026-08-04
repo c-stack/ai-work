@@ -17,6 +17,14 @@
       "total_score": 98
     },
     {
+      "repo": "monk-io/monk-plugin",
+      "number": 225,
+      "title": "[Bug bounty] Aborted Codex OAuth logins leave stale security approvals pending indefinitely",
+      "url": "https://github.com/monk-io/monk-plugin/issues/225",
+      "recommendation": "pursue",
+      "total_score": 98
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -47,6 +55,14 @@
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
       "recommendation": "skip",
       "total_score": 57
+    },
+    {
+      "repo": "PHPOffice/PHPWord",
+      "number": 2895,
+      "title": "Add MacroExists public method to TemplateProcessor.php",
+      "url": "https://github.com/PHPOffice/PHPWord/issues/2895",
+      "recommendation": "skip",
+      "total_score": 48
     },
     {
       "repo": "antinomyhq/forge",
