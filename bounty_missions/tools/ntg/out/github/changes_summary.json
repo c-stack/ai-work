@@ -22,7 +22,7 @@
       "title": "[Bounty $1800] Audio Spectrogram Transformer (AST) audio classification bring-up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52054",
       "recommendation": "pursue",
-      "total_score": 106
+      "total_score": 104
     },
     {
       "repo": "projectdiscovery/nuclei",
