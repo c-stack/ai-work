@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T21:36:33Z",
+  "generated_at_utc": "2026-08-04T23:19:00Z",
   "source_counts": {
     "github": 5,
     "algora": 14,
@@ -146,15 +146,15 @@
       "number": 52118,
       "title": "[tt-train]: Qwen3 32B GRPO Training Hangs",
       "recommendation": "skip",
-      "total_score": 51,
+      "total_score": 53,
       "bounty_amount_usd": 0,
       "competition_risk": 8,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
       "decision_signals": [
         "action:error",
         "action:regression",
+        "task:replace",
         "task:error",
-        "task:bug",
         "template-gaps:1"
       ]
     },
