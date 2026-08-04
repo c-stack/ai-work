@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T12:19:14Z",
+  "generated_at_utc": "2026-08-04T15:35:36Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -31,21 +31,22 @@
       "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52014",
       "recommendation": "review",
-      "total_score": 119,
+      "total_score": 111,
       "repo_primary_language": "C++",
-      "bounty_confidence": 40,
-      "actionability": 58,
+      "bounty_confidence": 36,
+      "actionability": 55,
       "bounty_amount_usd": 6000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "competition_risk": 20,
+      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
       "decision_signals": [
         "bounty:bounty",
         "action:acceptance criteria",
         "action:error",
         "task:fix",
         "task:support",
-        "claims:1"
+        "claims:1",
+        "support:support-politeness"
       ]
     },
     {

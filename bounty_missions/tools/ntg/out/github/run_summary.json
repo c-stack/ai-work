@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T12:19:14Z",
+  "generated_at_utc": "2026-08-04T15:35:36Z",
   "source_counts": {
     "github": 4,
     "algora": 14,
@@ -33,17 +33,18 @@
       "number": 52014,
       "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
       "recommendation": "review",
-      "total_score": 119,
+      "total_score": 111,
       "bounty_amount_usd": 6000,
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "competition_risk": 20,
+      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
       "decision_signals": [
         "bounty:bounty",
         "action:acceptance criteria",
         "action:error",
         "task:fix",
         "task:support",
-        "claims:1"
+        "claims:1",
+        "support:support-politeness"
       ]
     },
     {

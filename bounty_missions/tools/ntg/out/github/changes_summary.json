@@ -14,7 +14,7 @@
       "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52014",
       "recommendation": "review",
-      "total_score": 119
+      "total_score": 111
     },
     {
       "repo": "tenstorrent/tt-metal",
