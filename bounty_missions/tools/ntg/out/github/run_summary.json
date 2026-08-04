@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T03:37:13Z",
+  "generated_at_utc": "2026-08-04T06:41:25Z",
   "source_counts": {
     "github": 4,
     "algora": 14,
@@ -11,6 +11,23 @@
     "skip": 15
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52037,
+      "title": "[Bounty $1,500] logaddexp / logaddexp2: overflow-safe reformulation",
+      "recommendation": "pursue",
+      "total_score": 138,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 4,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:implement"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 52014,
@@ -44,23 +61,6 @@
         "action:fix",
         "task:fix",
         "task:add "
-      ]
-    },
-    {
-      "repo": "monk-io/monk-plugin",
-      "number": 225,
-      "title": "[Bug bounty] Aborted Codex OAuth logins leave stale security approvals pending indefinitely",
-      "recommendation": "pursue",
-      "total_score": 98,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:actual behavior",
-        "task:bug"
       ]
     },
     {
