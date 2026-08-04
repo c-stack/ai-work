@@ -1,30 +1,8 @@
 {
-  "generated_at_utc": "2026-08-04T18:04:21Z",
+  "generated_at_utc": "2026-08-04T19:57:13Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52037,
-      "title": "[Bounty $1,500] logaddexp / logaddexp2: overflow-safe reformulation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52037",
-      "recommendation": "pursue",
-      "total_score": 138,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 40,
-      "actionability": 58,
-      "bounty_amount_usd": 1500,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 4,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:implement"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 52014,

@@ -5,8 +5,8 @@
       "number": 52037,
       "title": "[Bounty $1,500] logaddexp / logaddexp2: overflow-safe reformulation",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52037",
-      "recommendation": "pursue",
-      "total_score": 138
+      "recommendation": "skip",
+      "total_score": 125
     },
     {
       "repo": "tenstorrent/tt-metal",
