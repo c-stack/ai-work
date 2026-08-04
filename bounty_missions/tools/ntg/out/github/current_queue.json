@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T06:41:25Z",
+  "generated_at_utc": "2026-08-04T09:51:15Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -28,7 +28,7 @@
     {
       "repo": "tenstorrent/tt-metal",
       "number": 52014,
-      "title": "[Bounty $6,000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
+      "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52014",
       "recommendation": "review",
       "total_score": 119,
@@ -50,24 +50,23 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 51891,
-      "title": "[repo-status] Daily Activity Digest \u2014 2026-08-02 \u2192 2026-08-03 (UTC)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/51891",
-      "recommendation": "review",
-      "total_score": 98,
+      "number": 52054,
+      "title": "[Bounty $1800] Audio Spectrogram Transformer (AST) audio classification bring-up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52054",
+      "recommendation": "pursue",
+      "total_score": 106,
       "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 44,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
+      "bounty_confidence": 30,
+      "actionability": 34,
+      "bounty_amount_usd": 1800,
+      "bounty_amount_signal": "contextual_amount",
       "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add "
+        "negative:benchmark",
+        "task:support",
+        "task:implement"
       ]
     }
   ]
