@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-05T20:40:08Z",
+  "generated_at_utc": "2026-08-05T22:22:11Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
@@ -9,7 +9,7 @@
       "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52014",
       "recommendation": "review",
-      "total_score": 111,
+      "total_score": 110,
       "repo_primary_language": "C++",
       "bounty_confidence": 36,
       "actionability": 55,
@@ -29,23 +29,25 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 52054,
-      "title": "[Bounty $1800] Audio Spectrogram Transformer (AST) audio classification bring-up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52054",
-      "recommendation": "pursue",
-      "total_score": 104,
+      "number": 52252,
+      "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
+      "recommendation": "review",
+      "total_score": 91,
       "repo_primary_language": "C++",
-      "bounty_confidence": 30,
-      "actionability": 34,
-      "bounty_amount_usd": 1800,
+      "bounty_confidence": 40,
+      "actionability": 30,
+      "bounty_amount_usd": 3000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 6,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
-        "negative:benchmark",
+        "action:acceptance criteria",
+        "action:fix",
+        "task:fix",
         "task:support",
-        "task:implement"
+        "claims:1"
       ]
     }
   ]

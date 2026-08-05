@@ -14,15 +14,15 @@
       "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52014",
       "recommendation": "review",
-      "total_score": 111
+      "total_score": 110
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 52054,
-      "title": "[Bounty $1800] Audio Spectrogram Transformer (AST) audio classification bring-up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52054",
-      "recommendation": "pursue",
-      "total_score": 104
+      "number": 52252,
+      "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
+      "recommendation": "review",
+      "total_score": 91
     },
     {
       "repo": "projectdiscovery/nuclei",

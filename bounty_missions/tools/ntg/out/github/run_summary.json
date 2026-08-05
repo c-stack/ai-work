@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-08-05T20:40:08Z",
+  "generated_at_utc": "2026-08-05T22:22:11Z",
   "source_counts": {
     "github": 4,
     "algora": 14,
     "merged": 18
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 1,
+    "pursue": 0,
+    "review": 2,
     "skip": 16
   },
   "top_candidates": [
@@ -34,7 +34,7 @@
       "number": 52014,
       "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
       "recommendation": "review",
-      "total_score": 111,
+      "total_score": 110,
       "bounty_amount_usd": 6000,
       "competition_risk": 20,
       "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
@@ -50,18 +50,20 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 52054,
-      "title": "[Bounty $1800] Audio Spectrogram Transformer (AST) audio classification bring-up using TTNN APIs",
-      "recommendation": "pursue",
-      "total_score": 104,
-      "bounty_amount_usd": 1800,
-      "competition_risk": 6,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "number": 52252,
+      "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
+      "recommendation": "review",
+      "total_score": 91,
+      "bounty_amount_usd": 3000,
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
-        "negative:benchmark",
+        "action:acceptance criteria",
+        "action:fix",
+        "task:fix",
         "task:support",
-        "task:implement"
+        "claims:1"
       ]
     },
     {
