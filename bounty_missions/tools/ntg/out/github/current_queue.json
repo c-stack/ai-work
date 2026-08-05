@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-05T16:53:32Z",
+  "generated_at_utc": "2026-08-05T18:52:39Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -10,7 +10,7 @@
       "url": "https://github.com/monk-io/monk-plugin/issues/248",
       "recommendation": "pursue",
       "total_score": 119,
-      "repo_primary_language": "Shell",
+      "repo_primary_language": "PowerShell",
       "bounty_confidence": 34,
       "actionability": 48,
       "bounty_amount_usd": 0,
