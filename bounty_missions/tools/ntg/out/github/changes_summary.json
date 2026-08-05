@@ -9,14 +9,6 @@
       "total_score": 125
     },
     {
-      "repo": "monk-io/monk-plugin",
-      "number": 248,
-      "title": "[Bug bounty] watcher.remove reports success after partial workload deletion",
-      "url": "https://github.com/monk-io/monk-plugin/issues/248",
-      "recommendation": "pursue",
-      "total_score": 119
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 52014,
       "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",

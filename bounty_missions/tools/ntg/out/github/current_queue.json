@@ -1,31 +1,8 @@
 {
-  "generated_at_utc": "2026-08-05T18:52:39Z",
+  "generated_at_utc": "2026-08-05T20:40:08Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
-    {
-      "repo": "monk-io/monk-plugin",
-      "number": 248,
-      "title": "[Bug bounty] watcher.remove reports success after partial workload deletion",
-      "url": "https://github.com/monk-io/monk-plugin/issues/248",
-      "recommendation": "pursue",
-      "total_score": 119,
-      "repo_primary_language": "PowerShell",
-      "bounty_confidence": 34,
-      "actionability": 48,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:actual behavior",
-        "task:fix",
-        "task:remove"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 52014,

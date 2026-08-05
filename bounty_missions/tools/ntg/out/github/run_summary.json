@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-08-05T18:52:39Z",
+  "generated_at_utc": "2026-08-05T20:40:08Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 14,
-    "merged": 19
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 1,
     "skip": 16
   },
@@ -27,24 +27,6 @@
         "task:fix",
         "task:support",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "monk-io/monk-plugin",
-      "number": 248,
-      "title": "[Bug bounty] watcher.remove reports success after partial workload deletion",
-      "recommendation": "pursue",
-      "total_score": 119,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:actual behavior",
-        "task:fix",
-        "task:remove"
       ]
     },
     {
@@ -166,13 +148,13 @@
       "recommendation": "skip",
       "total_score": 53,
       "bounty_amount_usd": 0,
-      "competition_risk": 8,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "competition_risk": 14,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "action:error",
         "action:regression",
         "task:replace",
-        "task:error",
+        "task:implement",
         "template-gaps:1"
       ]
     },
@@ -193,6 +175,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }
