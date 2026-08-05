@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-04T23:19:00Z",
+  "generated_at_utc": "2026-08-05T03:33:09Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -15,6 +15,15 @@
         52037,
         52054,
         52118
+      ]
+    },
+    "monk-io/monk-plugin": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        242
       ]
     },
     "projectdiscovery/nuclei": {
@@ -52,15 +61,6 @@
       "pursue_count": 0,
       "unique_issues": [
         373
-      ]
-    },
-    "PHPOffice/PHPWord": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2895
       ]
     },
     "antinomyhq/forge": {
@@ -247,16 +247,6 @@
       ]
     },
     {
-      "repo": "PHPOffice/PHPWord",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2895
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -264,6 +254,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "monk-io/monk-plugin",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        242
       ]
     }
   ]

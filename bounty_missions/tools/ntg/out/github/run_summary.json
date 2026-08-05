@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-04T23:19:00Z",
+  "generated_at_utc": "2026-08-05T03:33:09Z",
   "source_counts": {
     "github": 5,
     "algora": 14,
     "merged": 19
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 1,
-    "skip": 17
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -27,6 +27,24 @@
         "task:fix",
         "task:support",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "monk-io/monk-plugin",
+      "number": 242,
+      "title": "[Bug bounty] analyzer.diagnose reports zero diagnostics when MANIFEST is missing",
+      "recommendation": "pursue",
+      "total_score": 115,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:actual behavior",
+        "task:error",
+        "task:bug"
       ]
     },
     {
@@ -156,21 +174,6 @@
         "task:replace",
         "task:error",
         "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2895,
-      "title": "Add MacroExists public method to TemplateProcessor.php",
-      "recommendation": "skip",
-      "total_score": 48,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:algora",
-        "action:expected behavior",
-        "task:add "
       ]
     },
     {
