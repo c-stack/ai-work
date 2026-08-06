@@ -6,7 +6,7 @@
       "title": "[Bounty $1,500] logaddexp / logaddexp2: overflow-safe reformulation",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52037",
       "recommendation": "skip",
-      "total_score": 125
+      "total_score": 124
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -22,7 +22,7 @@
       "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
       "recommendation": "review",
-      "total_score": 91
+      "total_score": 90
     },
     {
       "repo": "projectdiscovery/nuclei",
