@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-08-06T06:46:21Z",
+  "generated_at_utc": "2026-08-06T09:59:32Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 13,
-    "merged": 17
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 2,
     "skip": 15
   },
@@ -64,6 +64,24 @@
         "task:fix",
         "task:support",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11620,
+      "title": "Fix Card to forward native section props",
+      "recommendation": "pursue",
+      "total_score": 87,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:fix",
+        "task:fix",
+        "task:bug"
       ]
     },
     {
@@ -183,28 +201,6 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 43,
-      "bounty_amount_usd": 100,
-      "competition_risk": 59,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
       ]
     }
   ],

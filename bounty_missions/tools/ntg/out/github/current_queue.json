@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-06T06:46:21Z",
+  "generated_at_utc": "2026-08-06T09:59:32Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -48,6 +48,29 @@
         "task:fix",
         "task:support",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11620,
+      "title": "Fix Card to forward native section props",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11620",
+      "recommendation": "pursue",
+      "total_score": 87,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 17,
+      "actionability": 26,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:fix",
+        "task:fix",
+        "task:bug"
       ]
     }
   ]
