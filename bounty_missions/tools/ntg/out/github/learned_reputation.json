@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-06T00:10:36Z",
+  "generated_at_utc": "2026-08-06T03:36:51Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -34,15 +34,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    "archestra-ai/archestra": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        3859
       ]
     },
     "tailcallhq/tailcallhq.github.io": {
@@ -215,16 +206,6 @@
       "pursue_count": 0,
       "unique_issues": [
         1
-      ]
-    },
-    {
-      "repo": "archestra-ai/archestra",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        3859
       ]
     },
     {

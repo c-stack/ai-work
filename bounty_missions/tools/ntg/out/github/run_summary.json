@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-06T00:10:36Z",
+  "generated_at_utc": "2026-08-06T03:36:51Z",
   "source_counts": {
     "github": 4,
-    "algora": 14,
-    "merged": 18
+    "algora": 13,
+    "merged": 17
   },
   "recommendations": {
     "pursue": 0,
     "review": 2,
-    "skip": 16
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -108,23 +108,6 @@
       ]
     },
     {
-      "repo": "archestra-ai/archestra",
-      "number": 3859,
-      "title": "json in mcp server args textarea",
-      "recommendation": "skip",
-      "total_score": 59,
-      "bounty_amount_usd": 100,
-      "competition_risk": 27,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "task:support",
-        "task:implement",
-        "claims:1",
-        "support:support-politeness"
-      ]
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -200,6 +183,28 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 43,
+      "bounty_amount_usd": 100,
+      "competition_risk": 59,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
       ]
     }
   ],
