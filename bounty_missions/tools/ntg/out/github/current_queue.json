@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-05T22:22:11Z",
+  "generated_at_utc": "2026-08-06T00:10:36Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
@@ -39,7 +39,7 @@
       "actionability": 30,
       "bounty_amount_usd": 3000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 17,
+      "competition_risk": 18,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
