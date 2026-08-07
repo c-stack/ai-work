@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T16:09:34Z",
+  "generated_at_utc": "2026-08-07T17:08:03Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -54,7 +54,7 @@
       "recommendation": "skip",
       "total_score": 96,
       "bounty_amount_usd": 1500,
-      "competition_risk": 33,
+      "competition_risk": 34,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
