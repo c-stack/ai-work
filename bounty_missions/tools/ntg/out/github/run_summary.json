@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T07:41:25Z",
+  "generated_at_utc": "2026-08-07T09:15:56Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -167,9 +167,9 @@
       "number": 52118,
       "title": "[tt-train]: Qwen3 32B GRPO Training Hangs",
       "recommendation": "skip",
-      "total_score": 53,
+      "total_score": 52,
       "bounty_amount_usd": 0,
-      "competition_risk": 17,
+      "competition_risk": 18,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "action:error",

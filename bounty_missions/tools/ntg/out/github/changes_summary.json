@@ -70,7 +70,7 @@
       "title": "[tt-train]: Qwen3 32B GRPO Training Hangs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52118",
       "recommendation": "skip",
-      "total_score": 53
+      "total_score": 52
     },
     {
       "repo": "antinomyhq/forge",
