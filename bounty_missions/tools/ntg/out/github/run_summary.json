@@ -1,43 +1,62 @@
 {
-  "generated_at_utc": "2026-08-06T15:28:39Z",
+  "generated_at_utc": "2026-08-07T00:16:05Z",
   "source_counts": {
-    "github": 5,
+    "github": 7,
     "algora": 13,
-    "merged": 18
+    "merged": 20
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 2,
-    "skip": 15
+    "pursue": 2,
+    "review": 1,
+    "skip": 17
   },
   "top_candidates": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52037,
-      "title": "[Bounty $1,500] logaddexp / logaddexp2: overflow-safe reformulation",
+      "repo": "monk-io/monk-plugin",
+      "number": 258,
+      "title": "[Bug bounty] unusable Windows bash stub suppresses Antigravity ensure hook",
       "recommendation": "skip",
-      "total_score": 124,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 18,
+      "total_score": 116,
+      "bounty_amount_usd": 0,
+      "competition_risk": 15,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
+        "bounty:bug bounty",
         "bounty:bounty",
-        "action:root cause",
-        "action:error",
+        "action:expected behavior",
+        "action:actual behavior",
         "task:fix",
-        "task:support",
+        "task:implement",
         "existing-work:1"
       ]
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 52014,
-      "title": "[Bounty $6000] Fix SFPU RNG correlation and improve FP32 uniform random quality",
-      "recommendation": "review",
-      "total_score": 110,
-      "bounty_amount_usd": 6000,
-      "competition_risk": 20,
-      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
+      "number": 52280,
+      "title": "[repo-status] Daily Repo Status - 2026-08-06",
+      "recommendation": "pursue",
+      "total_score": 112,
+      "bounty_amount_usd": 3000,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:migration",
+        "action:root cause",
+        "action:fix",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52328,
+      "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
+      "recommendation": "skip",
+      "total_score": 96,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 32,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
         "action:acceptance criteria",
@@ -45,6 +64,7 @@
         "task:fix",
         "task:support",
         "claims:1",
+        "existing-work:1",
         "support:support-politeness"
       ]
     },
@@ -53,9 +73,9 @@
       "number": 52252,
       "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
       "recommendation": "review",
-      "total_score": 90,
+      "total_score": 91,
       "bounty_amount_usd": 3000,
-      "competition_risk": 20,
+      "competition_risk": 21,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -71,7 +91,7 @@
       "number": 11620,
       "title": "Fix Card to forward native section props",
       "recommendation": "pursue",
-      "total_score": 87,
+      "total_score": 88,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -149,9 +169,9 @@
       "number": 52118,
       "title": "[tt-train]: Qwen3 32B GRPO Training Hangs",
       "recommendation": "skip",
-      "total_score": 53,
+      "total_score": 52,
       "bounty_amount_usd": 0,
-      "competition_risk": 14,
+      "competition_risk": 16,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "action:error",
@@ -178,28 +198,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

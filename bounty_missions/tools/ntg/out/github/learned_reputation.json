@@ -1,20 +1,29 @@
 {
-  "generated_at_utc": "2026-08-06T15:28:39Z",
+  "generated_at_utc": "2026-08-07T00:16:05Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "monk-io/monk-plugin": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        258
+      ]
+    },
     "tenstorrent/tt-metal": {
       "total_seen": 4,
       "skip_count": 2,
-      "review_count": 2,
-      "pursue_count": 0,
+      "review_count": 1,
+      "pursue_count": 1,
       "unique_issues": [
-        52014,
-        52037,
         52118,
-        52252
+        52252,
+        52280,
+        52328
       ]
     },
     "SecureBananaLabs/bug-bounty": {
@@ -92,6 +101,15 @@
         54
       ]
     },
+    "sourcey/startup-credits": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        241
+      ]
+    },
     "tailcallhq/graphql-conf-2024": {
       "total_seen": 1,
       "skip_count": 1,
@@ -125,13 +143,13 @@
       "repo": "tenstorrent/tt-metal",
       "total_seen": 4,
       "skip_count": 2,
-      "review_count": 2,
-      "pursue_count": 0,
+      "review_count": 1,
+      "pursue_count": 1,
       "unique_issues": [
-        52014,
-        52037,
         52118,
-        52252
+        52252,
+        52280,
+        52328
       ]
     },
     {
@@ -215,6 +233,26 @@
       "pursue_count": 0,
       "unique_issues": [
         1
+      ]
+    },
+    {
+      "repo": "sourcey/startup-credits",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        241
+      ]
+    },
+    {
+      "repo": "monk-io/monk-plugin",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        258
       ]
     },
     {
