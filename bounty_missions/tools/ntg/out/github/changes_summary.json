@@ -30,7 +30,7 @@
       "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
       "recommendation": "review",
-      "total_score": 91
+      "total_score": 90
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",

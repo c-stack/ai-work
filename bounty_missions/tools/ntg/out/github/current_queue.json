@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T20:59:47Z",
+  "generated_at_utc": "2026-08-07T21:56:18Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -55,7 +55,7 @@
       "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
       "recommendation": "review",
-      "total_score": 91,
+      "total_score": 90,
       "repo_primary_language": "C++",
       "bounty_confidence": 40,
       "actionability": 30,
