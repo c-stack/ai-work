@@ -1,19 +1,10 @@
 {
-  "generated_at_utc": "2026-08-07T05:51:23Z",
+  "generated_at_utc": "2026-08-07T07:41:25Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "anthropics/claude-code": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        84695
-      ]
-    },
     "tenstorrent/tt-metal": {
       "total_seen": 4,
       "skip_count": 2,
@@ -22,8 +13,17 @@
       "unique_issues": [
         52118,
         52252,
-        52280,
-        52328
+        52328,
+        52393
+      ]
+    },
+    "anthropics/claude-code": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        84695
       ]
     },
     "SecureBananaLabs/bug-bounty": {
@@ -148,8 +148,8 @@
       "unique_issues": [
         52118,
         52252,
-        52280,
-        52328
+        52328,
+        52393
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T05:51:23Z",
+  "generated_at_utc": "2026-08-07T07:41:25Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -11,6 +11,24 @@
     "skip": 16
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52393,
+      "title": "[repo-status] Repo Status: Active Metal 2.0 progress, bug fixes & ,500 bounty work (Aug 6-7)",
+      "recommendation": "pursue",
+      "total_score": 118,
+      "bounty_amount_usd": 1500,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:migration",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "anthropics/claude-code",
       "number": 84695,
@@ -26,24 +44,6 @@
         "action:error",
         "task:error",
         "task:bug"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52280,
-      "title": "[repo-status] Daily Repo Status - 2026-08-06",
-      "recommendation": "pursue",
-      "total_score": 112,
-      "bounty_amount_usd": 3000,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:migration",
-        "action:root cause",
-        "action:fix",
-        "task:fix",
-        "task:support"
       ]
     },
     {
@@ -73,7 +73,7 @@
       "recommendation": "review",
       "total_score": 91,
       "bounty_amount_usd": 3000,
-      "competition_risk": 21,
+      "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -167,9 +167,9 @@
       "number": 52118,
       "title": "[tt-train]: Qwen3 32B GRPO Training Hangs",
       "recommendation": "skip",
-      "total_score": 52,
+      "total_score": 53,
       "bounty_amount_usd": 0,
-      "competition_risk": 16,
+      "competition_risk": 17,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "action:error",

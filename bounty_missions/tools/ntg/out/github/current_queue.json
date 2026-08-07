@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-08-07T05:51:23Z",
+  "generated_at_utc": "2026-08-07T07:41:25Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52393,
+      "title": "[repo-status] Repo Status: Active Metal 2.0 progress, bug fixes & ,500 bounty work (Aug 6-7)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52393",
+      "recommendation": "pursue",
+      "total_score": 118,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 46,
+      "bounty_amount_usd": 1500,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:migration",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "anthropics/claude-code",
       "number": 84695,
@@ -27,29 +50,6 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 52280,
-      "title": "[repo-status] Daily Repo Status - 2026-08-06",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52280",
-      "recommendation": "pursue",
-      "total_score": 112,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 20,
-      "actionability": 50,
-      "bounty_amount_usd": 3000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:migration",
-        "action:root cause",
-        "action:fix",
-        "task:fix",
-        "task:support"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 52252,
       "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
@@ -60,7 +60,7 @@
       "actionability": 30,
       "bounty_amount_usd": 3000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 21,
+      "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",

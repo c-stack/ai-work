@@ -1,20 +1,20 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52393,
+      "title": "[repo-status] Repo Status: Active Metal 2.0 progress, bug fixes & ,500 bounty work (Aug 6-7)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52393",
+      "recommendation": "pursue",
+      "total_score": 118
+    },
+    {
       "repo": "anthropics/claude-code",
       "number": 84695,
       "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
       "url": "https://github.com/anthropics/claude-code/issues/84695",
       "recommendation": "pursue",
       "total_score": 113
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52280,
-      "title": "[repo-status] Daily Repo Status - 2026-08-06",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52280",
-      "recommendation": "pursue",
-      "total_score": 112
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -70,7 +70,7 @@
       "title": "[tt-train]: Qwen3 32B GRPO Training Hangs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52118",
       "recommendation": "skip",
-      "total_score": 52
+      "total_score": 53
     },
     {
       "repo": "antinomyhq/forge",
