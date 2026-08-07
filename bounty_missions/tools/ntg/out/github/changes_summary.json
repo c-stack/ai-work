@@ -1,12 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "monk-io/monk-plugin",
-      "number": 258,
-      "title": "[Bug bounty] unusable Windows bash stub suppresses Antigravity ensure hook",
-      "url": "https://github.com/monk-io/monk-plugin/issues/258",
-      "recommendation": "skip",
-      "total_score": 116
+      "repo": "anthropics/claude-code",
+      "number": 84695,
+      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
+      "url": "https://github.com/anthropics/claude-code/issues/84695",
+      "recommendation": "pursue",
+      "total_score": 113
     },
     {
       "repo": "tenstorrent/tt-metal",
