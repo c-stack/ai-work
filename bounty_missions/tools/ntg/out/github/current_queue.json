@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T09:15:56Z",
+  "generated_at_utc": "2026-08-07T10:13:36Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -77,7 +77,7 @@
       "title": "Fix Card to forward native section props",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11620",
       "recommendation": "pursue",
-      "total_score": 88,
+      "total_score": 87,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 17,
       "actionability": 26,

@@ -38,7 +38,7 @@
       "title": "Fix Card to forward native section props",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11620",
       "recommendation": "pursue",
-      "total_score": 88
+      "total_score": 87
     },
     {
       "repo": "projectdiscovery/nuclei",
