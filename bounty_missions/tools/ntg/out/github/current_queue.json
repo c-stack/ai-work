@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-08-07T11:08:13Z",
+  "generated_at_utc": "2026-08-07T11:58:33Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
+    {
+      "repo": "monk-io/monk-plugin",
+      "number": 272,
+      "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
+      "url": "https://github.com/monk-io/monk-plugin/issues/272",
+      "recommendation": "pursue",
+      "total_score": 125,
+      "repo_primary_language": "PowerShell",
+      "bounty_confidence": 34,
+      "actionability": 54,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:actual behavior",
+        "task:fix",
+        "task:support"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 52393,
@@ -24,28 +47,6 @@
         "action:fix",
         "task:fix",
         "task:add "
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "number": 84695,
-      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
-      "url": "https://github.com/anthropics/claude-code/issues/84695",
-      "recommendation": "pursue",
-      "total_score": 113,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 34,
-      "actionability": 32,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "task:error",
-        "task:bug"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-07T11:08:13Z",
+  "generated_at_utc": "2026-08-07T11:58:33Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -11,6 +11,24 @@
     "skip": 16
   },
   "top_candidates": [
+    {
+      "repo": "monk-io/monk-plugin",
+      "number": 272,
+      "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
+      "recommendation": "pursue",
+      "total_score": 125,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:actual behavior",
+        "task:fix",
+        "task:support"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 52393,
@@ -30,30 +48,13 @@
       ]
     },
     {
-      "repo": "anthropics/claude-code",
-      "number": 84695,
-      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
-      "recommendation": "pursue",
-      "total_score": 113,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "task:error",
-        "task:bug"
-      ]
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 52328,
       "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
       "recommendation": "skip",
       "total_score": 96,
       "bounty_amount_usd": 1500,
-      "competition_risk": 32,
+      "competition_risk": 33,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",

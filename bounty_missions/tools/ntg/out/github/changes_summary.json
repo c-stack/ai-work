@@ -1,20 +1,20 @@
 {
   "new_items": [
     {
+      "repo": "monk-io/monk-plugin",
+      "number": 272,
+      "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
+      "url": "https://github.com/monk-io/monk-plugin/issues/272",
+      "recommendation": "pursue",
+      "total_score": 125
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 52393,
       "title": "[repo-status] Repo Status: Active Metal 2.0 progress, bug fixes & ,500 bounty work (Aug 6-7)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52393",
       "recommendation": "pursue",
       "total_score": 118
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "number": 84695,
-      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
-      "url": "https://github.com/anthropics/claude-code/issues/84695",
-      "recommendation": "pursue",
-      "total_score": 113
     },
     {
       "repo": "tenstorrent/tt-metal",
