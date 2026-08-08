@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-07T23:49:04Z",
+  "generated_at_utc": "2026-08-08T02:21:37Z",
   "source_counts": {
-    "github": 7,
+    "github": 6,
     "algora": 13,
-    "merged": 20
+    "merged": 19
   },
   "recommendations": {
     "pursue": 3,
     "review": 1,
-    "skip": 16
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -164,23 +164,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52118,
-      "title": "[tt-train]: Qwen3 32B GRPO Training Hangs",
-      "recommendation": "skip",
-      "total_score": 51,
-      "bounty_amount_usd": 0,
-      "competition_risk": 18,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "action:error",
-        "action:regression",
-        "task:replace",
-        "task:implement",
-        "template-gaps:1"
-      ]
-    },
-    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
@@ -197,6 +180,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }
