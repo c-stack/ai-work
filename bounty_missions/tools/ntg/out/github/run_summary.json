@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-08T14:50:40Z",
+  "generated_at_utc": "2026-08-08T15:46:31Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -11,6 +11,25 @@
     "skip": 15
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52597,
+      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "bounty_amount_usd": 1750,
+      "competition_risk": 9,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
     {
       "repo": "monk-io/monk-plugin",
       "number": 272,
@@ -31,27 +50,10 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 52597,
-      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
-      "recommendation": "pursue",
-      "total_score": 120,
-      "bounty_amount_usd": 1750,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 52328,
       "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
       "recommendation": "skip",
-      "total_score": 96,
+      "total_score": 95,
       "bounty_amount_usd": 1500,
       "competition_risk": 35,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",

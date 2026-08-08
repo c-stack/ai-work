@@ -1,8 +1,32 @@
 {
-  "generated_at_utc": "2026-08-08T14:50:40Z",
+  "generated_at_utc": "2026-08-08T15:46:31Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52597,
+      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52597",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 52,
+      "actionability": 38,
+      "bounty_amount_usd": 1750,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 9,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
     {
       "repo": "monk-io/monk-plugin",
       "number": 272,
@@ -22,28 +46,6 @@
         "bounty:bounty",
         "action:expected behavior",
         "action:actual behavior",
-        "task:fix",
-        "task:support"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52597,
-      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52597",
-      "recommendation": "pursue",
-      "total_score": 120,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 40,
-      "actionability": 38,
-      "bounty_amount_usd": 1750,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
         "task:fix",
         "task:support"
       ]
