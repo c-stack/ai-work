@@ -10,14 +10,6 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 52393,
-      "title": "[repo-status] Repo Status: Active Metal 2.0 progress, bug fixes & ,500 bounty work (Aug 6-7)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52393",
-      "recommendation": "pursue",
-      "total_score": 118
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 52328,
       "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52328",
