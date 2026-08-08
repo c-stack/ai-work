@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-08-08T15:46:31Z",
+  "generated_at_utc": "2026-08-08T16:52:21Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "monk-io/monk-plugin": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        272
+      ]
+    },
     "tenstorrent/tt-metal": {
       "total_seen": 3,
       "skip_count": 1,
@@ -14,15 +23,6 @@
         52252,
         52328,
         52597
-      ]
-    },
-    "monk-io/monk-plugin": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        272
       ]
     },
     "SecureBananaLabs/bug-bounty": {

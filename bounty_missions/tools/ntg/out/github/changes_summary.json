@@ -1,20 +1,20 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52597,
-      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52597",
-      "recommendation": "pursue",
-      "total_score": 124
-    },
-    {
       "repo": "monk-io/monk-plugin",
       "number": 272,
       "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
       "url": "https://github.com/monk-io/monk-plugin/issues/272",
       "recommendation": "pursue",
       "total_score": 124
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52597,
+      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52597",
+      "recommendation": "pursue",
+      "total_score": 120
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -113,20 +113,20 @@
       "total_score": 28
     },
     {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "url": "https://github.com/revertinc/revert/issues/551",
-      "recommendation": "skip",
-      "total_score": 22
-    },
-    {
       "repo": "tailcallhq/graphql-conf-2024",
       "number": 1,
       "title": "Auto generate PDF for the slides",
       "url": "https://github.com/tailcallhq/graphql-conf-2024/issues/1",
       "recommendation": "skip",
       "total_score": 22
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 551,
+      "title": "[REVER-51] Workable Integration",
+      "url": "https://github.com/revertinc/revert/issues/551",
+      "recommendation": "skip",
+      "total_score": 21
     },
     {
       "repo": "tailcallhq/rust-grpc",
