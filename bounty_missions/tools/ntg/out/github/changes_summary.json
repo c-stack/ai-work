@@ -10,6 +10,14 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 52597,
+      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52597",
+      "recommendation": "pursue",
+      "total_score": 120
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 52328,
       "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52328",
