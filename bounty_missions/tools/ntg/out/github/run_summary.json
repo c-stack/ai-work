@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-08T10:51:37Z",
+  "generated_at_utc": "2026-08-08T11:43:35Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 272,
       "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
       "recommendation": "pursue",
-      "total_score": 125,
+      "total_score": 124,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -50,6 +50,26 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 11620,
+      "title": "Fix Card to forward native section props",
+      "recommendation": "pursue",
+      "total_score": 91,
+      "bounty_amount_usd": 0,
+      "competition_risk": 9,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:expected behavior",
+        "action:fix",
+        "task:fix",
+        "task:bug",
+        "claims:1"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 52252,
       "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
@@ -65,24 +85,6 @@
         "task:fix",
         "task:support",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11620,
-      "title": "Fix Card to forward native section props",
-      "recommendation": "pursue",
-      "total_score": 87,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:bug"
       ]
     },
     {
