@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-09T19:01:03Z",
+  "generated_at_utc": "2026-08-09T19:49:15Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -70,6 +70,28 @@
         "task:fix",
         "task:support",
         "claims:2"
+      ]
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "number": 84695,
+      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
+      "url": "https://github.com/anthropics/claude-code/issues/84695",
+      "recommendation": "pursue",
+      "total_score": 112,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 34,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "task:error",
+        "task:bug"
       ]
     },
     {

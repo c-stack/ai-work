@@ -25,6 +25,14 @@
       "total_score": 120
     },
     {
+      "repo": "anthropics/claude-code",
+      "number": 84695,
+      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
+      "url": "https://github.com/anthropics/claude-code/issues/84695",
+      "recommendation": "pursue",
+      "total_score": 112
+    },
+    {
       "repo": "chouhanindustries/copperhead",
       "number": 233,
       "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
