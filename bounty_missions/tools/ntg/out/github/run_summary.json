@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-09T02:29:06Z",
+  "generated_at_utc": "2026-08-09T04:37:29Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -53,7 +53,7 @@
       "number": 84695,
       "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
       "recommendation": "pursue",
-      "total_score": 113,
+      "total_score": 112,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

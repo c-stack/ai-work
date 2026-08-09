@@ -22,7 +22,7 @@
       "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
       "url": "https://github.com/anthropics/claude-code/issues/84695",
       "recommendation": "pursue",
-      "total_score": 113
+      "total_score": 112
     },
     {
       "repo": "tenstorrent/tt-metal",

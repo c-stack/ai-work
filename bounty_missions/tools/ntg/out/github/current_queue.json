@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-09T02:29:06Z",
+  "generated_at_utc": "2026-08-09T04:37:29Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -56,7 +56,7 @@
       "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
       "url": "https://github.com/anthropics/claude-code/issues/84695",
       "recommendation": "pursue",
-      "total_score": 113,
+      "total_score": 112,
       "repo_primary_language": "Python",
       "bounty_confidence": 34,
       "actionability": 32,
