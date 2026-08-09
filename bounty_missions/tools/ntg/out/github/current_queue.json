@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-09T09:03:06Z",
+  "generated_at_utc": "2026-08-09T09:56:58Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 6,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -95,12 +95,35 @@
       ]
     },
     {
+      "repo": "chouhanindustries/copperhead",
+      "number": 233,
+      "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
+      "url": "https://github.com/chouhanindustries/copperhead/issues/233",
+      "recommendation": "pursue",
+      "total_score": 96,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 17,
+      "actionability": 36,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error"
+      ]
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11620,
       "title": "Fix Card to forward native section props",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11620",
       "recommendation": "pursue",
-      "total_score": 91,
+      "total_score": 90,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 29,
       "actionability": 26,

@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-08-09T09:03:06Z",
+  "generated_at_utc": "2026-08-09T09:56:58Z",
   "source_counts": {
-    "github": 7,
+    "github": 8,
     "algora": 13,
-    "merged": 20
+    "merged": 21
   },
   "recommendations": {
-    "pursue": 5,
+    "pursue": 6,
     "review": 0,
     "skip": 15
   },
@@ -83,6 +83,24 @@
       ]
     },
     {
+      "repo": "chouhanindustries/copperhead",
+      "number": 233,
+      "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
+      "recommendation": "pursue",
+      "total_score": 96,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:/claim",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 52328,
       "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
@@ -107,7 +125,7 @@
       "number": 11620,
       "title": "Fix Card to forward native section props",
       "recommendation": "pursue",
-      "total_score": 91,
+      "total_score": 90,
       "bounty_amount_usd": 0,
       "competition_risk": 9,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -176,26 +194,6 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
         "task:support",
         "task:implement",
         "claims:2",
