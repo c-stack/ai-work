@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-08T23:45:54Z",
+  "generated_at_utc": "2026-08-09T02:29:06Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -51,6 +51,28 @@
       ]
     },
     {
+      "repo": "anthropics/claude-code",
+      "number": 84695,
+      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
+      "url": "https://github.com/anthropics/claude-code/issues/84695",
+      "recommendation": "pursue",
+      "total_score": 113,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 34,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "task:error",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 11620,
       "title": "Fix Card to forward native section props",
@@ -72,29 +94,6 @@
         "action:fix",
         "task:fix",
         "task:bug",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52252,
-      "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
-      "recommendation": "review",
-      "total_score": 90,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 40,
-      "actionability": 30,
-      "bounty_amount_usd": 3000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 20,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:acceptance criteria",
-        "action:fix",
-        "task:fix",
-        "task:support",
         "claims:1"
       ]
     }

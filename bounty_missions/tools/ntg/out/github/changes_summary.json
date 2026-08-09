@@ -17,6 +17,14 @@
       "total_score": 120
     },
     {
+      "repo": "anthropics/claude-code",
+      "number": 84695,
+      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
+      "url": "https://github.com/anthropics/claude-code/issues/84695",
+      "recommendation": "pursue",
+      "total_score": 113
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 52328,
       "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
@@ -31,14 +39,6 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11620",
       "recommendation": "pursue",
       "total_score": 91
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52252,
-      "title": "[Bounty $3000] Fix Blackhole destination-reuse synchronization",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52252",
-      "recommendation": "review",
-      "total_score": 90
     },
     {
       "repo": "projectdiscovery/nuclei",
