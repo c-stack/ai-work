@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-09T09:56:58Z",
+  "generated_at_utc": "2026-08-09T10:52:57Z",
   "triage_profile": "aggressive",
   "count": 6,
   "items": [
@@ -100,13 +100,13 @@
       "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
       "url": "https://github.com/chouhanindustries/copperhead/issues/233",
       "recommendation": "pursue",
-      "total_score": 96,
+      "total_score": 98,
       "repo_primary_language": "TypeScript",
       "bounty_confidence": 17,
-      "actionability": 36,
+      "actionability": 40,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:/claim",
@@ -114,7 +114,7 @@
         "action:error",
         "action:fix",
         "task:fix",
-        "task:error"
+        "task:implement"
       ]
     },
     {
