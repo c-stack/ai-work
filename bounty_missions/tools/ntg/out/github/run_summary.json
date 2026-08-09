@@ -1,16 +1,33 @@
 {
-  "generated_at_utc": "2026-08-09T05:58:27Z",
+  "generated_at_utc": "2026-08-09T07:16:21Z",
   "source_counts": {
-    "github": 6,
+    "github": 7,
     "algora": 13,
-    "merged": 19
+    "merged": 20
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 5,
     "review": 0,
     "skip": 15
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52644,
+      "title": "[repo-status] Daily Repo Status \u2013 2026-08-09",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "bounty_amount_usd": 1750,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "monk-io/monk-plugin",
       "number": 272,
@@ -182,28 +199,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

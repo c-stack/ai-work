@@ -1,8 +1,30 @@
 {
-  "generated_at_utc": "2026-08-09T05:58:27Z",
+  "generated_at_utc": "2026-08-09T07:16:21Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 5,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52644,
+      "title": "[repo-status] Daily Repo Status \u2013 2026-08-09",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52644",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 52,
+      "bounty_amount_usd": 1750,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "monk-io/monk-plugin",
       "number": 272,
