@@ -1,33 +1,16 @@
 {
-  "generated_at_utc": "2026-08-09T19:49:15Z",
+  "generated_at_utc": "2026-08-09T20:52:19Z",
   "source_counts": {
     "github": 9,
     "algora": 13,
     "merged": 22
   },
   "recommendations": {
-    "pursue": 6,
-    "review": 0,
+    "pursue": 5,
+    "review": 1,
     "skip": 16
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52644,
-      "title": "[repo-status] Daily Repo Status \u2013 2026-08-09",
-      "recommendation": "pursue",
-      "total_score": 124,
-      "bounty_amount_usd": 1750,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:add "
-      ]
-    },
     {
       "repo": "monk-io/monk-plugin",
       "number": 272,
@@ -80,6 +63,23 @@
         "action:error",
         "task:error",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52675,
+      "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
+      "recommendation": "review",
+      "total_score": 106,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support"
       ]
     },
     {
