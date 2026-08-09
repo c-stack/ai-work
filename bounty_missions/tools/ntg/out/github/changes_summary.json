@@ -73,6 +73,14 @@
       "total_score": 74
     },
     {
+      "repo": "PHPOffice/PHPWord",
+      "number": 2896,
+      "title": "TemplateProcessor::setImageValue() inserts images as legacy VML \u2014 not editable in Word Mobile / Word Online",
+      "url": "https://github.com/PHPOffice/PHPWord/issues/2896",
+      "recommendation": "skip",
+      "total_score": 65
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",

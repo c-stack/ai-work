@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-09T10:52:57Z",
+  "generated_at_utc": "2026-08-09T11:45:46Z",
   "source_counts": {
-    "github": 8,
+    "github": 9,
     "algora": 13,
-    "merged": 21
+    "merged": 22
   },
   "recommendations": {
     "pursue": 6,
     "review": 0,
-    "skip": 15
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -182,22 +182,20 @@
       ]
     },
     {
-      "repo": "tailcallhq/tailcallhq.github.io",
-      "number": 373,
-      "title": "feature: design and develop a UI to generate tailcall configurations",
+      "repo": "PHPOffice/PHPWord",
+      "number": 2896,
+      "title": "TemplateProcessor::setImageValue() inserts images as legacy VML \u2014 not editable in Word Mobile / Word Online",
       "recommendation": "skip",
-      "total_score": 57,
-      "bounty_amount_usd": 500,
-      "competition_risk": 44,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "total_score": 65,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
       "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
         "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:add "
       ]
     }
   ],
