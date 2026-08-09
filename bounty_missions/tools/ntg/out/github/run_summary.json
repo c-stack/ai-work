@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-08-09T15:47:37Z",
+  "generated_at_utc": "2026-08-09T16:54:28Z",
   "source_counts": {
-    "github": 9,
+    "github": 8,
     "algora": 13,
-    "merged": 22
+    "merged": 21
   },
   "recommendations": {
-    "pursue": 6,
+    "pursue": 5,
     "review": 0,
     "skip": 16
   },
@@ -63,23 +63,6 @@
         "task:fix",
         "task:support",
         "claims:2"
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "number": 84695,
-      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
-      "recommendation": "pursue",
-      "total_score": 112,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "task:error",
-        "task:bug"
       ]
     },
     {
@@ -196,6 +179,25 @@
         "action:expected behavior",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "number": 373,
+      "title": "feature: design and develop a UI to generate tailcall configurations",
+      "recommendation": "skip",
+      "total_score": 57,
+      "bounty_amount_usd": 500,
+      "competition_risk": 44,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
       ]
     }
   ],

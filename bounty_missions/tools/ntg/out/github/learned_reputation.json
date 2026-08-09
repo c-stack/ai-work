@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-09T15:47:37Z",
+  "generated_at_utc": "2026-08-09T16:54:28Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -23,15 +23,6 @@
       "pursue_count": 1,
       "unique_issues": [
         272
-      ]
-    },
-    "anthropics/claude-code": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        84695
       ]
     },
     "chouhanindustries/copperhead": {
@@ -318,16 +309,6 @@
       "pursue_count": 1,
       "unique_issues": [
         233
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        84695
       ]
     },
     {
