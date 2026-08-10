@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52644,
-      "title": "[repo-status] Daily Repo Status \u2013 2026-08-09",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52644",
-      "recommendation": "pursue",
-      "total_score": 124
-    },
-    {
       "repo": "monk-io/monk-plugin",
       "number": 272,
       "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
