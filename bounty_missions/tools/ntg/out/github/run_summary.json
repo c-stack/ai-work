@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-10T21:02:23Z",
+  "generated_at_utc": "2026-08-10T21:58:35Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -52,7 +52,7 @@
       "number": 52675,
       "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
       "recommendation": "review",
-      "total_score": 84,
+      "total_score": 85,
       "bounty_amount_usd": 0,
       "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",

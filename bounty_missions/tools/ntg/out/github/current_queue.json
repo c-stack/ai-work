@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-10T21:02:23Z",
+  "generated_at_utc": "2026-08-10T21:58:35Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -55,7 +55,7 @@
       "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52675",
       "recommendation": "review",
-      "total_score": 84,
+      "total_score": 85,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
       "actionability": 52,
