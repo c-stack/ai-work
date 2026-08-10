@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-08-10T20:04:45Z",
+  "generated_at_utc": "2026-08-10T21:02:23Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 13,
-    "merged": 18
+    "merged": 17
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 2,
     "review": 1,
     "skip": 14
   },
@@ -27,25 +27,6 @@
         "action:actual behavior",
         "task:fix",
         "task:support"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52597,
-      "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
-      "recommendation": "pursue",
-      "total_score": 119,
-      "bounty_amount_usd": 1750,
-      "competition_risk": 16,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:2"
       ]
     },
     {
@@ -201,6 +182,28 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 43,
+      "bounty_amount_usd": 100,
+      "competition_risk": 59,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
       ]
     }
   ],

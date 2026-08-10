@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-10T20:04:45Z",
+  "generated_at_utc": "2026-08-10T21:02:23Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,16 +14,6 @@
         272
       ]
     },
-    "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 1,
-      "unique_issues": [
-        52597,
-        52675
-      ]
-    },
     "chouhanindustries/copperhead": {
       "total_seen": 1,
       "skip_count": 0,
@@ -31,6 +21,15 @@
       "pursue_count": 1,
       "unique_issues": [
         233
+      ]
+    },
+    "tenstorrent/tt-metal": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        52675
       ]
     },
     "projectdiscovery/nuclei": {
@@ -252,12 +251,11 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
+      "total_seen": 1,
       "skip_count": 0,
       "review_count": 1,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
-        52597,
         52675
       ]
     },
