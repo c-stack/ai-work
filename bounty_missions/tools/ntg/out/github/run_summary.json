@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-10T11:59:37Z",
+  "generated_at_utc": "2026-08-10T13:44:21Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -34,7 +34,7 @@
       "number": 52597,
       "title": "[Bounty $1750] Florence-2-base bring up using TTNN APIs",
       "recommendation": "pursue",
-      "total_score": 120,
+      "total_score": 119,
       "bounty_amount_usd": 1750,
       "competition_risk": 16,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
