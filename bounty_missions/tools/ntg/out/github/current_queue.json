@@ -1,8 +1,30 @@
 {
-  "generated_at_utc": "2026-08-09T23:47:12Z",
+  "generated_at_utc": "2026-08-10T02:35:14Z",
   "triage_profile": "aggressive",
   "count": 6,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52644,
+      "title": "[repo-status] Daily Repo Status \u2013 2026-08-09",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52644",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 52,
+      "bounty_amount_usd": 1750,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "monk-io/monk-plugin",
       "number": 272,
@@ -78,13 +100,13 @@
       "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52675",
       "recommendation": "review",
-      "total_score": 106,
+      "total_score": 104,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
       "actionability": 52,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -115,31 +137,6 @@
         "action:fix",
         "task:fix",
         "task:implement"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11620,
-      "title": "Fix Card to forward native section props",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/11620",
-      "recommendation": "pursue",
-      "total_score": 90,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 29,
-      "actionability": 26,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:bug",
-        "claims:1"
       ]
     }
   ]

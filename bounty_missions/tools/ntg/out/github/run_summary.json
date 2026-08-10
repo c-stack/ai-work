@@ -1,16 +1,33 @@
 {
-  "generated_at_utc": "2026-08-09T23:47:12Z",
+  "generated_at_utc": "2026-08-10T02:35:14Z",
   "source_counts": {
-    "github": 9,
+    "github": 7,
     "algora": 13,
-    "merged": 22
+    "merged": 20
   },
   "recommendations": {
     "pursue": 5,
     "review": 1,
-    "skip": 16
+    "skip": 14
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52644,
+      "title": "[repo-status] Daily Repo Status \u2013 2026-08-09",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "bounty_amount_usd": 1750,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "monk-io/monk-plugin",
       "number": 272,
@@ -70,9 +87,9 @@
       "number": 52675,
       "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
       "recommendation": "review",
-      "total_score": 106,
+      "total_score": 104,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -98,46 +115,6 @@
         "action:fix",
         "task:fix",
         "task:implement"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52328,
-      "title": "[Bounty $1,500] Generalize multi_scale_deformable_attn to support D values that are multiples of 16",
-      "recommendation": "skip",
-      "total_score": 95,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 35,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:acceptance criteria",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:1",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 11620,
-      "title": "Fix Card to forward native section props",
-      "recommendation": "pursue",
-      "total_score": 90,
-      "bounty_amount_usd": 0,
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:fix",
-        "task:fix",
-        "task:bug",
-        "claims:1"
       ]
     },
     {
@@ -196,6 +173,25 @@
         "action:expected behavior",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "tailcallhq/tailcallhq.github.io",
+      "number": 373,
+      "title": "feature: design and develop a UI to generate tailcall configurations",
+      "recommendation": "skip",
+      "total_score": 57,
+      "bounty_amount_usd": 500,
+      "competition_risk": 44,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:2",
+        "support:support-politeness"
       ]
     }
   ],

@@ -1,10 +1,21 @@
 {
-  "generated_at_utc": "2026-08-09T23:47:12Z",
+  "generated_at_utc": "2026-08-10T02:35:14Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "tenstorrent/tt-metal": {
+      "total_seen": 3,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 2,
+      "unique_issues": [
+        52597,
+        52644,
+        52675
+      ]
+    },
     "monk-io/monk-plugin": {
       "total_seen": 1,
       "skip_count": 0,
@@ -12,17 +23,6 @@
       "pursue_count": 1,
       "unique_issues": [
         272
-      ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 3,
-      "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 1,
-      "unique_issues": [
-        52328,
-        52597,
-        52675
       ]
     },
     "anthropics/claude-code": {
@@ -41,15 +41,6 @@
       "pursue_count": 1,
       "unique_issues": [
         233
-      ]
-    },
-    "SecureBananaLabs/bug-bounty": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        11620
       ]
     },
     "projectdiscovery/nuclei": {
@@ -127,15 +118,6 @@
         54
       ]
     },
-    "sourcey/startup-credits": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        241
-      ]
-    },
     "tailcallhq/graphql-conf-2024": {
       "total_seen": 1,
       "skip_count": 1,
@@ -199,18 +181,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 3,
-      "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 1,
-      "unique_issues": [
-        52328,
-        52597,
-        52675
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -261,16 +231,6 @@
       ]
     },
     {
-      "repo": "sourcey/startup-credits",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        241
-      ]
-    },
-    {
       "repo": "antinomyhq/forge",
       "total_seen": 1,
       "skip_count": 1,
@@ -301,6 +261,18 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 3,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 2,
+      "unique_issues": [
+        52597,
+        52644,
+        52675
+      ]
+    },
+    {
       "repo": "monk-io/monk-plugin",
       "total_seen": 1,
       "skip_count": 0,
@@ -328,16 +300,6 @@
       "pursue_count": 1,
       "unique_issues": [
         84695
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        11620
       ]
     }
   ]
