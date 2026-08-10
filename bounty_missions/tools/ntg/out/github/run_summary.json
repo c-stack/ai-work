@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-10T21:58:35Z",
+  "generated_at_utc": "2026-08-10T22:56:44Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -54,7 +54,7 @@
       "recommendation": "review",
       "total_score": 85,
       "bounty_amount_usd": 0,
-      "competition_risk": 20,
+      "competition_risk": 21,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
