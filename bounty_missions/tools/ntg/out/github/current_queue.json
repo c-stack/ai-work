@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-10T10:37:02Z",
+  "generated_at_utc": "2026-08-10T11:59:37Z",
   "triage_profile": "aggressive",
   "count": 5,
   "items": [
@@ -9,7 +9,7 @@
       "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
       "url": "https://github.com/monk-io/monk-plugin/issues/272",
       "recommendation": "pursue",
-      "total_score": 124,
+      "total_score": 123,
       "repo_primary_language": "PowerShell",
       "bounty_confidence": 34,
       "actionability": 54,
@@ -73,6 +73,29 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52675,
+      "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/52675",
+      "recommendation": "review",
+      "total_score": 98,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 52,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 10,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
+    {
       "repo": "chouhanindustries/copperhead",
       "number": 233,
       "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
@@ -93,29 +116,6 @@
         "action:fix",
         "task:fix",
         "task:implement"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52675,
-      "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52675",
-      "recommendation": "review",
-      "total_score": 97,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 52,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 10,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:1"
       ]
     }
   ]
