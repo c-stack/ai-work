@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-08-10T13:44:21Z",
+  "generated_at_utc": "2026-08-10T15:17:32Z",
   "source_counts": {
-    "github": 6,
+    "github": 5,
     "algora": 13,
-    "merged": 19
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 3,
     "review": 1,
     "skip": 14
   },
@@ -49,41 +49,6 @@
       ]
     },
     {
-      "repo": "anthropics/claude-code",
-      "number": 84695,
-      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
-      "recommendation": "pursue",
-      "total_score": 112,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "task:error",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52675,
-      "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
-      "recommendation": "review",
-      "total_score": 98,
-      "bounty_amount_usd": 0,
-      "competition_risk": 10,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
-    {
       "repo": "chouhanindustries/copperhead",
       "number": 233,
       "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
@@ -99,6 +64,24 @@
         "action:fix",
         "task:fix",
         "task:implement"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 52675,
+      "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
+      "recommendation": "review",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 20,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support",
+        "claims:1"
       ]
     },
     {
@@ -195,6 +178,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }

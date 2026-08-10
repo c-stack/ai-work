@@ -17,12 +17,12 @@
       "total_score": 119
     },
     {
-      "repo": "anthropics/claude-code",
-      "number": 84695,
-      "title": "[Bug] Prompts incorrectly flagged as suspicious for approved bug bounty researcher",
-      "url": "https://github.com/anthropics/claude-code/issues/84695",
+      "repo": "chouhanindustries/copperhead",
+      "number": 233,
+      "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
+      "url": "https://github.com/chouhanindustries/copperhead/issues/233",
       "recommendation": "pursue",
-      "total_score": 112
+      "total_score": 98
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -30,15 +30,7 @@
       "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52675",
       "recommendation": "review",
-      "total_score": 98
-    },
-    {
-      "repo": "chouhanindustries/copperhead",
-      "number": 233,
-      "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
-      "url": "https://github.com/chouhanindustries/copperhead/issues/233",
-      "recommendation": "pursue",
-      "total_score": 98
+      "total_score": 84
     },
     {
       "repo": "projectdiscovery/nuclei",
