@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-11T09:14:07Z",
+  "generated_at_utc": "2026-08-11T10:11:58Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
@@ -9,7 +9,7 @@
       "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
       "url": "https://github.com/chouhanindustries/copperhead/issues/233",
       "recommendation": "pursue",
-      "total_score": 98,
+      "total_score": 97,
       "repo_primary_language": "TypeScript",
       "bounty_confidence": 17,
       "actionability": 40,

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-11T09:14:07Z",
+  "generated_at_utc": "2026-08-11T10:11:58Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 233,
       "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
       "recommendation": "pursue",
-      "total_score": 98,
+      "total_score": 97,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
