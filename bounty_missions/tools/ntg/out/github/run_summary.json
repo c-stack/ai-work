@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-08-10T23:51:18Z",
+  "generated_at_utc": "2026-08-11T02:28:15Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 13,
-    "merged": 17
+    "merged": 16
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 1,
     "skip": 14
   },
   "top_candidates": [
-    {
-      "repo": "monk-io/monk-plugin",
-      "number": 272,
-      "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
-      "recommendation": "pursue",
-      "total_score": 123,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:actual behavior",
-        "task:fix",
-        "task:support"
-      ]
-    },
     {
       "repo": "chouhanindustries/copperhead",
       "number": 233,
@@ -204,6 +186,25 @@
         "claims:5",
         "existing-work:1",
         "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 372,
+      "title": "[REVER-48] Workday Integration",
+      "recommendation": "skip",
+      "total_score": 39,
+      "bounty_amount_usd": 100,
+      "competition_risk": 50,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:4",
+        "support:support-politeness"
       ]
     }
   ],

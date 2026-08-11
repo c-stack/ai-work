@@ -1,31 +1,8 @@
 {
-  "generated_at_utc": "2026-08-10T23:51:18Z",
+  "generated_at_utc": "2026-08-11T02:28:15Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
-    {
-      "repo": "monk-io/monk-plugin",
-      "number": 272,
-      "title": "[Bug bounty] Windows fast path preserves stale launch-client attribution",
-      "url": "https://github.com/monk-io/monk-plugin/issues/272",
-      "recommendation": "pursue",
-      "total_score": 123,
-      "repo_primary_language": "PowerShell",
-      "bounty_confidence": 34,
-      "actionability": 54,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:actual behavior",
-        "task:fix",
-        "task:support"
-      ]
-    },
     {
       "repo": "chouhanindustries/copperhead",
       "number": 233,
