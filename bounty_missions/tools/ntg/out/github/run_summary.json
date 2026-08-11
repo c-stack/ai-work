@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-11T11:05:30Z",
+  "generated_at_utc": "2026-08-11T11:57:14Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -93,7 +93,7 @@
       "number": 2896,
       "title": "TemplateProcessor::setImageValue() inserts images as legacy VML \u2014 not editable in Word Mobile / Word Online",
       "recommendation": "skip",
-      "total_score": 65,
+      "total_score": 64,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
