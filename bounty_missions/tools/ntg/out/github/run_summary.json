@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-12T10:20:29Z",
+  "generated_at_utc": "2026-08-12T11:58:53Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -7,8 +7,8 @@
   },
   "recommendations": {
     "pursue": 1,
-    "review": 1,
-    "skip": 14
+    "review": 0,
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -33,11 +33,11 @@
       "repo": "tenstorrent/tt-metal",
       "number": 52675,
       "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
-      "recommendation": "review",
-      "total_score": 84,
+      "recommendation": "skip",
+      "total_score": 88,
       "bounty_amount_usd": 0,
-      "competition_risk": 22,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "competition_risk": 24,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "bounty:bounty",
         "action:root cause",
