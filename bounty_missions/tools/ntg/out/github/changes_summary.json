@@ -14,7 +14,7 @@
       "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
       "url": "https://github.com/tenstorrent/tt-metal/issues/52675",
       "recommendation": "skip",
-      "total_score": 88
+      "total_score": 87
     },
     {
       "repo": "projectdiscovery/nuclei",
