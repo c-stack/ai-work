@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-08-13T12:00:47Z",
+  "generated_at_utc": "2026-08-13T13:47:51Z",
   "source_counts": {
-    "github": 0,
+    "github": 1,
     "algora": 13,
-    "merged": 13
+    "merged": 14
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
     "skip": 13
   },
@@ -30,6 +30,21 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "srelens/srelens",
+      "number": 229,
+      "title": "community: bounty program for funded issues (with README badge)",
+      "recommendation": "pursue",
+      "total_score": 79,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "task:add "
       ]
     },
     {
@@ -186,27 +201,6 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "recommendation": "skip",
-      "total_score": 21,
-      "bounty_amount_usd": 100,
-      "competition_risk": 62,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
         "task:support",
         "task:implement",
         "claims:3",
