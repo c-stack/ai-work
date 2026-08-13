@@ -1,52 +1,16 @@
 {
-  "generated_at_utc": "2026-08-12T23:58:33Z",
+  "generated_at_utc": "2026-08-13T02:47:32Z",
   "source_counts": {
-    "github": 3,
+    "github": 0,
     "algora": 13,
-    "merged": 16
+    "merged": 13
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 15
+    "skip": 13
   },
   "top_candidates": [
-    {
-      "repo": "chouhanindustries/copperhead",
-      "number": 233,
-      "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
-      "recommendation": "pursue",
-      "total_score": 97,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52675,
-      "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
-      "recommendation": "skip",
-      "total_score": 87,
-      "bounty_amount_usd": 0,
-      "competition_risk": 24,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -86,23 +50,6 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2896,
-      "title": "TemplateProcessor::setImageValue() inserts images as legacy VML \u2014 not editable in Word Mobile / Word Online",
-      "recommendation": "skip",
-      "total_score": 64,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:algora",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:add "
       ]
     },
     {
@@ -204,6 +151,66 @@
         "task:support",
         "task:implement",
         "claims:4",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "recommendation": "skip",
+      "total_score": 36,
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "tailcallhq/graphql-conf-2024",
+      "number": 1,
+      "title": "Auto generate PDF for the slides",
+      "recommendation": "skip",
+      "total_score": 22,
+      "bounty_amount_usd": 100,
+      "competition_risk": 53,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 551,
+      "title": "[REVER-51] Workable Integration",
+      "recommendation": "skip",
+      "total_score": 21,
+      "bounty_amount_usd": 100,
+      "competition_risk": 62,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:migration",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }

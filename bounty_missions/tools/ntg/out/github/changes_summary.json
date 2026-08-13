@@ -1,22 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "chouhanindustries/copperhead",
-      "number": 233,
-      "title": "Stacked passives draw as isolated islands: a 16-cap bank carries 26 power symbols where the human used 2",
-      "url": "https://github.com/chouhanindustries/copperhead/issues/233",
-      "recommendation": "pursue",
-      "total_score": 97
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 52675,
-      "title": "ttnn.pow (bfloat16 path): relative error grows linearly with exponent (~0.2%*|y|; 18% at y=100); overflow returns NaN instead of inf",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/52675",
-      "recommendation": "skip",
-      "total_score": 87
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -31,14 +15,6 @@
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 74
-    },
-    {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2896,
-      "title": "TemplateProcessor::setImageValue() inserts images as legacy VML \u2014 not editable in Word Mobile / Word Online",
-      "url": "https://github.com/PHPOffice/PHPWord/issues/2896",
-      "recommendation": "skip",
-      "total_score": 64
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",

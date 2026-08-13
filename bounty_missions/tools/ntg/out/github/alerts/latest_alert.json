@@ -1,20 +1,12 @@
 {
-  "generated_at_utc": "2026-08-03T03:54:58Z",
+  "generated_at_utc": "2026-08-13T02:47:32Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260803T035400Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260813T024643Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
-      {
-        "repo": "paraspell/xcm-tools",
-        "number": 2026,
-        "title": "[Bug bounty] Direct WebSocket Builder configuration breaks swap operations",
-        "url": "https://github.com/paraspell/xcm-tools/issues/2026",
-        "recommendation": "skip",
-        "total_score": 107
-      },
       {
         "repo": "projectdiscovery/nuclei",
         "number": 6674,
@@ -30,14 +22,6 @@
         "url": "https://github.com/Dokploy/templates/issues/152",
         "recommendation": "skip",
         "total_score": 74
-      },
-      {
-        "repo": "archestra-ai/archestra",
-        "number": 3859,
-        "title": "json in mcp server args textarea",
-        "url": "https://github.com/archestra-ai/archestra/issues/3859",
-        "recommendation": "skip",
-        "total_score": 59
       },
       {
         "repo": "tailcallhq/tailcallhq.github.io",
@@ -88,14 +72,6 @@
         "total_score": 36
       },
       {
-        "repo": "revertinc/revert",
-        "number": 551,
-        "title": "[REVER-51] Workable Integration",
-        "url": "https://github.com/revertinc/revert/issues/551",
-        "recommendation": "skip",
-        "total_score": 22
-      },
-      {
         "repo": "tailcallhq/graphql-conf-2024",
         "number": 1,
         "title": "Auto generate PDF for the slides",
@@ -104,12 +80,20 @@
         "total_score": 22
       },
       {
+        "repo": "revertinc/revert",
+        "number": 551,
+        "title": "[REVER-51] Workable Integration",
+        "url": "https://github.com/revertinc/revert/issues/551",
+        "recommendation": "skip",
+        "total_score": 21
+      },
+      {
         "repo": "tailcallhq/rust-grpc",
         "number": 44,
         "title": "Update all outdated dependencies",
         "url": "https://github.com/tailcallhq/rust-grpc/issues/44",
         "recommendation": "skip",
-        "total_score": 19
+        "total_score": 18
       },
       {
         "repo": "tscircuit/jlcsearch",
