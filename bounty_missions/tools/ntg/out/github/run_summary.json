@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-08-15T12:59:13Z",
+  "generated_at_utc": "2026-08-15T13:43:58Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 13,
-    "merged": 16
+    "merged": 15
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
     "skip": 14
   },
   "top_candidates": [
-    {
-      "repo": "gnoswap-labs/gnoswap",
-      "number": 1389,
-      "title": "[Bug Bounty] CreatePool accepts arbitrary initial sqrtPriceX96 with no sanity bounds",
-      "recommendation": "pursue",
-      "total_score": 107,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -55,7 +37,7 @@
       "number": 229,
       "title": "community: bounty program for funded issues (with README badge)",
       "recommendation": "pursue",
-      "total_score": 79,
+      "total_score": 78,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -201,6 +183,25 @@
         "task:implement",
         "claims:4",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "recommendation": "skip",
+      "total_score": 36,
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
       ]
     }
   ],

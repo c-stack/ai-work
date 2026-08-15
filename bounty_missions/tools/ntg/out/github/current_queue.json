@@ -1,38 +1,15 @@
 {
-  "generated_at_utc": "2026-08-15T12:59:13Z",
+  "generated_at_utc": "2026-08-15T13:43:58Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 1,
   "items": [
-    {
-      "repo": "gnoswap-labs/gnoswap",
-      "number": 1389,
-      "title": "[Bug Bounty] CreatePool accepts arbitrary initial sqrtPriceX96 with no sanity bounds",
-      "url": "https://github.com/gnoswap-labs/gnoswap/issues/1389",
-      "recommendation": "pursue",
-      "total_score": 107,
-      "repo_primary_language": "Makefile",
-      "bounty_confidence": 34,
-      "actionability": 38,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
     {
       "repo": "srelens/srelens",
       "number": 229,
       "title": "community: bounty program for funded issues (with README badge)",
       "url": "https://github.com/srelens/srelens/issues/229",
       "recommendation": "pursue",
-      "total_score": 79,
+      "total_score": 78,
       "repo_primary_language": "Rust",
       "bounty_confidence": 27,
       "actionability": 10,
