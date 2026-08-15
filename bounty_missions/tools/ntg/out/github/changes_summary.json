@@ -41,6 +41,14 @@
       "total_score": 57
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 53261,
+      "title": "ttnn.softplus takes the linear branch at exactly input*beta == threshold (strict < where reference uses <=)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/53261",
+      "recommendation": "skip",
+      "total_score": 56
+    },
+    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
