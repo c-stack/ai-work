@@ -9,6 +9,14 @@
       "total_score": 82
     },
     {
+      "repo": "ValveSoftware/Dota2-Gameplay",
+      "number": 34407,
+      "title": "Battle cap  error 4349360 bug bounty",
+      "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/34407",
+      "recommendation": "review",
+      "total_score": 79
+    },
+    {
       "repo": "srelens/srelens",
       "number": 229,
       "title": "community: bounty program for funded issues (with README badge)",

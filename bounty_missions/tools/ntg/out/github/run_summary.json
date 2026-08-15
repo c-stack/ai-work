@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-08-15T21:35:15Z",
+  "generated_at_utc": "2026-08-15T22:37:56Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 13,
-    "merged": 16
+    "merged": 17
   },
   "recommendations": {
     "pursue": 1,
-    "review": 0,
+    "review": 1,
     "skip": 15
   },
   "top_candidates": [
@@ -30,6 +30,23 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "ValveSoftware/Dota2-Gameplay",
+      "number": 34407,
+      "title": "Battle cap  error 4349360 bug bounty",
+      "recommendation": "review",
+      "total_score": 79,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "task:error",
+        "task:bug"
       ]
     },
     {
@@ -181,25 +198,6 @@
         "claims:5",
         "existing-work:1",
         "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 39,
-      "bounty_amount_usd": 100,
-      "competition_risk": 50,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
-        "support:support-politeness"
       ]
     }
   ],

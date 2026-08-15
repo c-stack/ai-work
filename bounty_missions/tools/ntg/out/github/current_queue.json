@@ -1,8 +1,30 @@
 {
-  "generated_at_utc": "2026-08-15T21:35:15Z",
+  "generated_at_utc": "2026-08-15T22:37:56Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "repo": "ValveSoftware/Dota2-Gameplay",
+      "number": 34407,
+      "title": "Battle cap  error 4349360 bug bounty",
+      "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/34407",
+      "recommendation": "review",
+      "total_score": 79,
+      "repo_primary_language": "",
+      "bounty_confidence": 34,
+      "actionability": 8,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "task:error",
+        "task:bug"
+      ]
+    },
     {
       "repo": "srelens/srelens",
       "number": 229,
