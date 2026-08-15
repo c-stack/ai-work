@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-15T20:39:21Z",
+  "generated_at_utc": "2026-08-15T21:35:15Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -72,7 +72,7 @@
       "number": 53091,
       "title": "[[reward] gen[N] = ...] | Nightly tt-metal L2 tests | tt-train-perf-finetuning-tests / Llama 3.2 1B on BoolQ GRPO Training [bh_p150b_civ2]",
       "recommendation": "skip",
-      "total_score": 65,
+      "total_score": 64,
       "bounty_amount_usd": 0,
       "competition_risk": 8,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
