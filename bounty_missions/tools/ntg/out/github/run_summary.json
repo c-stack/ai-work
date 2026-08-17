@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-17T14:46:58Z",
+  "generated_at_utc": "2026-08-17T16:45:48Z",
   "source_counts": {
     "github": 2,
     "algora": 13,
@@ -93,7 +93,7 @@
       "number": 53261,
       "title": "ttnn.softplus takes the linear branch at exactly input*beta == threshold (strict < where reference uses <=)",
       "recommendation": "skip",
-      "total_score": 56,
+      "total_score": 55,
       "bounty_amount_usd": 0,
       "competition_risk": 12,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
