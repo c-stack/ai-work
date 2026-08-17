@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-17T20:44:23Z",
+  "generated_at_utc": "2026-08-17T21:41:43Z",
   "triage_profile": "aggressive",
   "count": 1,
   "items": [
@@ -9,7 +9,7 @@
       "title": "Battle cap  error 4349360 bug bounty",
       "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/34407",
       "recommendation": "review",
-      "total_score": 79,
+      "total_score": 78,
       "repo_primary_language": "",
       "bounty_confidence": 34,
       "actionability": 8,
