@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-16T23:34:45Z",
+  "generated_at_utc": "2026-08-17T01:55:58Z",
   "source_counts": {
-    "github": 4,
+    "github": 2,
     "algora": 13,
-    "merged": 17
+    "merged": 15
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 1,
-    "skip": 15
+    "skip": 14
   },
   "top_candidates": [
     {
@@ -50,21 +50,6 @@
       ]
     },
     {
-      "repo": "srelens/srelens",
-      "number": 229,
-      "title": "community: bounty program for funded issues (with README badge)",
-      "recommendation": "pursue",
-      "total_score": 78,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:add "
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -82,22 +67,6 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 53091,
-      "title": "[[reward] gen[N] = ...] | Nightly tt-metal L2 tests | tt-train-perf-finetuning-tests / Llama 3.2 1B on BoolQ GRPO Training [bh_p150b_civ2]",
-      "recommendation": "skip",
-      "total_score": 64,
-      "bounty_amount_usd": 0,
-      "competition_risk": 8,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "action:stack trace",
-        "action:error",
-        "task:fix",
-        "task:failing"
       ]
     },
     {
@@ -198,6 +167,44 @@
         "claims:5",
         "existing-work:1",
         "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 372,
+      "title": "[REVER-48] Workday Integration",
+      "recommendation": "skip",
+      "total_score": 39,
+      "bounty_amount_usd": 100,
+      "competition_risk": 50,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:4",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "recommendation": "skip",
+      "total_score": 36,
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
       ]
     }
   ],

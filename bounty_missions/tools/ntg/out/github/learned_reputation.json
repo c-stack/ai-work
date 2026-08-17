@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-16T23:34:45Z",
+  "generated_at_utc": "2026-08-17T01:55:58Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -24,15 +24,6 @@
         34407
       ]
     },
-    "srelens/srelens": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        229
-      ]
-    },
     "Dokploy/templates": {
       "total_seen": 1,
       "skip_count": 1,
@@ -42,16 +33,6 @@
         152
       ]
     },
-    "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        53091,
-        53261
-      ]
-    },
     "tailcallhq/tailcallhq.github.io": {
       "total_seen": 1,
       "skip_count": 1,
@@ -59,6 +40,15 @@
       "pursue_count": 0,
       "unique_issues": [
         373
+      ]
+    },
+    "tenstorrent/tt-metal": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        53261
       ]
     },
     "antinomyhq/forge": {
@@ -129,17 +119,6 @@
   },
   "top_repeat_skips": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        53091,
-        53261
-      ]
-    },
-    {
       "repo": "revertinc/revert",
       "total_seen": 2,
       "skip_count": 2,
@@ -193,6 +172,16 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        53261
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "total_seen": 1,
       "skip_count": 1,
@@ -240,16 +229,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "srelens/srelens",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        229
       ]
     },
     {
