@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-17T22:41:45Z",
+  "generated_at_utc": "2026-08-17T23:36:56Z",
   "source_counts": {
     "github": 2,
     "algora": 13,
@@ -8,7 +8,7 @@
   "recommendations": {
     "pursue": 0,
     "review": 1,
-    "skip": 14
+    "skip": 13
   },
   "top_candidates": [
     {
@@ -126,28 +126,6 @@
       ]
     },
     {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
       "repo": "Dokploy/dokploy",
       "number": 1413,
       "title": "Organisation and Teams Management",
@@ -205,6 +183,26 @@
         "task:fix",
         "task:error",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "tailcallhq/graphql-conf-2024",
+      "number": 1,
+      "title": "Auto generate PDF for the slides",
+      "recommendation": "skip",
+      "total_score": 22,
+      "bounty_amount_usd": 100,
+      "competition_risk": 53,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],
