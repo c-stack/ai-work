@@ -49,6 +49,14 @@
       "total_score": 45
     },
     {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
+      "recommendation": "skip",
+      "total_score": 44
+    },
+    {
       "repo": "Dokploy/dokploy",
       "number": 1413,
       "title": "Organisation and Teams Management",
