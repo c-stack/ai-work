@@ -41,6 +41,14 @@
       "total_score": 55
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 53600,
+      "title": "[Bounty Proposal] Qwen2.5-Coder (0.5B / 1.5B) Bring-Up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/53600",
+      "recommendation": "skip",
+      "total_score": 52
+    },
+    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
