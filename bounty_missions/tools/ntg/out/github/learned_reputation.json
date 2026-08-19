@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T13:08:48Z",
+  "generated_at_utc": "2026-08-19T13:58:07Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -31,15 +31,6 @@
       "pursue_count": 0,
       "unique_issues": [
         373
-      ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        53600
       ]
     },
     "antinomyhq/forge": {
@@ -160,16 +151,6 @@
       "pursue_count": 0,
       "unique_issues": [
         54
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        53600
       ]
     },
     {

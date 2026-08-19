@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-19T13:08:48Z",
+  "generated_at_utc": "2026-08-19T13:58:07Z",
   "source_counts": {
-    "github": 1,
+    "github": 0,
     "algora": 13,
-    "merged": 14
+    "merged": 13
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 14
+    "skip": 13
   },
   "top_candidates": [
     {
@@ -69,23 +69,6 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 53600,
-      "title": "[Bounty Proposal] Qwen2.5-Coder (0.5B / 1.5B) Bring-Up using TTNN APIs",
-      "recommendation": "skip",
-      "total_score": 52,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "negative:benchmarks",
-        "task:support",
-        "task:implement"
       ]
     },
     {
@@ -203,6 +186,27 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 551,
+      "title": "[REVER-51] Workable Integration",
+      "recommendation": "skip",
+      "total_score": 21,
+      "bounty_amount_usd": 100,
+      "competition_risk": 62,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:migration",
         "task:support",
         "task:implement",
         "claims:3",
