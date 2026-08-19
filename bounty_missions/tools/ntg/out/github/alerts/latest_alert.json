@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-19T19:40:13Z",
+  "generated_at_utc": "2026-08-19T20:46:10Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260819T193926Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260819T204511Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -14,6 +14,14 @@
         "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
         "recommendation": "skip",
         "total_score": 82
+      },
+      {
+        "repo": "uber/h3-java",
+        "number": 214,
+        "title": "Algora",
+        "url": "https://github.com/uber/h3-java/issues/214",
+        "recommendation": "skip",
+        "total_score": 78
       },
       {
         "repo": "Dokploy/templates",
