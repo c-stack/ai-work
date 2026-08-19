@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-13T12:00:47Z",
+  "generated_at_utc": "2026-08-19T10:46:48Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260813T115950Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260819T104552Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -30,6 +30,14 @@
         "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
         "recommendation": "skip",
         "total_score": 57
+      },
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 53600,
+        "title": "[Bounty Proposal] Qwen2.5-Coder (0.5B / 1.5B) Bring-Up using TTNN APIs",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/53600",
+        "recommendation": "skip",
+        "total_score": 52
       },
       {
         "repo": "antinomyhq/forge",
