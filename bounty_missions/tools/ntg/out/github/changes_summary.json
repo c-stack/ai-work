@@ -2,11 +2,11 @@
   "new_items": [
     {
       "repo": "monk-io/monk-plugin",
-      "number": 283,
-      "title": "[Bug bounty] vercel/deploy hardcodes obsolete --public option and blocks current Vercel",
-      "url": "https://github.com/monk-io/monk-plugin/issues/283",
+      "number": 298,
+      "title": "[Bug bounty] ingress.status reports disabled when Traefik status RPC fails",
+      "url": "https://github.com/monk-io/monk-plugin/issues/298",
       "recommendation": "pursue",
-      "total_score": 130
+      "total_score": 121
     },
     {
       "repo": "projectdiscovery/nuclei",
