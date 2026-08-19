@@ -9,14 +9,6 @@
       "total_score": 82
     },
     {
-      "repo": "uber/h3-java",
-      "number": 214,
-      "title": "Algora",
-      "url": "https://github.com/uber/h3-java/issues/214",
-      "recommendation": "skip",
-      "total_score": 78
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
