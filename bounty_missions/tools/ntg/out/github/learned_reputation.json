@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-08-18T23:36:10Z",
+  "generated_at_utc": "2026-08-19T01:53:42Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "monk-io/monk-plugin": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        283
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -13,15 +22,6 @@
       "unique_issues": [
         6532,
         6674
-      ]
-    },
-    "ValveSoftware/Dota2-Gameplay": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        34407
       ]
     },
     "Dokploy/templates": {
@@ -43,12 +43,11 @@
       ]
     },
     "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 2,
+      "total_seen": 1,
+      "skip_count": 1,
       "review_count": 0,
       "pursue_count": 0,
       "unique_issues": [
-        53261,
         53600
       ]
     },
@@ -120,17 +119,6 @@
   },
   "top_repeat_skips": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        53261,
-        53600
-      ]
-    },
-    {
       "repo": "revertinc/revert",
       "total_seen": 2,
       "skip_count": 2,
@@ -184,6 +172,16 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        53600
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "total_seen": 1,
       "skip_count": 1,
@@ -234,13 +232,13 @@
       ]
     },
     {
-      "repo": "ValveSoftware/Dota2-Gameplay",
+      "repo": "monk-io/monk-plugin",
       "total_seen": 1,
       "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
       "unique_issues": [
-        34407
+        283
       ]
     }
   ]

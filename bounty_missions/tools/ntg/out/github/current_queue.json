@@ -1,28 +1,30 @@
 {
-  "generated_at_utc": "2026-08-18T23:36:10Z",
+  "generated_at_utc": "2026-08-19T01:53:42Z",
   "triage_profile": "aggressive",
   "count": 1,
   "items": [
     {
-      "repo": "ValveSoftware/Dota2-Gameplay",
-      "number": 34407,
-      "title": "Battle cap  error 4349360 bug bounty",
-      "url": "https://github.com/ValveSoftware/Dota2-Gameplay/issues/34407",
-      "recommendation": "review",
-      "total_score": 78,
-      "repo_primary_language": "",
-      "bounty_confidence": 34,
-      "actionability": 8,
+      "repo": "monk-io/monk-plugin",
+      "number": 283,
+      "title": "[Bug bounty] vercel/deploy hardcodes obsolete --public option and blocks current Vercel",
+      "url": "https://github.com/monk-io/monk-plugin/issues/283",
+      "recommendation": "pursue",
+      "total_score": 130,
+      "repo_primary_language": "PowerShell",
+      "bounty_confidence": 46,
+      "actionability": 56,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "competition_risk": 9,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
-        "action:error",
-        "task:error",
-        "task:bug"
+        "action:expected behavior",
+        "action:actual behavior",
+        "task:fix",
+        "task:support",
+        "claims:1"
       ]
     }
   ]
