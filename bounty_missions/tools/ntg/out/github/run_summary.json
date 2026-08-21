@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-08-21T19:37:53Z",
+  "generated_at_utc": "2026-08-21T20:41:58Z",
   "source_counts": {
-    "github": 0,
+    "github": 1,
     "algora": 13,
-    "merged": 13
+    "merged": 14
   },
   "recommendations": {
     "pursue": 0,
-    "review": 0,
+    "review": 1,
     "skip": 13
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 53787,
+      "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
+      "recommendation": "review",
+      "total_score": 103,
+      "bounty_amount_usd": 0,
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:acceptance criteria",
+        "action:root cause",
+        "task:fix",
+        "task:replace",
+        "claims:1"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -186,27 +204,6 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "recommendation": "skip",
-      "total_score": 21,
-      "bounty_amount_usd": 100,
-      "competition_risk": 62,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
         "task:support",
         "task:implement",
         "claims:3",

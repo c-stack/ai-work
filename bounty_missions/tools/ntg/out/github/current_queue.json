@@ -1,6 +1,30 @@
 {
-  "generated_at_utc": "2026-08-21T19:37:53Z",
+  "generated_at_utc": "2026-08-21T20:41:58Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 53787,
+      "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
+      "recommendation": "review",
+      "total_score": 103,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 22,
+      "actionability": 60,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:acceptance criteria",
+        "action:root cause",
+        "task:fix",
+        "task:replace",
+        "claims:1"
+      ]
+    }
+  ]
 }
