@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 54016,
+      "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
+      "recommendation": "pursue",
+      "total_score": 116
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 53787,
       "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
       "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
