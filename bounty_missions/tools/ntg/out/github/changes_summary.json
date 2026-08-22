@@ -2,19 +2,19 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54016,
-      "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
-      "recommendation": "pursue",
-      "total_score": 116
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 54031,
       "title": "[repo-status] Daily Repo Status \u2013 2026-08-22 \ud83c\udf1f",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54031",
       "recommendation": "pursue",
       "total_score": 108
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54016,
+      "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
+      "recommendation": "pursue",
+      "total_score": 102
     },
     {
       "repo": "tenstorrent/tt-metal",

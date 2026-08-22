@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-22T13:01:45Z",
+  "generated_at_utc": "2026-08-22T13:45:02Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -11,24 +11,6 @@
     "skip": 13
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54016,
-      "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
-      "recommendation": "pursue",
-      "total_score": 116,
-      "bounty_amount_usd": 35000,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "action:acceptance criteria",
-        "action:regression",
-        "task:support",
-        "task:replace"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 54031,
@@ -45,6 +27,25 @@
         "action:fix",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54016,
+      "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
+      "recommendation": "pursue",
+      "total_score": 102,
+      "bounty_amount_usd": 35000,
+      "competition_risk": 15,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "action:acceptance criteria",
+        "action:regression",
+        "task:support",
+        "task:replace",
+        "claims:2"
       ]
     },
     {
