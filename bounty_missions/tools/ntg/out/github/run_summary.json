@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-22T01:50:44Z",
+  "generated_at_utc": "2026-08-22T03:07:49Z",
   "source_counts": {
     "github": 2,
     "algora": 13,
@@ -16,9 +16,9 @@
       "number": 54016,
       "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
       "recommendation": "pursue",
-      "total_score": 116,
+      "total_score": 108,
       "bounty_amount_usd": 35000,
-      "competition_risk": 0,
+      "competition_risk": 9,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -26,7 +26,8 @@
         "action:acceptance criteria",
         "action:regression",
         "task:support",
-        "task:replace"
+        "task:replace",
+        "claims:1"
       ]
     },
     {
