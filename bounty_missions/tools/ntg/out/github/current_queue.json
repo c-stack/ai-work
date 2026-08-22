@@ -1,8 +1,30 @@
 {
-  "generated_at_utc": "2026-08-22T19:35:21Z",
+  "generated_at_utc": "2026-08-22T20:40:35Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54055,
+      "title": "[Bounty $750] ttnn.addcdiv: forms in1 * value before dividing, overflowing to +/-inf for finite results",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54055",
+      "recommendation": "pursue",
+      "total_score": 128,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 34,
+      "actionability": 54,
+      "bounty_amount_usd": 750,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:failing",
+        "task:fix",
+        "task:replace"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 54031,
@@ -38,7 +60,7 @@
       "actionability": 44,
       "bounty_amount_usd": 35000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 15,
+      "competition_risk": 16,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -48,29 +70,6 @@
         "task:support",
         "task:replace",
         "claims:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 53787,
-      "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
-      "recommendation": "review",
-      "total_score": 102,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 22,
-      "actionability": 60,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:acceptance criteria",
-        "action:root cause",
-        "task:fix",
-        "task:replace",
-        "claims:1"
       ]
     }
   ]

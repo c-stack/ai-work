@@ -1,16 +1,33 @@
 {
-  "generated_at_utc": "2026-08-22T19:35:21Z",
+  "generated_at_utc": "2026-08-22T20:40:35Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
     "merged": 16
   },
   "recommendations": {
-    "pursue": 2,
-    "review": 1,
+    "pursue": 3,
+    "review": 0,
     "skip": 13
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54055,
+      "title": "[Bounty $750] ttnn.addcdiv: forms in1 * value before dividing, overflowing to +/-inf for finite results",
+      "recommendation": "pursue",
+      "total_score": 128,
+      "bounty_amount_usd": 750,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:failing",
+        "task:fix",
+        "task:replace"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 54031,
@@ -36,7 +53,7 @@
       "recommendation": "pursue",
       "total_score": 102,
       "bounty_amount_usd": 35000,
-      "competition_risk": 15,
+      "competition_risk": 16,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -46,24 +63,6 @@
         "task:support",
         "task:replace",
         "claims:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 53787,
-      "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
-      "recommendation": "review",
-      "total_score": 102,
-      "bounty_amount_usd": 0,
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:acceptance criteria",
-        "action:root cause",
-        "task:fix",
-        "task:replace",
-        "claims:1"
       ]
     },
     {

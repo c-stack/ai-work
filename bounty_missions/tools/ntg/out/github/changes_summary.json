@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 54055,
+      "title": "[Bounty $750] ttnn.addcdiv: forms in1 * value before dividing, overflowing to +/-inf for finite results",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54055",
+      "recommendation": "pursue",
+      "total_score": 128
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 54031,
       "title": "[repo-status] Daily Repo Status \u2013 2026-08-22 \ud83c\udf1f",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54031",
@@ -14,14 +22,6 @@
       "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
       "recommendation": "pursue",
-      "total_score": 102
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 53787,
-      "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
-      "recommendation": "review",
       "total_score": 102
     },
     {
