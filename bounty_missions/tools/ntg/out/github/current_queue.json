@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-22T05:43:00Z",
+  "generated_at_utc": "2026-08-22T07:00:01Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -24,6 +24,29 @@
         "action:regression",
         "task:support",
         "task:replace"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54031,
+      "title": "[repo-status] Daily Repo Status \u2013 2026-08-22 \ud83c\udf1f",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54031",
+      "recommendation": "pursue",
+      "total_score": 108,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 20,
+      "actionability": 46,
+      "bounty_amount_usd": 35000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:migration",
+        "action:root cause",
+        "action:fix",
+        "task:fix",
+        "task:add "
       ]
     },
     {

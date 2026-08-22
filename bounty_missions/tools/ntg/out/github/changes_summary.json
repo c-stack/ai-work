@@ -10,6 +10,14 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 54031,
+      "title": "[repo-status] Daily Repo Status \u2013 2026-08-22 \ud83c\udf1f",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54031",
+      "recommendation": "pursue",
+      "total_score": 108
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 53787,
       "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
       "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
