@@ -22,7 +22,7 @@
       "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
       "url": "https://github.com/tenstorrent/tt-metal/issues/53787",
       "recommendation": "review",
-      "total_score": 103
+      "total_score": 102
     },
     {
       "repo": "projectdiscovery/nuclei",

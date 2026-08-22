@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-22T11:35:47Z",
+  "generated_at_utc": "2026-08-22T13:01:45Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -52,7 +52,7 @@
       "number": 53787,
       "title": "[Bounty $5k] ttnn.log_sigmoid: 0.91% peak fp32 error and a missing x <= -4 branch",
       "recommendation": "review",
-      "total_score": 103,
+      "total_score": 102,
       "bounty_amount_usd": 0,
       "competition_risk": 18,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
