@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-08-23T05:45:18Z",
+  "generated_at_utc": "2026-08-23T07:01:30Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
     "merged": 16
   },
   "recommendations": {
-    "pursue": 3,
-    "review": 0,
+    "pursue": 2,
+    "review": 1,
     "skip": 13
   },
   "top_candidates": [
@@ -31,24 +31,6 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54031,
-      "title": "[repo-status] Daily Repo Status \u2013 2026-08-22 \ud83c\udf1f",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "bounty_amount_usd": 35000,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:migration",
-        "action:root cause",
-        "action:fix",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 54016,
       "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
       "recommendation": "pursue",
@@ -64,6 +46,24 @@
         "task:support",
         "task:replace",
         "claims:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54095,
+      "title": "[repo-status] Daily Repo Status \u2014 Aug 23, 2026 \ud83c\udf1f",
+      "recommendation": "review",
+      "total_score": 94,
+      "bounty_amount_usd": 8000,
+      "competition_risk": 0,
+      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "negative:migration",
+        "action:fix",
+        "task:fix",
+        "task:add "
       ]
     },
     {

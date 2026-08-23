@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T05:45:18Z",
+  "generated_at_utc": "2026-08-23T07:01:30Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -28,29 +28,6 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54031,
-      "title": "[repo-status] Daily Repo Status \u2013 2026-08-22 \ud83c\udf1f",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54031",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 20,
-      "actionability": 46,
-      "bounty_amount_usd": 35000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:migration",
-        "action:root cause",
-        "action:fix",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 54016,
       "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
@@ -71,6 +48,29 @@
         "task:support",
         "task:replace",
         "claims:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54095,
+      "title": "[repo-status] Daily Repo Status \u2014 Aug 23, 2026 \ud83c\udf1f",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54095",
+      "recommendation": "review",
+      "total_score": 94,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 10,
+      "actionability": 42,
+      "bounty_amount_usd": 8000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "negative:migration",
+        "action:fix",
+        "task:fix",
+        "task:add "
       ]
     }
   ]
