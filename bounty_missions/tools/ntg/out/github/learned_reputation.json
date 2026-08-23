@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T08:48:59Z",
+  "generated_at_utc": "2026-08-23T09:43:37Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -12,8 +12,8 @@
       "pursue_count": 2,
       "unique_issues": [
         54016,
-        54055,
-        54095
+        54095,
+        54104
       ]
     },
     "projectdiscovery/nuclei": {
@@ -222,8 +222,8 @@
       "pursue_count": 2,
       "unique_issues": [
         54016,
-        54055,
-        54095
+        54095,
+        54104
       ]
     }
   ]

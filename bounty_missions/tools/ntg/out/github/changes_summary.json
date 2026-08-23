@@ -2,11 +2,11 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54055,
-      "title": "[Bounty $750] ttnn.addcdiv: forms in1 * value before dividing, overflowing to +/-inf for finite results",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54055",
+      "number": 54104,
+      "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54104",
       "recommendation": "pursue",
-      "total_score": 122
+      "total_score": 116
     },
     {
       "repo": "tenstorrent/tt-metal",

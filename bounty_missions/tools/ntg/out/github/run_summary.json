@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T08:48:59Z",
+  "generated_at_utc": "2026-08-23T09:43:37Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -13,20 +13,18 @@
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54055,
-      "title": "[Bounty $750] ttnn.addcdiv: forms in1 * value before dividing, overflowing to +/-inf for finite results",
+      "number": 54104,
+      "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
       "recommendation": "pursue",
-      "total_score": 122,
-      "bounty_amount_usd": 750,
-      "competition_risk": 10,
+      "total_score": 116,
+      "bounty_amount_usd": 2000,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "action:root cause",
-        "action:failing",
-        "task:fix",
-        "task:replace",
-        "claims:1"
+        "action:error",
+        "task:support",
+        "task:replace"
       ]
     },
     {
