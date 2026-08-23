@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-08-23T21:36:07Z",
+  "generated_at_utc": "2026-08-23T22:38:48Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 5,
   "items": [
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 764,
+      "title": "[Bug bounty] Chunk-cache zlen corruption is copied into new archive indexes",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/764",
+      "recommendation": "pursue",
+      "total_score": 126,
+      "repo_primary_language": "C",
+      "bounty_confidence": 34,
+      "actionability": 50,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:remove"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 54104,

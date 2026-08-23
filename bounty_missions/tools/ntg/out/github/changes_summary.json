@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "Tarsnap/tarsnap",
+      "number": 764,
+      "title": "[Bug bounty] Chunk-cache zlen corruption is copied into new archive indexes",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/764",
+      "recommendation": "pursue",
+      "total_score": 126
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 54104,
       "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
