@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T22:38:48Z",
+  "generated_at_utc": "2026-08-23T23:35:57Z",
   "triage_profile": "aggressive",
   "count": 5,
   "items": [
@@ -75,7 +75,7 @@
       "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
       "recommendation": "pursue",
-      "total_score": 102,
+      "total_score": 101,
       "repo_primary_language": "C++",
       "bounty_confidence": 30,
       "actionability": 44,
