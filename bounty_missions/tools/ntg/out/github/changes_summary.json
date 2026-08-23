@@ -6,7 +6,7 @@
       "title": "[Bounty $750] ttnn.addcdiv: forms in1 * value before dividing, overflowing to +/-inf for finite results",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54055",
       "recommendation": "pursue",
-      "total_score": 128
+      "total_score": 122
     },
     {
       "repo": "tenstorrent/tt-metal",

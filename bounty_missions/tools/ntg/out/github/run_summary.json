@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T02:00:32Z",
+  "generated_at_utc": "2026-08-23T03:16:18Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -16,16 +16,17 @@
       "number": 54055,
       "title": "[Bounty $750] ttnn.addcdiv: forms in1 * value before dividing, overflowing to +/-inf for finite results",
       "recommendation": "pursue",
-      "total_score": 128,
+      "total_score": 122,
       "bounty_amount_usd": 750,
-      "competition_risk": 3,
+      "competition_risk": 10,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "action:root cause",
         "action:failing",
         "task:fix",
-        "task:replace"
+        "task:replace",
+        "claims:1"
       ]
     },
     {
