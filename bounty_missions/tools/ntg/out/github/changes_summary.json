@@ -9,14 +9,6 @@
       "total_score": 128
     },
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 774,
-      "title": "[Bug bounty] tarsnap-recrypt accepts incompatible key sets, then deletes the originals",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/774",
-      "recommendation": "pursue",
-      "total_score": 116
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 54104,
       "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",

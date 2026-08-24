@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-24T01:58:23Z",
+  "generated_at_utc": "2026-08-24T03:17:27Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -24,28 +24,6 @@
         "action:failing",
         "task:fix",
         "task:support"
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 774,
-      "title": "[Bug bounty] tarsnap-recrypt accepts incompatible key sets, then deletes the originals",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/774",
-      "recommendation": "pursue",
-      "total_score": 116,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 40,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:remove"
       ]
     },
     {
