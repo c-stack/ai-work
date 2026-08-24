@@ -18,19 +18,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54104,
-      "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54104",
-      "recommendation": "pursue",
-      "total_score": 108
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 54016,
       "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
-      "recommendation": "pursue",
-      "total_score": 101
+      "recommendation": "skip",
+      "total_score": 92
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54104,
+      "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54104",
+      "recommendation": "skip",
+      "total_score": 92
     },
     {
       "repo": "projectdiscovery/nuclei",

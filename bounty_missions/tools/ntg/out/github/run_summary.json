@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-24T15:00:54Z",
+  "generated_at_utc": "2026-08-24T15:57:09Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
     "merged": 18
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 2,
     "review": 0,
-    "skip": 14
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -48,37 +48,38 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54104,
-      "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "bounty_amount_usd": 2000,
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "task:support",
-        "task:replace",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 54016,
       "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
-      "recommendation": "pursue",
-      "total_score": 101,
+      "recommendation": "skip",
+      "total_score": 92,
       "bounty_amount_usd": 35000,
-      "competition_risk": 16,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 26,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "bounty:bounty",
         "negative:benchmark",
         "action:acceptance criteria",
         "action:regression",
+        "task:fix",
         "task:support",
-        "task:replace",
+        "claims:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54104,
+      "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
+      "recommendation": "skip",
+      "total_score": 92,
+      "bounty_amount_usd": 2000,
+      "competition_risk": 26,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support",
         "claims:2"
       ]
     },

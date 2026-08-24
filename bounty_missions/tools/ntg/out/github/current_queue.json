@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-24T15:00:54Z",
+  "generated_at_utc": "2026-08-24T15:57:09Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 2,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -46,52 +46,6 @@
         "action:regression",
         "task:fix",
         "task:add "
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54104,
-      "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54104",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 40,
-      "actionability": 34,
-      "bounty_amount_usd": 2000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 9,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "task:support",
-        "task:replace",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54016,
-      "title": "[Bounty $35000] Welford Two-Pass Statistics Optimisation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
-      "recommendation": "pursue",
-      "total_score": 101,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 30,
-      "actionability": 44,
-      "bounty_amount_usd": 35000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 16,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "action:acceptance criteria",
-        "action:regression",
-        "task:support",
-        "task:replace",
-        "claims:2"
       ]
     }
   ]
