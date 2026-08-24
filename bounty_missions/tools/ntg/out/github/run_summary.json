@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-24T09:05:16Z",
+  "generated_at_utc": "2026-08-24T10:04:38Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -51,15 +51,16 @@
       "number": 54104,
       "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
       "recommendation": "pursue",
-      "total_score": 116,
+      "total_score": 108,
       "bounty_amount_usd": 2000,
-      "competition_risk": 0,
+      "competition_risk": 9,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "action:error",
         "task:support",
-        "task:replace"
+        "task:replace",
+        "claims:1"
       ]
     },
     {
