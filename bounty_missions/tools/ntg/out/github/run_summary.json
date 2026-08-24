@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-23T23:35:57Z",
+  "generated_at_utc": "2026-08-24T01:58:23Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -13,18 +13,35 @@
   "top_candidates": [
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 764,
-      "title": "[Bug bounty] Chunk-cache zlen corruption is copied into new archive indexes",
+      "number": 771,
+      "title": "[Bug bounty] Source read errors produce successful zero-filled archive entries",
       "recommendation": "pursue",
-      "total_score": 126,
+      "total_score": 128,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
-        "action:root cause",
         "action:error",
+        "action:failing",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 774,
+      "title": "[Bug bounty] tarsnap-recrypt accepts incompatible key sets, then deletes the originals",
+      "recommendation": "pursue",
+      "total_score": 116,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:fix",
         "task:fix",
         "task:remove"
       ]
@@ -43,23 +60,6 @@
         "action:error",
         "task:support",
         "task:replace"
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 753,
-      "title": "[Bug bounty] tarsnap-keymgmt crashes when exporting a zero-valued RSA BIGNUM",
-      "recommendation": "pursue",
-      "total_score": 114,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:bug"
       ]
     },
     {

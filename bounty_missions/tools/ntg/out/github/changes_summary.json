@@ -2,11 +2,19 @@
   "new_items": [
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 764,
-      "title": "[Bug bounty] Chunk-cache zlen corruption is copied into new archive indexes",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/764",
+      "number": 771,
+      "title": "[Bug bounty] Source read errors produce successful zero-filled archive entries",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/771",
       "recommendation": "pursue",
-      "total_score": 126
+      "total_score": 128
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 774,
+      "title": "[Bug bounty] tarsnap-recrypt accepts incompatible key sets, then deletes the originals",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/774",
+      "recommendation": "pursue",
+      "total_score": 116
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -15,14 +23,6 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/54104",
       "recommendation": "pursue",
       "total_score": 116
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 753,
-      "title": "[Bug bounty] tarsnap-keymgmt crashes when exporting a zero-valued RSA BIGNUM",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/753",
-      "recommendation": "pursue",
-      "total_score": 114
     },
     {
       "repo": "tenstorrent/tt-metal",
