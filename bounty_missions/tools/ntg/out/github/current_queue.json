@@ -1,31 +1,8 @@
 {
-  "generated_at_utc": "2026-08-24T15:57:09Z",
+  "generated_at_utc": "2026-08-24T16:55:49Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 1,
   "items": [
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 771,
-      "title": "[Bug bounty] Source read errors produce successful zero-filled archive entries",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/771",
-      "recommendation": "pursue",
-      "total_score": 128,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 52,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "action:failing",
-        "task:fix",
-        "task:support"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 54143,

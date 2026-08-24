@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 771,
-      "title": "[Bug bounty] Source read errors produce successful zero-filled archive entries",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/771",
-      "recommendation": "pursue",
-      "total_score": 128
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 54143,
       "title": "[repo-status] Daily Repo Status \u2014 August 24, 2026 \ud83d\ude80",
