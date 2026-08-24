@@ -57,6 +57,14 @@
       "total_score": 57
     },
     {
+      "repo": "polarsource/polar",
+      "number": 13970,
+      "title": "1 code sample in your docs no longer compiles",
+      "url": "https://github.com/polarsource/polar/issues/13970",
+      "recommendation": "skip",
+      "total_score": 53
+    },
+    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-24T13:13:33Z",
+  "generated_at_utc": "2026-08-24T14:02:41Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -51,6 +51,15 @@
       "pursue_count": 0,
       "unique_issues": [
         373
+      ]
+    },
+    "polarsource/polar": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        13970
       ]
     },
     "antinomyhq/forge": {
@@ -201,6 +210,16 @@
       "pursue_count": 0,
       "unique_issues": [
         1
+      ]
+    },
+    {
+      "repo": "polarsource/polar",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        13970
       ]
     },
     {
