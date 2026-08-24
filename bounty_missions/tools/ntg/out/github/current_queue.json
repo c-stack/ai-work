@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-24T05:54:39Z",
+  "generated_at_utc": "2026-08-24T07:21:11Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -24,6 +24,28 @@
         "action:failing",
         "task:fix",
         "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54143,
+      "title": "[repo-status] Daily Repo Status \u2014 August 24, 2026 \ud83d\ude80",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54143",
+      "recommendation": "pursue",
+      "total_score": 122,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 50,
+      "bounty_amount_usd": 8000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix",
+        "task:add "
       ]
     },
     {
@@ -69,29 +91,6 @@
         "task:support",
         "task:replace",
         "claims:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54095,
-      "title": "[repo-status] Daily Repo Status \u2014 Aug 23, 2026 \ud83c\udf1f",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54095",
-      "recommendation": "review",
-      "total_score": 94,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 10,
-      "actionability": 42,
-      "bounty_amount_usd": 8000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "negative:migration",
-        "action:fix",
-        "task:fix",
-        "task:add "
       ]
     }
   ]

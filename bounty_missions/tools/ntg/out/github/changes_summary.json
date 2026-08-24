@@ -10,6 +10,14 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 54143,
+      "title": "[repo-status] Daily Repo Status \u2014 August 24, 2026 \ud83d\ude80",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54143",
+      "recommendation": "pursue",
+      "total_score": 122
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 54104,
       "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54104",
@@ -23,14 +31,6 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/54016",
       "recommendation": "pursue",
       "total_score": 101
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54095,
-      "title": "[repo-status] Daily Repo Status \u2014 Aug 23, 2026 \ud83c\udf1f",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54095",
-      "recommendation": "review",
-      "total_score": 94
     },
     {
       "repo": "projectdiscovery/nuclei",
