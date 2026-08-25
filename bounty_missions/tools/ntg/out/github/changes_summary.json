@@ -14,7 +14,7 @@
       "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54104",
       "recommendation": "skip",
-      "total_score": 92
+      "total_score": 91
     },
     {
       "repo": "tenstorrent/tt-metal",
