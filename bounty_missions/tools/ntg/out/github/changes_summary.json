@@ -17,14 +17,6 @@
       "total_score": 91
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54261,
-      "title": "(mistralai/Shieldstral-1.0-3B) Bringup using TTnn APIs/N300",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54261",
-      "recommendation": "review",
-      "total_score": 88
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",

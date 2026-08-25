@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-25T16:55:59Z",
+  "generated_at_utc": "2026-08-25T17:45:58Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -23,28 +23,6 @@
         "action:regression",
         "task:fix",
         "task:add "
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54261,
-      "title": "(mistralai/Shieldstral-1.0-3B) Bringup using TTnn APIs/N300",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54261",
-      "recommendation": "review",
-      "total_score": 88,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 34,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:failing",
-        "action:fix",
-        "task:fix",
-        "task:support"
       ]
     }
   ]
