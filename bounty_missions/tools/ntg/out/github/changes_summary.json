@@ -9,6 +9,14 @@
       "total_score": 121
     },
     {
+      "repo": "avala-ai/agent-code",
+      "number": 622,
+      "title": "Bug bounty response",
+      "url": "https://github.com/avala-ai/agent-code/issues/622",
+      "recommendation": "pursue",
+      "total_score": 92
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 54104,
       "title": "[Bounty $2000] CosyVoice2 (HiFT Vocoder + iSTFT + Streaming Pipeline) bring up using TTNN APIs",

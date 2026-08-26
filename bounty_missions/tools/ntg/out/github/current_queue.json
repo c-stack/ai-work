@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-26T09:02:51Z",
+  "generated_at_utc": "2026-08-26T09:57:57Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -23,6 +23,27 @@
         "action:regression",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "avala-ai/agent-code",
+      "number": 622,
+      "title": "Bug bounty response",
+      "url": "https://github.com/avala-ai/agent-code/issues/622",
+      "recommendation": "pursue",
+      "total_score": 92,
+      "repo_primary_language": "Rust",
+      "bounty_confidence": 34,
+      "actionability": 18,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:support",
+        "task:bug"
       ]
     }
   ]

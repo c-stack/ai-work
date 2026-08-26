@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-26T09:02:51Z",
+  "generated_at_utc": "2026-08-26T09:57:57Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -13,6 +13,15 @@
       "unique_issues": [
         54104,
         54143
+      ]
+    },
+    "avala-ai/agent-code": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        622
       ]
     },
     "projectdiscovery/nuclei": {
@@ -241,6 +250,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "avala-ai/agent-code",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        622
       ]
     }
   ]
