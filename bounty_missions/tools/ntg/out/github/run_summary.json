@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-26T05:51:07Z",
+  "generated_at_utc": "2026-08-26T07:09:47Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 54143,
       "title": "[repo-status] Daily Repo Status \u2014 August 24, 2026 \ud83d\ude80",
       "recommendation": "pursue",
-      "total_score": 122,
+      "total_score": 121,
       "bounty_amount_usd": 8000,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
