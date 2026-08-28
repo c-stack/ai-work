@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-28T05:25:23Z",
+  "generated_at_utc": "2026-08-28T18:43:23Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
@@ -9,7 +9,7 @@
       "title": "Bug bounty response",
       "url": "https://github.com/avala-ai/agent-code/issues/622",
       "recommendation": "pursue",
-      "total_score": 92,
+      "total_score": 91,
       "repo_primary_language": "Rust",
       "bounty_confidence": 34,
       "actionability": 18,
@@ -30,14 +30,14 @@
       "title": "untilize writer rebuilds the row_stick_ids array once per tile when it changes once per row",
       "url": "https://github.com/tenstorrent/tt-metal/issues/54691",
       "recommendation": "review",
-      "total_score": 80,
+      "total_score": 67,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
       "actionability": 28,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "competition_risk": 11,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
         "task:support"

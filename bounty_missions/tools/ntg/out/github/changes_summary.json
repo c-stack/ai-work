@@ -6,7 +6,7 @@
       "title": "Bug bounty response",
       "url": "https://github.com/avala-ai/agent-code/issues/622",
       "recommendation": "pursue",
-      "total_score": 92
+      "total_score": 91
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -17,20 +17,20 @@
       "total_score": 82
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54691,
-      "title": "untilize writer rebuilds the row_stick_ids array once per tile when it changes once per row",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54691",
-      "recommendation": "review",
-      "total_score": 80
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 74
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54691,
+      "title": "untilize writer rebuilds the row_stick_ids array once per tile when it changes once per row",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54691",
+      "recommendation": "review",
+      "total_score": 67
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-28T05:25:23Z",
+  "generated_at_utc": "2026-08-28T18:43:23Z",
   "source_counts": {
     "github": 2,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 622,
       "title": "Bug bounty response",
       "recommendation": "pursue",
-      "total_score": 92,
+      "total_score": 91,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -49,20 +49,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54691,
-      "title": "untilize writer rebuilds the row_stick_ids array once per tile when it changes once per row",
-      "recommendation": "review",
-      "total_score": 80,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "task:support"
-      ]
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -80,6 +66,20 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54691,
+      "title": "untilize writer rebuilds the row_stick_ids array once per tile when it changes once per row",
+      "recommendation": "review",
+      "total_score": 67,
+      "bounty_amount_usd": 0,
+      "competition_risk": 11,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:support"
       ]
     },
     {
