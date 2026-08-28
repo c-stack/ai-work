@@ -1,33 +1,16 @@
 {
-  "generated_at_utc": "2026-08-27T20:31:18Z",
+  "generated_at_utc": "2026-08-28T05:25:23Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 13,
-    "merged": 16
+    "merged": 15
   },
   "recommendations": {
-    "pursue": 2,
-    "review": 0,
-    "skip": 14
+    "pursue": 1,
+    "review": 1,
+    "skip": 13
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54143,
-      "title": "[repo-status] Daily Repo Status \u2014 August 24, 2026 \ud83d\ude80",
-      "recommendation": "pursue",
-      "total_score": 121,
-      "bounty_amount_usd": 8000,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:regression",
-        "task:fix",
-        "task:add "
-      ]
-    },
     {
       "repo": "avala-ai/agent-code",
       "number": 622,
@@ -63,6 +46,20 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54691,
+      "title": "untilize writer rebuilds the row_stick_ids array once per tile when it changes once per row",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:support"
       ]
     },
     {
@@ -102,20 +99,6 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "polarsource/polar",
-      "number": 13970,
-      "title": "1 code sample in your docs no longer compiles",
-      "recommendation": "skip",
-      "total_score": 52,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "task:support"
       ]
     },
     {
@@ -199,6 +182,25 @@
         "task:implement",
         "claims:4",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "recommendation": "skip",
+      "total_score": 36,
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
       ]
     }
   ],
