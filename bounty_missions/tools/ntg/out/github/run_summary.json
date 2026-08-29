@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-08-29T09:03:58Z",
+  "generated_at_utc": "2026-08-29T14:29:43Z",
   "source_counts": {
-    "github": 2,
+    "github": 4,
     "algora": 13,
-    "merged": 15
+    "merged": 17
   },
   "recommendations": {
     "pursue": 1,
-    "review": 1,
+    "review": 3,
     "skip": 13
   },
   "top_candidates": [
@@ -25,6 +25,20 @@
         "bounty:bounty",
         "task:support",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54827,
+      "title": "ttnn.logit_bw compares an already-boolean mask against 1.0, costing 23% of the op",
+      "recommendation": "review",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:remove"
       ]
     },
     {
@@ -70,16 +84,28 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54691,
-      "title": "untilize writer rebuilds the row_stick_ids array once per tile when it changes once per row",
+      "number": 54828,
+      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
       "recommendation": "review",
-      "total_score": 67,
+      "total_score": 68,
       "bounty_amount_usd": 0,
-      "competition_risk": 11,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
-        "bounty:bounty",
-        "task:support"
+        "bounty:bounty"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 54826,
+      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
+      "recommendation": "review",
+      "total_score": 68,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty"
       ]
     },
     {
@@ -163,44 +189,6 @@
         "claims:5",
         "existing-work:1",
         "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 39,
-      "bounty_amount_usd": 100,
-      "competition_risk": 50,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 36,
-      "bounty_amount_usd": 70,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
       ]
     }
   ],
