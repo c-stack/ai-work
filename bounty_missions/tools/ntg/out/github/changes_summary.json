@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 805,
-      "title": "[Bug bounty] tarsnap -cvv segfaults when localtime() cannot represent a file mtime",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/805",
-      "recommendation": "pursue",
-      "total_score": 121
-    },
-    {
       "repo": "hats-finance/hats-contracts",
       "number": 593,
       "title": "Clarify autonomous-agent eligibility for wallet-only bug bounty submissions",
@@ -86,7 +78,7 @@
       "title": "Organisation and Teams Management",
       "url": "https://github.com/Dokploy/dokploy/issues/1413",
       "recommendation": "skip",
-      "total_score": 43
+      "total_score": 42
     },
     {
       "repo": "revertinc/revert",
