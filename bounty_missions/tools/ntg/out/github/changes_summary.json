@@ -1,10 +1,18 @@
 {
   "new_items": [
     {
-      "repo": "avala-ai/agent-code",
-      "number": 622,
-      "title": "Bug bounty response",
-      "url": "https://github.com/avala-ai/agent-code/issues/622",
+      "repo": "Tarsnap/tarsnap",
+      "number": 805,
+      "title": "[Bug bounty] tarsnap -cvv segfaults when localtime() cannot represent a file mtime",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/805",
+      "recommendation": "pursue",
+      "total_score": 121
+    },
+    {
+      "repo": "hats-finance/hats-contracts",
+      "number": 593,
+      "title": "Clarify autonomous-agent eligibility for wallet-only bug bounty submissions",
+      "url": "https://github.com/hats-finance/hats-contracts/issues/593",
       "recommendation": "pursue",
       "total_score": 91
     },

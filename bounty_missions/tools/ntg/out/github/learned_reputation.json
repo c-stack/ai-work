@@ -1,17 +1,26 @@
 {
-  "generated_at_utc": "2026-08-29T21:44:56Z",
+  "generated_at_utc": "2026-08-30T00:21:05Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "avala-ai/agent-code": {
+    "Tarsnap/tarsnap": {
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        622
+        805
+      ]
+    },
+    "hats-finance/hats-contracts": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        593
       ]
     },
     "tenstorrent/tt-metal": {
@@ -236,13 +245,23 @@
       ]
     },
     {
-      "repo": "avala-ai/agent-code",
+      "repo": "hats-finance/hats-contracts",
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        622
+        593
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        805
       ]
     }
   ]

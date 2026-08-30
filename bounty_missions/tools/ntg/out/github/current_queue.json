@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-08-29T21:44:56Z",
+  "generated_at_utc": "2026-08-30T00:21:05Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 5,
   "items": [
     {
-      "repo": "avala-ai/agent-code",
-      "number": 622,
-      "title": "Bug bounty response",
-      "url": "https://github.com/avala-ai/agent-code/issues/622",
+      "repo": "Tarsnap/tarsnap",
+      "number": 805,
+      "title": "[Bug bounty] tarsnap -cvv segfaults when localtime() cannot represent a file mtime",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/805",
       "recommendation": "pursue",
-      "total_score": 91,
-      "repo_primary_language": "Rust",
+      "total_score": 121,
+      "repo_primary_language": "C",
       "bounty_confidence": 34,
-      "actionability": 18,
+      "actionability": 46,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
@@ -20,7 +20,29 @@
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
-        "task:support",
+        "action:root cause",
+        "action:fix",
+        "task:fix",
+        "task:add "
+      ]
+    },
+    {
+      "repo": "hats-finance/hats-contracts",
+      "number": 593,
+      "title": "Clarify autonomous-agent eligibility for wallet-only bug bounty submissions",
+      "url": "https://github.com/hats-finance/hats-contracts/issues/593",
+      "recommendation": "pursue",
+      "total_score": 91,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 34,
+      "actionability": 16,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
         "task:bug"
       ]
     },
