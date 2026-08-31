@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T05:35:23Z",
+  "generated_at_utc": "2026-08-31T13:51:14Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -47,7 +47,7 @@
       "number": 54827,
       "title": "ttnn.logit_bw compares an already-boolean mask against 1.0, costing 23% of the op",
       "recommendation": "review",
-      "total_score": 84,
+      "total_score": 83,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
@@ -99,10 +99,10 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54828,
-      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
+      "number": 54826,
+      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
       "recommendation": "review",
-      "total_score": 68,
+      "total_score": 67,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
@@ -112,10 +112,10 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54826,
-      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
+      "number": 54828,
+      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
       "recommendation": "review",
-      "total_score": 68,
+      "total_score": 67,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
