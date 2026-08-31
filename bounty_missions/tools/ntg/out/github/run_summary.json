@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-30T23:30:40Z",
+  "generated_at_utc": "2026-08-31T05:35:23Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -13,20 +13,18 @@
   "top_candidates": [
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 805,
-      "title": "[Bug bounty] tarsnap -cvv segfaults when localtime() cannot represent a file mtime",
+      "number": 815,
+      "title": "[Bug bounty] --newer-mtime-than ignores an epoch-zero cutoff",
       "recommendation": "pursue",
-      "total_score": 121,
+      "total_score": 112,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
-        "action:root cause",
-        "action:fix",
-        "task:fix",
-        "task:add "
+        "action:expected behavior",
+        "task:bug"
       ]
     },
     {
@@ -34,7 +32,7 @@
       "number": 593,
       "title": "Clarify autonomous-agent eligibility for wallet-only bug bounty submissions",
       "recommendation": "pursue",
-      "total_score": 91,
+      "total_score": 90,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
