@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-08-31T23:51:48Z",
+  "generated_at_utc": "2026-09-01T05:08:59Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
     "merged": 18
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 3,
-    "skip": 13
+    "skip": 14
   },
   "top_candidates": [
     {
@@ -28,18 +28,22 @@
       ]
     },
     {
-      "repo": "hats-finance/hats-contracts",
-      "number": 593,
-      "title": "Clarify autonomous-agent eligibility for wallet-only bug bounty submissions",
-      "recommendation": "pursue",
-      "total_score": 90,
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 12265,
+      "title": "fix(api): preserve server-owned id and default open status in jobService",
+      "recommendation": "skip",
+      "total_score": 89,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 15,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
-        "bounty:bug bounty",
         "bounty:bounty",
-        "task:bug"
+        "platform:algora",
+        "action:expected behavior",
+        "action:regression",
+        "task:fix",
+        "task:add ",
+        "existing-work:1"
       ]
     },
     {

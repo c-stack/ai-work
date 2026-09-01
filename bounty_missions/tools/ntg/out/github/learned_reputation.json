@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-31T23:51:48Z",
+  "generated_at_utc": "2026-09-01T05:08:59Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,13 +14,13 @@
         815
       ]
     },
-    "hats-finance/hats-contracts": {
+    "SecureBananaLabs/bug-bounty": {
       "total_seen": 1,
-      "skip_count": 0,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
-        593
+        12265
       ]
     },
     "tenstorrent/tt-metal": {
@@ -223,6 +223,16 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        12265
+      ]
+    },
+    {
       "repo": "Dokploy/templates",
       "total_seen": 1,
       "skip_count": 1,
@@ -242,16 +252,6 @@
         54826,
         54827,
         54828
-      ]
-    },
-    {
-      "repo": "hats-finance/hats-contracts",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        593
       ]
     },
     {

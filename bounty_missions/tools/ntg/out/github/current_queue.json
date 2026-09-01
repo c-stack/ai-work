@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-08-31T23:51:48Z",
+  "generated_at_utc": "2026-09-01T05:08:59Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -21,26 +21,6 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "action:expected behavior",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "hats-finance/hats-contracts",
-      "number": 593,
-      "title": "Clarify autonomous-agent eligibility for wallet-only bug bounty submissions",
-      "url": "https://github.com/hats-finance/hats-contracts/issues/593",
-      "recommendation": "pursue",
-      "total_score": 90,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 34,
-      "actionability": 16,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
         "task:bug"
       ]
     },
