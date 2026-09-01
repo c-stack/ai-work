@@ -42,17 +42,17 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54826,
-      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54826",
+      "number": 54828,
+      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54828",
       "recommendation": "review",
       "total_score": 67
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54828,
-      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54828",
+      "number": 54826,
+      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/54826",
       "recommendation": "review",
       "total_score": 67
     },

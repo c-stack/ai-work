@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T10:07:04Z",
+  "generated_at_utc": "2026-09-01T14:54:20Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -103,8 +103,8 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54826,
-      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
+      "number": 54828,
+      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
       "recommendation": "review",
       "total_score": 67,
       "bounty_amount_usd": 0,
@@ -116,8 +116,8 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54828,
-      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
+      "number": 54826,
+      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
       "recommendation": "review",
       "total_score": 67,
       "bounty_amount_usd": 0,
