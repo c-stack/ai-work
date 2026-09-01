@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "Tarsnap/tarsnap",
+      "number": 817,
+      "title": "Bug bounty: ccache_write() creates crash window by unlinking cache before rename",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/817",
+      "recommendation": "pursue",
+      "total_score": 124
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
       "number": 815,
       "title": "[Bug bounty] --newer-mtime-than ignores an epoch-zero cutoff",
       "url": "https://github.com/Tarsnap/tarsnap/issues/815",

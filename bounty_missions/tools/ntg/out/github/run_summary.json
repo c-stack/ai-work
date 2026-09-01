@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-09-01T18:31:24Z",
+  "generated_at_utc": "2026-09-01T21:47:48Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 13,
-    "merged": 18
+    "merged": 19
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 3,
     "skip": 14
   },
   "top_candidates": [
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 817,
+      "title": "Bug bounty: ccache_write() creates crash window by unlinking cache before rename",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:replace"
+      ]
+    },
     {
       "repo": "Tarsnap/tarsnap",
       "number": 815,
@@ -163,28 +181,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
