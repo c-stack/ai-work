@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T14:30:10Z",
+  "generated_at_utc": "2026-09-02T18:43:44Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -11,22 +11,6 @@
     "skip": 15
   },
   "top_candidates": [
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 815,
-      "title": "[Bug bounty] --newer-mtime-than ignores an epoch-zero cutoff",
-      "recommendation": "pursue",
-      "total_score": 111,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "task:bug"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 55129,
@@ -95,6 +79,21 @@
         "task:fix",
         "task:add ",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
+      "number": 2,
+      "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
+      "recommendation": "pursue",
+      "total_score": 86,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
       ]
     },
     {

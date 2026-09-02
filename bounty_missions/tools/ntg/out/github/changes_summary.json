@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 815,
-      "title": "[Bug bounty] --newer-mtime-than ignores an epoch-zero cutoff",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/815",
-      "recommendation": "pursue",
-      "total_score": 111
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 55129,
       "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
@@ -39,6 +31,14 @@
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12265",
       "recommendation": "skip",
       "total_score": 88
+    },
+    {
+      "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
+      "number": 2,
+      "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
+      "url": "https://github.com/devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18/issues/2",
+      "recommendation": "pursue",
+      "total_score": 86
     },
     {
       "repo": "projectdiscovery/nuclei",
