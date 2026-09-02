@@ -10,14 +10,6 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55159,
-      "title": "rms_norm, layer_norm, ttnn.var and ttnn.std return 0 or inf where the answer is ordinary: the sum of squares overflows",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55159",
-      "recommendation": "review",
-      "total_score": 92
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 55015,
       "title": "[repo-assist] Monthly Activity 2026-09",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55015",
@@ -39,6 +31,14 @@
       "url": "https://github.com/devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18/issues/2",
       "recommendation": "pursue",
       "total_score": 86
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55263,
+      "title": "matmul(activation=\"softplus\", core_grid=...) raises \"Invalid number of activation parameters: 3\" \u2014 the string table returns a vestigial third param the fused packer rejects",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55263",
+      "recommendation": "review",
+      "total_score": 84
     },
     {
       "repo": "projectdiscovery/nuclei",

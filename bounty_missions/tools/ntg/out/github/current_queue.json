@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T18:43:44Z",
+  "generated_at_utc": "2026-09-02T21:50:28Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -25,27 +25,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55159,
-      "title": "rms_norm, layer_norm, ttnn.var and ttnn.std return 0 or inf where the answer is ordinary: the sum of squares overflows",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55159",
-      "recommendation": "review",
-      "total_score": 92,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 38,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
-    {
       "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
       "number": 2,
       "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
@@ -63,6 +42,26 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55263,
+      "title": "matmul(activation=\"softplus\", core_grid=...) raises \"Invalid number of activation parameters: 3\" \u2014 the string table returns a vestigial third param the fused packer rejects",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55263",
+      "recommendation": "review",
+      "total_score": 84,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:fix",
+        "task:fix"
       ]
     }
   ]

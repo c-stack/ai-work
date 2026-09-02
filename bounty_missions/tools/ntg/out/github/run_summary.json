@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T18:43:44Z",
+  "generated_at_utc": "2026-09-02T21:50:28Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -25,22 +25,6 @@
         "action:root cause",
         "action:regression",
         "task:fix"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55159,
-      "title": "rms_norm, layer_norm, ttnn.var and ttnn.std return 0 or inf where the answer is ordinary: the sum of squares overflows",
-      "recommendation": "review",
-      "total_score": 92,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:implement"
       ]
     },
     {
@@ -94,6 +78,21 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55263,
+      "title": "matmul(activation=\"softplus\", core_grid=...) raises \"Invalid number of activation parameters: 3\" \u2014 the string table returns a vestigial third param the fused packer rejects",
+      "recommendation": "review",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:fix",
+        "task:fix"
       ]
     },
     {

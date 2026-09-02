@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T18:43:44Z",
+  "generated_at_utc": "2026-09-02T21:50:28Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -13,7 +13,7 @@
       "unique_issues": [
         55015,
         55129,
-        55159
+        55263
       ]
     },
     "SecureBananaLabs/bug-bounty": {
@@ -171,7 +171,7 @@
       "unique_issues": [
         55015,
         55129,
-        55159
+        55263
       ]
     },
     {
