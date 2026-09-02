@@ -18,11 +18,11 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55131,
-      "title": "ttnn.xlogy uses an internal log up to 1.5e-2 off; xlogy(x, 1) returns x*1e-3 instead of 0",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55131",
+      "number": 55159,
+      "title": "rms_norm, layer_norm, ttnn.var and ttnn.std return 0 or inf where the answer is ordinary: the sum of squares overflows",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55159",
       "recommendation": "review",
-      "total_score": 98
+      "total_score": 92
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -30,7 +30,7 @@
       "title": "[repo-assist] Monthly Activity 2026-09",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55015",
       "recommendation": "skip",
-      "total_score": 92
+      "total_score": 90
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",

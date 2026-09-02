@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T09:38:36Z",
+  "generated_at_utc": "2026-09-02T14:30:10Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -47,21 +47,20 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55131,
-      "title": "ttnn.xlogy uses an internal log up to 1.5e-2 off; xlogy(x, 1) returns x*1e-3 instead of 0",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55131",
+      "number": 55159,
+      "title": "rms_norm, layer_norm, ttnn.var and ttnn.std return 0 or inf where the answer is ordinary: the sum of squares overflows",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55159",
       "recommendation": "review",
-      "total_score": 98,
+      "total_score": 92,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
-      "actionability": 44,
+      "actionability": 38,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
-        "action:error",
         "action:fix",
         "task:fix",
         "task:implement"
