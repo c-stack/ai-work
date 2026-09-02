@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-02T00:15:09Z",
+  "generated_at_utc": "2026-09-02T04:38:56Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -34,7 +34,7 @@
       "number": 815,
       "title": "[Bug bounty] --newer-mtime-than ignores an epoch-zero cutoff",
       "recommendation": "pursue",
-      "total_score": 112,
+      "total_score": 111,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -107,7 +107,7 @@
       "recommendation": "skip",
       "total_score": 82,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
       "decision_signals": [
         "bounty:bounty",
