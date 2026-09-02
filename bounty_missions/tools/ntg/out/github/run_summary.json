@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-01T21:47:48Z",
+  "generated_at_utc": "2026-09-02T00:15:09Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -7,8 +7,8 @@
   },
   "recommendations": {
     "pursue": 2,
-    "review": 3,
-    "skip": 14
+    "review": 1,
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -46,6 +46,42 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55017,
+      "title": "ttnn.grid_sample accepts FLOAT32 input and returns unrelated values; BFLOAT16 input is correct",
+      "recommendation": "review",
+      "total_score": 104,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55015,
+      "title": "[repo-assist] Monthly Activity 2026-09",
+      "recommendation": "skip",
+      "total_score": 92,
+      "bounty_amount_usd": 0,
+      "competition_risk": 22,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:stack trace",
+        "task:fix",
+        "task:add ",
+        "claims:1",
+        "existing-work:1"
+      ]
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 12265,
       "title": "fix(api): preserve server-owned id and default open status in jobService",
@@ -66,16 +102,20 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54827,
-      "title": "ttnn.logit_bw compares an already-boolean mask against 1.0, costing 23% of the op",
-      "recommendation": "review",
-      "total_score": 83,
+      "number": 55105,
+      "title": "ttnn.polygamma returns exactly 0 for n >= 7 over a wide band of ordinary positive x, where the true value is a normal fp32 (n! scale applied after accumulation)",
+      "recommendation": "skip",
+      "total_score": 82,
       "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "competition_risk": 0,
+      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
       "decision_signals": [
         "bounty:bounty",
-        "task:remove"
+        "negative:migration",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support"
       ]
     },
     {
@@ -117,32 +157,6 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54828,
-      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
-      "recommendation": "review",
-      "total_score": 67,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54826,
-      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
-      "recommendation": "review",
-      "total_score": 67,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-01T21:47:48Z",
+  "generated_at_utc": "2026-09-02T00:15:09Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 3,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -49,57 +49,24 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54827,
-      "title": "ttnn.logit_bw compares an already-boolean mask against 1.0, costing 23% of the op",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54827",
+      "number": 55017,
+      "title": "ttnn.grid_sample accepts FLOAT32 input and returns unrelated values; BFLOAT16 input is correct",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55017",
       "recommendation": "review",
-      "total_score": 83,
+      "total_score": 104,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
-      "actionability": 32,
+      "actionability": 50,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 3,
+      "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
-        "task:remove"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54828,
-      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54828",
-      "recommendation": "review",
-      "total_score": 67,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 14,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54826,
-      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54826",
-      "recommendation": "review",
-      "total_score": 67,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 14,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty"
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support"
       ]
     }
   ]

@@ -17,6 +17,22 @@
       "total_score": 112
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55017,
+      "title": "ttnn.grid_sample accepts FLOAT32 input and returns unrelated values; BFLOAT16 input is correct",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55017",
+      "recommendation": "review",
+      "total_score": 104
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55015,
+      "title": "[repo-assist] Monthly Activity 2026-09",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55015",
+      "recommendation": "skip",
+      "total_score": 92
+    },
+    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 12265,
       "title": "fix(api): preserve server-owned id and default open status in jobService",
@@ -26,11 +42,11 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 54827,
-      "title": "ttnn.logit_bw compares an already-boolean mask against 1.0, costing 23% of the op",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54827",
-      "recommendation": "review",
-      "total_score": 83
+      "number": 55105,
+      "title": "ttnn.polygamma returns exactly 0 for n >= 7 over a wide band of ordinary positive x, where the true value is a normal fp32 (n! scale applied after accumulation)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55105",
+      "recommendation": "skip",
+      "total_score": 82
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -47,22 +63,6 @@
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 74
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54828,
-      "title": "ttnn.softplus_bw forms redundant intermediates around the exponential term",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54828",
-      "recommendation": "review",
-      "total_score": 67
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 54826,
-      "title": "ttnn.selu_bw evaluates three wheres for a gradient that is a single branch",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/54826",
-      "recommendation": "review",
-      "total_score": 67
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",
