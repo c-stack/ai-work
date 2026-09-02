@@ -1,31 +1,8 @@
 {
-  "generated_at_utc": "2026-09-02T04:38:56Z",
+  "generated_at_utc": "2026-09-02T09:38:36Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 817,
-      "title": "Bug bounty: ccache_write() creates crash window by unlinking cache before rename",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/817",
-      "recommendation": "pursue",
-      "total_score": 124,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 48,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:replace"
-      ]
-    },
     {
       "repo": "Tarsnap/tarsnap",
       "number": 815,
@@ -49,14 +26,35 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55017,
-      "title": "ttnn.grid_sample accepts FLOAT32 input and returns unrelated values; BFLOAT16 input is correct",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55017",
+      "number": 55129,
+      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55129",
       "recommendation": "review",
-      "total_score": 104,
+      "total_score": 98,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
-      "actionability": 50,
+      "actionability": 44,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55131,
+      "title": "ttnn.xlogy uses an internal log up to 1.5e-2 off; xlogy(x, 1) returns x*1e-3 instead of 0",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55131",
+      "recommendation": "review",
+      "total_score": 98,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 44,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
@@ -64,9 +62,9 @@
       "decision_signals": [
         "bounty:bounty",
         "action:error",
-        "action:regression",
+        "action:fix",
         "task:fix",
-        "task:support"
+        "task:implement"
       ]
     }
   ]

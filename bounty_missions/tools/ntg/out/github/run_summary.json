@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-09-02T04:38:56Z",
+  "generated_at_utc": "2026-09-02T09:38:36Z",
   "source_counts": {
-    "github": 6,
+    "github": 5,
     "algora": 13,
-    "merged": 19
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 2,
-    "review": 1,
-    "skip": 16
+    "pursue": 1,
+    "review": 2,
+    "skip": 15
   },
   "top_candidates": [
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 817,
-      "title": "Bug bounty: ccache_write() creates crash window by unlinking cache before rename",
-      "recommendation": "pursue",
-      "total_score": 124,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:replace"
-      ]
-    },
     {
       "repo": "Tarsnap/tarsnap",
       "number": 815,
@@ -47,19 +29,35 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55017,
-      "title": "ttnn.grid_sample accepts FLOAT32 input and returns unrelated values; BFLOAT16 input is correct",
+      "number": 55129,
+      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
       "recommendation": "review",
-      "total_score": 104,
+      "total_score": 98,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55131,
+      "title": "ttnn.xlogy uses an internal log up to 1.5e-2 off; xlogy(x, 1) returns x*1e-3 instead of 0",
+      "recommendation": "review",
+      "total_score": 98,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
         "action:error",
-        "action:regression",
+        "action:fix",
         "task:fix",
-        "task:support"
+        "task:implement"
       ]
     },
     {
@@ -86,7 +84,7 @@
       "number": 12265,
       "title": "fix(api): preserve server-owned id and default open status in jobService",
       "recommendation": "skip",
-      "total_score": 89,
+      "total_score": 88,
       "bounty_amount_usd": 0,
       "competition_risk": 15,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -98,24 +96,6 @@
         "task:fix",
         "task:add ",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55105,
-      "title": "ttnn.polygamma returns exactly 0 for n >= 7 over a wide band of ordinary positive x, where the true value is a normal fp32 (n! scale applied after accumulation)",
-      "recommendation": "skip",
-      "total_score": 82,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:migration",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:support"
       ]
     },
     {
@@ -195,6 +175,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }

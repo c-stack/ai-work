@@ -2,14 +2,6 @@
   "new_items": [
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 817,
-      "title": "Bug bounty: ccache_write() creates crash window by unlinking cache before rename",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/817",
-      "recommendation": "pursue",
-      "total_score": 124
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
       "number": 815,
       "title": "[Bug bounty] --newer-mtime-than ignores an epoch-zero cutoff",
       "url": "https://github.com/Tarsnap/tarsnap/issues/815",
@@ -18,11 +10,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55017,
-      "title": "ttnn.grid_sample accepts FLOAT32 input and returns unrelated values; BFLOAT16 input is correct",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55017",
+      "number": 55129,
+      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55129",
       "recommendation": "review",
-      "total_score": 104
+      "total_score": 98
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55131,
+      "title": "ttnn.xlogy uses an internal log up to 1.5e-2 off; xlogy(x, 1) returns x*1e-3 instead of 0",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55131",
+      "recommendation": "review",
+      "total_score": 98
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -38,15 +38,7 @@
       "title": "fix(api): preserve server-owned id and default open status in jobService",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12265",
       "recommendation": "skip",
-      "total_score": 89
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55105,
-      "title": "ttnn.polygamma returns exactly 0 for n >= 7 over a wide band of ordinary positive x, where the true value is a normal fp32 (n! scale applied after accumulation)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55105",
-      "recommendation": "skip",
-      "total_score": 82
+      "total_score": 88
     },
     {
       "repo": "projectdiscovery/nuclei",
