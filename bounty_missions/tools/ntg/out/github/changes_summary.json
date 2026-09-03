@@ -2,19 +2,19 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55289,
-      "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55289",
+      "number": 55290,
+      "title": "[Bounty $1,000] ttnn.atanh_bw returns NaN for every element whose upstream gradient is exactly zero",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55290",
       "recommendation": "skip",
       "total_score": 126
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55290,
-      "title": "[Bounty $1,000] ttnn.atanh_bw returns NaN for every element whose upstream gradient is exactly zero",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55290",
+      "number": 55289,
+      "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55289",
       "recommendation": "skip",
-      "total_score": 124
+      "total_score": 126
     },
     {
       "repo": "tenstorrent/tt-metal",
