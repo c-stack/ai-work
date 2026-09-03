@@ -2,27 +2,27 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55290,
-      "title": "[Bounty $1,000] ttnn.atanh_bw returns NaN for every element whose upstream gradient is exactly zero",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55290",
-      "recommendation": "skip",
-      "total_score": 126
+      "number": 55325,
+      "title": "ttnn.typecast saturates narrowing to uint16 but wraps narrowing to uint8: two overflow rules in one op, and only uint8 matches torch",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55325",
+      "recommendation": "pursue",
+      "total_score": 114
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55289,
-      "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55289",
+      "number": 55015,
+      "title": "[repo-assist] Monthly Activity 2026-09",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55015",
       "recommendation": "skip",
-      "total_score": 126
+      "total_score": 89
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55291,
-      "title": "[Bounty $750] ttnn.hardswish_bw takes the wrong branch at exactly x = \u00b13 and uses 0.3333 for 1/3",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55291",
-      "recommendation": "skip",
-      "total_score": 120
+      "number": 55314,
+      "title": "multigammaln_bw multiplies by grad four times where one would do: 14 dispatches instead of 11",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55314",
+      "recommendation": "review",
+      "total_score": 86
     },
     {
       "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
@@ -30,7 +30,7 @@
       "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
       "url": "https://github.com/devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18/issues/2",
       "recommendation": "pursue",
-      "total_score": 86
+      "total_score": 85
     },
     {
       "repo": "projectdiscovery/nuclei",

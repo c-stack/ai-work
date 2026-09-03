@@ -1,15 +1,55 @@
 {
-  "generated_at_utc": "2026-09-03T09:51:20Z",
+  "generated_at_utc": "2026-09-03T18:39:58Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 3,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55325,
+      "title": "ttnn.typecast saturates narrowing to uint16 but wraps narrowing to uint8: two overflow rules in one op, and only uint8 matches torch",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55325",
+      "recommendation": "pursue",
+      "total_score": 114,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 42,
+      "bounty_amount_usd": 1000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:fix",
+        "task:fix",
+        "task:implement"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55314,
+      "title": "multigammaln_bw multiplies by grad four times where one would do: 14 dispatches instead of 11",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55314",
+      "recommendation": "review",
+      "total_score": 86,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 32,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:implement"
+      ]
+    },
     {
       "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
       "number": 2,
       "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
       "url": "https://github.com/devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18/issues/2",
       "recommendation": "pursue",
-      "total_score": 86,
+      "total_score": 85,
       "repo_primary_language": "HCL",
       "bounty_confidence": 34,
       "actionability": 10,
