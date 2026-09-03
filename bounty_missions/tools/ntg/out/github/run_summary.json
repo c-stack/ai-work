@@ -1,65 +1,70 @@
 {
-  "generated_at_utc": "2026-09-03T00:16:52Z",
+  "generated_at_utc": "2026-09-03T04:38:50Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
     "merged": 17
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 1,
     "review": 0,
-    "skip": 13
+    "skip": 16
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
       "number": 55289,
       "title": "[Bounty $1,000] ttnn.rpow_bw computes the gradient of x**base instead of base**x; NaN for every negative input",
-      "recommendation": "pursue",
-      "total_score": 138,
+      "recommendation": "skip",
+      "total_score": 126,
       "bounty_amount_usd": 1000,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 18,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
         "action:acceptance criteria",
         "action:error",
         "task:fix",
-        "task:support"
+        "task:support",
+        "existing-work:1"
       ]
     },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 55290,
       "title": "[Bounty $1,000] ttnn.atanh_bw returns NaN for every element whose upstream gradient is exactly zero",
-      "recommendation": "pursue",
-      "total_score": 126,
+      "recommendation": "skip",
+      "total_score": 124,
       "bounty_amount_usd": 1000,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 25,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
+        "bounty:/claim",
         "action:acceptance criteria",
-        "action:fix",
+        "action:regression",
         "task:fix",
-        "task:add "
+        "task:implement",
+        "claims:1",
+        "existing-work:1"
       ]
     },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 55291,
       "title": "[Bounty $750] ttnn.hardswish_bw takes the wrong branch at exactly x = \u00b13 and uses 0.3333 for 1/3",
-      "recommendation": "pursue",
-      "total_score": 126,
+      "recommendation": "skip",
+      "total_score": 120,
       "bounty_amount_usd": 750,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 19,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
         "action:acceptance criteria",
         "action:error",
         "task:fix",
-        "task:add "
+        "task:replace",
+        "existing-work:1"
       ]
     },
     {
