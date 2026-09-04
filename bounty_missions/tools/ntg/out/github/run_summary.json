@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T00:07:03Z",
+  "generated_at_utc": "2026-09-04T04:34:04Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -32,16 +32,16 @@
       "number": 55015,
       "title": "[repo-assist] Monthly Activity 2026-09",
       "recommendation": "skip",
-      "total_score": 89,
+      "total_score": 88,
       "bounty_amount_usd": 0,
-      "competition_risk": 22,
+      "competition_risk": 24,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
         "action:root cause",
         "action:stack trace",
         "task:fix",
-        "task:implement",
+        "task:support",
         "claims:1",
         "existing-work:1"
       ]
