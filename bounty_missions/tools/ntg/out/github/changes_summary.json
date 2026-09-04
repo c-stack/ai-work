@@ -10,19 +10,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 55129,
+      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55129",
+      "recommendation": "review",
+      "total_score": 97
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 55015,
       "title": "[repo-assist] Monthly Activity 2026-09",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55015",
       "recommendation": "skip",
       "total_score": 88
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55314,
-      "title": "multigammaln_bw multiplies by grad four times where one would do: 14 dispatches instead of 11",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55314",
-      "recommendation": "review",
-      "total_score": 86
     },
     {
       "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T04:34:04Z",
+  "generated_at_utc": "2026-09-04T09:40:17Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -29,6 +29,22 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 55129,
+      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
+      "recommendation": "review",
+      "total_score": 97,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 55015,
       "title": "[repo-assist] Monthly Activity 2026-09",
       "recommendation": "skip",
@@ -44,20 +60,6 @@
         "task:support",
         "claims:1",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55314,
-      "title": "multigammaln_bw multiplies by grad four times where one would do: 14 dispatches instead of 11",
-      "recommendation": "review",
-      "total_score": 86,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "task:implement"
       ]
     },
     {
