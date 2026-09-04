@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-04T14:22:35Z",
+  "generated_at_utc": "2026-09-04T18:25:14Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -22,27 +22,6 @@
         "action:fix",
         "task:fix",
         "task:implement"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55129,
-      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55129",
-      "recommendation": "review",
-      "total_score": 97,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 44,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:regression",
-        "task:fix"
       ]
     },
     {

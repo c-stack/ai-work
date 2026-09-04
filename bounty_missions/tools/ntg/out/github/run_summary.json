@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T14:22:35Z",
+  "generated_at_utc": "2026-09-04T18:25:14Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -7,8 +7,8 @@
   },
   "recommendations": {
     "pursue": 2,
-    "review": 1,
-    "skip": 14
+    "review": 0,
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -29,18 +29,20 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55129,
-      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
-      "recommendation": "review",
-      "total_score": 97,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "number": 55502,
+      "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
+      "recommendation": "skip",
+      "total_score": 95,
+      "bounty_amount_usd": 5000,
+      "competition_risk": 32,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "bounty:bounty",
-        "action:root cause",
-        "action:regression",
-        "task:fix"
+        "action:acceptance criteria",
+        "action:error",
+        "task:fix",
+        "task:support",
+        "claims:2"
       ]
     },
     {
