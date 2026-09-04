@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T09:40:17Z",
+  "generated_at_utc": "2026-09-04T14:22:35Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -48,7 +48,7 @@
       "number": 55015,
       "title": "[repo-assist] Monthly Activity 2026-09",
       "recommendation": "skip",
-      "total_score": 88,
+      "total_score": 92,
       "bounty_amount_usd": 0,
       "competition_risk": 24,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
