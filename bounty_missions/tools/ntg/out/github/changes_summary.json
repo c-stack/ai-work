@@ -10,19 +10,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 55129,
+      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55129",
+      "recommendation": "review",
+      "total_score": 97
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 55502,
       "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55502",
       "recommendation": "skip",
       "total_score": 95
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55547,
-      "title": "[Bug] acosh_bw returns non-NaN gradients for input <= -1",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55547",
-      "recommendation": "skip",
-      "total_score": 88
     },
     {
       "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",

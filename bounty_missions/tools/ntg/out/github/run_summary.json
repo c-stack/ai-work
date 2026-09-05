@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T00:07:11Z",
+  "generated_at_utc": "2026-09-05T04:29:56Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -7,8 +7,8 @@
   },
   "recommendations": {
     "pursue": 2,
-    "review": 0,
-    "skip": 15
+    "review": 1,
+    "skip": 14
   },
   "top_candidates": [
     {
@@ -29,6 +29,22 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 55129,
+      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
+      "recommendation": "review",
+      "total_score": 97,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 55502,
       "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
       "recommendation": "skip",
@@ -43,24 +59,6 @@
         "task:fix",
         "task:support",
         "claims:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55547,
-      "title": "[Bug] acosh_bw returns non-NaN gradients for input <= -1",
-      "recommendation": "skip",
-      "total_score": 88,
-      "bounty_amount_usd": 0,
-      "competition_risk": 12,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:implement",
-        "existing-work:1"
       ]
     },
     {

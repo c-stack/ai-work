@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T00:07:11Z",
+  "generated_at_utc": "2026-09-05T04:29:56Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,13 +7,13 @@
   "repo_stats": {
     "tenstorrent/tt-metal": {
       "total_seen": 3,
-      "skip_count": 2,
-      "review_count": 0,
+      "skip_count": 1,
+      "review_count": 1,
       "pursue_count": 1,
       "unique_issues": [
+        55129,
         55325,
-        55502,
-        55547
+        55502
       ]
     },
     "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18": {
@@ -121,18 +121,6 @@
   },
   "top_repeat_skips": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 3,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        55325,
-        55502,
-        55547
-      ]
-    },
-    {
       "repo": "revertinc/revert",
       "total_seen": 2,
       "skip_count": 2,
@@ -163,6 +151,18 @@
       "unique_issues": [
         416,
         1413
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 3,
+      "skip_count": 1,
+      "review_count": 1,
+      "pursue_count": 1,
+      "unique_issues": [
+        55129,
+        55325,
+        55502
       ]
     },
     {
