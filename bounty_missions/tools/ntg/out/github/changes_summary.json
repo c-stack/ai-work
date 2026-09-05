@@ -30,7 +30,7 @@
       "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
       "url": "https://github.com/devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18/issues/2",
       "recommendation": "pursue",
-      "total_score": 85
+      "total_score": 84
     },
     {
       "repo": "projectdiscovery/nuclei",

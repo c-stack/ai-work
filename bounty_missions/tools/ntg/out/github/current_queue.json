@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T12:43:40Z",
+  "generated_at_utc": "2026-09-05T16:05:19Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -51,7 +51,7 @@
       "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
       "url": "https://github.com/devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18/issues/2",
       "recommendation": "pursue",
-      "total_score": 85,
+      "total_score": 84,
       "repo_primary_language": "HCL",
       "bounty_confidence": 34,
       "actionability": 10,
