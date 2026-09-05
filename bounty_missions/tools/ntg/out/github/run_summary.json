@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T04:29:56Z",
+  "generated_at_utc": "2026-09-05T09:05:46Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 55325,
       "title": "ttnn.typecast saturates narrowing to uint16 but wraps narrowing to uint8: two overflow rules in one op, and only uint8 matches torch",
       "recommendation": "pursue",
-      "total_score": 114,
+      "total_score": 113,
       "bounty_amount_usd": 1000,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

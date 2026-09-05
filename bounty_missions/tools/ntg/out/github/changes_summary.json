@@ -6,7 +6,7 @@
       "title": "ttnn.typecast saturates narrowing to uint16 but wraps narrowing to uint8: two overflow rules in one op, and only uint8 matches torch",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55325",
       "recommendation": "pursue",
-      "total_score": 114
+      "total_score": 113
     },
     {
       "repo": "tenstorrent/tt-metal",
