@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-05T21:15:31Z",
+  "generated_at_utc": "2026-09-05T22:57:10Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -62,6 +62,23 @@
       ]
     },
     {
+      "repo": "activepieces/activepieces",
+      "number": 15284,
+      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
+      "recommendation": "skip",
+      "total_score": 87,
+      "bounty_amount_usd": 200,
+      "competition_risk": 24,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "task:implement",
+        "claims:1",
+        "existing-work:1"
+      ]
+    },
+    {
       "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
       "number": 2,
       "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
@@ -114,22 +131,6 @@
         "task:implement",
         "task:remove",
         "claims:2",
-        "existing-work:1"
-      ]
-    },
-    {
-      "repo": "activepieces/activepieces",
-      "number": 15284,
-      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
-      "recommendation": "skip",
-      "total_score": 74,
-      "bounty_amount_usd": 200,
-      "competition_risk": 24,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "claims:1",
         "existing-work:1"
       ]
     },
