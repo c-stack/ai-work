@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-04T21:29:57Z",
+  "generated_at_utc": "2026-09-05T00:07:11Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -47,20 +47,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55015,
-      "title": "[repo-assist] Monthly Activity 2026-09",
+      "number": 55547,
+      "title": "[Bug] acosh_bw returns non-NaN gradients for input <= -1",
       "recommendation": "skip",
-      "total_score": 92,
+      "total_score": 88,
       "bounty_amount_usd": 0,
-      "competition_risk": 24,
+      "competition_risk": 12,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
-        "action:root cause",
-        "action:stack trace",
+        "action:regression",
+        "action:fix",
         "task:fix",
-        "task:support",
-        "claims:1",
+        "task:implement",
         "existing-work:1"
       ]
     },
