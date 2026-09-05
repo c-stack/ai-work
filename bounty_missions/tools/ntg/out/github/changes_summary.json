@@ -22,7 +22,7 @@
       "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55502",
       "recommendation": "skip",
-      "total_score": 95
+      "total_score": 94
     },
     {
       "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
@@ -45,6 +45,14 @@
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
       "url": "https://github.com/Dokploy/templates/issues/152",
+      "recommendation": "skip",
+      "total_score": 74
+    },
+    {
+      "repo": "activepieces/activepieces",
+      "number": 15284,
+      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
+      "url": "https://github.com/activepieces/activepieces/issues/15284",
       "recommendation": "skip",
       "total_score": 74
     },

@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-05T16:05:19Z",
+  "generated_at_utc": "2026-09-05T18:19:17Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 13,
-    "merged": 17
+    "merged": 18
   },
   "recommendations": {
     "pursue": 2,
     "review": 1,
-    "skip": 14
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -48,7 +48,7 @@
       "number": 55502,
       "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
       "recommendation": "skip",
-      "total_score": 95,
+      "total_score": 94,
       "bounty_amount_usd": 5000,
       "competition_risk": 32,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
@@ -118,6 +118,22 @@
       ]
     },
     {
+      "repo": "activepieces/activepieces",
+      "number": 15284,
+      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
+      "recommendation": "skip",
+      "total_score": 74,
+      "bounty_amount_usd": 200,
+      "competition_risk": 24,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "claims:1",
+        "existing-work:1"
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -176,28 +192,6 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 42,
-      "bounty_amount_usd": 100,
-      "competition_risk": 60,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
       ]
     }
   ],
