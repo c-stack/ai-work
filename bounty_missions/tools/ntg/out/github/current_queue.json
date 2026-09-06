@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-05T22:57:10Z",
+  "generated_at_utc": "2026-09-06T00:58:52Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -26,43 +26,21 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55129,
-      "title": "ttnn.pow (fp32 path) returns +inf for every base when |exponent| > 8.3e34 \u2014 pow(1.0, 1e35) gives inf instead of 1.0; the Veltkamp split overflows",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55129",
+      "number": 55314,
+      "title": "multigammaln_bw multiplies by grad four times where one would do: 14 dispatches instead of 11",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55314",
       "recommendation": "review",
-      "total_score": 97,
+      "total_score": 85,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
-      "actionability": 44,
+      "actionability": 32,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
-        "action:root cause",
-        "action:regression",
-        "task:fix"
-      ]
-    },
-    {
-      "repo": "devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18",
-      "number": 2,
-      "title": "Critical/Urgent: Security Vulnerability Disclosure and Bug Bounty",
-      "url": "https://github.com/devopsinsiders/azure-aws-gcp-devsecops-mlops-batch-18/issues/2",
-      "recommendation": "pursue",
-      "total_score": 84,
-      "repo_primary_language": "HCL",
-      "bounty_confidence": 34,
-      "actionability": 10,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
+        "task:implement"
       ]
     }
   ]
