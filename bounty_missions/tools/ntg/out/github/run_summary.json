@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T16:28:22Z",
+  "generated_at_utc": "2026-09-07T20:34:52Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -67,7 +67,7 @@
       "number": 55502,
       "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
       "recommendation": "skip",
-      "total_score": 94,
+      "total_score": 93,
       "bounty_amount_usd": 5000,
       "competition_risk": 32,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",

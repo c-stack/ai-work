@@ -30,7 +30,7 @@
       "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55502",
       "recommendation": "skip",
-      "total_score": 94
+      "total_score": 93
     },
     {
       "repo": "tenstorrent/tt-metal",
