@@ -30,7 +30,7 @@
       "title": "[Bug] moreh_norm_backward returns NaN for all-zero reduced slices, where the gradient is finite",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55585",
       "recommendation": "skip",
-      "total_score": 90
+      "total_score": 89
     },
     {
       "repo": "activepieces/activepieces",
