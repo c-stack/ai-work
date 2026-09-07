@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-07T10:19:59Z",
+  "generated_at_utc": "2026-09-07T16:28:22Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -22,6 +22,30 @@
         "bounty:bounty",
         "action:error",
         "task:support",
+        "task:error"
+      ]
+    },
+    {
+      "repo": "Tarsnap/kivaloo",
+      "number": 349,
+      "title": "[bug bounty] mkpairs exits 0 after final buffered output fails",
+      "url": "https://github.com/Tarsnap/kivaloo/issues/349",
+      "recommendation": "pursue",
+      "total_score": 108,
+      "repo_primary_language": "C",
+      "bounty_confidence": 24,
+      "actionability": 44,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "negative:benchmark",
+        "action:error",
+        "action:fix",
+        "task:fix",
         "task:error"
       ]
     },

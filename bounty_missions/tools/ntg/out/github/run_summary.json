@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-07T10:19:59Z",
+  "generated_at_utc": "2026-09-07T16:28:22Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 13,
-    "merged": 18
+    "merged": 19
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 3,
     "review": 0,
     "skip": 16
   },
@@ -25,6 +25,25 @@
         "bounty:bounty",
         "action:error",
         "task:support",
+        "task:error"
+      ]
+    },
+    {
+      "repo": "Tarsnap/kivaloo",
+      "number": 349,
+      "title": "[bug bounty] mkpairs exits 0 after final buffered output fails",
+      "recommendation": "pursue",
+      "total_score": 108,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "negative:benchmark",
+        "action:error",
+        "action:fix",
+        "task:fix",
         "task:error"
       ]
     },
@@ -80,23 +99,6 @@
       ]
     },
     {
-      "repo": "activepieces/activepieces",
-      "number": 15284,
-      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
-      "recommendation": "skip",
-      "total_score": 87,
-      "bounty_amount_usd": 200,
-      "competition_risk": 24,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "task:implement",
-        "claims:1",
-        "existing-work:1"
-      ]
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -115,6 +117,21 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "activepieces/activepieces",
+      "number": 15284,
+      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
+      "recommendation": "skip",
+      "total_score": 80,
+      "bounty_amount_usd": 200,
+      "competition_risk": 18,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:implement",
+        "existing-work:1"
       ]
     },
     {
@@ -173,28 +190,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }

@@ -9,6 +9,14 @@
       "total_score": 112
     },
     {
+      "repo": "Tarsnap/kivaloo",
+      "number": 349,
+      "title": "[bug bounty] mkpairs exits 0 after final buffered output fails",
+      "url": "https://github.com/Tarsnap/kivaloo/issues/349",
+      "recommendation": "pursue",
+      "total_score": 108
+    },
+    {
       "repo": "Tarsnap/tarsnap",
       "number": 849,
       "title": "[Bug bounty] tarsnap-keymgmt --keylist exits 0 after an allocation failure",
@@ -33,20 +41,20 @@
       "total_score": 89
     },
     {
-      "repo": "activepieces/activepieces",
-      "number": 15284,
-      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
-      "url": "https://github.com/activepieces/activepieces/issues/15284",
-      "recommendation": "skip",
-      "total_score": 87
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "activepieces/activepieces",
+      "number": 15284,
+      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
+      "url": "https://github.com/activepieces/activepieces/issues/15284",
+      "recommendation": "skip",
+      "total_score": 80
     },
     {
       "repo": "Dokploy/templates",
