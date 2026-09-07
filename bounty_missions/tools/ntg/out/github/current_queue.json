@@ -1,54 +1,8 @@
 {
-  "generated_at_utc": "2026-09-07T20:34:52Z",
+  "generated_at_utc": "2026-09-07T23:30:51Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 839,
-      "title": "[Bug bounty] fsck phase2 treats an empty metaindex listing as an allocation failure",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/839",
-      "recommendation": "pursue",
-      "total_score": 112,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 36,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "task:support",
-        "task:error"
-      ]
-    },
-    {
-      "repo": "Tarsnap/kivaloo",
-      "number": 349,
-      "title": "[bug bounty] mkpairs exits 0 after final buffered output fails",
-      "url": "https://github.com/Tarsnap/kivaloo/issues/349",
-      "recommendation": "pursue",
-      "total_score": 108,
-      "repo_primary_language": "C",
-      "bounty_confidence": 24,
-      "actionability": 44,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "negative:benchmark",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error"
-      ]
-    },
     {
       "repo": "Tarsnap/tarsnap",
       "number": 849,
@@ -59,6 +13,26 @@
       "repo_primary_language": "C",
       "bounty_confidence": 34,
       "actionability": 28,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "HeyPuter/puter",
+      "number": 3817,
+      "title": "Bug bounty policy: eligibility of agent-run, reproduced submissions",
+      "url": "https://github.com/HeyPuter/puter/issues/3817",
+      "recommendation": "pursue",
+      "total_score": 97,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 34,
+      "actionability": 16,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-07T20:34:52Z",
+  "generated_at_utc": "2026-09-07T23:30:51Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -7,21 +7,21 @@
   "repo_stats": {
     "Tarsnap/tarsnap": {
       "total_seen": 2,
-      "skip_count": 0,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 2,
+      "pursue_count": 1,
       "unique_issues": [
-        839,
-        849
+        849,
+        865
       ]
     },
-    "Tarsnap/kivaloo": {
+    "HeyPuter/puter": {
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        349
+        3817
       ]
     },
     "tenstorrent/tt-metal": {
@@ -183,6 +183,17 @@
       ]
     },
     {
+      "repo": "Tarsnap/tarsnap",
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        849,
+        865
+      ]
+    },
+    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -263,24 +274,13 @@
       ]
     },
     {
-      "repo": "Tarsnap/tarsnap",
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 2,
-      "unique_issues": [
-        839,
-        849
-      ]
-    },
-    {
-      "repo": "Tarsnap/kivaloo",
+      "repo": "HeyPuter/puter",
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        349
+        3817
       ]
     }
   ]

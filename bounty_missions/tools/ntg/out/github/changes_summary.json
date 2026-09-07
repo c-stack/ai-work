@@ -2,19 +2,11 @@
   "new_items": [
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 839,
-      "title": "[Bug bounty] fsck phase2 treats an empty metaindex listing as an allocation failure",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/839",
-      "recommendation": "pursue",
+      "number": 865,
+      "title": "[Bug bounty] --fsck cache invalidation is not durable across power loss",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/865",
+      "recommendation": "skip",
       "total_score": 112
-    },
-    {
-      "repo": "Tarsnap/kivaloo",
-      "number": 349,
-      "title": "[bug bounty] mkpairs exits 0 after final buffered output fails",
-      "url": "https://github.com/Tarsnap/kivaloo/issues/349",
-      "recommendation": "pursue",
-      "total_score": 108
     },
     {
       "repo": "Tarsnap/tarsnap",
@@ -23,6 +15,14 @@
       "url": "https://github.com/Tarsnap/tarsnap/issues/849",
       "recommendation": "pursue",
       "total_score": 104
+    },
+    {
+      "repo": "HeyPuter/puter",
+      "number": 3817,
+      "title": "Bug bounty policy: eligibility of agent-run, reproduced submissions",
+      "url": "https://github.com/HeyPuter/puter/issues/3817",
+      "recommendation": "pursue",
+      "total_score": 97
     },
     {
       "repo": "tenstorrent/tt-metal",
