@@ -1,46 +1,48 @@
 {
-  "generated_at_utc": "2026-09-06T23:55:08Z",
+  "generated_at_utc": "2026-09-07T04:42:18Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55325,
-      "title": "ttnn.typecast saturates narrowing to uint16 but wraps narrowing to uint8: two overflow rules in one op, and only uint8 matches torch",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55325",
+      "repo": "Tarsnap/tarsnap",
+      "number": 839,
+      "title": "[Bug bounty] fsck phase2 treats an empty metaindex listing as an allocation failure",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/839",
       "recommendation": "pursue",
-      "total_score": 113,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 30,
-      "actionability": 42,
-      "bounty_amount_usd": 1000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55314,
-      "title": "multigammaln_bw multiplies by grad four times where one would do: 14 dispatches instead of 11",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55314",
-      "recommendation": "review",
-      "total_score": 85,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 32,
+      "total_score": 112,
+      "repo_primary_language": "C",
+      "bounty_confidence": 34,
+      "actionability": 36,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
+        "bounty:bug bounty",
         "bounty:bounty",
-        "task:implement"
+        "action:error",
+        "task:support",
+        "task:error"
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 849,
+      "title": "[Bug bounty] tarsnap-keymgmt --keylist exits 0 after an allocation failure",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/849",
+      "recommendation": "pursue",
+      "total_score": 104,
+      "repo_primary_language": "C",
+      "bounty_confidence": 34,
+      "actionability": 28,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
       ]
     }
   ]

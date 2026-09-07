@@ -1,12 +1,20 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55325,
-      "title": "ttnn.typecast saturates narrowing to uint16 but wraps narrowing to uint8: two overflow rules in one op, and only uint8 matches torch",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55325",
+      "repo": "Tarsnap/tarsnap",
+      "number": 839,
+      "title": "[Bug bounty] fsck phase2 treats an empty metaindex listing as an allocation failure",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/839",
       "recommendation": "pursue",
-      "total_score": 113
+      "total_score": 112
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 849,
+      "title": "[Bug bounty] tarsnap-keymgmt --keylist exits 0 after an allocation failure",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/849",
+      "recommendation": "pursue",
+      "total_score": 104
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -17,20 +25,20 @@
       "total_score": 94
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55585,
+      "title": "[Bug] moreh_norm_backward returns NaN for all-zero reduced slices, where the gradient is finite",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55585",
+      "recommendation": "skip",
+      "total_score": 90
+    },
+    {
       "repo": "activepieces/activepieces",
       "number": 15284,
       "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
       "url": "https://github.com/activepieces/activepieces/issues/15284",
       "recommendation": "skip",
       "total_score": 87
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55314,
-      "title": "multigammaln_bw multiplies by grad four times where one would do: 14 dispatches instead of 11",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55314",
-      "recommendation": "review",
-      "total_score": 85
     },
     {
       "repo": "projectdiscovery/nuclei",
