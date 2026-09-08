@@ -26,14 +26,6 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 55502,
-      "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55502",
-      "recommendation": "skip",
-      "total_score": 93
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 55585,
       "title": "[Bug] moreh_norm_backward returns NaN for all-zero reduced slices, where the gradient is finite",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55585",

@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-07T23:30:51Z",
+  "generated_at_utc": "2026-09-08T04:36:48Z",
   "source_counts": {
-    "github": 6,
+    "github": 5,
     "algora": 13,
-    "merged": 19
+    "merged": 18
   },
   "recommendations": {
     "pursue": 2,
     "review": 0,
-    "skip": 17
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -58,24 +58,6 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "task:bug"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55502,
-      "title": "[Bounty $5000] Fix INT_MIN correctness in int32 div, remainder, fmod, and scalar promotion",
-      "recommendation": "skip",
-      "total_score": 93,
-      "bounty_amount_usd": 5000,
-      "competition_risk": 32,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:acceptance criteria",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:2"
       ]
     },
     {
@@ -188,6 +170,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }
