@@ -41,14 +41,6 @@
       "total_score": 82
     },
     {
-      "repo": "activepieces/activepieces",
-      "number": 15284,
-      "title": "Question: is the #8072 Gmail bounty still available? (PR #8083 closed unmerged in July)",
-      "url": "https://github.com/activepieces/activepieces/issues/15284",
-      "recommendation": "skip",
-      "total_score": 80
-    },
-    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
