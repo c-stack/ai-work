@@ -25,14 +25,6 @@
       "total_score": 97
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55585,
-      "title": "[Bug] moreh_norm_backward returns NaN for all-zero reduced slices, where the gradient is finite",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55585",
-      "recommendation": "skip",
-      "total_score": 89
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
