@@ -1,27 +1,28 @@
 {
-  "generated_at_utc": "2026-09-08T14:33:08Z",
+  "generated_at_utc": "2026-09-08T18:41:07Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
     "Tarsnap/tarsnap": {
-      "total_seen": 2,
-      "skip_count": 1,
+      "total_seen": 3,
+      "skip_count": 2,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
         849,
-        865
+        865,
+        867
       ]
     },
-    "HeyPuter/puter": {
+    "tenstorrent/tt-metal": {
       "total_seen": 1,
-      "skip_count": 0,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
-        3817
+        55585
       ]
     },
     "projectdiscovery/nuclei": {
@@ -120,6 +121,18 @@
   },
   "top_repeat_skips": [
     {
+      "repo": "Tarsnap/tarsnap",
+      "total_seen": 3,
+      "skip_count": 2,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        849,
+        865,
+        867
+      ]
+    },
+    {
       "repo": "revertinc/revert",
       "total_seen": 2,
       "skip_count": 2,
@@ -153,17 +166,6 @@
       ]
     },
     {
-      "repo": "Tarsnap/tarsnap",
-      "total_seen": 2,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        849,
-        865
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -181,6 +183,16 @@
       "pursue_count": 0,
       "unique_issues": [
         54
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        55585
       ]
     },
     {
@@ -231,16 +243,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "HeyPuter/puter",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        3817
       ]
     }
   ]
