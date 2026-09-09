@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T00:15:49Z",
+  "generated_at_utc": "2026-09-09T04:48:03Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -53,7 +53,7 @@
       "number": 849,
       "title": "[Bug bounty] tarsnap-keymgmt --keylist exits 0 after an allocation failure",
       "recommendation": "pursue",
-      "total_score": 104,
+      "total_score": 103,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

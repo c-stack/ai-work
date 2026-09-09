@@ -22,7 +22,7 @@
       "title": "[Bug bounty] tarsnap-keymgmt --keylist exits 0 after an allocation failure",
       "url": "https://github.com/Tarsnap/tarsnap/issues/849",
       "recommendation": "pursue",
-      "total_score": 104
+      "total_score": 103
     },
     {
       "repo": "tenstorrent/tt-metal",
