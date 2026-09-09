@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T09:46:42Z",
+  "generated_at_utc": "2026-09-09T14:36:48Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,15 +14,6 @@
         849,
         865,
         872
-      ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        55585
       ]
     },
     "projectdiscovery/nuclei": {
@@ -183,16 +174,6 @@
       "pursue_count": 0,
       "unique_issues": [
         54
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        55585
       ]
     },
     {
