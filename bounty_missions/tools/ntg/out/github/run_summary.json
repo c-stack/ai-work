@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-09-08T21:52:19Z",
+  "generated_at_utc": "2026-09-09T00:15:49Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
     "merged": 17
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
-    "skip": 16
+    "skip": 15
   },
   "top_candidates": [
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 872,
+      "title": "[Bug bounty] tarsnap -c segfaults on empty pathnames in imported AR archives",
+      "recommendation": "pursue",
+      "total_score": 131,
+      "bounty_amount_usd": 100,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:root cause",
+        "task:fix",
+        "task:bug"
+      ]
+    },
     {
       "repo": "Tarsnap/tarsnap",
       "number": 865,
@@ -27,25 +45,6 @@
         "action:error",
         "task:fix",
         "task:replace",
-        "existing-work:1"
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 867,
-      "title": "[Bug bounty] successful key-file creation is not durable across power loss",
-      "recommendation": "skip",
-      "total_score": 112,
-      "bounty_amount_usd": 0,
-      "competition_risk": 12,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:error",
         "existing-work:1"
       ]
     },
