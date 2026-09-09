@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-09T14:36:48Z",
+  "generated_at_utc": "2026-09-09T18:37:46Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -24,6 +24,28 @@
         "action:root cause",
         "task:fix",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 55933,
+      "title": "[Bug] ttnn.typecast(float -> int32) saturates positive overflow to INT32_MIN, inverting the sign on 19.34% of the float32 domain",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/55933",
+      "recommendation": "pursue",
+      "total_score": 122,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 30,
+      "actionability": 52,
+      "bounty_amount_usd": 1000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:acceptance criteria",
+        "action:root cause",
+        "task:fix",
+        "task:add "
       ]
     },
     {
