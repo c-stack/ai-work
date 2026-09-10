@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-09T21:43:04Z",
+  "generated_at_utc": "2026-09-10T00:15:56Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -17,12 +17,11 @@
       ]
     },
     "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 1,
+      "total_seen": 1,
+      "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        55585,
         55933
       ]
     },
@@ -167,17 +166,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        55585,
-        55933
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -245,6 +233,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        55933
       ]
     }
   ]

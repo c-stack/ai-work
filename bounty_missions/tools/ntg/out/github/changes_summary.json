@@ -22,7 +22,7 @@
       "title": "[Bug bounty] --fsck cache invalidation is not durable across power loss",
       "url": "https://github.com/Tarsnap/tarsnap/issues/865",
       "recommendation": "skip",
-      "total_score": 112
+      "total_score": 111
     },
     {
       "repo": "Tarsnap/tarsnap",
@@ -31,14 +31,6 @@
       "url": "https://github.com/Tarsnap/tarsnap/issues/849",
       "recommendation": "pursue",
       "total_score": 103
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55585,
-      "title": "[Bug] moreh_norm_backward returns NaN for all-zero reduced slices, where the gradient is finite",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55585",
-      "recommendation": "skip",
-      "total_score": 88
     },
     {
       "repo": "projectdiscovery/nuclei",
