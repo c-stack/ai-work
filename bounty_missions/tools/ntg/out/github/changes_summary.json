@@ -33,6 +33,14 @@
       "total_score": 82
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56277,
+      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
+      "recommendation": "skip",
+      "total_score": 75
+    },
+    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
