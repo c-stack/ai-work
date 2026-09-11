@@ -9,20 +9,20 @@
       "total_score": 130
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 55933,
-      "title": "[Bug] ttnn.typecast(float -> int32) saturates positive overflow to INT32_MIN, inverting the sign on 19.34% of the float32 domain",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/55933",
-      "recommendation": "pursue",
-      "total_score": 121
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 12407,
       "title": "Payment intent should reject non-positive amounts",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12407",
       "recommendation": "pursue",
       "total_score": 108
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56290,
+      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
+      "recommendation": "skip",
+      "total_score": 84
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -55,6 +55,14 @@
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
       "recommendation": "skip",
       "total_score": 57
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56295,
+      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56295",
+      "recommendation": "skip",
+      "total_score": 47
     },
     {
       "repo": "antinomyhq/forge",

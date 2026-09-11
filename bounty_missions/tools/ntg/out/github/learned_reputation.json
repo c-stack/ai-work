@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-11T18:34:14Z",
+  "generated_at_utc": "2026-09-11T21:44:41Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -14,16 +14,6 @@
         872
       ]
     },
-    "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        55933,
-        56277
-      ]
-    },
     "SecureBananaLabs/bug-bounty": {
       "total_seen": 1,
       "skip_count": 0,
@@ -31,6 +21,17 @@
       "pursue_count": 1,
       "unique_issues": [
         12407
+      ]
+    },
+    "tenstorrent/tt-metal": {
+      "total_seen": 3,
+      "skip_count": 3,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        56277,
+        56290,
+        56295
       ]
     },
     "projectdiscovery/nuclei": {
@@ -129,6 +130,18 @@
   },
   "top_repeat_skips": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 3,
+      "skip_count": 3,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        56277,
+        56290,
+        56295
+      ]
+    },
+    {
       "repo": "revertinc/revert",
       "total_seen": 2,
       "skip_count": 2,
@@ -159,17 +172,6 @@
       "unique_issues": [
         416,
         1413
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        55933,
-        56277
       ]
     },
     {
