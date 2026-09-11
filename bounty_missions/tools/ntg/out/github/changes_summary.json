@@ -1,28 +1,20 @@
 {
   "new_items": [
     {
+      "repo": "Tarsnap/tarsnap",
+      "number": 872,
+      "title": "[Bug bounty] tarsnap -c segfaults on empty pathnames in imported AR archives",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/872",
+      "recommendation": "pursue",
+      "total_score": 130
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 55933,
       "title": "[Bug] ttnn.typecast(float -> int32) saturates positive overflow to INT32_MIN, inverting the sign on 19.34% of the float32 domain",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55933",
       "recommendation": "pursue",
       "total_score": 122
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 865,
-      "title": "[Bug bounty] --fsck cache invalidation is not durable across power loss",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/865",
-      "recommendation": "skip",
-      "total_score": 111
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 849,
-      "title": "[Bug bounty] tarsnap-keymgmt --keylist exits 0 after an allocation failure",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/849",
-      "recommendation": "pursue",
-      "total_score": 103
     },
     {
       "repo": "projectdiscovery/nuclei",

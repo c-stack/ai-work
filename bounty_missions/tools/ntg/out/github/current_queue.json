@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-09-10T21:39:09Z",
+  "generated_at_utc": "2026-09-11T00:11:26Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 872,
+      "title": "[Bug bounty] tarsnap -c segfaults on empty pathnames in imported AR archives",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/872",
+      "recommendation": "pursue",
+      "total_score": 130,
+      "repo_primary_language": "C",
+      "bounty_confidence": 39,
+      "actionability": 52,
+      "bounty_amount_usd": 100,
+      "bounty_amount_signal": "generic_amount",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:root cause",
+        "task:fix",
+        "task:bug"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 55933,
@@ -23,26 +46,6 @@
         "action:root cause",
         "task:fix",
         "task:add "
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 849,
-      "title": "[Bug bounty] tarsnap-keymgmt --keylist exits 0 after an allocation failure",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/849",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 28,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
       ]
     }
   ]
