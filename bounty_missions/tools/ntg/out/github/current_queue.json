@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-11T09:42:23Z",
+  "generated_at_utc": "2026-09-11T14:27:00Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -32,7 +32,7 @@
       "title": "[Bug] ttnn.typecast(float -> int32) saturates positive overflow to INT32_MIN, inverting the sign on 19.34% of the float32 domain",
       "url": "https://github.com/tenstorrent/tt-metal/issues/55933",
       "recommendation": "pursue",
-      "total_score": 122,
+      "total_score": 121,
       "repo_primary_language": "C++",
       "bounty_confidence": 30,
       "actionability": 52,
@@ -46,6 +46,30 @@
         "action:root cause",
         "task:fix",
         "task:add "
+      ]
+    },
+    {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 12407,
+      "title": "Payment intent should reject non-positive amounts",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12407",
+      "recommendation": "pursue",
+      "total_score": 108,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 18,
+      "actionability": 47,
+      "bounty_amount_usd": 100,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:expected behavior",
+        "action:root cause",
+        "task:fix",
+        "task:implement",
+        "support:support-politeness"
       ]
     }
   ]
