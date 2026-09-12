@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T10:47:30Z",
+  "generated_at_utc": "2026-09-12T14:08:29Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -69,7 +69,7 @@
       "number": 12407,
       "title": "Payment intent should reject non-positive amounts",
       "recommendation": "pursue",
-      "total_score": 103,
+      "total_score": 102,
       "bounty_amount_usd": 100,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -87,9 +87,9 @@
       "number": 56277,
       "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
       "recommendation": "skip",
-      "total_score": 84,
+      "total_score": 83,
       "bounty_amount_usd": 7500,
-      "competition_risk": 25,
+      "competition_risk": 26,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "bounty:bounty",
@@ -119,26 +119,6 @@
         "task:fix",
         "task:replace",
         "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56290,
-      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-      "recommendation": "skip",
-      "total_score": 80,
-      "bounty_amount_usd": 500,
-      "competition_risk": 42,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:acceptance criteria",
-        "task:fix",
-        "task:support",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     },
@@ -179,6 +159,28 @@
         "task:implement",
         "existing-work:1",
         "template-gaps:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56290,
+      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+      "recommendation": "skip",
+      "total_score": 60,
+      "bounty_amount_usd": 500,
+      "competition_risk": 42,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "negative:benchmarks",
+        "action:expected behavior",
+        "action:acceptance criteria",
+        "task:fix",
+        "task:support",
+        "claims:2",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     },
     {

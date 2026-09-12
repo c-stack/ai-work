@@ -30,7 +30,7 @@
       "title": "Payment intent should reject non-positive amounts",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12407",
       "recommendation": "pursue",
-      "total_score": 103
+      "total_score": 102
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -38,7 +38,7 @@
       "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
       "recommendation": "skip",
-      "total_score": 84
+      "total_score": 83
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -47,14 +47,6 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56290,
-      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
-      "recommendation": "skip",
-      "total_score": 80
     },
     {
       "repo": "Dokploy/templates",
@@ -71,6 +63,14 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/56295",
       "recommendation": "skip",
       "total_score": 74
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56290,
+      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
+      "recommendation": "skip",
+      "total_score": 60
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",
