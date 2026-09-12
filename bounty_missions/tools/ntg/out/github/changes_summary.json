@@ -38,7 +38,7 @@
       "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
       "recommendation": "skip",
-      "total_score": 83
+      "total_score": 82
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -70,7 +70,7 @@
       "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
       "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
       "recommendation": "skip",
-      "total_score": 60
+      "total_score": 59
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T17:11:05Z",
+  "generated_at_utc": "2026-09-12T19:22:40Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -88,7 +88,7 @@
       "number": 56277,
       "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
       "recommendation": "skip",
-      "total_score": 83,
+      "total_score": 82,
       "bounty_amount_usd": 7500,
       "competition_risk": 26,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
@@ -167,7 +167,7 @@
       "number": 56290,
       "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
       "recommendation": "skip",
-      "total_score": 60,
+      "total_score": 59,
       "bounty_amount_usd": 500,
       "competition_risk": 42,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
