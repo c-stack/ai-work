@@ -10,19 +10,19 @@
     },
     {
       "repo": "Tarsnap/tarsnap",
+      "number": 888,
+      "title": "[Bug bounty] Negative GNU base-256 TAR size crashes Tarsnap",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/888",
+      "recommendation": "pursue",
+      "total_score": 124
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
       "number": 893,
       "title": "[Bug bounty] Binary little-endian CPIO zero pathname crashes Tarsnap",
       "url": "https://github.com/Tarsnap/tarsnap/issues/893",
       "recommendation": "pursue",
       "total_score": 122
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 889,
-      "title": "[Bug bounty] MTree INT64_MAX size causes unbounded CPU hashing",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/889",
-      "recommendation": "pursue",
-      "total_score": 114
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",

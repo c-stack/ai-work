@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T14:08:29Z",
+  "generated_at_utc": "2026-09-12T17:11:05Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -31,6 +31,24 @@
     },
     {
       "repo": "Tarsnap/tarsnap",
+      "number": 888,
+      "title": "[Bug bounty] Negative GNU base-256 TAR size crashes Tarsnap",
+      "recommendation": "pursue",
+      "total_score": 124,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
       "number": 893,
       "title": "[Bug bounty] Binary little-endian CPIO zero pathname crashes Tarsnap",
       "recommendation": "pursue",
@@ -45,23 +63,6 @@
         "action:error",
         "task:fix",
         "task:error"
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 889,
-      "title": "[Bug bounty] MTree INT64_MAX size causes unbounded CPU hashing",
-      "recommendation": "pursue",
-      "total_score": 114,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:root cause",
-        "task:support",
-        "task:bug"
       ]
     },
     {
