@@ -1,24 +1,24 @@
 {
-  "generated_at_utc": "2026-09-11T21:44:41Z",
+  "generated_at_utc": "2026-09-12T00:19:10Z",
   "source_counts": {
-    "github": 5,
+    "github": 7,
     "algora": 13,
-    "merged": 18
+    "merged": 20
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 4,
     "review": 0,
     "skip": 16
   },
   "top_candidates": [
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 872,
-      "title": "[Bug bounty] tarsnap -c segfaults on empty pathnames in imported AR archives",
+      "number": 890,
+      "title": "[Bug bounty] Malformed newc CPIO header causes unbounded CPU loop",
       "recommendation": "pursue",
-      "total_score": 130,
-      "bounty_amount_usd": 100,
-      "competition_risk": 3,
+      "total_score": 134,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
@@ -26,6 +26,41 @@
         "action:expected behavior",
         "action:root cause",
         "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 888,
+      "title": "[Bug bounty] Negative GNU base-256 TAR size crashes Tarsnap",
+      "recommendation": "pursue",
+      "total_score": 126,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 889,
+      "title": "[Bug bounty] MTree INT64_MAX size causes unbounded CPU hashing",
+      "recommendation": "pursue",
+      "total_score": 114,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:root cause",
+        "task:support",
         "task:bug"
       ]
     },
@@ -168,48 +203,6 @@
         "existing-work:1",
         "support:support-politeness",
         "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
-        "support:support-politeness"
       ]
     }
   ],
