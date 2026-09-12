@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T00:19:10Z",
+  "generated_at_utc": "2026-09-12T05:48:04Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -13,10 +13,10 @@
   "top_candidates": [
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 890,
-      "title": "[Bug bounty] Malformed newc CPIO header causes unbounded CPU loop",
+      "number": 892,
+      "title": "[Bug bounty] Malformed ODC CPIO zero pathname crashes Tarsnap",
       "recommendation": "pursue",
-      "total_score": 134,
+      "total_score": 128,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -26,17 +26,17 @@
         "action:expected behavior",
         "action:root cause",
         "task:fix",
-        "task:support"
+        "task:error"
       ]
     },
     {
       "repo": "Tarsnap/tarsnap",
-      "number": 888,
-      "title": "[Bug bounty] Negative GNU base-256 TAR size crashes Tarsnap",
+      "number": 893,
+      "title": "[Bug bounty] Binary little-endian CPIO zero pathname crashes Tarsnap",
       "recommendation": "pursue",
-      "total_score": 126,
+      "total_score": 122,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
@@ -44,7 +44,7 @@
         "action:root cause",
         "action:error",
         "task:fix",
-        "task:support"
+        "task:error"
       ]
     },
     {
