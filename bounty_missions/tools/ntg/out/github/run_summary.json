@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-12T05:48:04Z",
+  "generated_at_utc": "2026-09-12T10:47:30Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -69,7 +69,7 @@
       "number": 12407,
       "title": "Payment intent should reject non-positive amounts",
       "recommendation": "pursue",
-      "total_score": 108,
+      "total_score": 103,
       "bounty_amount_usd": 100,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -77,30 +77,28 @@
         "bounty:bounty",
         "platform:algora",
         "action:expected behavior",
-        "action:root cause",
-        "task:fix",
-        "task:implement",
-        "support:support-politeness"
+        "action:error",
+        "task:add ",
+        "task:error"
       ]
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 56290,
-      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+      "number": 56277,
+      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
       "recommendation": "skip",
       "total_score": 84,
-      "bounty_amount_usd": 500,
-      "competition_risk": 30,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "bounty_amount_usd": 7500,
+      "competition_risk": 25,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "bounty:bounty",
         "negative:benchmark",
-        "action:expected behavior",
         "action:acceptance criteria",
-        "task:fix",
+        "action:root cause",
         "task:support",
-        "claims:2",
-        "support:support-politeness"
+        "task:implement",
+        "claims:1"
       ]
     },
     {
@@ -126,22 +124,21 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 56277,
-      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
+      "number": 56290,
+      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
       "recommendation": "skip",
-      "total_score": 75,
-      "bounty_amount_usd": 7500,
-      "competition_risk": 25,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "total_score": 80,
+      "bounty_amount_usd": 500,
+      "competition_risk": 42,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
-        "negative:benchmark",
-        "negative:migration",
+        "action:expected behavior",
         "action:acceptance criteria",
-        "action:root cause",
+        "task:fix",
         "task:support",
-        "task:replace",
-        "claims:1",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     },
@@ -166,6 +163,25 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56295,
+      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
+      "recommendation": "skip",
+      "total_score": 74,
+      "bounty_amount_usd": 0,
+      "competition_risk": 16,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix",
+        "task:implement",
+        "existing-work:1",
+        "template-gaps:2"
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -182,27 +198,6 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56295,
-      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
-      "recommendation": "skip",
-      "total_score": 47,
-      "bounty_amount_usd": 0,
-      "competition_risk": 19,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:implement",
-        "existing-work:1",
-        "support:support-politeness",
-        "template-gaps:2"
       ]
     }
   ],

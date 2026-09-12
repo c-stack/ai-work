@@ -30,13 +30,13 @@
       "title": "Payment intent should reject non-positive amounts",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12407",
       "recommendation": "pursue",
-      "total_score": 108
+      "total_score": 103
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 56290,
-      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
+      "number": 56277,
+      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
       "recommendation": "skip",
       "total_score": 84
     },
@@ -50,11 +50,11 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 56277,
-      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
+      "number": 56290,
+      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
       "recommendation": "skip",
-      "total_score": 75
+      "total_score": 80
     },
     {
       "repo": "Dokploy/templates",
@@ -65,20 +65,20 @@
       "total_score": 74
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56295,
+      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56295",
+      "recommendation": "skip",
+      "total_score": 74
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
       "recommendation": "skip",
       "total_score": 57
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56295,
-      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56295",
-      "recommendation": "skip",
-      "total_score": 47
     },
     {
       "repo": "antinomyhq/forge",
