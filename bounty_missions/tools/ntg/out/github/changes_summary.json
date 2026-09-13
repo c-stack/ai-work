@@ -1,20 +1,20 @@
 {
   "new_items": [
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 892,
-      "title": "[Bug bounty] Malformed ODC CPIO zero pathname crashes Tarsnap",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/892",
-      "recommendation": "pursue",
-      "total_score": 128
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 12407,
       "title": "Payment intent should reject non-positive amounts",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12407",
       "recommendation": "pursue",
       "total_score": 102
+    },
+    {
+      "repo": "tscircuit/core",
+      "number": 3927,
+      "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
+      "url": "https://github.com/tscircuit/core/issues/3927",
+      "recommendation": "pursue",
+      "total_score": 98
     },
     {
       "repo": "tenstorrent/tt-metal",
