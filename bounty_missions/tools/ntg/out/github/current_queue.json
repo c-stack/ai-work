@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-12T22:18:49Z",
+  "generated_at_utc": "2026-09-13T01:01:31Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 2,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -22,52 +22,6 @@
         "bounty:bounty",
         "action:expected behavior",
         "action:root cause",
-        "task:fix",
-        "task:error"
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 888,
-      "title": "[Bug bounty] Negative GNU base-256 TAR size crashes Tarsnap",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/888",
-      "recommendation": "pursue",
-      "total_score": 124,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 50,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:support"
-      ]
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 893,
-      "title": "[Bug bounty] Binary little-endian CPIO zero pathname crashes Tarsnap",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/893",
-      "recommendation": "pursue",
-      "total_score": 122,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 48,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
         "task:fix",
         "task:error"
       ]

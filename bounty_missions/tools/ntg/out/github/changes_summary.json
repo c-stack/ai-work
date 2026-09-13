@@ -9,22 +9,6 @@
       "total_score": 128
     },
     {
-      "repo": "Tarsnap/tarsnap",
-      "number": 888,
-      "title": "[Bug bounty] Negative GNU base-256 TAR size crashes Tarsnap",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/888",
-      "recommendation": "pursue",
-      "total_score": 124
-    },
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 893,
-      "title": "[Bug bounty] Binary little-endian CPIO zero pathname crashes Tarsnap",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/893",
-      "recommendation": "pursue",
-      "total_score": 122
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 12407,
       "title": "Payment intent should reject non-positive amounts",
