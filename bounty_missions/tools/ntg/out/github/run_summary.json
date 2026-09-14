@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-13T21:26:54Z",
+  "generated_at_utc": "2026-09-14T00:13:03Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 13,
-    "merged": 17
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
     "skip": 16
   },
@@ -27,6 +27,23 @@
         "action:error",
         "task:add ",
         "task:error"
+      ]
+    },
+    {
+      "repo": "tscircuit/core",
+      "number": 3927,
+      "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
+      "recommendation": "pursue",
+      "total_score": 98,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:remove"
       ]
     },
     {
@@ -91,31 +108,12 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 56295,
-      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
-      "recommendation": "skip",
-      "total_score": 73,
-      "bounty_amount_usd": 0,
-      "competition_risk": 16,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:regression",
-        "task:fix",
-        "task:implement",
-        "existing-work:1",
-        "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 56290,
       "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
       "recommendation": "skip",
-      "total_score": 59,
+      "total_score": 58,
       "bounty_amount_usd": 500,
-      "competition_risk": 42,
+      "competition_risk": 43,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
@@ -192,25 +190,23 @@
       ]
     },
     {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
+      "repo": "tenstorrent/tt-metal",
+      "number": 56295,
+      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
       "recommendation": "skip",
       "total_score": 42,
-      "bounty_amount_usd": 100,
-      "competition_risk": 60,
+      "bounty_amount_usd": 0,
+      "competition_risk": 18,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
+        "negative:benchmark",
+        "action:root cause",
+        "action:regression",
+        "task:fix",
         "task:implement",
-        "claims:5",
         "existing-work:1",
-        "template-gaps:1"
+        "template-gaps:2"
       ]
     }
   ],
