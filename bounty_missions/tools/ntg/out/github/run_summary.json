@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-09-14T04:57:11Z",
+  "generated_at_utc": "2026-09-14T10:39:32Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 13,
-    "merged": 17
+    "merged": 18
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
     "skip": 16
   },
@@ -27,6 +27,23 @@
         "action:error",
         "task:add ",
         "task:error"
+      ]
+    },
+    {
+      "repo": "tscircuit/core",
+      "number": 3927,
+      "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
+      "recommendation": "pursue",
+      "total_score": 98,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:remove"
       ]
     },
     {
@@ -177,7 +194,7 @@
       "number": 56295,
       "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
       "recommendation": "skip",
-      "total_score": 42,
+      "total_score": 43,
       "bounty_amount_usd": 0,
       "competition_risk": 18,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -190,28 +207,6 @@
         "task:implement",
         "existing-work:1",
         "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 42,
-      "bounty_amount_usd": 100,
-      "competition_risk": 60,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
       ]
     }
   ],
