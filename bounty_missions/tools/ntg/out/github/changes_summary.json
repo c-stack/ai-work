@@ -17,20 +17,20 @@
       "total_score": 98
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56277,
-      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
-      "recommendation": "skip",
-      "total_score": 82
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56277,
+      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
+      "recommendation": "skip",
+      "total_score": 81
     },
     {
       "repo": "Dokploy/templates",
@@ -42,17 +42,25 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 56290,
-      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
+      "number": 56525,
+      "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56525",
       "recommendation": "skip",
-      "total_score": 58
+      "total_score": 60
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
+      "recommendation": "skip",
+      "total_score": 57
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56290,
+      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
       "recommendation": "skip",
       "total_score": 57
     },
