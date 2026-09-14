@@ -6,7 +6,7 @@
       "title": "Payment intent should reject non-positive amounts",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12407",
       "recommendation": "pursue",
-      "total_score": 102
+      "total_score": 101
     },
     {
       "repo": "tscircuit/core",
@@ -71,14 +71,6 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6532",
       "recommendation": "skip",
       "total_score": 44
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56295,
-      "title": "[ops/ttnn]: ttnn.mse_loss & ttnn.l1_loss crash or silently corrupt preallocated output_tensor on SUM/MEAN reduction",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56295",
-      "recommendation": "skip",
-      "total_score": 43
     },
     {
       "repo": "Dokploy/dokploy",
