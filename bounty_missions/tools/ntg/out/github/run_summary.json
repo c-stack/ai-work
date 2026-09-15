@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-09-14T23:53:13Z",
+  "generated_at_utc": "2026-09-15T04:55:19Z",
   "source_counts": {
-    "github": 5,
+    "github": 2,
     "algora": 13,
-    "merged": 18
+    "merged": 15
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
-    "skip": 16
+    "skip": 14
   },
   "top_candidates": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 12407,
-      "title": "Payment intent should reject non-positive amounts",
-      "recommendation": "pursue",
-      "total_score": 101,
-      "bounty_amount_usd": 100,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:add ",
-        "task:error"
-      ]
-    },
     {
       "repo": "tscircuit/core",
       "number": 3927,
@@ -65,25 +47,6 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56277,
-      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
-      "recommendation": "skip",
-      "total_score": 81,
-      "bounty_amount_usd": 7500,
-      "competition_risk": 26,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "action:acceptance criteria",
-        "action:root cause",
-        "task:support",
-        "task:implement",
-        "claims:1"
       ]
     },
     {
@@ -141,28 +104,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56290,
-      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-      "recommendation": "skip",
-      "total_score": 57,
-      "bounty_amount_usd": 500,
-      "competition_risk": 43,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "negative:benchmarks",
-        "action:expected behavior",
-        "action:acceptance criteria",
-        "task:fix",
-        "task:support",
-        "claims:2",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
@@ -202,6 +143,66 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 42,
+      "bounty_amount_usd": 100,
+      "competition_risk": 60,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 372,
+      "title": "[REVER-48] Workday Integration",
+      "recommendation": "skip",
+      "total_score": 38,
+      "bounty_amount_usd": 100,
+      "competition_risk": 51,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:4",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
+      "recommendation": "skip",
+      "total_score": 36,
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
       ]
     }
   ],

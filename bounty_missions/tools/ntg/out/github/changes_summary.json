@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 12407,
-      "title": "Payment intent should reject non-positive amounts",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/12407",
-      "recommendation": "pursue",
-      "total_score": 101
-    },
-    {
       "repo": "tscircuit/core",
       "number": 3927,
       "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
@@ -23,14 +15,6 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56277,
-      "title": "[Bounty $7500] Remove legacy sqrt/rsqrt/reciprocal compatibility paths",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56277",
-      "recommendation": "skip",
-      "total_score": 81
     },
     {
       "repo": "Dokploy/templates",
@@ -53,14 +37,6 @@
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
-      "recommendation": "skip",
-      "total_score": 57
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56290,
-      "title": "[Bounty $500] ttnn.quantize/requantize uint8 lower-bound saturation",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56290",
       "recommendation": "skip",
       "total_score": 57
     },
@@ -118,7 +94,7 @@
       "title": "[REVER-51] Workable Integration",
       "url": "https://github.com/revertinc/revert/issues/551",
       "recommendation": "skip",
-      "total_score": 21
+      "total_score": 20
     },
     {
       "repo": "tailcallhq/rust-grpc",
