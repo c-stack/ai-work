@@ -6,7 +6,7 @@
       "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
       "url": "https://github.com/tscircuit/core/issues/3927",
       "recommendation": "pursue",
-      "total_score": 97
+      "total_score": 95
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -23,14 +23,6 @@
       "url": "https://github.com/Dokploy/templates/issues/152",
       "recommendation": "skip",
       "total_score": 74
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56525,
-      "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56525",
-      "recommendation": "skip",
-      "total_score": 60
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",

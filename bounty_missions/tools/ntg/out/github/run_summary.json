@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-15T10:05:46Z",
+  "generated_at_utc": "2026-09-15T15:01:56Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 13,
-    "merged": 15
+    "merged": 14
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 14
+    "skip": 13
   },
   "top_candidates": [
     {
@@ -16,9 +16,9 @@
       "number": 3927,
       "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
       "recommendation": "pursue",
-      "total_score": 97,
+      "total_score": 95,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -67,21 +67,6 @@
         "task:remove",
         "claims:2",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56525,
-      "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
-      "recommendation": "skip",
-      "total_score": 60,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "action:fix",
-        "task:fix",
-        "task:implement"
       ]
     },
     {
@@ -203,6 +188,26 @@
         "task:fix",
         "task:error",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "tailcallhq/graphql-conf-2024",
+      "number": 1,
+      "title": "Auto generate PDF for the slides",
+      "recommendation": "skip",
+      "total_score": 22,
+      "bounty_amount_usd": 100,
+      "competition_risk": 53,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],
