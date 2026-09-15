@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-15T15:01:56Z",
+  "generated_at_utc": "2026-09-15T19:01:42Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 13,
-    "merged": 14
+    "merged": 15
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 13
+    "skip": 14
   },
   "top_candidates": [
     {
@@ -86,6 +86,21 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56525,
+      "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
+      "recommendation": "skip",
+      "total_score": 47,
+      "bounty_amount_usd": 0,
+      "competition_risk": 11,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "action:fix",
+        "task:fix",
+        "task:implement"
       ]
     },
     {
@@ -188,26 +203,6 @@
         "task:fix",
         "task:error",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "tailcallhq/graphql-conf-2024",
-      "number": 1,
-      "title": "Auto generate PDF for the slides",
-      "recommendation": "skip",
-      "total_score": 22,
-      "bounty_amount_usd": 100,
-      "competition_risk": 53,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
       ]
     }
   ],
