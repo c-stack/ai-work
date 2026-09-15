@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T04:55:19Z",
+  "generated_at_utc": "2026-09-15T10:05:46Z",
   "source_counts": {
     "github": 2,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 3927,
       "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
       "recommendation": "pursue",
-      "total_score": 98,
+      "total_score": 97,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

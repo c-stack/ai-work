@@ -6,7 +6,7 @@
       "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
       "url": "https://github.com/tscircuit/core/issues/3927",
       "recommendation": "pursue",
-      "total_score": 98
+      "total_score": 97
     },
     {
       "repo": "projectdiscovery/nuclei",
