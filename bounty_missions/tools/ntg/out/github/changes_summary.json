@@ -33,6 +33,22 @@
       "total_score": 74
     },
     {
+      "repo": "TypeWhisper/typewhisper-win",
+      "number": 471,
+      "title": "Pin Polar license API version and preserve licenses on API-version errors",
+      "url": "https://github.com/TypeWhisper/typewhisper-win/issues/471",
+      "recommendation": "skip",
+      "total_score": 66
+    },
+    {
+      "repo": "TypeWhisper/typewhisper-mac",
+      "number": 1324,
+      "title": "Pin Polar license API version and preserve licenses on API-version errors",
+      "url": "https://github.com/TypeWhisper/typewhisper-mac/issues/1324",
+      "recommendation": "skip",
+      "total_score": 58
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -126,7 +142,7 @@
       "title": "Ability to backup to more destination types",
       "url": "https://github.com/Dokploy/dokploy/issues/416",
       "recommendation": "skip",
-      "total_score": 4
+      "total_score": 3
     }
   ],
   "dropped_items": [],

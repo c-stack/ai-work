@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-16T11:34:23Z",
+  "generated_at_utc": "2026-09-16T16:56:29Z",
   "source_counts": {
-    "github": 3,
+    "github": 5,
     "algora": 13,
-    "merged": 16
+    "merged": 18
   },
   "recommendations": {
     "pursue": 2,
     "review": 0,
-    "skip": 14
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -87,6 +87,42 @@
       ]
     },
     {
+      "repo": "TypeWhisper/typewhisper-win",
+      "number": 471,
+      "title": "Pin Polar license API version and preserve licenses on API-version errors",
+      "recommendation": "skip",
+      "total_score": 66,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "negative:migration",
+        "action:acceptance criteria",
+        "action:error",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "TypeWhisper/typewhisper-mac",
+      "number": 1324,
+      "title": "Pin Polar license API version and preserve licenses on API-version errors",
+      "recommendation": "skip",
+      "total_score": 58,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "negative:migration",
+        "action:acceptance criteria",
+        "action:error",
+        "task:support",
+        "task:implement"
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -159,47 +195,6 @@
         "task:add ",
         "claims:2",
         "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 41,
-      "bounty_amount_usd": 100,
-      "competition_risk": 61,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 38,
-      "bounty_amount_usd": 100,
-      "competition_risk": 51,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
         "support:support-politeness"
       ]
     }

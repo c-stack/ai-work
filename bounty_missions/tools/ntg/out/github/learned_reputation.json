@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T11:34:23Z",
+  "generated_at_utc": "2026-09-16T16:56:29Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -40,6 +40,24 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    "TypeWhisper/typewhisper-win": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        471
+      ]
+    },
+    "TypeWhisper/typewhisper-mac": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1324
       ]
     },
     "tailcallhq/tailcallhq.github.io": {
@@ -228,6 +246,26 @@
       "pursue_count": 0,
       "unique_issues": [
         389
+      ]
+    },
+    {
+      "repo": "TypeWhisper/typewhisper-win",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        471
+      ]
+    },
+    {
+      "repo": "TypeWhisper/typewhisper-mac",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        1324
       ]
     },
     {
