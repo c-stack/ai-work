@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-09-15T22:14:20Z",
+  "generated_at_utc": "2026-09-16T00:23:03Z",
   "source_counts": {
-    "github": 2,
+    "github": 3,
     "algora": 13,
-    "merged": 15
+    "merged": 16
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
     "skip": 14
   },
   "top_candidates": [
+    {
+      "repo": "Tarsnap/kivaloo",
+      "number": 383,
+      "title": "[bug bounty] kvlds: zero-length copies pass NULL to memcpy()",
+      "recommendation": "pursue",
+      "total_score": 115,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error"
+      ]
+    },
     {
       "repo": "tscircuit/core",
       "number": 3927,
@@ -184,25 +202,6 @@
         "task:implement",
         "claims:4",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 36,
-      "bounty_amount_usd": 70,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
       ]
     }
   ],
