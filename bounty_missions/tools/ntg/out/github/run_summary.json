@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T16:56:29Z",
+  "generated_at_utc": "2026-09-16T20:08:35Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -146,7 +146,7 @@
       "number": 56525,
       "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
       "recommendation": "skip",
-      "total_score": 47,
+      "total_score": 46,
       "bounty_amount_usd": 0,
       "competition_risk": 11,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
