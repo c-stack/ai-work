@@ -1,12 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "Tarsnap/kivaloo",
-      "number": 383,
-      "title": "[bug bounty] kvlds: zero-length copies pass NULL to memcpy()",
-      "url": "https://github.com/Tarsnap/kivaloo/issues/383",
+      "repo": "openai/codex",
+      "number": 45836,
+      "title": "False positives flags in bug bounty programs",
+      "url": "https://github.com/openai/codex/issues/45836",
       "recommendation": "pursue",
-      "total_score": 115
+      "total_score": 98
     },
     {
       "repo": "tscircuit/core",
