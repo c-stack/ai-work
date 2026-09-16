@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T06:02:47Z",
+  "generated_at_utc": "2026-09-16T11:34:23Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -167,9 +167,9 @@
       "number": 1413,
       "title": "Organisation and Teams Management",
       "recommendation": "skip",
-      "total_score": 42,
+      "total_score": 41,
       "bounty_amount_usd": 100,
-      "competition_risk": 60,
+      "competition_risk": 61,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
