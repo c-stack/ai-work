@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-16T22:57:17Z",
+  "generated_at_utc": "2026-09-17T01:26:17Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "repo": "openai/codex",
@@ -23,28 +23,6 @@
         "action:expected behavior",
         "task:bug",
         "template-gaps:3"
-      ]
-    },
-    {
-      "repo": "tscircuit/core",
-      "number": 3927,
-      "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
-      "url": "https://github.com/tscircuit/core/issues/3927",
-      "recommendation": "pursue",
-      "total_score": 95,
-      "repo_primary_language": "TypeScript",
-      "bounty_confidence": 17,
-      "actionability": 38,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:remove"
       ]
     }
   ]

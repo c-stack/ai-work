@@ -9,14 +9,6 @@
       "total_score": 98
     },
     {
-      "repo": "tscircuit/core",
-      "number": 3927,
-      "title": "MultilayerIjump (infgrid-ijump-astar 0.0.35) emits jumps mirrored away from the goal; fix + repro on a fork since tscircuit/autorouting is archived",
-      "url": "https://github.com/tscircuit/core/issues/3927",
-      "recommendation": "pursue",
-      "total_score": 95
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
