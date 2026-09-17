@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56908,
+      "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
+      "recommendation": "review",
+      "total_score": 99
+    },
+    {
       "repo": "openai/codex",
       "number": 45836,
       "title": "False positives flags in bug bounty programs",

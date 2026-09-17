@@ -1,6 +1,30 @@
 {
-  "generated_at_utc": "2026-09-17T18:14:59Z",
+  "generated_at_utc": "2026-09-17T21:25:07Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56908,
+      "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
+      "recommendation": "review",
+      "total_score": 99,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 40,
+      "actionability": 38,
+      "bounty_amount_usd": 3000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    }
+  ]
 }

@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-09-17T18:14:59Z",
+  "generated_at_utc": "2026-09-17T21:25:07Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 13,
-    "merged": 17
+    "merged": 18
   },
   "recommendations": {
     "pursue": 0,
-    "review": 0,
+    "review": 1,
     "skip": 17
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 56908,
+      "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
+      "recommendation": "review",
+      "total_score": 99,
+      "bounty_amount_usd": 3000,
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
     {
       "repo": "openai/codex",
       "number": 45836,
@@ -183,28 +201,6 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 41,
-      "bounty_amount_usd": 100,
-      "competition_risk": 61,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
       ]
     }
   ],

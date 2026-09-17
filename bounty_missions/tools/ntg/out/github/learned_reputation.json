@@ -1,10 +1,20 @@
 {
-  "generated_at_utc": "2026-09-17T18:14:59Z",
+  "generated_at_utc": "2026-09-17T21:25:07Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "tenstorrent/tt-metal": {
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        56525,
+        56908
+      ]
+    },
     "openai/codex": {
       "total_seen": 1,
       "skip_count": 1,
@@ -58,15 +68,6 @@
       "pursue_count": 0,
       "unique_issues": [
         373
-      ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        56525
       ]
     },
     "antinomyhq/forge": {
@@ -170,6 +171,17 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        56525,
+        56908
+      ]
+    },
+    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -187,16 +199,6 @@
       "pursue_count": 0,
       "unique_issues": [
         54
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        56525
       ]
     },
     {
