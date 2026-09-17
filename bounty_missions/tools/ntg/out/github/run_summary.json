@@ -1,30 +1,34 @@
 {
-  "generated_at_utc": "2026-09-17T13:28:13Z",
+  "generated_at_utc": "2026-09-17T18:14:59Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
     "merged": 17
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 16
+    "skip": 17
   },
   "top_candidates": [
     {
       "repo": "openai/codex",
       "number": 45836,
       "title": "False positives flags in bug bounty programs",
-      "recommendation": "pursue",
-      "total_score": 98,
+      "recommendation": "skip",
+      "total_score": 90,
       "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 4,
+      "decision_reason": "This looks like bounty-program meta chatter or an alert feed, not a fixable task.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
         "action:expected behavior",
-        "task:bug",
+        "action:root cause",
+        "task:fix",
+        "task:implement",
+        "meta:bounty-program-meta",
+        "meta:submission-process",
         "template-gaps:3"
       ]
     },

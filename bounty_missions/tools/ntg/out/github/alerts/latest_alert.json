@@ -1,12 +1,20 @@
 {
-  "generated_at_utc": "2026-08-21T19:37:53Z",
+  "generated_at_utc": "2026-09-17T18:14:59Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260821T193656Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260917T181404Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
+      {
+        "repo": "openai/codex",
+        "number": 45836,
+        "title": "False positives flags in bug bounty programs",
+        "url": "https://github.com/openai/codex/issues/45836",
+        "recommendation": "skip",
+        "total_score": 90
+      },
       {
         "repo": "projectdiscovery/nuclei",
         "number": 6674,
@@ -24,12 +32,36 @@
         "total_score": 74
       },
       {
+        "repo": "TypeWhisper/typewhisper-win",
+        "number": 471,
+        "title": "Pin Polar license API version and preserve licenses on API-version errors",
+        "url": "https://github.com/TypeWhisper/typewhisper-win/issues/471",
+        "recommendation": "skip",
+        "total_score": 66
+      },
+      {
+        "repo": "TypeWhisper/typewhisper-mac",
+        "number": 1324,
+        "title": "Pin Polar license API version and preserve licenses on API-version errors",
+        "url": "https://github.com/TypeWhisper/typewhisper-mac/issues/1324",
+        "recommendation": "skip",
+        "total_score": 58
+      },
+      {
         "repo": "tailcallhq/tailcallhq.github.io",
         "number": 373,
         "title": "feature: design and develop a UI to generate tailcall configurations",
         "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
         "recommendation": "skip",
         "total_score": 57
+      },
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 56525,
+        "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/56525",
+        "recommendation": "skip",
+        "total_score": 46
       },
       {
         "repo": "antinomyhq/forge",
@@ -53,7 +85,7 @@
         "title": "Organisation and Teams Management",
         "url": "https://github.com/Dokploy/dokploy/issues/1413",
         "recommendation": "skip",
-        "total_score": 43
+        "total_score": 41
       },
       {
         "repo": "revertinc/revert",
@@ -61,7 +93,7 @@
         "title": "[REVER-48] Workday Integration",
         "url": "https://github.com/revertinc/revert/issues/372",
         "recommendation": "skip",
-        "total_score": 39
+        "total_score": 38
       },
       {
         "repo": "tscircuit/dsn-converter",
@@ -85,7 +117,7 @@
         "title": "[REVER-51] Workable Integration",
         "url": "https://github.com/revertinc/revert/issues/551",
         "recommendation": "skip",
-        "total_score": 21
+        "total_score": 20
       },
       {
         "repo": "tailcallhq/rust-grpc",
@@ -109,7 +141,7 @@
         "title": "Ability to backup to more destination types",
         "url": "https://github.com/Dokploy/dokploy/issues/416",
         "recommendation": "skip",
-        "total_score": 4
+        "total_score": 3
       }
     ],
     "recommendation_changes": []

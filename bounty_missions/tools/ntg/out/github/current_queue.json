@@ -1,29 +1,6 @@
 {
-  "generated_at_utc": "2026-09-17T13:28:13Z",
+  "generated_at_utc": "2026-09-17T18:14:59Z",
   "triage_profile": "aggressive",
-  "count": 1,
-  "items": [
-    {
-      "repo": "openai/codex",
-      "number": 45836,
-      "title": "False positives flags in bug bounty programs",
-      "url": "https://github.com/openai/codex/issues/45836",
-      "recommendation": "pursue",
-      "total_score": 98,
-      "repo_primary_language": "Rust",
-      "bounty_confidence": 34,
-      "actionability": 21,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "task:bug",
-        "template-gaps:3"
-      ]
-    }
-  ]
+  "count": 0,
+  "items": []
 }

@@ -5,8 +5,8 @@
       "number": 45836,
       "title": "False positives flags in bug bounty programs",
       "url": "https://github.com/openai/codex/issues/45836",
-      "recommendation": "pursue",
-      "total_score": 98
+      "recommendation": "skip",
+      "total_score": 90
     },
     {
       "repo": "projectdiscovery/nuclei",
