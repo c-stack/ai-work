@@ -57,14 +57,6 @@
       "total_score": 57
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56525,
-      "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56525",
-      "recommendation": "skip",
-      "total_score": 46
-    },
-    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",

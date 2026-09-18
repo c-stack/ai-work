@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-17T21:25:07Z",
+  "generated_at_utc": "2026-09-18T00:20:24Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 13,
-    "merged": 18
+    "merged": 17
   },
   "recommendations": {
     "pursue": 0,
     "review": 1,
-    "skip": 17
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -147,21 +147,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56525,
-      "title": "`ttnn.quantize` / `ttnn.requantize` (fused path): exact half-way points round away from zero (int32 output) or toward +\u221e (int8/uint8), not to nearest even \u2014 14.5 % of a bf16 `randn` tensor differs from `torch.quantize_per_tensor` at scale 2\u207b\u2076 (simulator measurement)",
-      "recommendation": "skip",
-      "total_score": 46,
-      "bounty_amount_usd": 0,
-      "competition_risk": 11,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
-    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
@@ -201,6 +186,28 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 41,
+      "bounty_amount_usd": 100,
+      "competition_risk": 61,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
       ]
     }
   ],
