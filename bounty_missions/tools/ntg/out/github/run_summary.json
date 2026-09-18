@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-09-18T15:01:11Z",
+  "generated_at_utc": "2026-09-18T18:29:36Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 13,
-    "merged": 18
+    "merged": 17
   },
   "recommendations": {
     "pursue": 0,
-    "review": 2,
+    "review": 1,
     "skip": 16
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56751,
-      "title": "[Bounty $1,500] SFPLOADMACRO produces wrong results under coverage instrumentation (Reciprocal fails 46/153 on Blackhole)",
-      "recommendation": "review",
-      "total_score": 114,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 56908,
@@ -114,7 +96,7 @@
       "number": 471,
       "title": "Pin Polar license API version and preserve licenses on API-version errors",
       "recommendation": "skip",
-      "total_score": 66,
+      "total_score": 65,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
@@ -125,24 +107,6 @@
         "action:error",
         "task:fix",
         "task:support"
-      ]
-    },
-    {
-      "repo": "TypeWhisper/typewhisper-mac",
-      "number": 1324,
-      "title": "Pin Polar license API version and preserve licenses on API-version errors",
-      "recommendation": "skip",
-      "total_score": 58,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "negative:migration",
-        "action:acceptance criteria",
-        "action:error",
-        "task:support",
-        "task:implement"
       ]
     },
     {
@@ -162,6 +126,24 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "TypeWhisper/typewhisper-mac",
+      "number": 1324,
+      "title": "Pin Polar license API version and preserve licenses on API-version errors",
+      "recommendation": "skip",
+      "total_score": 57,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "negative:migration",
+        "action:acceptance criteria",
+        "action:error",
+        "task:support",
+        "task:implement"
       ]
     },
     {
@@ -204,6 +186,28 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "Dokploy/dokploy",
+      "number": 1413,
+      "title": "Organisation and Teams Management",
+      "recommendation": "skip",
+      "total_score": 41,
+      "bounty_amount_usd": 100,
+      "competition_risk": 61,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:alternatives",
+        "action:error",
+        "task:support",
+        "task:implement",
+        "claims:5",
+        "existing-work:1",
+        "template-gaps:1"
       ]
     }
   ],

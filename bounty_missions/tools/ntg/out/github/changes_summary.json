@@ -2,14 +2,6 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 56751,
-      "title": "[Bounty $1,500] SFPLOADMACRO produces wrong results under coverage instrumentation (Reciprocal fails 46/153 on Blackhole)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56751",
-      "recommendation": "review",
-      "total_score": 114
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 56908,
       "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
       "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
@@ -46,21 +38,21 @@
       "title": "Pin Polar license API version and preserve licenses on API-version errors",
       "url": "https://github.com/TypeWhisper/typewhisper-win/issues/471",
       "recommendation": "skip",
-      "total_score": 66
-    },
-    {
-      "repo": "TypeWhisper/typewhisper-mac",
-      "number": 1324,
-      "title": "Pin Polar license API version and preserve licenses on API-version errors",
-      "url": "https://github.com/TypeWhisper/typewhisper-mac/issues/1324",
-      "recommendation": "skip",
-      "total_score": 58
+      "total_score": 65
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
+      "recommendation": "skip",
+      "total_score": 57
+    },
+    {
+      "repo": "TypeWhisper/typewhisper-mac",
+      "number": 1324,
+      "title": "Pin Polar license API version and preserve licenses on API-version errors",
+      "url": "https://github.com/TypeWhisper/typewhisper-mac/issues/1324",
       "recommendation": "skip",
       "total_score": 57
     },

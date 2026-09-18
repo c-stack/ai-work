@@ -2,5 +2,4 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
-| review | 114 | tenstorrent/tt-metal | 56751 | C++ | Bounty looks real, but active discussion increases takeover risk. | bounty:bounty, action:error, action:regression, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/56751) |
 | review | 99 | tenstorrent/tt-metal | 56908 | C++ | Bounty looks real, but active discussion increases takeover risk. | bounty:bounty, action:error, action:regression, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/56908) |
