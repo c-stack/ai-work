@@ -2,11 +2,19 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 56751,
+      "title": "[Bounty $1,500] SFPLOADMACRO produces wrong results under coverage instrumentation (Reciprocal fails 46/153 on Blackhole)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/56751",
+      "recommendation": "review",
+      "total_score": 114
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 56908,
       "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
       "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
       "recommendation": "review",
-      "total_score": 98
+      "total_score": 99
     },
     {
       "repo": "openai/codex",
