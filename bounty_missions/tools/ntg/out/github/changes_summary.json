@@ -102,7 +102,7 @@
       "title": "[REVER-51] Workable Integration",
       "url": "https://github.com/revertinc/revert/issues/551",
       "recommendation": "skip",
-      "total_score": 20
+      "total_score": 19
     },
     {
       "repo": "tailcallhq/rust-grpc",
