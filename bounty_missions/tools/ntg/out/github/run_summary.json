@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-20T18:48:29Z",
+  "generated_at_utc": "2026-09-20T21:34:29Z",
   "source_counts": {
     "github": 1,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 56908,
       "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
       "recommendation": "review",
-      "total_score": 99,
+      "total_score": 98,
       "bounty_amount_usd": 3000,
       "competition_risk": 23,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
