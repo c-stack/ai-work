@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21T10:44:45Z",
+  "generated_at_utc": "2026-09-21T17:04:40Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -13,6 +13,17 @@
       "unique_issues": [
         6532,
         6674
+      ]
+    },
+    "BasedHardware/omi": {
+      "total_seen": 3,
+      "skip_count": 0,
+      "review_count": 3,
+      "pursue_count": 0,
+      "unique_issues": [
+        15454,
+        15456,
+        15496
       ]
     },
     "Dokploy/templates": {
@@ -201,6 +212,18 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "total_seen": 3,
+      "skip_count": 0,
+      "review_count": 3,
+      "pursue_count": 0,
+      "unique_issues": [
+        15454,
+        15456,
+        15496
       ]
     }
   ]

@@ -9,6 +9,30 @@
       "total_score": 82
     },
     {
+      "repo": "BasedHardware/omi",
+      "number": 15496,
+      "title": "[Bounty proposal] docs(python-cli): Dzongkha (dz) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15496",
+      "recommendation": "review",
+      "total_score": 80
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15456,
+      "title": "[Bounty proposal] docs(python-cli): Dogri (doi) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15456",
+      "recommendation": "review",
+      "total_score": 80
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15454,
+      "title": "[Bounty proposal] docs(python-cli): Maithili (mai) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15454",
+      "recommendation": "review",
+      "total_score": 80
+    },
+    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",

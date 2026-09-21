@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-21T10:44:45Z",
+  "generated_at_utc": "2026-09-21T17:04:40Z",
   "source_counts": {
-    "github": 0,
+    "github": 3,
     "algora": 13,
-    "merged": 13
+    "merged": 16
   },
   "recommendations": {
     "pursue": 0,
-    "review": 0,
+    "review": 3,
     "skip": 13
   },
   "top_candidates": [
@@ -30,6 +30,48 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15496,
+      "title": "[Bounty proposal] docs(python-cli): Dzongkha (dz) AI agent quickstart guide ($25 proposed)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 25,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15456,
+      "title": "[Bounty proposal] docs(python-cli): Dogri (doi) AI agent quickstart guide ($25 proposed)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 25,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15454,
+      "title": "[Bounty proposal] docs(python-cli): Maithili (mai) AI agent quickstart guide ($25 proposed)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 25,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
       ]
     },
     {
@@ -151,66 +193,6 @@
         "task:support",
         "task:implement",
         "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 36,
-      "bounty_amount_usd": 70,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tailcallhq/graphql-conf-2024",
-      "number": 1,
-      "title": "Auto generate PDF for the slides",
-      "recommendation": "skip",
-      "total_score": 22,
-      "bounty_amount_usd": 100,
-      "competition_risk": 53,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 551,
-      "title": "[REVER-51] Workable Integration",
-      "recommendation": "skip",
-      "total_score": 19,
-      "bounty_amount_usd": 100,
-      "competition_risk": 64,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:migration",
-        "task:support",
-        "task:implement",
-        "claims:3",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
