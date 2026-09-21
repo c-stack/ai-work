@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "BasedHardware/omi",
+      "number": 15456,
+      "title": "[Bounty proposal] docs(python-cli): Dogri (doi) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15456",
+      "recommendation": "pursue",
+      "total_score": 90
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -13,14 +21,6 @@
       "number": 15496,
       "title": "[Bounty proposal] docs(python-cli): Dzongkha (dz) AI agent quickstart guide ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/15496",
-      "recommendation": "review",
-      "total_score": 80
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15456,
-      "title": "[Bounty proposal] docs(python-cli): Dogri (doi) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15456",
       "recommendation": "review",
       "total_score": 80
     },
