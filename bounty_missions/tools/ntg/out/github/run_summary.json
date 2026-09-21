@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-09-20T21:34:29Z",
+  "generated_at_utc": "2026-09-21T00:17:31Z",
   "source_counts": {
-    "github": 1,
+    "github": 0,
     "algora": 13,
-    "merged": 14
+    "merged": 13
   },
   "recommendations": {
     "pursue": 0,
-    "review": 1,
+    "review": 0,
     "skip": 13
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56908,
-      "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-      "recommendation": "review",
-      "total_score": 98,
-      "bounty_amount_usd": 3000,
-      "competition_risk": 23,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -204,6 +186,27 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 551,
+      "title": "[REVER-51] Workable Integration",
+      "recommendation": "skip",
+      "total_score": 19,
+      "bounty_amount_usd": 100,
+      "competition_risk": 64,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:migration",
         "task:support",
         "task:implement",
         "claims:3",

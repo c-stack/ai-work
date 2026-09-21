@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 56908,
-      "title": "[Bounty $3000] Fix distributed LayerNorm/RMSNorm 2D-core-grid row-stride corruption",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/56908",
-      "recommendation": "review",
-      "total_score": 98
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
