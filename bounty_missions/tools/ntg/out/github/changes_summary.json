@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57410,
+      "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57410",
+      "recommendation": "pursue",
+      "total_score": 122
+    },
+    {
       "repo": "BasedHardware/omi",
       "number": 15904,
       "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
@@ -31,6 +39,14 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57408,
+      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
+      "recommendation": "skip",
+      "total_score": 78
     },
     {
       "repo": "Dokploy/templates",
