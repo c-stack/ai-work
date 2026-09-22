@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "BasedHardware/omi",
-      "number": 15456,
-      "title": "[Bounty proposal] docs(python-cli): Dogri (doi) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15456",
-      "recommendation": "pursue",
-      "total_score": 90
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -18,17 +10,25 @@
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15496,
-      "title": "[Bounty proposal] docs(python-cli): Dzongkha (dz) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15496",
+      "number": 15585,
+      "title": "[Bounty proposal] docs(python-cli): Punjabi (pa) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15585",
       "recommendation": "review",
       "total_score": 80
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15454,
-      "title": "[Bounty proposal] docs(python-cli): Maithili (mai) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15454",
+      "number": 15583,
+      "title": "[Bounty proposal] docs(python-cli): Odia (or) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15583",
+      "recommendation": "review",
+      "total_score": 80
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15581,
+      "title": "[Bounty proposal] docs(python-cli): Malayalam (ml) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15581",
       "recommendation": "review",
       "total_score": 80
     },

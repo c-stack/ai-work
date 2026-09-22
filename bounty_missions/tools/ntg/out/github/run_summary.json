@@ -1,31 +1,16 @@
 {
-  "generated_at_utc": "2026-09-21T21:05:17Z",
+  "generated_at_utc": "2026-09-22T00:08:06Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
     "merged": 16
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 2,
+    "pursue": 0,
+    "review": 3,
     "skip": 13
   },
   "top_candidates": [
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15456,
-      "title": "[Bounty proposal] docs(python-cli): Dogri (doi) AI agent quickstart guide ($25 proposed)",
-      "recommendation": "pursue",
-      "total_score": 90,
-      "bounty_amount_usd": 25,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "task:implement"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -49,8 +34,8 @@
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15496,
-      "title": "[Bounty proposal] docs(python-cli): Dzongkha (dz) AI agent quickstart guide ($25 proposed)",
+      "number": 15585,
+      "title": "[Bounty proposal] docs(python-cli): Punjabi (pa) AI agent quickstart guide ($25 proposed)",
       "recommendation": "review",
       "total_score": 80,
       "bounty_amount_usd": 25,
@@ -63,8 +48,22 @@
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15454,
-      "title": "[Bounty proposal] docs(python-cli): Maithili (mai) AI agent quickstart guide ($25 proposed)",
+      "number": 15583,
+      "title": "[Bounty proposal] docs(python-cli): Odia (or) AI agent quickstart guide ($25 proposed)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 25,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15581,
+      "title": "[Bounty proposal] docs(python-cli): Malayalam (ml) AI agent quickstart guide ($25 proposed)",
       "recommendation": "review",
       "total_score": 80,
       "bounty_amount_usd": 25,
