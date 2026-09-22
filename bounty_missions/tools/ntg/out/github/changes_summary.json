@@ -1,36 +1,36 @@
 {
   "new_items": [
     {
+      "repo": "BasedHardware/omi",
+      "number": 15904,
+      "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15904",
+      "recommendation": "pursue",
+      "total_score": 98
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15906,
+      "title": "[Bounty proposal] recipe(python-cli): convert conversations and action items to Notion API-compatible block payloads ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15906",
+      "recommendation": "pursue",
+      "total_score": 98
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 15911,
+      "title": "[Bounty proposal] recipe(python-cli): analyze speaker turns, talk time percentages, and speech balance metrics ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15911",
+      "recommendation": "pursue",
+      "total_score": 98
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15726,
-      "title": "[Bounty proposal] docs(python-cli): Somali (so) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15726",
-      "recommendation": "review",
-      "total_score": 80
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15724,
-      "title": "[Bounty proposal] docs(python-cli): Zulu (zu) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15724",
-      "recommendation": "review",
-      "total_score": 80
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15722,
-      "title": "[Bounty proposal] docs(python-cli): Assamese (as) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15722",
-      "recommendation": "review",
-      "total_score": 80
     },
     {
       "repo": "Dokploy/templates",

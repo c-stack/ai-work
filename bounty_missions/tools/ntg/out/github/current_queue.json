@@ -1,63 +1,72 @@
 {
-  "generated_at_utc": "2026-09-22T09:58:33Z",
+  "generated_at_utc": "2026-09-22T14:54:49Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
     {
       "repo": "BasedHardware/omi",
-      "number": 15726,
-      "title": "[Bounty proposal] docs(python-cli): Somali (so) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15726",
-      "recommendation": "review",
-      "total_score": 80,
+      "number": 15904,
+      "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15904",
+      "recommendation": "pursue",
+      "total_score": 98,
       "repo_primary_language": "Python",
       "bounty_confidence": 27,
-      "actionability": 6,
+      "actionability": 26,
       "bounty_amount_usd": 25,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "platform:algora"
+        "platform:algora",
+        "action:error",
+        "task:replace",
+        "task:implement"
       ]
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15724,
-      "title": "[Bounty proposal] docs(python-cli): Zulu (zu) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15724",
-      "recommendation": "review",
-      "total_score": 80,
+      "number": 15906,
+      "title": "[Bounty proposal] recipe(python-cli): convert conversations and action items to Notion API-compatible block payloads ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15906",
+      "recommendation": "pursue",
+      "total_score": 98,
       "repo_primary_language": "Python",
       "bounty_confidence": 27,
-      "actionability": 6,
+      "actionability": 26,
       "bounty_amount_usd": 25,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "platform:algora"
+        "platform:algora",
+        "action:error",
+        "task:replace",
+        "task:implement"
       ]
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15722,
-      "title": "[Bounty proposal] docs(python-cli): Assamese (as) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15722",
-      "recommendation": "review",
-      "total_score": 80,
+      "number": 15911,
+      "title": "[Bounty proposal] recipe(python-cli): analyze speaker turns, talk time percentages, and speech balance metrics ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15911",
+      "recommendation": "pursue",
+      "total_score": 98,
       "repo_primary_language": "Python",
       "bounty_confidence": 27,
-      "actionability": 6,
+      "actionability": 26,
       "bounty_amount_usd": 25,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "platform:algora"
+        "platform:algora",
+        "action:error",
+        "task:replace",
+        "task:implement"
       ]
     }
   ]
