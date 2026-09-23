@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T00:34:19Z",
+  "generated_at_utc": "2026-09-23T05:59:26Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -101,6 +101,24 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57446,
+      "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
+      "recommendation": "skip",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 16,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:add ",
+        "existing-work:1"
+      ]
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -119,24 +137,6 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57446,
-      "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
-      "recommendation": "skip",
-      "total_score": 80,
-      "bounty_amount_usd": 0,
-      "competition_risk": 12,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:remove",
-        "existing-work:1"
       ]
     },
     {

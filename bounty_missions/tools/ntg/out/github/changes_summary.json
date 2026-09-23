@@ -41,20 +41,20 @@
       "total_score": 98
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57446,
+      "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57446",
+      "recommendation": "skip",
+      "total_score": 84
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57446,
-      "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57446",
-      "recommendation": "skip",
-      "total_score": 80
     },
     {
       "repo": "Dokploy/templates",
