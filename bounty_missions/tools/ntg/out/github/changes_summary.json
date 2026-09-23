@@ -9,14 +9,6 @@
       "total_score": 113
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57538,
-      "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57538",
-      "recommendation": "review",
-      "total_score": 102
-    },
-    {
       "repo": "BasedHardware/omi",
       "number": 15904,
       "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
@@ -31,6 +23,14 @@
       "url": "https://github.com/BasedHardware/omi/issues/15906",
       "recommendation": "pursue",
       "total_score": 98
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57538,
+      "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57538",
+      "recommendation": "skip",
+      "total_score": 90
     },
     {
       "repo": "BasedHardware/omi",

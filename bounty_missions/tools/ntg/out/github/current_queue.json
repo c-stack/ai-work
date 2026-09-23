@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-23T16:59:18Z",
+  "generated_at_utc": "2026-09-23T20:22:49Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -25,28 +25,6 @@
         "task:implement",
         "claims:1",
         "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57538,
-      "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57538",
-      "recommendation": "review",
-      "total_score": 102,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 50,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:failing",
-        "task:fix",
-        "task:implement"
       ]
     },
     {
