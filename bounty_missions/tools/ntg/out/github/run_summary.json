@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-23T11:37:24Z",
+  "generated_at_utc": "2026-09-23T16:59:18Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
     "merged": 20
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 3,
     "review": 1,
-    "skip": 15
+    "skip": 16
   },
   "top_candidates": [
     {
@@ -16,9 +16,9 @@
       "number": 57410,
       "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
       "recommendation": "pursue",
-      "total_score": 114,
+      "total_score": 113,
       "bounty_amount_usd": 1000,
-      "competition_risk": 10,
+      "competition_risk": 12,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -28,6 +28,23 @@
         "task:implement",
         "claims:1",
         "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57538,
+      "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
+      "recommendation": "review",
+      "total_score": 102,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:failing",
+        "task:fix",
+        "task:implement"
       ]
     },
     {
@@ -66,38 +83,20 @@
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15911,
-      "title": "[Bounty proposal] recipe(python-cli): analyze speaker turns, talk time percentages, and speech balance metrics ($25 proposed)",
-      "recommendation": "pursue",
-      "total_score": 98,
+      "number": 15844,
+      "title": "[Bounty proposal] recipe(python-cli): export memories to Anki-compatible TSV flashcards for spaced repetition ($25 proposed)",
+      "recommendation": "skip",
+      "total_score": 86,
       "bounty_amount_usd": 25,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 15,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
         "platform:algora",
         "action:error",
         "task:replace",
-        "task:implement"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57408,
-      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-      "recommendation": "review",
-      "total_score": 93,
-      "bounty_amount_usd": 0,
-      "competition_risk": 17,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
         "task:implement",
-        "claims:1",
-        "template-gaps:1"
+        "existing-work:1"
       ]
     },
     {

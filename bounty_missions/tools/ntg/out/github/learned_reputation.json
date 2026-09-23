@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T11:37:24Z",
+  "generated_at_utc": "2026-09-23T16:59:18Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -11,20 +11,20 @@
       "review_count": 1,
       "pursue_count": 1,
       "unique_issues": [
-        57408,
         57410,
-        57446
+        57446,
+        57538
       ]
     },
     "BasedHardware/omi": {
       "total_seen": 3,
-      "skip_count": 0,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 3,
+      "pursue_count": 2,
       "unique_issues": [
+        15844,
         15904,
-        15906,
-        15911
+        15906
       ]
     },
     "projectdiscovery/nuclei": {
@@ -171,9 +171,21 @@
       "review_count": 1,
       "pursue_count": 1,
       "unique_issues": [
-        57408,
         57410,
-        57446
+        57446,
+        57538
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "total_seen": 3,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 2,
+      "unique_issues": [
+        15844,
+        15904,
+        15906
       ]
     },
     {
@@ -254,18 +266,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "total_seen": 3,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 3,
-      "unique_issues": [
-        15904,
-        15906,
-        15911
       ]
     }
   ]

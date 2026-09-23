@@ -6,7 +6,15 @@
       "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57410",
       "recommendation": "pursue",
-      "total_score": 114
+      "total_score": 113
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57538,
+      "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57538",
+      "recommendation": "review",
+      "total_score": 102
     },
     {
       "repo": "BasedHardware/omi",
@@ -26,19 +34,11 @@
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 15911,
-      "title": "[Bounty proposal] recipe(python-cli): analyze speaker turns, talk time percentages, and speech balance metrics ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15911",
-      "recommendation": "pursue",
-      "total_score": 98
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57408,
-      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
-      "recommendation": "review",
-      "total_score": 93
+      "number": 15844,
+      "title": "[Bounty proposal] recipe(python-cli): export memories to Anki-compatible TSV flashcards for spaced repetition ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/15844",
+      "recommendation": "skip",
+      "total_score": 86
     },
     {
       "repo": "tenstorrent/tt-metal",
