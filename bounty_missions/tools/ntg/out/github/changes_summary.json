@@ -9,14 +9,6 @@
       "total_score": 114
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57408,
-      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
-      "recommendation": "review",
-      "total_score": 106
-    },
-    {
       "repo": "BasedHardware/omi",
       "number": 15904,
       "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
@@ -42,11 +34,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 57408,
+      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
+      "recommendation": "review",
+      "total_score": 93
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 57446,
       "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57446",
       "recommendation": "skip",
-      "total_score": 84
+      "total_score": 83
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -102,7 +102,7 @@
       "title": "Organisation and Teams Management",
       "url": "https://github.com/Dokploy/dokploy/issues/1413",
       "recommendation": "skip",
-      "total_score": 41
+      "total_score": 40
     },
     {
       "repo": "revertinc/revert",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T05:59:26Z",
+  "generated_at_utc": "2026-09-23T11:37:24Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -18,31 +18,12 @@
       "recommendation": "pursue",
       "total_score": 114,
       "bounty_amount_usd": 1000,
-      "competition_risk": 9,
+      "competition_risk": 10,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "action:regression",
         "action:fix",
-        "task:fix",
-        "task:implement",
-        "claims:1",
-        "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57408,
-      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-      "recommendation": "review",
-      "total_score": 106,
-      "bounty_amount_usd": 0,
-      "competition_risk": 9,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
         "task:fix",
         "task:implement",
         "claims:1",
@@ -102,12 +83,31 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 57408,
+      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
+      "recommendation": "review",
+      "total_score": 93,
+      "bounty_amount_usd": 0,
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:implement",
+        "claims:1",
+        "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 57446,
       "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
       "recommendation": "skip",
-      "total_score": 84,
+      "total_score": 83,
       "bounty_amount_usd": 0,
-      "competition_risk": 16,
+      "competition_risk": 18,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T05:59:26Z",
+  "generated_at_utc": "2026-09-23T11:37:24Z",
   "triage_profile": "aggressive",
   "count": 5,
   "items": [
@@ -15,36 +15,12 @@
       "actionability": 50,
       "bounty_amount_usd": 1000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 9,
+      "competition_risk": 10,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "action:regression",
         "action:fix",
-        "task:fix",
-        "task:implement",
-        "claims:1",
-        "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57408,
-      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
-      "recommendation": "review",
-      "total_score": 106,
-      "repo_primary_language": "C++",
-      "bounty_confidence": 12,
-      "actionability": 60,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 9,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
         "task:fix",
         "task:implement",
         "claims:1",
@@ -115,6 +91,30 @@
         "action:error",
         "task:replace",
         "task:implement"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57408,
+      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
+      "recommendation": "review",
+      "total_score": 93,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 60,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 17,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:implement",
+        "claims:1",
+        "template-gaps:1"
       ]
     }
   ]
