@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T15:06:53Z",
+  "generated_at_utc": "2026-09-24T19:10:42Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 57410,
       "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
       "recommendation": "pursue",
-      "total_score": 114,
+      "total_score": 113,
       "bounty_amount_usd": 1000,
       "competition_risk": 12,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

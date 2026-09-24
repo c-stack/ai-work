@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T15:06:53Z",
+  "generated_at_utc": "2026-09-24T19:10:42Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -9,7 +9,7 @@
       "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57410",
       "recommendation": "pursue",
-      "total_score": 114,
+      "total_score": 113,
       "repo_primary_language": "C++",
       "bounty_confidence": 30,
       "actionability": 50,
