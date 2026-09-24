@@ -6,7 +6,7 @@
       "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57410",
       "recommendation": "pursue",
-      "total_score": 113
+      "total_score": 114
     },
     {
       "repo": "BasedHardware/omi",
@@ -14,7 +14,7 @@
       "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/15904",
       "recommendation": "pursue",
-      "total_score": 98
+      "total_score": 97
     },
     {
       "repo": "BasedHardware/omi",
@@ -22,7 +22,7 @@
       "title": "[Bounty proposal] recipe(python-cli): convert conversations and action items to Notion API-compatible block payloads ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/15906",
       "recommendation": "pursue",
-      "total_score": 98
+      "total_score": 97
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -30,7 +30,7 @@
       "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57538",
       "recommendation": "skip",
-      "total_score": 89
+      "total_score": 90
     },
     {
       "repo": "BasedHardware/omi",
@@ -38,7 +38,7 @@
       "title": "[Bounty proposal] recipe(python-cli): export memories to Anki-compatible TSV flashcards for spaced repetition ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/15844",
       "recommendation": "skip",
-      "total_score": 86
+      "total_score": 85
     },
     {
       "repo": "tenstorrent/tt-metal",

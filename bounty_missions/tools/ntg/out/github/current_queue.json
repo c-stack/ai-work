@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T10:02:20Z",
+  "generated_at_utc": "2026-09-24T15:06:53Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -9,7 +9,7 @@
       "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57410",
       "recommendation": "pursue",
-      "total_score": 113,
+      "total_score": 114,
       "repo_primary_language": "C++",
       "bounty_confidence": 30,
       "actionability": 50,
@@ -33,7 +33,7 @@
       "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/15904",
       "recommendation": "pursue",
-      "total_score": 98,
+      "total_score": 97,
       "repo_primary_language": "Python",
       "bounty_confidence": 27,
       "actionability": 26,
@@ -55,7 +55,7 @@
       "title": "[Bounty proposal] recipe(python-cli): convert conversations and action items to Notion API-compatible block payloads ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/15906",
       "recommendation": "pursue",
-      "total_score": 98,
+      "total_score": 97,
       "repo_primary_language": "Python",
       "bounty_confidence": 27,
       "actionability": 26,
