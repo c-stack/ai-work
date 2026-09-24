@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-24T04:51:36Z",
+  "generated_at_utc": "2026-09-24T10:02:20Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -69,9 +69,9 @@
       "number": 57538,
       "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
       "recommendation": "skip",
-      "total_score": 90,
+      "total_score": 89,
       "bounty_amount_usd": 0,
-      "competition_risk": 22,
+      "competition_risk": 24,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
