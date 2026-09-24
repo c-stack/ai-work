@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-23T23:43:18Z",
+  "generated_at_utc": "2026-09-24T04:51:36Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
@@ -165,7 +165,7 @@
       "number": 1892,
       "title": "394 records say only that the page names the vendor, where the page states $4, $200 and $59.99 \u2014 the restatement discarded what #1875's clause needed",
       "recommendation": "skip",
-      "total_score": 60,
+      "total_score": 59,
       "bounty_amount_usd": 4,
       "competition_risk": 0,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
