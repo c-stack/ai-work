@@ -10,11 +10,11 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 57408,
-      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
+      "number": 57861,
+      "title": "ttnn.layer_norm_post_all_gather (default bfloat16 stats) collapses variance to 0 (rstd \u2248 1e6, outputs ~\u00b110\u2076) or negative (NaN) for mean\u226bstd inputs: var = E[x\u00b2]\u2212E[x]\u00b2 computed in Float16_b statistics",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57861",
       "recommendation": "review",
-      "total_score": 92
+      "total_score": 104
     },
     {
       "repo": "BasedHardware/omi",
@@ -45,14 +45,6 @@
       "number": 18814,
       "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/18814",
-      "recommendation": "review",
-      "total_score": 80
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 18813,
-      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18813",
       "recommendation": "review",
       "total_score": 80
     },

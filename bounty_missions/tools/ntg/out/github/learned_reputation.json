@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T07:49:28Z",
+  "generated_at_utc": "2026-09-25T13:48:17Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -11,19 +11,18 @@
       "review_count": 1,
       "pursue_count": 1,
       "unique_issues": [
-        57408,
         57410,
-        57446
+        57446,
+        57861
       ]
     },
     "BasedHardware/omi": {
-      "total_seen": 3,
+      "total_seen": 2,
       "skip_count": 1,
-      "review_count": 2,
+      "review_count": 1,
       "pursue_count": 0,
       "unique_issues": [
         15844,
-        18813,
         18814
       ]
     },
@@ -171,20 +170,19 @@
       "review_count": 1,
       "pursue_count": 1,
       "unique_issues": [
-        57408,
         57410,
-        57446
+        57446,
+        57861
       ]
     },
     {
       "repo": "BasedHardware/omi",
-      "total_seen": 3,
+      "total_seen": 2,
       "skip_count": 1,
-      "review_count": 2,
+      "review_count": 1,
       "pursue_count": 0,
       "unique_issues": [
         15844,
-        18813,
         18814
       ]
     },

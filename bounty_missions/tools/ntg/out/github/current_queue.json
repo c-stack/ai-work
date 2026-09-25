@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-25T07:49:28Z",
+  "generated_at_utc": "2026-09-25T13:48:17Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -29,26 +29,24 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 57408,
-      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
+      "number": 57861,
+      "title": "ttnn.layer_norm_post_all_gather (default bfloat16 stats) collapses variance to 0 (rstd \u2248 1e6, outputs ~\u00b110\u2076) or negative (NaN) for mean\u226bstd inputs: var = E[x\u00b2]\u2212E[x]\u00b2 computed in Float16_b statistics",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57861",
       "recommendation": "review",
-      "total_score": 92,
+      "total_score": 104,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
-      "actionability": 60,
+      "actionability": 50,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 20,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
         "action:root cause",
         "action:error",
         "task:fix",
-        "task:implement",
-        "claims:1",
-        "template-gaps:1"
+        "task:error"
       ]
     },
     {
@@ -56,25 +54,6 @@
       "number": 18814,
       "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/18814",
-      "recommendation": "review",
-      "total_score": 80,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 27,
-      "actionability": 6,
-      "bounty_amount_usd": 25,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora"
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 18813,
-      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18813",
       "recommendation": "review",
       "total_score": 80,
       "repo_primary_language": "Python",
