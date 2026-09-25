@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-25T01:31:19Z",
+  "generated_at_utc": "2026-09-25T07:49:28Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 4,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -21,6 +21,30 @@
         "bounty:bounty",
         "action:regression",
         "action:fix",
+        "task:fix",
+        "task:implement",
+        "claims:1",
+        "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57408,
+      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
+      "recommendation": "review",
+      "total_score": 92,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 60,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 20,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
         "task:fix",
         "task:implement",
         "claims:1",

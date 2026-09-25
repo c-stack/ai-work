@@ -10,11 +10,11 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 57538,
-      "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57538",
-      "recommendation": "skip",
-      "total_score": 90
+      "number": 57408,
+      "title": "[ttnn/eltwise]: ttnn.square(x) and ttnn.mul(x, x) disagree on the same product: unary SFPU kernels let SFPSTORE truncate fp32->bf16 instead of rounding to nearest-even",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57408",
+      "recommendation": "review",
+      "total_score": 92
     },
     {
       "repo": "BasedHardware/omi",
