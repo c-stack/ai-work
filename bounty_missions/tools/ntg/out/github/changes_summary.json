@@ -2,11 +2,11 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 57410,
-      "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57410",
-      "recommendation": "pursue",
-      "total_score": 113
+      "number": 57936,
+      "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57936",
+      "recommendation": "review",
+      "total_score": 104
     },
     {
       "repo": "tenstorrent/tt-metal",

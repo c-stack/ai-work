@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T13:48:17Z",
+  "generated_at_utc": "2026-09-25T18:37:36Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -8,12 +8,12 @@
     "tenstorrent/tt-metal": {
       "total_seen": 3,
       "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 1,
+      "review_count": 2,
+      "pursue_count": 0,
       "unique_issues": [
-        57410,
         57446,
-        57861
+        57861,
+        57936
       ]
     },
     "BasedHardware/omi": {
@@ -167,12 +167,12 @@
       "repo": "tenstorrent/tt-metal",
       "total_seen": 3,
       "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 1,
+      "review_count": 2,
+      "pursue_count": 0,
       "unique_issues": [
-        57410,
         57446,
-        57861
+        57861,
+        57936
       ]
     },
     {

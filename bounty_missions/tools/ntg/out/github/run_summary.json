@@ -1,33 +1,31 @@
 {
-  "generated_at_utc": "2026-09-25T13:48:17Z",
+  "generated_at_utc": "2026-09-25T18:37:36Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
     "merged": 19
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 2,
+    "pursue": 0,
+    "review": 3,
     "skip": 16
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 57410,
-      "title": "[tt_metal/data_format]: ttnn.from_torch(x, ttnn.bfloat4_b) and an on-device conversion of the same values differ on ~43% of elements: the host packer rounds the mantissa straight to 3 bits instead of rounding to BFP8 and narrowing",
-      "recommendation": "pursue",
-      "total_score": 113,
-      "bounty_amount_usd": 1000,
-      "competition_risk": 12,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "number": 57936,
+      "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
+      "recommendation": "review",
+      "total_score": 104,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
-        "action:regression",
-        "action:fix",
+        "action:root cause",
+        "action:error",
         "task:fix",
-        "task:implement",
-        "claims:1",
-        "template-gaps:1"
+        "task:implement"
       ]
     },
     {
