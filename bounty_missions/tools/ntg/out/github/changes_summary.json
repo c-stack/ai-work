@@ -9,22 +9,6 @@
       "total_score": 113
     },
     {
-      "repo": "BasedHardware/omi",
-      "number": 15904,
-      "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15904",
-      "recommendation": "pursue",
-      "total_score": 97
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15906,
-      "title": "[Bounty proposal] recipe(python-cli): convert conversations and action items to Notion API-compatible block payloads ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15906",
-      "recommendation": "pursue",
-      "total_score": 97
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 57538,
       "title": "ttnn.log / log2 / log10 (bfloat16, accurate mode) return +inf at x = -0.0 where torch returns -inf: the exponent is read before the -0.0 normalisation and the mantissa after it",
@@ -46,7 +30,7 @@
       "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57446",
       "recommendation": "skip",
-      "total_score": 83
+      "total_score": 82
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -55,6 +39,22 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18814,
+      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "recommendation": "review",
+      "total_score": 80
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18813,
+      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18813",
+      "recommendation": "review",
+      "total_score": 80
     },
     {
       "repo": "Dokploy/templates",

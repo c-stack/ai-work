@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-24T22:25:08Z",
+  "generated_at_utc": "2026-09-25T01:31:19Z",
   "source_counts": {
     "github": 7,
     "algora": 13,
     "merged": 20
   },
   "recommendations": {
-    "pursue": 3,
-    "review": 0,
+    "pursue": 1,
+    "review": 2,
     "skip": 17
   },
   "top_candidates": [
@@ -28,40 +28,6 @@
         "task:implement",
         "claims:1",
         "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15904,
-      "title": "[Bounty proposal] recipe(python-cli): export memories to Obsidian vault markdown with frontmatter and wikilinks ($25 proposed)",
-      "recommendation": "pursue",
-      "total_score": 97,
-      "bounty_amount_usd": 25,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "task:replace",
-        "task:implement"
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15906,
-      "title": "[Bounty proposal] recipe(python-cli): convert conversations and action items to Notion API-compatible block payloads ($25 proposed)",
-      "recommendation": "pursue",
-      "total_score": 97,
-      "bounty_amount_usd": 25,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "task:replace",
-        "task:implement"
       ]
     },
     {
@@ -106,7 +72,7 @@
       "number": 57446,
       "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
       "recommendation": "skip",
-      "total_score": 83,
+      "total_score": 82,
       "bounty_amount_usd": 0,
       "competition_risk": 18,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -138,6 +104,34 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18814,
+      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 25,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18813,
+      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 25,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
       ]
     },
     {
