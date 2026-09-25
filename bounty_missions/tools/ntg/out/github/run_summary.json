@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T18:37:36Z",
+  "generated_at_utc": "2026-09-25T22:21:48Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -16,9 +16,9 @@
       "number": 57936,
       "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
       "recommendation": "review",
-      "total_score": 104,
+      "total_score": 106,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -137,23 +137,6 @@
       ]
     },
     {
-      "repo": "robhunter/agentdeals",
-      "number": 1892,
-      "title": "394 records say only that the page names the vendor, where the page states $4, $200 and $59.99 \u2014 the restatement discarded what #1875's clause needed",
-      "recommendation": "skip",
-      "total_score": 59,
-      "bounty_amount_usd": 4,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "action:acceptance criteria",
-        "action:fix",
-        "task:fix",
-        "task:replace"
-      ]
-    },
-    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
@@ -170,6 +153,24 @@
         "task:implement",
         "claims:2",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "robhunter/agentdeals",
+      "number": 1892,
+      "title": "394 records say only that the page names the vendor, where the page states $4, $200 and $59.99 \u2014 the restatement discarded what #1875's clause needed",
+      "recommendation": "skip",
+      "total_score": 57,
+      "bounty_amount_usd": 4,
+      "competition_risk": 10,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "action:acceptance criteria",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:1"
       ]
     },
     {

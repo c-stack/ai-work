@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-25T18:37:36Z",
+  "generated_at_utc": "2026-09-25T22:21:48Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -9,13 +9,13 @@
       "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57936",
       "recommendation": "review",
-      "total_score": 104,
+      "total_score": 106,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
-      "actionability": 50,
+      "actionability": 54,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
