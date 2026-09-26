@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-26T01:34:52Z",
+  "generated_at_utc": "2026-09-26T07:41:55Z",
   "triage_profile": "aggressive",
   "count": 5,
   "items": [
@@ -15,7 +15,7 @@
       "actionability": 54,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 3,
+      "competition_risk": 4,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
