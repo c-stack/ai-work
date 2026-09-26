@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "BasedHardware/omi",
-      "number": 19120,
-      "title": "[Bounty proposal] fix(backend): reject boolean timestamps in persisted_started_seconds",
-      "url": "https://github.com/BasedHardware/omi/issues/19120",
-      "recommendation": "skip",
-      "total_score": 106
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 57965,
       "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
