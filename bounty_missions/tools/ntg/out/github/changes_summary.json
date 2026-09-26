@@ -34,11 +34,11 @@
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 18814,
-      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "number": 18806,
+      "title": "[Bounty proposal] docs(python-cli): Sicilian (scn) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18806",
       "recommendation": "review",
-      "total_score": 80
+      "total_score": 78
     },
     {
       "repo": "Dokploy/templates",

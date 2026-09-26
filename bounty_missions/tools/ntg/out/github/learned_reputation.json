@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-26T19:52:47Z",
+  "generated_at_utc": "2026-09-26T22:51:18Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -32,7 +32,7 @@
       "review_count": 1,
       "pursue_count": 0,
       "unique_issues": [
-        18814
+        18806
       ]
     },
     "Dokploy/templates": {
@@ -242,7 +242,7 @@
       "review_count": 1,
       "pursue_count": 0,
       "unique_issues": [
-        18814
+        18806
       ]
     }
   ]

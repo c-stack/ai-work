@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-26T19:52:47Z",
+  "generated_at_utc": "2026-09-26T22:51:18Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -71,17 +71,17 @@
     },
     {
       "repo": "BasedHardware/omi",
-      "number": 18814,
-      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "number": 18806,
+      "title": "[Bounty proposal] docs(python-cli): Sicilian (scn) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18806",
       "recommendation": "review",
-      "total_score": 80,
+      "total_score": 78,
       "repo_primary_language": "Python",
       "bounty_confidence": 27,
       "actionability": 6,
       "bounty_amount_usd": 25,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
       "decision_signals": [
         "bounty:bounty",
