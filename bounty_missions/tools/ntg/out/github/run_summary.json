@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-26T07:41:55Z",
+  "generated_at_utc": "2026-09-26T13:06:16Z",
   "source_counts": {
     "github": 5,
     "algora": 13,
@@ -7,18 +7,39 @@
   },
   "recommendations": {
     "pursue": 0,
-    "review": 5,
-    "skip": 13
+    "review": 4,
+    "skip": 14
   },
   "top_candidates": [
     {
+      "repo": "BasedHardware/omi",
+      "number": 19120,
+      "title": "[Bounty proposal] fix(backend): reject boolean timestamps in persisted_started_seconds",
+      "recommendation": "skip",
+      "total_score": 106,
+      "bounty_amount_usd": 25,
+      "competition_risk": 22,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:failing",
+        "action:regression",
+        "task:fix",
+        "task:implement",
+        "claims:1",
+        "existing-work:1"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
-      "number": 57936,
-      "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
+      "number": 57965,
+      "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
       "recommendation": "review",
       "total_score": 106,
       "bounty_amount_usd": 0,
-      "competition_risk": 4,
+      "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -30,12 +51,12 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 57965,
-      "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
+      "number": 57936,
+      "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
       "recommendation": "review",
-      "total_score": 106,
+      "total_score": 105,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 6,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -87,20 +108,6 @@
       "repo": "BasedHardware/omi",
       "number": 18814,
       "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
-      "recommendation": "review",
-      "total_score": 80,
-      "bounty_amount_usd": 25,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora"
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 18813,
-      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
       "recommendation": "review",
       "total_score": 80,
       "bounty_amount_usd": 25,

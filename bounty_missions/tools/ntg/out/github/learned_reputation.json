@@ -1,10 +1,20 @@
 {
-  "generated_at_utc": "2026-09-26T07:41:55Z",
+  "generated_at_utc": "2026-09-26T13:06:16Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "BasedHardware/omi": {
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        18814,
+        19120
+      ]
+    },
     "tenstorrent/tt-metal": {
       "total_seen": 3,
       "skip_count": 0,
@@ -24,16 +34,6 @@
       "unique_issues": [
         6532,
         6674
-      ]
-    },
-    "BasedHardware/omi": {
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 0,
-      "unique_issues": [
-        18813,
-        18814
       ]
     },
     "Dokploy/templates": {
@@ -155,6 +155,17 @@
       ]
     },
     {
+      "repo": "BasedHardware/omi",
+      "total_seen": 2,
+      "skip_count": 1,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        18814,
+        19120
+      ]
+    },
+    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -234,17 +245,6 @@
         57861,
         57936,
         57965
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 0,
-      "unique_issues": [
-        18813,
-        18814
       ]
     }
   ]
