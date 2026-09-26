@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-25T22:21:48Z",
+  "generated_at_utc": "2026-09-26T01:34:52Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 5,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -16,6 +16,28 @@
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:implement"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57965,
+      "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57965",
+      "recommendation": "review",
+      "total_score": 106,
+      "repo_primary_language": "C++",
+      "bounty_confidence": 12,
+      "actionability": 52,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -52,6 +74,25 @@
       "number": 18814,
       "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "recommendation": "review",
+      "total_score": 80,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 27,
+      "actionability": 6,
+      "bounty_amount_usd": 25,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18813,
+      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18813",
       "recommendation": "review",
       "total_score": 80,
       "repo_primary_language": "Python",

@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-09-25T22:21:48Z",
+  "generated_at_utc": "2026-09-26T01:34:52Z",
   "source_counts": {
-    "github": 6,
+    "github": 5,
     "algora": 13,
-    "merged": 19
+    "merged": 18
   },
   "recommendations": {
     "pursue": 0,
-    "review": 3,
-    "skip": 16
+    "review": 5,
+    "skip": 13
   },
   "top_candidates": [
     {
@@ -19,6 +19,23 @@
       "total_score": 106,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:implement"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 57965,
+      "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
+      "recommendation": "review",
+      "total_score": 106,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -46,42 +63,6 @@
       ]
     },
     {
-      "repo": "BasedHardware/omi",
-      "number": 15844,
-      "title": "[Bounty proposal] recipe(python-cli): export memories to Anki-compatible TSV flashcards for spaced repetition ($25 proposed)",
-      "recommendation": "skip",
-      "total_score": 85,
-      "bounty_amount_usd": 25,
-      "competition_risk": 15,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "task:replace",
-        "task:implement",
-        "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57446,
-      "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
-      "recommendation": "skip",
-      "total_score": 82,
-      "bounty_amount_usd": 0,
-      "competition_risk": 18,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:add ",
-        "existing-work:1"
-      ]
-    },
-    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -106,6 +87,20 @@
       "repo": "BasedHardware/omi",
       "number": 18814,
       "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
+      "recommendation": "review",
+      "total_score": 80,
+      "bounty_amount_usd": 25,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18813,
+      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
       "recommendation": "review",
       "total_score": 80,
       "bounty_amount_usd": 25,
@@ -156,24 +151,6 @@
       ]
     },
     {
-      "repo": "robhunter/agentdeals",
-      "number": 1892,
-      "title": "394 records say only that the page names the vendor, where the page states $4, $200 and $59.99 \u2014 the restatement discarded what #1875's clause needed",
-      "recommendation": "skip",
-      "total_score": 57,
-      "bounty_amount_usd": 4,
-      "competition_risk": 10,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "action:acceptance criteria",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:1"
-      ]
-    },
-    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
@@ -190,6 +167,28 @@
         "task:support",
         "task:implement",
         "claims:2",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 6532,
+      "title": "Integrate typos tool into CI",
+      "recommendation": "skip",
+      "total_score": 44,
+      "bounty_amount_usd": 100,
+      "competition_risk": 48,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:add ",
+        "claims:2",
+        "existing-work:1",
         "support:support-politeness"
       ]
     }

@@ -10,27 +10,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 57965,
+      "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/57965",
+      "recommendation": "review",
+      "total_score": 106
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 57861,
       "title": "ttnn.layer_norm_post_all_gather (default bfloat16 stats) collapses variance to 0 (rstd \u2248 1e6, outputs ~\u00b110\u2076) or negative (NaN) for mean\u226bstd inputs: var = E[x\u00b2]\u2212E[x]\u00b2 computed in Float16_b statistics",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57861",
       "recommendation": "review",
       "total_score": 104
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 15844,
-      "title": "[Bounty proposal] recipe(python-cli): export memories to Anki-compatible TSV flashcards for spaced repetition ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/15844",
-      "recommendation": "skip",
-      "total_score": 85
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 57446,
-      "title": "ttnn.pow (fp32) returns nan instead of 0 when the answer underflows, e.g. pow(0.1, 1000)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/57446",
-      "recommendation": "skip",
-      "total_score": 82
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -49,6 +41,14 @@
       "total_score": 80
     },
     {
+      "repo": "BasedHardware/omi",
+      "number": 18813,
+      "title": "[Bounty proposal] docs(python-cli): Rusyn (rue) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18813",
+      "recommendation": "review",
+      "total_score": 80
+    },
+    {
       "repo": "Dokploy/templates",
       "number": 152,
       "title": "Get Your Custom Dokploy Templates Built!",
@@ -61,14 +61,6 @@
       "number": 373,
       "title": "feature: design and develop a UI to generate tailcall configurations",
       "url": "https://github.com/tailcallhq/tailcallhq.github.io/issues/373",
-      "recommendation": "skip",
-      "total_score": 57
-    },
-    {
-      "repo": "robhunter/agentdeals",
-      "number": 1892,
-      "title": "394 records say only that the page names the vendor, where the page states $4, $200 and $59.99 \u2014 the restatement discarded what #1875's clause needed",
-      "url": "https://github.com/robhunter/agentdeals/issues/1892",
       "recommendation": "skip",
       "total_score": 57
     },
