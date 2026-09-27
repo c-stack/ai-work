@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-26T22:51:18Z",
+  "generated_at_utc": "2026-09-27T01:28:10Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -75,7 +75,7 @@
       "title": "[Bounty proposal] docs(python-cli): Sicilian (scn) AI agent quickstart guide ($25 proposed)",
       "url": "https://github.com/BasedHardware/omi/issues/18806",
       "recommendation": "review",
-      "total_score": 78,
+      "total_score": 77,
       "repo_primary_language": "Python",
       "bounty_confidence": 27,
       "actionability": 6,
