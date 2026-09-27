@@ -6,7 +6,7 @@
       "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57965",
       "recommendation": "review",
-      "total_score": 106
+      "total_score": 105
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -31,6 +31,14 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18814,
+      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "recommendation": "review",
+      "total_score": 79
     },
     {
       "repo": "BasedHardware/omi",

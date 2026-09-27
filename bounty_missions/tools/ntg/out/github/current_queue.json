@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-27T18:24:46Z",
+  "generated_at_utc": "2026-09-27T22:11:34Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 5,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -9,7 +9,7 @@
       "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57965",
       "recommendation": "review",
-      "total_score": 106,
+      "total_score": 105,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
       "actionability": 52,
@@ -67,6 +67,25 @@
         "action:error",
         "task:fix",
         "task:error"
+      ]
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "number": 18814,
+      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
+      "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "recommendation": "review",
+      "total_score": 79,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 27,
+      "actionability": 6,
+      "bounty_amount_usd": 25,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
       ]
     },
     {
