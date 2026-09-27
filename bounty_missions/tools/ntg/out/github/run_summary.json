@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-27T13:59:32Z",
+  "generated_at_utc": "2026-09-27T18:24:46Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -33,7 +33,7 @@
       "number": 57936,
       "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
       "recommendation": "review",
-      "total_score": 105,
+      "total_score": 104,
       "bounty_amount_usd": 0,
       "competition_risk": 6,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",

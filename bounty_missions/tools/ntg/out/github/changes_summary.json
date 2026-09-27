@@ -14,7 +14,7 @@
       "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57936",
       "recommendation": "review",
-      "total_score": 105
+      "total_score": 104
     },
     {
       "repo": "tenstorrent/tt-metal",
