@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-27T08:11:00Z",
+  "generated_at_utc": "2026-09-27T13:59:32Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -53,7 +53,7 @@
       "title": "ttnn.layer_norm_post_all_gather (default bfloat16 stats) collapses variance to 0 (rstd \u2248 1e6, outputs ~\u00b110\u2076) or negative (NaN) for mean\u226bstd inputs: var = E[x\u00b2]\u2212E[x]\u00b2 computed in Float16_b statistics",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57861",
       "recommendation": "review",
-      "total_score": 104,
+      "total_score": 103,
       "repo_primary_language": "C++",
       "bounty_confidence": 12,
       "actionability": 50,
