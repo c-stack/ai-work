@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T06:54:54Z",
+  "generated_at_utc": "2026-09-28T15:28:45Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -24,15 +24,6 @@
       "unique_issues": [
         6532,
         6674
-      ]
-    },
-    "enaqx/awesome-pentest": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        721
       ]
     },
     "Dokploy/templates": {
@@ -233,16 +224,6 @@
         57861,
         57936,
         57965
-      ]
-    },
-    {
-      "repo": "enaqx/awesome-pentest",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        721
       ]
     }
   ]

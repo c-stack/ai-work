@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-09-28T06:54:54Z",
+  "generated_at_utc": "2026-09-28T15:28:45Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 13,
-    "merged": 17
+    "merged": 16
   },
   "recommendations": {
     "pursue": 0,
-    "review": 4,
+    "review": 3,
     "skip": 13
   },
   "top_candidates": [
@@ -16,7 +16,7 @@
       "number": 57965,
       "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
       "recommendation": "review",
-      "total_score": 105,
+      "total_score": 110,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
@@ -33,7 +33,7 @@
       "number": 57936,
       "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
       "recommendation": "review",
-      "total_score": 104,
+      "total_score": 109,
       "bounty_amount_usd": 0,
       "competition_risk": 6,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
@@ -50,7 +50,7 @@
       "number": 57861,
       "title": "ttnn.layer_norm_post_all_gather (default bfloat16 stats) collapses variance to 0 (rstd \u2248 1e6, outputs ~\u00b110\u2076) or negative (NaN) for mean\u226bstd inputs: var = E[x\u00b2]\u2212E[x]\u00b2 computed in Float16_b statistics",
       "recommendation": "review",
-      "total_score": 103,
+      "total_score": 108,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
@@ -81,22 +81,6 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "enaqx/awesome-pentest",
-      "number": 721,
-      "title": "Add recon pipeline lite for lite bug  bounty recon",
-      "recommendation": "review",
-      "total_score": 75,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:add ",
-        "task:bug"
       ]
     },
     {
@@ -200,6 +184,25 @@
         "claims:5",
         "existing-work:1",
         "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 372,
+      "title": "[REVER-48] Workday Integration",
+      "recommendation": "skip",
+      "total_score": 38,
+      "bounty_amount_usd": 100,
+      "competition_risk": 51,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:4",
+        "support:support-politeness"
       ]
     }
   ],

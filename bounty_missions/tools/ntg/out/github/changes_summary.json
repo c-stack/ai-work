@@ -6,7 +6,7 @@
       "title": "Distributed RMSNorm/LayerNorm is wrong for FLOAT32 input: post_all_gather sums a stats column that pre_all_gather leaves undefined",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57965",
       "recommendation": "review",
-      "total_score": 105
+      "total_score": 110
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -14,7 +14,7 @@
       "title": "Fused scale-mask softmax: rows sum to 0.04\u20130.98 for key lengths up to ~2000 that aren't multiples of 32",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57936",
       "recommendation": "review",
-      "total_score": 104
+      "total_score": 109
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -22,7 +22,7 @@
       "title": "ttnn.layer_norm_post_all_gather (default bfloat16 stats) collapses variance to 0 (rstd \u2248 1e6, outputs ~\u00b110\u2076) or negative (NaN) for mean\u226bstd inputs: var = E[x\u00b2]\u2212E[x]\u00b2 computed in Float16_b statistics",
       "url": "https://github.com/tenstorrent/tt-metal/issues/57861",
       "recommendation": "review",
-      "total_score": 103
+      "total_score": 108
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -31,14 +31,6 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
-    },
-    {
-      "repo": "enaqx/awesome-pentest",
-      "number": 721,
-      "title": "Add recon pipeline lite for lite bug  bounty recon",
-      "url": "https://github.com/enaqx/awesome-pentest/issues/721",
-      "recommendation": "review",
-      "total_score": 75
     },
     {
       "repo": "Dokploy/templates",
