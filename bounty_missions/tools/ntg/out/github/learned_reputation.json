@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-28T00:47:16Z",
+  "generated_at_utc": "2026-09-28T06:54:54Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -26,14 +26,13 @@
         6674
       ]
     },
-    "BasedHardware/omi": {
-      "total_seen": 2,
+    "enaqx/awesome-pentest": {
+      "total_seen": 1,
       "skip_count": 0,
-      "review_count": 2,
+      "review_count": 1,
       "pursue_count": 0,
       "unique_issues": [
-        18806,
-        18814
+        721
       ]
     },
     "Dokploy/templates": {
@@ -237,14 +236,13 @@
       ]
     },
     {
-      "repo": "BasedHardware/omi",
-      "total_seen": 2,
+      "repo": "enaqx/awesome-pentest",
+      "total_seen": 1,
       "skip_count": 0,
-      "review_count": 2,
+      "review_count": 1,
       "pursue_count": 0,
       "unique_issues": [
-        18806,
-        18814
+        721
       ]
     }
   ]

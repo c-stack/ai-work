@@ -33,20 +33,12 @@
       "total_score": 82
     },
     {
-      "repo": "BasedHardware/omi",
-      "number": 18814,
-      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "repo": "enaqx/awesome-pentest",
+      "number": 721,
+      "title": "Add recon pipeline lite for lite bug  bounty recon",
+      "url": "https://github.com/enaqx/awesome-pentest/issues/721",
       "recommendation": "review",
-      "total_score": 79
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 18806,
-      "title": "[Bounty proposal] docs(python-cli): Sicilian (scn) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18806",
-      "recommendation": "review",
-      "total_score": 77
+      "total_score": 75
     },
     {
       "repo": "Dokploy/templates",

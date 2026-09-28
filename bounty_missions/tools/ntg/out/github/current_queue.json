@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-09-28T00:47:16Z",
+  "generated_at_utc": "2026-09-28T06:54:54Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -70,41 +70,24 @@
       ]
     },
     {
-      "repo": "BasedHardware/omi",
-      "number": 18814,
-      "title": "[Bounty proposal] docs(python-cli): Guarani (gn) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18814",
+      "repo": "enaqx/awesome-pentest",
+      "number": 721,
+      "title": "Add recon pipeline lite for lite bug  bounty recon",
+      "url": "https://github.com/enaqx/awesome-pentest/issues/721",
       "recommendation": "review",
-      "total_score": 79,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 27,
-      "actionability": 6,
-      "bounty_amount_usd": 25,
-      "bounty_amount_signal": "contextual_amount",
+      "total_score": 75,
+      "repo_primary_language": "",
+      "bounty_confidence": 34,
+      "actionability": 4,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
       "competition_risk": 0,
       "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
       "decision_signals": [
+        "bounty:bug bounty",
         "bounty:bounty",
-        "platform:algora"
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "number": 18806,
-      "title": "[Bounty proposal] docs(python-cli): Sicilian (scn) AI agent quickstart guide ($25 proposed)",
-      "url": "https://github.com/BasedHardware/omi/issues/18806",
-      "recommendation": "review",
-      "total_score": 77,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 27,
-      "actionability": 6,
-      "bounty_amount_usd": 25,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 3,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora"
+        "task:add ",
+        "task:bug"
       ]
     }
   ]
