@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-29T15:52:24Z",
+  "generated_at_utc": "2026-09-29T20:47:51Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -7,10 +7,28 @@
   },
   "recommendations": {
     "pursue": 0,
-    "review": 3,
-    "skip": 13
+    "review": 2,
+    "skip": 14
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 58495,
+      "title": "[Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
+      "recommendation": "skip",
+      "total_score": 106,
+      "bounty_amount_usd": 750,
+      "competition_risk": 31,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:acceptance criteria",
+        "action:root cause",
+        "task:fix",
+        "task:support",
+        "claims:3"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 58227,
@@ -46,24 +64,6 @@
         "action:error",
         "task:fix",
         "task:support",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58229,
-      "title": "[Bounty $3k] Fix u32-to-fp32 double rounding in typecast",
-      "recommendation": "review",
-      "total_score": 86,
-      "bounty_amount_usd": 0,
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:acceptance criteria",
-        "action:regression",
-        "task:fix",
-        "task:implement",
         "claims:1"
       ]
     },
@@ -196,9 +196,9 @@
       "number": 372,
       "title": "[REVER-48] Workday Integration",
       "recommendation": "skip",
-      "total_score": 38,
+      "total_score": 37,
       "bounty_amount_usd": 100,
-      "competition_risk": 51,
+      "competition_risk": 52,
       "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",

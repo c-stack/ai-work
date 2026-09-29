@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 58495,
+      "title": "[Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
+      "recommendation": "skip",
+      "total_score": 106
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 58227,
       "title": "[Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
       "url": "https://github.com/tenstorrent/tt-metal/issues/58227",
@@ -15,14 +23,6 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/58228",
       "recommendation": "review",
       "total_score": 102
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58229,
-      "title": "[Bounty $3k] Fix u32-to-fp32 double rounding in typecast",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58229",
-      "recommendation": "review",
-      "total_score": 86
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -78,7 +78,7 @@
       "title": "[REVER-48] Workday Integration",
       "url": "https://github.com/revertinc/revert/issues/372",
       "recommendation": "skip",
-      "total_score": 38
+      "total_score": 37
     },
     {
       "repo": "tscircuit/dsn-converter",
