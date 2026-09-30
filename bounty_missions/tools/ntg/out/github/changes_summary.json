@@ -6,7 +6,7 @@
       "title": "[Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
       "recommendation": "skip",
-      "total_score": 106
+      "total_score": 118
     },
     {
       "repo": "tenstorrent/tt-metal",
