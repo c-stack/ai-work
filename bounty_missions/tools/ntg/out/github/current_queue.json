@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-09-30T13:44:06Z",
+  "generated_at_utc": "2026-09-30T19:20:59Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "repo": "Tarsnap/tarsnap",
+      "number": 953,
+      "title": "[Bug bounty] --creationtime accepts trailing garbage and base-0 values",
+      "url": "https://github.com/Tarsnap/tarsnap/issues/953",
+      "recommendation": "pursue",
+      "total_score": 120,
+      "repo_primary_language": "C",
+      "bounty_confidence": 34,
+      "actionability": 46,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:support"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 58227,
