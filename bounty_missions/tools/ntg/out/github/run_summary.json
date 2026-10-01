@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-01T18:55:33Z",
+  "generated_at_utc": "2026-10-01T23:13:15Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 58495,
       "title": "[Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
       "recommendation": "skip",
-      "total_score": 118,
+      "total_score": 117,
       "bounty_amount_usd": 750,
       "competition_risk": 32,
       "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
