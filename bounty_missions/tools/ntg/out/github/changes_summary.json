@@ -18,19 +18,11 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 58227,
-      "title": "[Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58227",
-      "recommendation": "review",
-      "total_score": 104
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58228,
-      "title": "[Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58228",
-      "recommendation": "review",
-      "total_score": 101
+      "number": 58282,
+      "title": "ttnn.erf (fp32): the single-segment degree-16/16 rational leaves 41 % of [0, 4] above 1 ULP and peaks at 6.3 ULP, while the degree-8/8 bf16 fit stays at 1.1 ULP \u2014 needs a domain split like ttnn.erfc",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/58282",
+      "recommendation": "pursue",
+      "total_score": 111
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -39,6 +31,14 @@
       "url": "https://github.com/projectdiscovery/nuclei/issues/6674",
       "recommendation": "skip",
       "total_score": 82
+    },
+    {
+      "repo": "AcalaNetwork/Acala",
+      "number": 2988,
+      "title": "Bug bounty report",
+      "url": "https://github.com/AcalaNetwork/Acala/issues/2988",
+      "recommendation": "skip",
+      "total_score": 81
     },
     {
       "repo": "Dokploy/templates",

@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-01T23:13:15Z",
+  "generated_at_utc": "2026-10-02T02:16:34Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -28,50 +28,22 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 58227,
-      "title": "[Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58227",
-      "recommendation": "review",
-      "total_score": 104,
+      "number": 58282,
+      "title": "ttnn.erf (fp32): the single-segment degree-16/16 rational leaves 41 % of [0, 4] above 1 ULP and peaks at 6.3 ULP, while the degree-8/8 bf16 fit stays at 1.1 ULP \u2014 needs a domain split like ttnn.erfc",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/58282",
+      "recommendation": "pursue",
+      "total_score": 111,
       "repo_primary_language": "Python",
       "bounty_confidence": 30,
-      "actionability": 50,
-      "bounty_amount_usd": 1500,
+      "actionability": 38,
+      "bounty_amount_usd": 8000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 20,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "competition_risk": 6,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "negative:benchmark",
-        "action:acceptance criteria",
         "action:error",
-        "task:fix",
-        "task:implement",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58228,
-      "title": "[Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58228",
-      "recommendation": "review",
-      "total_score": 101,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 30,
-      "actionability": 46,
-      "bounty_amount_usd": 1500,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 18,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "action:acceptance criteria",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:1"
+        "task:error"
       ]
     }
   ]

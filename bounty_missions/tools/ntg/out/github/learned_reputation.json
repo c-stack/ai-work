@@ -1,18 +1,17 @@
 {
-  "generated_at_utc": "2026-10-01T23:13:15Z",
+  "generated_at_utc": "2026-10-02T02:16:34Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
     "tenstorrent/tt-metal": {
-      "total_seen": 3,
+      "total_seen": 2,
       "skip_count": 1,
-      "review_count": 2,
-      "pursue_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
       "unique_issues": [
-        58227,
-        58228,
+        58282,
         58495
       ]
     },
@@ -33,6 +32,15 @@
       "unique_issues": [
         6532,
         6674
+      ]
+    },
+    "AcalaNetwork/Acala": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        2988
       ]
     },
     "Dokploy/templates": {
@@ -155,13 +163,12 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "total_seen": 3,
+      "total_seen": 2,
       "skip_count": 1,
-      "review_count": 2,
-      "pursue_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
       "unique_issues": [
-        58227,
-        58228,
+        58282,
         58495
       ]
     },
@@ -233,6 +240,16 @@
       "pursue_count": 0,
       "unique_issues": [
         152
+      ]
+    },
+    {
+      "repo": "AcalaNetwork/Acala",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        2988
       ]
     },
     {

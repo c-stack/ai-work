@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-01T23:13:15Z",
+  "generated_at_utc": "2026-10-02T02:16:34Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
     "merged": 17
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 2,
-    "skip": 14
+    "pursue": 2,
+    "review": 0,
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -50,40 +50,17 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 58227,
-      "title": "[Bounty $1.5k] Improve BF16 reciprocal rounding on Wormhole",
-      "recommendation": "review",
-      "total_score": 104,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 20,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
+      "number": 58282,
+      "title": "ttnn.erf (fp32): the single-segment degree-16/16 rational leaves 41 % of [0, 4] above 1 ULP and peaks at 6.3 ULP, while the degree-8/8 bf16 fit stays at 1.1 ULP \u2014 needs a domain split like ttnn.erfc",
+      "recommendation": "pursue",
+      "total_score": 111,
+      "bounty_amount_usd": 8000,
+      "competition_risk": 6,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "negative:benchmark",
-        "action:acceptance criteria",
         "action:error",
-        "task:fix",
-        "task:implement",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58228,
-      "title": "[Bounty $1.5k] Improve div_no_nan accuracy to 1 ULP",
-      "recommendation": "review",
-      "total_score": 101,
-      "bounty_amount_usd": 1500,
-      "competition_risk": 18,
-      "decision_reason": "Bounty signals exist, but noisy wording needs a manual sanity check.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:benchmark",
-        "action:acceptance criteria",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:1"
+        "task:error"
       ]
     },
     {
@@ -105,6 +82,21 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "AcalaNetwork/Acala",
+      "number": 2988,
+      "title": "Bug bounty report",
+      "recommendation": "skip",
+      "total_score": 81,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
       ]
     },
     {
