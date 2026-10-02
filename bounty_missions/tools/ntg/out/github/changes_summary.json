@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 58986,
+      "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+      "recommendation": "pursue",
+      "total_score": 122
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 58495,
       "title": "[Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
