@@ -2,14 +2,6 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 58986,
-      "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-      "recommendation": "pursue",
-      "total_score": 122
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 58495,
       "title": "[Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
@@ -22,7 +14,7 @@
       "title": "[Bug bounty] --creationtime accepts trailing garbage",
       "url": "https://github.com/Tarsnap/tarsnap/issues/953",
       "recommendation": "pursue",
-      "total_score": 114
+      "total_score": 113
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -31,6 +23,14 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/58282",
       "recommendation": "pursue",
       "total_score": 111
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 58986,
+      "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
+      "recommendation": "review",
+      "total_score": 106
     },
     {
       "repo": "projectdiscovery/nuclei",
