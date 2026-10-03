@@ -73,6 +73,14 @@
       "total_score": 40
     },
     {
+      "repo": "tsperf/tracer",
+      "number": 116,
+      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
+      "url": "https://github.com/tsperf/tracer/issues/116",
+      "recommendation": "skip",
+      "total_score": 39
+    },
+    {
       "repo": "revertinc/revert",
       "number": 372,
       "title": "[REVER-48] Workday Integration",
