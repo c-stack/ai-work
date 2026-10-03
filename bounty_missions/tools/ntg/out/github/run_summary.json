@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-03T00:30:53Z",
+  "generated_at_utc": "2026-10-03T06:33:44Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -16,9 +16,9 @@
       "number": 953,
       "title": "[Bug bounty] --creationtime accepts trailing garbage",
       "recommendation": "pursue",
-      "total_score": 113,
+      "total_score": 112,
       "bounty_amount_usd": 0,
-      "competition_risk": 4,
+      "competition_risk": 6,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
@@ -34,14 +34,14 @@
       "number": 58986,
       "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
       "recommendation": "review",
-      "total_score": 106,
+      "total_score": 109,
       "bounty_amount_usd": 1000,
-      "competition_risk": 18,
+      "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
+        "action:root cause",
         "action:regression",
-        "action:fix",
         "task:fix",
         "task:support",
         "claims:1"

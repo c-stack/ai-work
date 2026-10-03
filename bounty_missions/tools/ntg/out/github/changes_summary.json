@@ -6,7 +6,7 @@
       "title": "[Bug bounty] --creationtime accepts trailing garbage",
       "url": "https://github.com/Tarsnap/tarsnap/issues/953",
       "recommendation": "pursue",
-      "total_score": 113
+      "total_score": 112
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -14,7 +14,7 @@
       "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
       "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
       "recommendation": "review",
-      "total_score": 106
+      "total_score": 109
     },
     {
       "repo": "projectdiscovery/nuclei",
