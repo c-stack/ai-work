@@ -1,28 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58495,
-      "title": "[Bounty $750] Fix fused scale-mask softmax tile-padding leakage at non-32 widths",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58495",
-      "recommendation": "skip",
-      "total_score": 117
-    },
-    {
       "repo": "Tarsnap/tarsnap",
       "number": 953,
       "title": "[Bug bounty] --creationtime accepts trailing garbage",
       "url": "https://github.com/Tarsnap/tarsnap/issues/953",
       "recommendation": "pursue",
       "total_score": 113
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58282,
-      "title": "ttnn.erf (fp32): the single-segment degree-16/16 rational leaves 41 % of [0, 4] above 1 ULP and peaks at 6.3 ULP, while the degree-8/8 bf16 fit stays at 1.1 ULP \u2014 needs a domain split like ttnn.erfc",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58282",
-      "recommendation": "pursue",
-      "total_score": 111
     },
     {
       "repo": "tenstorrent/tt-metal",

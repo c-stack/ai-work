@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-02T20:45:55Z",
+  "generated_at_utc": "2026-10-03T00:30:53Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 2,
   "items": [
     {
       "repo": "Tarsnap/tarsnap",
@@ -24,26 +24,6 @@
         "action:fix",
         "task:fix",
         "task:support"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58282,
-      "title": "ttnn.erf (fp32): the single-segment degree-16/16 rational leaves 41 % of [0, 4] above 1 ULP and peaks at 6.3 ULP, while the degree-8/8 bf16 fit stays at 1.1 ULP \u2014 needs a domain split like ttnn.erfc",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58282",
-      "recommendation": "pursue",
-      "total_score": 111,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 30,
-      "actionability": 38,
-      "bounty_amount_usd": 8000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 6,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "task:error"
       ]
     },
     {

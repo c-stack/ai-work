@@ -1,21 +1,10 @@
 {
-  "generated_at_utc": "2026-10-02T20:45:55Z",
+  "generated_at_utc": "2026-10-03T00:30:53Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "tenstorrent/tt-metal": {
-      "total_seen": 3,
-      "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 1,
-      "unique_issues": [
-        58282,
-        58495,
-        58986
-      ]
-    },
     "Tarsnap/tarsnap": {
       "total_seen": 1,
       "skip_count": 0,
@@ -23,6 +12,15 @@
       "pursue_count": 1,
       "unique_issues": [
         953
+      ]
+    },
+    "tenstorrent/tt-metal": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        58986
       ]
     },
     "projectdiscovery/nuclei": {
@@ -163,18 +161,6 @@
       ]
     },
     {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 3,
-      "skip_count": 1,
-      "review_count": 1,
-      "pursue_count": 1,
-      "unique_issues": [
-        58282,
-        58495,
-        58986
-      ]
-    },
-    {
       "repo": "tscircuit/jlcsearch",
       "total_seen": 1,
       "skip_count": 1,
@@ -252,6 +238,16 @@
       "pursue_count": 0,
       "unique_issues": [
         2988
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 1,
+      "pursue_count": 0,
+      "unique_issues": [
+        58986
       ]
     },
     {
