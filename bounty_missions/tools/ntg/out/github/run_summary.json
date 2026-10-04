@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-04T09:48:29Z",
+  "generated_at_utc": "2026-10-04T15:23:31Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -16,9 +16,9 @@
       "number": 58986,
       "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
       "recommendation": "review",
-      "total_score": 106,
+      "total_score": 104,
       "bounty_amount_usd": 1000,
-      "competition_risk": 18,
+      "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",

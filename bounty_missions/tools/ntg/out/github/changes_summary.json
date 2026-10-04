@@ -6,7 +6,7 @@
       "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
       "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
       "recommendation": "review",
-      "total_score": 106
+      "total_score": 104
     },
     {
       "repo": "mozilla/bedrock",
