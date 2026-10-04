@@ -1,31 +1,8 @@
 {
-  "generated_at_utc": "2026-10-03T23:04:54Z",
+  "generated_at_utc": "2026-10-04T02:40:20Z",
   "triage_profile": "aggressive",
   "count": 2,
   "items": [
-    {
-      "repo": "Tarsnap/tarsnap",
-      "number": 953,
-      "title": "[Bug bounty] --creationtime accepts trailing garbage",
-      "url": "https://github.com/Tarsnap/tarsnap/issues/953",
-      "recommendation": "pursue",
-      "total_score": 112,
-      "repo_primary_language": "C",
-      "bounty_confidence": 34,
-      "actionability": 40,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 6,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:support"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 58986,
@@ -47,6 +24,27 @@
         "task:fix",
         "task:support",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "mozilla/bedrock",
+      "number": 17413,
+      "title": "Bug bounty page lists Syria as a sanctioned country",
+      "url": "https://github.com/mozilla/bedrock/issues/17413",
+      "recommendation": "pursue",
+      "total_score": 93,
+      "repo_primary_language": "HTML",
+      "bounty_confidence": 34,
+      "actionability": 18,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:remove",
+        "task:bug"
       ]
     }
   ]

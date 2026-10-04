@@ -1,19 +1,10 @@
 {
-  "generated_at_utc": "2026-10-03T23:04:54Z",
+  "generated_at_utc": "2026-10-04T02:40:20Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "Tarsnap/tarsnap": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        953
-      ]
-    },
     "tenstorrent/tt-metal": {
       "total_seen": 1,
       "skip_count": 0,
@@ -21,6 +12,15 @@
       "pursue_count": 0,
       "unique_issues": [
         58986
+      ]
+    },
+    "mozilla/bedrock": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        17413
       ]
     },
     "projectdiscovery/nuclei": {
@@ -270,13 +270,13 @@
       ]
     },
     {
-      "repo": "Tarsnap/tarsnap",
+      "repo": "mozilla/bedrock",
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        953
+        17413
       ]
     }
   ]
