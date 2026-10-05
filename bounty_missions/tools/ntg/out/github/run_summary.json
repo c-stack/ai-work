@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-04T23:11:04Z",
+  "generated_at_utc": "2026-10-05T02:01:54Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
     "merged": 17
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 1,
-    "skip": 15
+    "skip": 14
   },
   "top_candidates": [
     {
@@ -46,6 +46,20 @@
       ]
     },
     {
+      "repo": "anthropics/claude-code",
+      "number": 99108,
+      "title": "[Bug] Safety classifier false positives with bug-bounty skills loaded",
+      "recommendation": "pursue",
+      "total_score": 82,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
       "title": "Replace panic with error handling in template loader when dialers are missing",
@@ -64,21 +78,6 @@
         "task:replace",
         "claims:3",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "AcalaNetwork/Acala",
-      "number": 2988,
-      "title": "Bug bounty report",
-      "recommendation": "skip",
-      "total_score": 80,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
       ]
     },
     {

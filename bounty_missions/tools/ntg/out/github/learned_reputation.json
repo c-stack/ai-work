@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-04T23:11:04Z",
+  "generated_at_utc": "2026-10-05T02:01:54Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -23,6 +23,15 @@
         17413
       ]
     },
+    "anthropics/claude-code": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        99108
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 2,
       "skip_count": 2,
@@ -31,15 +40,6 @@
       "unique_issues": [
         6532,
         6674
-      ]
-    },
-    "AcalaNetwork/Acala": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2988
       ]
     },
     "Dokploy/templates": {
@@ -250,16 +250,6 @@
       ]
     },
     {
-      "repo": "AcalaNetwork/Acala",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2988
-      ]
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "total_seen": 1,
       "skip_count": 0,
@@ -277,6 +267,16 @@
       "pursue_count": 1,
       "unique_issues": [
         17413
+      ]
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        99108
       ]
     }
   ]
