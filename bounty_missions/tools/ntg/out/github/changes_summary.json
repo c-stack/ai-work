@@ -6,7 +6,7 @@
       "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
       "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
       "recommendation": "review",
-      "total_score": 104
+      "total_score": 105
     },
     {
       "repo": "mozilla/bedrock",
@@ -73,20 +73,20 @@
       "total_score": 40
     },
     {
-      "repo": "tsperf/tracer",
-      "number": 116,
-      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
-      "url": "https://github.com/tsperf/tracer/issues/116",
-      "recommendation": "skip",
-      "total_score": 38
-    },
-    {
       "repo": "revertinc/revert",
       "number": 372,
       "title": "[REVER-48] Workday Integration",
       "url": "https://github.com/revertinc/revert/issues/372",
       "recommendation": "skip",
       "total_score": 37
+    },
+    {
+      "repo": "tsperf/tracer",
+      "number": 116,
+      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
+      "url": "https://github.com/tsperf/tracer/issues/116",
+      "recommendation": "skip",
+      "total_score": 36
     },
     {
       "repo": "tscircuit/dsn-converter",

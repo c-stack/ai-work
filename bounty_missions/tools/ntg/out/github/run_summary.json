@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-05T09:05:27Z",
+  "generated_at_utc": "2026-10-05T18:28:54Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -16,9 +16,9 @@
       "number": 58986,
       "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
       "recommendation": "review",
-      "total_score": 104,
+      "total_score": 105,
       "bounty_amount_usd": 1000,
-      "competition_risk": 20,
+      "competition_risk": 17,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -184,16 +184,22 @@
       ]
     },
     {
-      "repo": "tsperf/tracer",
-      "number": 116,
-      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
+      "repo": "revertinc/revert",
+      "number": 372,
+      "title": "[REVER-48] Workday Integration",
       "recommendation": "skip",
-      "total_score": 38,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "total_score": 37,
+      "bounty_amount_usd": 100,
+      "competition_risk": 52,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
-        "platform:algora"
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:4",
+        "support:support-politeness"
       ]
     }
   ],
