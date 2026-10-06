@@ -1,31 +1,16 @@
 {
-  "generated_at_utc": "2026-10-06T15:13:02Z",
+  "generated_at_utc": "2026-10-06T20:21:23Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 13,
-    "merged": 16
+    "merged": 15
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
     "skip": 14
   },
   "top_candidates": [
-    {
-      "repo": "SecOpsNews/news",
-      "number": 74729,
-      "title": "[SecurityWeek] Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
-      "recommendation": "pursue",
-      "total_score": 83,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
-      ]
-    },
     {
       "repo": "anthropics/claude-code",
       "number": 99108,
@@ -200,6 +185,19 @@
         "task:fix",
         "task:error",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "tsperf/tracer",
+      "number": 116,
+      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
+      "recommendation": "skip",
+      "total_score": 35,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "platform:algora"
       ]
     }
   ],
