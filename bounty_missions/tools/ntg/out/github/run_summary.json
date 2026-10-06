@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-06T07:35:28Z",
+  "generated_at_utc": "2026-10-06T15:13:02Z",
   "source_counts": {
     "github": 3,
     "algora": 13,
@@ -184,16 +184,22 @@
       ]
     },
     {
-      "repo": "tsperf/tracer",
-      "number": 116,
-      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
+      "repo": "tscircuit/dsn-converter",
+      "number": 54,
+      "title": "We can't convert Smoothie Board to Circuit JSON",
       "recommendation": "skip",
       "total_score": 36,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "bounty_amount_usd": 70,
+      "competition_risk": 42,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
-        "platform:algora"
+        "bounty:bounty",
+        "platform:algora",
+        "action:error",
+        "action:fix",
+        "task:fix",
+        "task:error",
+        "claims:1"
       ]
     }
   ],

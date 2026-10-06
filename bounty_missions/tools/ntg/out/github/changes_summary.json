@@ -73,20 +73,20 @@
       "total_score": 37
     },
     {
-      "repo": "tsperf/tracer",
-      "number": 116,
-      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
-      "url": "https://github.com/tsperf/tracer/issues/116",
-      "recommendation": "skip",
-      "total_score": 36
-    },
-    {
       "repo": "tscircuit/dsn-converter",
       "number": 54,
       "title": "We can't convert Smoothie Board to Circuit JSON",
       "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
       "total_score": 36
+    },
+    {
+      "repo": "tsperf/tracer",
+      "number": 116,
+      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
+      "url": "https://github.com/tsperf/tracer/issues/116",
+      "recommendation": "skip",
+      "total_score": 35
     },
     {
       "repo": "tailcallhq/graphql-conf-2024",
