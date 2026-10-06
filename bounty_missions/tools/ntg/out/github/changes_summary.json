@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "SecOpsNews/news",
+      "number": 74729,
+      "title": "[SecurityWeek] Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
+      "url": "https://github.com/SecOpsNews/news/issues/74729",
+      "recommendation": "pursue",
+      "total_score": 83
+    },
+    {
       "repo": "anthropics/claude-code",
       "number": 99108,
       "title": "[Bug] Safety classifier false positives with bug-bounty skills loaded",

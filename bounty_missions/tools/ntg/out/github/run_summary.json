@@ -1,16 +1,31 @@
 {
-  "generated_at_utc": "2026-10-06T00:50:06Z",
+  "generated_at_utc": "2026-10-06T07:35:28Z",
   "source_counts": {
-    "github": 2,
+    "github": 3,
     "algora": 13,
-    "merged": 15
+    "merged": 16
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
     "skip": 14
   },
   "top_candidates": [
+    {
+      "repo": "SecOpsNews/news",
+      "number": 74729,
+      "title": "[SecurityWeek] Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
+      "recommendation": "pursue",
+      "total_score": 83,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
     {
       "repo": "anthropics/claude-code",
       "number": 99108,
@@ -179,25 +194,6 @@
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
       "decision_signals": [
         "platform:algora"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 36,
-      "bounty_amount_usd": 70,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
       ]
     }
   ],

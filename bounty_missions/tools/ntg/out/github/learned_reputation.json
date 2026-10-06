@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-10-06T00:50:06Z",
+  "generated_at_utc": "2026-10-06T07:35:28Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "SecOpsNews/news": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        74729
+      ]
+    },
     "anthropics/claude-code": {
       "total_seen": 1,
       "skip_count": 0,
@@ -239,6 +248,16 @@
       "pursue_count": 1,
       "unique_issues": [
         99108
+      ]
+    },
+    {
+      "repo": "SecOpsNews/news",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        74729
       ]
     }
   ]
