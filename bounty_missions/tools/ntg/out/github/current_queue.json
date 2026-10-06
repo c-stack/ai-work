@@ -1,52 +1,8 @@
 {
-  "generated_at_utc": "2026-10-05T18:28:54Z",
+  "generated_at_utc": "2026-10-06T00:50:06Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 1,
   "items": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 58986,
-      "title": "[Bounty $1,000] FP32 ttnn.cumsum returns NaN after infinity or overflow",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/58986",
-      "recommendation": "review",
-      "total_score": 105,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 40,
-      "actionability": 40,
-      "bounty_amount_usd": 1000,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 17,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "mozilla/bedrock",
-      "number": 17413,
-      "title": "Bug bounty page lists Syria as a sanctioned country",
-      "url": "https://github.com/mozilla/bedrock/issues/17413",
-      "recommendation": "pursue",
-      "total_score": 93,
-      "repo_primary_language": "HTML",
-      "bounty_confidence": 34,
-      "actionability": 18,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:remove",
-        "task:bug"
-      ]
-    },
     {
       "repo": "anthropics/claude-code",
       "number": 99108,
