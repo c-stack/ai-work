@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-09-21T10:44:45Z",
+  "generated_at_utc": "2026-10-07T07:15:33Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20260921T104402Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261007T071438Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -53,7 +53,7 @@
         "title": "Organisation and Teams Management",
         "url": "https://github.com/Dokploy/dokploy/issues/1413",
         "recommendation": "skip",
-        "total_score": 41
+        "total_score": 40
       },
       {
         "repo": "revertinc/revert",
@@ -61,7 +61,7 @@
         "title": "[REVER-48] Workday Integration",
         "url": "https://github.com/revertinc/revert/issues/372",
         "recommendation": "skip",
-        "total_score": 38
+        "total_score": 37
       },
       {
         "repo": "tscircuit/dsn-converter",
@@ -93,7 +93,7 @@
         "title": "Update all outdated dependencies",
         "url": "https://github.com/tailcallhq/rust-grpc/issues/44",
         "recommendation": "skip",
-        "total_score": 18
+        "total_score": 17
       },
       {
         "repo": "tscircuit/jlcsearch",
@@ -109,7 +109,7 @@
         "title": "Ability to backup to more destination types",
         "url": "https://github.com/Dokploy/dokploy/issues/416",
         "recommendation": "skip",
-        "total_score": 3
+        "total_score": 2
       }
     ],
     "recommendation_changes": []

@@ -1,31 +1,16 @@
 {
-  "generated_at_utc": "2026-10-07T00:43:18Z",
+  "generated_at_utc": "2026-10-07T07:15:33Z",
   "source_counts": {
-    "github": 1,
+    "github": 0,
     "algora": 13,
-    "merged": 14
+    "merged": 13
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
     "skip": 13
   },
   "top_candidates": [
-    {
-      "repo": "SecOpsNews/news",
-      "number": 74729,
-      "title": "[SecurityWeek] Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
-      "recommendation": "pursue",
-      "total_score": 83,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 6674,
@@ -201,6 +186,27 @@
         "bounty:bounty",
         "bounty:/claim",
         "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
+      "repo": "revertinc/revert",
+      "number": 551,
+      "title": "[REVER-51] Workable Integration",
+      "recommendation": "skip",
+      "total_score": 19,
+      "bounty_amount_usd": 100,
+      "competition_risk": 64,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "negative:migration",
         "task:support",
         "task:implement",
         "claims:3",
