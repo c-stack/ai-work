@@ -1,12 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "anthropics/claude-code",
-      "number": 99108,
-      "title": "[Bug] Safety classifier false positives with bug-bounty skills loaded",
-      "url": "https://github.com/anthropics/claude-code/issues/99108",
+      "repo": "SecOpsNews/news",
+      "number": 74729,
+      "title": "[SecurityWeek] Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
+      "url": "https://github.com/SecOpsNews/news/issues/74729",
       "recommendation": "pursue",
-      "total_score": 82
+      "total_score": 83
     },
     {
       "repo": "projectdiscovery/nuclei",
@@ -71,14 +71,6 @@
       "url": "https://github.com/tscircuit/dsn-converter/issues/54",
       "recommendation": "skip",
       "total_score": 36
-    },
-    {
-      "repo": "tsperf/tracer",
-      "number": 116,
-      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
-      "url": "https://github.com/tsperf/tracer/issues/116",
-      "recommendation": "skip",
-      "total_score": 35
     },
     {
       "repo": "tailcallhq/graphql-conf-2024",

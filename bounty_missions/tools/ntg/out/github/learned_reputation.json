@@ -1,17 +1,17 @@
 {
-  "generated_at_utc": "2026-10-06T20:21:23Z",
+  "generated_at_utc": "2026-10-07T00:43:18Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "anthropics/claude-code": {
+    "SecOpsNews/news": {
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        99108
+        74729
       ]
     },
     "projectdiscovery/nuclei": {
@@ -80,15 +80,6 @@
         54
       ]
     },
-    "tsperf/tracer": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        116
-      ]
-    },
     "tailcallhq/graphql-conf-2024": {
       "total_seen": 1,
       "skip_count": 1,
@@ -149,16 +140,6 @@
       "unique_issues": [
         416,
         1413
-      ]
-    },
-    {
-      "repo": "tsperf/tracer",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        116
       ]
     },
     {
@@ -232,13 +213,13 @@
       ]
     },
     {
-      "repo": "anthropics/claude-code",
+      "repo": "SecOpsNews/news",
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        99108
+        74729
       ]
     }
   ]

@@ -1,26 +1,27 @@
 {
-  "generated_at_utc": "2026-10-06T20:21:23Z",
+  "generated_at_utc": "2026-10-07T00:43:18Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 13,
-    "merged": 15
+    "merged": 14
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 14
+    "skip": 13
   },
   "top_candidates": [
     {
-      "repo": "anthropics/claude-code",
-      "number": 99108,
-      "title": "[Bug] Safety classifier false positives with bug-bounty skills loaded",
+      "repo": "SecOpsNews/news",
+      "number": 74729,
+      "title": "[SecurityWeek] Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
       "recommendation": "pursue",
-      "total_score": 82,
+      "total_score": 83,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
+        "bounty:bug bounty",
         "bounty:bounty",
         "task:bug"
       ]
@@ -188,16 +189,23 @@
       ]
     },
     {
-      "repo": "tsperf/tracer",
-      "number": 116,
-      "title": "TSPerf challenge submission: TypeLoad \u2014 real compiler-level type load-time analytics (MIT, installable VSIX)",
+      "repo": "tailcallhq/graphql-conf-2024",
+      "number": 1,
+      "title": "Auto generate PDF for the slides",
       "recommendation": "skip",
-      "total_score": 35,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "total_score": 22,
+      "bounty_amount_usd": 100,
+      "competition_risk": 53,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
-        "platform:algora"
+        "bounty:bounty",
+        "bounty:/claim",
+        "platform:algora",
+        "task:support",
+        "task:implement",
+        "claims:3",
+        "existing-work:1",
+        "support:support-politeness"
       ]
     }
   ],
