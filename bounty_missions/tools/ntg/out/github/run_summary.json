@@ -1,34 +1,66 @@
 {
-  "generated_at_utc": "2026-10-08T07:25:50Z",
+  "generated_at_utc": "2026-10-08T15:37:49Z",
   "source_counts": {
-    "github": 2,
+    "github": 4,
     "algora": 13,
-    "merged": 15
+    "merged": 17
   },
   "recommendations": {
-    "pursue": 0,
-    "review": 0,
-    "skip": 15
+    "pursue": 1,
+    "review": 2,
+    "skip": 14
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
       "number": 59732,
       "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
-      "recommendation": "skip",
-      "total_score": 104,
+      "recommendation": "pursue",
+      "total_score": 120,
       "bounty_amount_usd": 3000,
-      "competition_risk": 27,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "competition_risk": 12,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "negative:benchmark",
         "action:acceptance criteria",
         "action:root cause",
         "task:fix",
-        "task:support",
-        "claims:1",
-        "existing-work:1"
+        "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59849,
+      "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
+      "recommendation": "review",
+      "total_score": 99,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:error",
+        "template-gaps:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59829,
+      "title": "layer_norm / rms_norm (sharded): residual_input_tensor with a different dtype than the input gives wrong results",
+      "recommendation": "review",
+      "total_score": 93,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "template-gaps:2"
       ]
     },
     {
@@ -168,44 +200,6 @@
         "claims:5",
         "existing-work:1",
         "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "revertinc/revert",
-      "number": 372,
-      "title": "[REVER-48] Workday Integration",
-      "recommendation": "skip",
-      "total_score": 37,
-      "bounty_amount_usd": 100,
-      "competition_risk": 52,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:4",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "number": 54,
-      "title": "We can't convert Smoothie Board to Circuit JSON",
-      "recommendation": "skip",
-      "total_score": 36,
-      "bounty_amount_usd": 70,
-      "competition_risk": 42,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:error",
-        "action:fix",
-        "task:fix",
-        "task:error",
-        "claims:1"
       ]
     }
   ],

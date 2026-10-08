@@ -1,6 +1,74 @@
 {
-  "generated_at_utc": "2026-10-08T07:25:50Z",
+  "generated_at_utc": "2026-10-08T15:37:49Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 3,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59732,
+      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
+      "recommendation": "pursue",
+      "total_score": 120,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 40,
+      "actionability": 48,
+      "bounty_amount_usd": 3000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 12,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:acceptance criteria",
+        "action:root cause",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59849,
+      "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/59849",
+      "recommendation": "review",
+      "total_score": 99,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 12,
+      "actionability": 40,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:error",
+        "template-gaps:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59829,
+      "title": "layer_norm / rms_norm (sharded): residual_input_tensor with a different dtype than the input gives wrong results",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/59829",
+      "recommendation": "review",
+      "total_score": 93,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 12,
+      "actionability": 34,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "template-gaps:2"
+      ]
+    }
+  ]
 }
