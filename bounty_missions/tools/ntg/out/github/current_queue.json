@@ -1,6 +1,53 @@
 {
-  "generated_at_utc": "2026-10-07T20:38:34Z",
+  "generated_at_utc": "2026-10-08T01:01:25Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59732,
+      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
+      "recommendation": "pursue",
+      "total_score": 121,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 30,
+      "actionability": 46,
+      "bounty_amount_usd": 3000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 7,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:benchmark",
+        "action:acceptance criteria",
+        "action:root cause",
+        "task:fix",
+        "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59757,
+      "title": "[ttnn/gelu_bw]: FLOAT32 GELU derivative saturates to 1.0 from x = 3.1719 (up to 7.5e-3 error for x in [3.17, 4.6))",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/59757",
+      "recommendation": "review",
+      "total_score": 84,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 12,
+      "actionability": 25,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:error",
+        "template-gaps:3"
+      ]
+    }
+  ]
 }
