@@ -1,18 +1,17 @@
 {
-  "generated_at_utc": "2026-10-08T01:01:25Z",
+  "generated_at_utc": "2026-10-08T07:25:50Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
     "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 1,
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
       "unique_issues": [
-        59732,
-        59757
+        59732
       ]
     },
     "projectdiscovery/nuclei": {
@@ -183,6 +182,16 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        59732
+      ]
+    },
+    {
       "repo": "tailcallhq/tailcallhq.github.io",
       "total_seen": 1,
       "skip_count": 1,
@@ -230,17 +239,6 @@
       "pursue_count": 0,
       "unique_issues": [
         152
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 1,
-      "unique_issues": [
-        59732,
-        59757
       ]
     }
   ]

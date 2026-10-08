@@ -5,16 +5,8 @@
       "number": 59732,
       "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
       "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
-      "recommendation": "pursue",
-      "total_score": 121
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59757,
-      "title": "[ttnn/gelu_bw]: FLOAT32 GELU derivative saturates to 1.0 from x = 3.1719 (up to 7.5e-3 error for x in [3.17, 4.6))",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59757",
-      "recommendation": "review",
-      "total_score": 84
+      "recommendation": "skip",
+      "total_score": 104
     },
     {
       "repo": "projectdiscovery/nuclei",

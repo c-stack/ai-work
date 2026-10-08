@@ -1,12 +1,20 @@
 {
-  "generated_at_utc": "2026-10-07T20:38:34Z",
+  "generated_at_utc": "2026-10-08T07:25:50Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261007T203742Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261008T072451Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
+      {
+        "repo": "tenstorrent/tt-metal",
+        "number": 59732,
+        "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
+        "recommendation": "skip",
+        "total_score": 104
+      },
       {
         "repo": "projectdiscovery/nuclei",
         "number": 6674,
@@ -22,6 +30,14 @@
         "url": "https://github.com/Dokploy/templates/issues/152",
         "recommendation": "skip",
         "total_score": 74
+      },
+      {
+        "repo": "tsperf/tracer",
+        "number": 118,
+        "title": "TSPerf challenge submission: TypeMeter \u2014 compiler-level type load-time, complexity AND cost attribution",
+        "url": "https://github.com/tsperf/tracer/issues/118",
+        "recommendation": "skip",
+        "total_score": 61
       },
       {
         "repo": "tailcallhq/tailcallhq.github.io",
