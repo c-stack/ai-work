@@ -126,7 +126,7 @@
       "title": "Add `is_extended_promotional ` column to components (from data source)",
       "url": "https://github.com/tscircuit/jlcsearch/issues/92",
       "recommendation": "skip",
-      "total_score": 16
+      "total_score": 8
     },
     {
       "repo": "Dokploy/dokploy",
