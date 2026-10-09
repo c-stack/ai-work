@@ -46,7 +46,7 @@
       "title": "TSPerf challenge submission: TypeMeter \u2014 compiler-level type load-time, complexity AND cost attribution",
       "url": "https://github.com/tsperf/tracer/issues/118",
       "recommendation": "skip",
-      "total_score": 61
+      "total_score": 60
     },
     {
       "repo": "tailcallhq/tailcallhq.github.io",

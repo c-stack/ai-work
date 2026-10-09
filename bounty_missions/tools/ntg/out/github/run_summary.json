@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-08T21:21:04Z",
+  "generated_at_utc": "2026-10-09T02:10:51Z",
   "source_counts": {
     "github": 4,
     "algora": 13,
@@ -109,7 +109,7 @@
       "number": 118,
       "title": "TSPerf challenge submission: TypeMeter \u2014 compiler-level type load-time, complexity AND cost attribution",
       "recommendation": "skip",
-      "total_score": 61,
+      "total_score": 60,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
