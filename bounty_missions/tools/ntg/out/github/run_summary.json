@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-09T02:10:51Z",
+  "generated_at_utc": "2026-10-09T09:05:17Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 13,
-    "merged": 17
+    "merged": 18
   },
   "recommendations": {
     "pursue": 1,
     "review": 2,
-    "skip": 14
+    "skip": 15
   },
   "top_candidates": [
     {
@@ -140,6 +140,22 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 13218,
+      "title": "Request for PR review \u2014 bounties #76 ($430) and #80 ($780)",
+      "recommendation": "skip",
+      "total_score": 52,
+      "bounty_amount_usd": 430,
+      "competition_risk": 15,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "existing-work:1",
+        "support:support-politeness"
+      ]
+    },
+    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
@@ -179,28 +195,6 @@
         "claims:2",
         "existing-work:1",
         "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "number": 1413,
-      "title": "Organisation and Teams Management",
-      "recommendation": "skip",
-      "total_score": 40,
-      "bounty_amount_usd": 100,
-      "competition_risk": 62,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "negative:alternatives",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:5",
-        "existing-work:1",
-        "template-gaps:1"
       ]
     }
   ],

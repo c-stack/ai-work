@@ -57,6 +57,14 @@
       "total_score": 57
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 13218,
+      "title": "Request for PR review \u2014 bounties #76 ($430) and #80 ($780)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13218",
+      "recommendation": "skip",
+      "total_score": 52
+    },
+    {
       "repo": "antinomyhq/forge",
       "number": 389,
       "title": "feat: Support for `/retry`",
