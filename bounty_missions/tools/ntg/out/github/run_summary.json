@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-09T09:05:17Z",
+  "generated_at_utc": "2026-10-09T16:13:33Z",
   "source_counts": {
-    "github": 5,
+    "github": 6,
     "algora": 13,
-    "merged": 18
+    "merged": 19
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 2,
     "skip": 15
   },
@@ -33,9 +33,9 @@
       "number": 59849,
       "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
       "recommendation": "review",
-      "total_score": 99,
+      "total_score": 97,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
@@ -61,6 +61,23 @@
         "action:fix",
         "task:fix",
         "template-gaps:2"
+      ]
+    },
+    {
+      "repo": "chatmcp/mcpso",
+      "number": 5032,
+      "title": "BountyRadar MCP \u2014 ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
+      "recommendation": "pursue",
+      "total_score": 92,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "negative:settlement",
+        "action:fix",
+        "task:fix"
       ]
     },
     {
@@ -172,28 +189,6 @@
         "task:support",
         "task:implement",
         "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6532,
-      "title": "Integrate typos tool into CI",
-      "recommendation": "skip",
-      "total_score": 44,
-      "bounty_amount_usd": 100,
-      "competition_risk": 48,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:add ",
-        "claims:2",
-        "existing-work:1",
         "support:support-politeness"
       ]
     }
