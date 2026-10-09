@@ -10,19 +10,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 59848,
+      "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/59848",
+      "recommendation": "review",
+      "total_score": 99
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 59849,
       "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
       "url": "https://github.com/tenstorrent/tt-metal/issues/59849",
       "recommendation": "review",
       "total_score": 97
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59829,
-      "title": "layer_norm / rms_norm (sharded): residual_input_tensor with a different dtype than the input gives wrong results",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59829",
-      "recommendation": "review",
-      "total_score": 93
     },
     {
       "repo": "chatmcp/mcpso",

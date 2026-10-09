@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-09T16:13:33Z",
+  "generated_at_utc": "2026-10-09T20:55:32Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -15,7 +15,7 @@
       "actionability": 48,
       "bounty_amount_usd": 3000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 12,
+      "competition_risk": 14,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -23,6 +23,29 @@
         "action:root cause",
         "task:fix",
         "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59848,
+      "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/59848",
+      "recommendation": "review",
+      "total_score": 99,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 12,
+      "actionability": 40,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:error",
+        "template-gaps:2"
       ]
     },
     {
@@ -45,28 +68,6 @@
         "action:regression",
         "task:fix",
         "task:error",
-        "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59829,
-      "title": "layer_norm / rms_norm (sharded): residual_input_tensor with a different dtype than the input gives wrong results",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59829",
-      "recommendation": "review",
-      "total_score": 93,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 12,
-      "actionability": 34,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:regression",
-        "action:fix",
-        "task:fix",
         "template-gaps:2"
       ]
     },
