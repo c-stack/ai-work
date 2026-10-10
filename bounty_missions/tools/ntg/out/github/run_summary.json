@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T18:36:39Z",
+  "generated_at_utc": "2026-10-10T22:32:32Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -7,19 +7,19 @@
   },
   "recommendations": {
     "pursue": 1,
-    "review": 3,
-    "skip": 15
+    "review": 2,
+    "skip": 16
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
       "number": 59732,
       "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
-      "recommendation": "review",
-      "total_score": 125,
+      "recommendation": "skip",
+      "total_score": 121,
       "bounty_amount_usd": 3000,
-      "competition_risk": 20,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "competition_risk": 27,
+      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
       "decision_signals": [
         "bounty:bounty",
         "bounty:/claim",
@@ -32,19 +32,19 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 59848,
-      "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
+      "number": 59847,
+      "title": "[ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
       "recommendation": "review",
-      "total_score": 98,
+      "total_score": 100,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
         "action:error",
         "action:regression",
         "task:fix",
-        "task:error",
+        "task:support",
         "template-gaps:2"
       ]
     },
