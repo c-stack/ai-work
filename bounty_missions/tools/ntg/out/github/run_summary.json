@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-10T07:07:51Z",
+  "generated_at_utc": "2026-10-10T13:42:21Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
     "merged": 19
   },
   "recommendations": {
-    "pursue": 2,
-    "review": 2,
+    "pursue": 1,
+    "review": 3,
     "skip": 15
   },
   "top_candidates": [
@@ -15,17 +15,19 @@
       "repo": "tenstorrent/tt-metal",
       "number": 59732,
       "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
-      "recommendation": "pursue",
-      "total_score": 119,
+      "recommendation": "review",
+      "total_score": 125,
       "bounty_amount_usd": 3000,
-      "competition_risk": 14,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 20,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
+        "bounty:/claim",
         "action:acceptance criteria",
         "action:root cause",
         "task:fix",
-        "task:support"
+        "task:support",
+        "claims:1"
       ]
     },
     {
@@ -33,7 +35,7 @@
       "number": 59848,
       "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
       "recommendation": "review",
-      "total_score": 99,
+      "total_score": 98,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
@@ -51,7 +53,7 @@
       "number": 59849,
       "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
       "recommendation": "review",
-      "total_score": 97,
+      "total_score": 96,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",

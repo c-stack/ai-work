@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T07:07:51Z",
+  "generated_at_utc": "2026-10-10T13:42:21Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -8,21 +8,23 @@
       "number": 59732,
       "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
       "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
-      "recommendation": "pursue",
-      "total_score": 119,
+      "recommendation": "review",
+      "total_score": 125,
       "repo_primary_language": "Python",
-      "bounty_confidence": 40,
+      "bounty_confidence": 52,
       "actionability": 48,
       "bounty_amount_usd": 3000,
       "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 14,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 20,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
       "decision_signals": [
         "bounty:bounty",
+        "bounty:/claim",
         "action:acceptance criteria",
         "action:root cause",
         "task:fix",
-        "task:support"
+        "task:support",
+        "claims:1"
       ]
     },
     {
@@ -31,7 +33,7 @@
       "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
       "url": "https://github.com/tenstorrent/tt-metal/issues/59848",
       "recommendation": "review",
-      "total_score": 99,
+      "total_score": 98,
       "repo_primary_language": "Python",
       "bounty_confidence": 12,
       "actionability": 40,
@@ -54,7 +56,7 @@
       "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
       "url": "https://github.com/tenstorrent/tt-metal/issues/59849",
       "recommendation": "review",
-      "total_score": 97,
+      "total_score": 96,
       "repo_primary_language": "Python",
       "bounty_confidence": 12,
       "actionability": 40,
