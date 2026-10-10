@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-09T20:55:32Z",
+  "generated_at_utc": "2026-10-10T00:51:50Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -16,7 +16,7 @@
       "number": 59732,
       "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
       "recommendation": "pursue",
-      "total_score": 120,
+      "total_score": 119,
       "bounty_amount_usd": 3000,
       "competition_risk": 14,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

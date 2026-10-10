@@ -6,7 +6,7 @@
       "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
       "url": "https://github.com/tenstorrent/tt-metal/issues/59732",
       "recommendation": "pursue",
-      "total_score": 120
+      "total_score": 119
     },
     {
       "repo": "tenstorrent/tt-metal",
