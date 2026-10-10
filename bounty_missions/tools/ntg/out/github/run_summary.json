@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T00:51:50Z",
+  "generated_at_utc": "2026-10-10T07:07:51Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -162,7 +162,7 @@
       "number": 13218,
       "title": "Request for PR review \u2014 bounties #76 ($430) and #80 ($780)",
       "recommendation": "skip",
-      "total_score": 52,
+      "total_score": 51,
       "bounty_amount_usd": 430,
       "competition_risk": 15,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
