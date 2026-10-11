@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-10T22:32:32Z",
+  "generated_at_utc": "2026-10-11T01:54:41Z",
   "source_counts": {
     "github": 6,
     "algora": 13,
@@ -7,29 +7,10 @@
   },
   "recommendations": {
     "pursue": 1,
-    "review": 2,
-    "skip": 16
+    "review": 3,
+    "skip": 15
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59732,
-      "title": "[Bounty $3,000] Fix ttnn.sampling distribution bias from low-precision random threshold",
-      "recommendation": "skip",
-      "total_score": 121,
-      "bounty_amount_usd": 3000,
-      "competition_risk": 27,
-      "decision_reason": "Competition risk is already high from claims, assignees, or comment traffic.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "action:acceptance criteria",
-        "action:root cause",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 59847,
@@ -45,6 +26,24 @@
         "action:regression",
         "task:fix",
         "task:support",
+        "template-gaps:2"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 59848,
+      "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
+      "recommendation": "review",
+      "total_score": 98,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:error",
         "template-gaps:2"
       ]
     },
@@ -129,7 +128,7 @@
       "number": 118,
       "title": "TSPerf challenge submission: TypeMeter \u2014 compiler-level type load-time, complexity AND cost attribution",
       "recommendation": "skip",
-      "total_score": 60,
+      "total_score": 59,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
