@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T01:54:41Z",
+  "generated_at_utc": "2026-10-11T08:51:37Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -84,7 +84,7 @@
       "actionability": 30,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 3,
+      "competition_risk": 4,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
