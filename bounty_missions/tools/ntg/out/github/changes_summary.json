@@ -6,7 +6,7 @@
       "title": "[ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
       "url": "https://github.com/tenstorrent/tt-metal/issues/59847",
       "recommendation": "review",
-      "total_score": 100
+      "total_score": 98
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -31,14 +31,6 @@
       "url": "https://github.com/chatmcp/mcpso/issues/5032",
       "recommendation": "pursue",
       "total_score": 91
-    },
-    {
-      "repo": "tsperf/tracer",
-      "number": 118,
-      "title": "TSPerf challenge submission: TypeMeter \u2014 compiler-level type load-time, complexity AND cost attribution",
-      "url": "https://github.com/tsperf/tracer/issues/118",
-      "recommendation": "skip",
-      "total_score": 59
     },
     {
       "repo": "SecureBananaLabs/bug-bounty",

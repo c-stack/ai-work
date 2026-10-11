@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-11T15:41:21Z",
+  "generated_at_utc": "2026-10-11T20:17:21Z",
   "source_counts": {
-    "github": 6,
+    "github": 5,
     "algora": 0,
-    "merged": 6
+    "merged": 5
   },
   "recommendations": {
     "pursue": 1,
     "review": 3,
-    "skip": 2
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -16,7 +16,7 @@
       "number": 59847,
       "title": "[ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
       "recommendation": "review",
-      "total_score": 100,
+      "total_score": 98,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
@@ -80,22 +80,6 @@
         "negative:settlement",
         "action:fix",
         "task:fix"
-      ]
-    },
-    {
-      "repo": "tsperf/tracer",
-      "number": 118,
-      "title": "TSPerf challenge submission: TypeMeter \u2014 compiler-level type load-time, complexity AND cost attribution",
-      "recommendation": "skip",
-      "total_score": 59,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:bug"
       ]
     },
     {
