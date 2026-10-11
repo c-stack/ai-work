@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-11T08:51:37Z",
+  "generated_at_utc": "2026-10-11T15:41:21Z",
   "source_counts": {
     "github": 6,
-    "algora": 13,
-    "merged": 19
+    "algora": 0,
+    "merged": 6
   },
   "recommendations": {
     "pursue": 1,
     "review": 3,
-    "skip": 15
+    "skip": 2
   },
   "top_candidates": [
     {
@@ -70,7 +70,7 @@
       "number": 5032,
       "title": "BountyRadar MCP \u2014 ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
       "recommendation": "pursue",
-      "total_score": 92,
+      "total_score": 91,
       "bounty_amount_usd": 0,
       "competition_risk": 4,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -80,47 +80,6 @@
         "negative:settlement",
         "action:fix",
         "task:fix"
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "number": 6674,
-      "title": "Replace panic with error handling in template loader when dialers are missing",
-      "recommendation": "skip",
-      "total_score": 82,
-      "bounty_amount_usd": 100,
-      "competition_risk": 40,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:3",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "Dokploy/templates",
-      "number": 152,
-      "title": "Get Your Custom Dokploy Templates Built!",
-      "recommendation": "skip",
-      "total_score": 74,
-      "bounty_amount_usd": 1000,
-      "competition_risk": 52,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:implement",
-        "task:remove",
-        "claims:2",
-        "existing-work:1"
       ]
     },
     {
@@ -140,25 +99,6 @@
       ]
     },
     {
-      "repo": "tailcallhq/tailcallhq.github.io",
-      "number": 373,
-      "title": "feature: design and develop a UI to generate tailcall configurations",
-      "recommendation": "skip",
-      "total_score": 57,
-      "bounty_amount_usd": 500,
-      "competition_risk": 44,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "task:support",
-        "task:implement",
-        "claims:2",
-        "support:support-politeness"
-      ]
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 13218,
       "title": "Request for PR review \u2014 bounties #76 ($430) and #80 ($780)",
@@ -171,26 +111,6 @@
         "bounty:bounty",
         "platform:algora",
         "existing-work:1",
-        "support:support-politeness"
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "number": 389,
-      "title": "feat: Support for `/retry`",
-      "recommendation": "skip",
-      "total_score": 45,
-      "bounty_amount_usd": 50,
-      "competition_risk": 48,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "bounty:bounty",
-        "bounty:/claim",
-        "platform:algora",
-        "action:error",
-        "task:support",
-        "task:implement",
-        "claims:2",
         "support:support-politeness"
       ]
     }

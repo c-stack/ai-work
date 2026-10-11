@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-11T08:51:37Z",
+  "generated_at_utc": "2026-10-11T15:41:21Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -25,25 +25,6 @@
         5032
       ]
     },
-    "projectdiscovery/nuclei": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        6532,
-        6674
-      ]
-    },
-    "Dokploy/templates": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        152
-      ]
-    },
     "tsperf/tracer": {
       "total_seen": 1,
       "skip_count": 1,
@@ -51,15 +32,6 @@
       "pursue_count": 0,
       "unique_issues": [
         118
-      ]
-    },
-    "tailcallhq/tailcallhq.github.io": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        373
       ]
     },
     "SecureBananaLabs/bug-bounty": {
@@ -70,107 +42,9 @@
       "unique_issues": [
         13218
       ]
-    },
-    "antinomyhq/forge": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        389
-      ]
-    },
-    "Dokploy/dokploy": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        416,
-        1413
-      ]
-    },
-    "revertinc/revert": {
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        372,
-        551
-      ]
-    },
-    "tscircuit/dsn-converter": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        54
-      ]
-    },
-    "tailcallhq/graphql-conf-2024": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        1
-      ]
-    },
-    "tailcallhq/rust-grpc": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        44
-      ]
-    },
-    "tscircuit/jlcsearch": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        92
-      ]
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "revertinc/revert",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        372,
-        551
-      ]
-    },
-    {
-      "repo": "projectdiscovery/nuclei",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        6532,
-        6674
-      ]
-    },
-    {
-      "repo": "Dokploy/dokploy",
-      "total_seen": 2,
-      "skip_count": 2,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        416,
-        1413
-      ]
-    },
     {
       "repo": "tsperf/tracer",
       "total_seen": 1,
@@ -182,66 +56,6 @@
       ]
     },
     {
-      "repo": "tscircuit/jlcsearch",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        92
-      ]
-    },
-    {
-      "repo": "tscircuit/dsn-converter",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        54
-      ]
-    },
-    {
-      "repo": "tailcallhq/tailcallhq.github.io",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        373
-      ]
-    },
-    {
-      "repo": "tailcallhq/rust-grpc",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        44
-      ]
-    },
-    {
-      "repo": "tailcallhq/graphql-conf-2024",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        1
-      ]
-    },
-    {
-      "repo": "antinomyhq/forge",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        389
-      ]
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "total_seen": 1,
       "skip_count": 1,
@@ -249,16 +63,6 @@
       "pursue_count": 0,
       "unique_issues": [
         13218
-      ]
-    },
-    {
-      "repo": "Dokploy/templates",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        152
       ]
     },
     {
