@@ -1,77 +1,8 @@
 {
-  "generated_at_utc": "2026-10-11T23:44:17Z",
+  "generated_at_utc": "2026-10-12T05:58:11Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 1,
   "items": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59847,
-      "title": "[ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59847",
-      "recommendation": "review",
-      "total_score": 98,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 12,
-      "actionability": 42,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:support",
-        "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59848,
-      "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59848",
-      "recommendation": "review",
-      "total_score": 98,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 12,
-      "actionability": 40,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:error",
-        "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59849,
-      "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59849",
-      "recommendation": "review",
-      "total_score": 96,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 12,
-      "actionability": 40,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:error",
-        "template-gaps:2"
-      ]
-    },
     {
       "repo": "chatmcp/mcpso",
       "number": 5032,

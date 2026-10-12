@@ -1,30 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59847,
-      "title": "[ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59847",
-      "recommendation": "review",
-      "total_score": 98
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59848,
-      "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59848",
-      "recommendation": "review",
-      "total_score": 98
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59849,
-      "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/59849",
-      "recommendation": "review",
-      "total_score": 96
-    },
-    {
       "repo": "chatmcp/mcpso",
       "number": 5032,
       "title": "BountyRadar MCP \u2014 ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
@@ -38,7 +14,7 @@
       "title": "Request for PR review \u2014 bounties #76 ($430) and #80 ($780)",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13218",
       "recommendation": "skip",
-      "total_score": 51
+      "total_score": 50
     }
   ],
   "dropped_items": [],

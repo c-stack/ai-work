@@ -1,70 +1,16 @@
 {
-  "generated_at_utc": "2026-10-11T23:44:17Z",
+  "generated_at_utc": "2026-10-12T05:58:11Z",
   "source_counts": {
-    "github": 5,
+    "github": 2,
     "algora": 0,
-    "merged": 5
+    "merged": 2
   },
   "recommendations": {
     "pursue": 1,
-    "review": 3,
+    "review": 0,
     "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59847,
-      "title": "[ttnn.scale_mask_softmax_in_place / attention_softmax_]: ROW_MAJOR mask in the documented [B, 1, W/32, 32] form crashes the process (W < 1024) or gives wrong results",
-      "recommendation": "review",
-      "total_score": 98,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:support",
-        "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59848,
-      "title": "[ttnn.group_norm]: wrong group statistics with fp32 input or fp32_dest_acc_en once a group spans 5 or more channel tiles (interleaved)",
-      "recommendation": "review",
-      "total_score": 98,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:error",
-        "template-gaps:2"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 59849,
-      "title": "[ttnn.untilize_with_unpadding]: wrong values when cropping a leading dimension other than the outermost",
-      "recommendation": "review",
-      "total_score": 96,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:error",
-        "template-gaps:2"
-      ]
-    },
     {
       "repo": "chatmcp/mcpso",
       "number": 5032,
@@ -87,7 +33,7 @@
       "number": 13218,
       "title": "Request for PR review \u2014 bounties #76 ($430) and #80 ($780)",
       "recommendation": "skip",
-      "total_score": 51,
+      "total_score": 50,
       "bounty_amount_usd": 430,
       "competition_risk": 15,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
