@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-12T05:58:11Z",
+  "generated_at_utc": "2026-10-12T15:25:29Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 0,
-    "merged": 2
+    "merged": 1
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 1
+    "skip": 0
   },
   "top_candidates": [
     {
@@ -26,22 +26,6 @@
         "negative:settlement",
         "action:fix",
         "task:fix"
-      ]
-    },
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 13218,
-      "title": "Request for PR review \u2014 bounties #76 ($430) and #80 ($780)",
-      "recommendation": "skip",
-      "total_score": 50,
-      "bounty_amount_usd": 430,
-      "competition_risk": 15,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "existing-work:1",
-        "support:support-politeness"
       ]
     }
   ],
