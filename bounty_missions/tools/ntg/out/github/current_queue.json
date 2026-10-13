@@ -1,29 +1,6 @@
 {
-  "generated_at_utc": "2026-10-12T22:59:47Z",
+  "generated_at_utc": "2026-10-13T11:48:33Z",
   "triage_profile": "aggressive",
-  "count": 1,
-  "items": [
-    {
-      "repo": "chatmcp/mcpso",
-      "number": 5032,
-      "title": "BountyRadar MCP \u2014 ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
-      "url": "https://github.com/chatmcp/mcpso/issues/5032",
-      "recommendation": "pursue",
-      "total_score": 91,
-      "repo_primary_language": "TypeScript",
-      "bounty_confidence": 17,
-      "actionability": 30,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 4,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "negative:settlement",
-        "action:fix",
-        "task:fix"
-      ]
-    }
-  ]
+  "count": 0,
+  "items": []
 }

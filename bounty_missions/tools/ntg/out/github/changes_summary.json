@@ -1,12 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "chatmcp/mcpso",
-      "number": 5032,
-      "title": "BountyRadar MCP \u2014 ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
-      "url": "https://github.com/chatmcp/mcpso/issues/5032",
-      "recommendation": "pursue",
-      "total_score": 91
+      "repo": "nockchain/nockchain",
+      "number": 213,
+      "title": "Regarding Bug Bounty Report",
+      "url": "https://github.com/nockchain/nockchain/issues/213",
+      "recommendation": "skip",
+      "total_score": 78
     }
   ],
   "dropped_items": [],

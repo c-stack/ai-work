@@ -1,31 +1,29 @@
 {
-  "generated_at_utc": "2026-10-12T22:59:47Z",
+  "generated_at_utc": "2026-10-13T11:48:33Z",
   "source_counts": {
     "github": 1,
     "algora": 0,
     "merged": 1
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 0
+    "skip": 1
   },
   "top_candidates": [
     {
-      "repo": "chatmcp/mcpso",
-      "number": 5032,
-      "title": "BountyRadar MCP \u2014 ranked, agent-solvable bounty feed (Opire / Algora / BountyHub / ClawHunt, pay-per-event)",
-      "recommendation": "pursue",
-      "total_score": 91,
+      "repo": "nockchain/nockchain",
+      "number": 213,
+      "title": "Regarding Bug Bounty Report",
+      "recommendation": "skip",
+      "total_score": 78,
       "bounty_amount_usd": 0,
-      "competition_risk": 4,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 3,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
       "decision_signals": [
+        "bounty:bug bounty",
         "bounty:bounty",
-        "platform:algora",
-        "negative:settlement",
-        "action:fix",
-        "task:fix"
+        "task:bug"
       ]
     }
   ],
