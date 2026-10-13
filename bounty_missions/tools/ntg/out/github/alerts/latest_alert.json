@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-10-13T11:48:33Z",
+  "generated_at_utc": "2026-10-13T19:17:17Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261013T114807Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261013T191652Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -13,7 +13,7 @@
         "title": "Regarding Bug Bounty Report",
         "url": "https://github.com/nockchain/nockchain/issues/213",
         "recommendation": "skip",
-        "total_score": 78
+        "total_score": 77
       }
     ],
     "recommendation_changes": []

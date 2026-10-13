@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-13T11:48:33Z",
+  "generated_at_utc": "2026-10-13T19:17:17Z",
   "source_counts": {
     "github": 1,
     "algora": 0,
@@ -16,9 +16,9 @@
       "number": 213,
       "title": "Regarding Bug Bounty Report",
       "recommendation": "skip",
-      "total_score": 78,
+      "total_score": 77,
       "bounty_amount_usd": 0,
-      "competition_risk": 3,
+      "competition_risk": 6,
       "decision_reason": "Issue details are too thin to estimate a quick fix path.",
       "decision_signals": [
         "bounty:bug bounty",
