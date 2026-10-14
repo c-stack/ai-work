@@ -1,12 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "nockchain/nockchain",
-      "number": 213,
-      "title": "Regarding Bug Bounty Report",
-      "url": "https://github.com/nockchain/nockchain/issues/213",
-      "recommendation": "skip",
-      "total_score": 77
+      "repo": "SecOpsNews/news",
+      "number": 75026,
+      "title": "[SecurityWeek] Google Partially Reverses Chrome Bug Bounty Cuts",
+      "url": "https://github.com/SecOpsNews/news/issues/75026",
+      "recommendation": "pursue",
+      "total_score": 82
     }
   ],
   "dropped_items": [],
