@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-14T19:24:00Z",
+  "generated_at_utc": "2026-10-15T01:30:56Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 0
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -25,6 +25,21 @@
         "bounty:bounty",
         "task:remove",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "bloknayrb/tandem",
+      "number": 2229,
+      "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
+      "recommendation": "skip",
+      "total_score": 48,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "action:fix",
+        "task:fix"
       ]
     }
   ],
