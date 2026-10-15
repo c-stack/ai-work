@@ -1,32 +1,16 @@
 {
-  "generated_at_utc": "2026-10-15T07:27:03Z",
+  "generated_at_utc": "2026-10-15T13:26:39Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 0,
-    "merged": 2
+    "merged": 1
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "SecOpsNews/news",
-      "number": 75026,
-      "title": "[SecurityWeek] Google Partially Reverses Chrome Bug Bounty Cuts",
-      "recommendation": "pursue",
-      "total_score": 82,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:remove",
-        "task:bug"
-      ]
-    },
     {
       "repo": "bloknayrb/tandem",
       "number": 2229,

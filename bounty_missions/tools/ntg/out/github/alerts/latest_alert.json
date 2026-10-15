@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-10-14T15:09:21Z",
+  "generated_at_utc": "2026-10-15T13:26:39Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261014T150850Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261015T132605Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
       {
-        "repo": "nockchain/nockchain",
-        "number": 213,
-        "title": "Regarding Bug Bounty Report",
-        "url": "https://github.com/nockchain/nockchain/issues/213",
+        "repo": "bloknayrb/tandem",
+        "number": 2229,
+        "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
+        "url": "https://github.com/bloknayrb/tandem/issues/2229",
         "recommendation": "skip",
-        "total_score": 77
+        "total_score": 48
       }
     ],
     "recommendation_changes": []

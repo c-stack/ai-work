@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "SecOpsNews/news",
-      "number": 75026,
-      "title": "[SecurityWeek] Google Partially Reverses Chrome Bug Bounty Cuts",
-      "url": "https://github.com/SecOpsNews/news/issues/75026",
-      "recommendation": "pursue",
-      "total_score": 82
-    },
-    {
       "repo": "bloknayrb/tandem",
       "number": 2229,
       "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
