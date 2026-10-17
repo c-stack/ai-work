@@ -1,19 +1,19 @@
 {
   "new_items": [
     {
-      "repo": "chatmcp/mcpso",
-      "number": 5414,
-      "title": "Submit MCP Server: BountyRadar MCP",
-      "url": "https://github.com/chatmcp/mcpso/issues/5414",
-      "recommendation": "skip",
-      "total_score": 99
-    },
-    {
       "repo": "callstackincubator/simlock",
       "number": 648,
       "title": "Bug hunt: confirmed findings from the bug bounty sweep",
       "url": "https://github.com/callstackincubator/simlock/issues/648",
       "recommendation": "pursue",
+      "total_score": 100
+    },
+    {
+      "repo": "chatmcp/mcpso",
+      "number": 5414,
+      "title": "Submit MCP Server: BountyRadar MCP",
+      "url": "https://github.com/chatmcp/mcpso/issues/5414",
+      "recommendation": "skip",
       "total_score": 99
     },
     {
