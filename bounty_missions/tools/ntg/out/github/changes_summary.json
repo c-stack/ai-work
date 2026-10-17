@@ -9,6 +9,14 @@
       "total_score": 99
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 13331,
+      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
+      "recommendation": "pursue",
+      "total_score": 97
+    },
+    {
       "repo": "callstackincubator/simlock",
       "number": 648,
       "title": "Bug hunt: confirmed findings from the bug bounty sweep",
@@ -17,20 +25,12 @@
       "total_score": 88
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 13331,
-      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
-      "recommendation": "pursue",
-      "total_score": 83
-    },
-    {
       "repo": "bloknayrb/tandem",
       "number": 2229,
       "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
       "url": "https://github.com/bloknayrb/tandem/issues/2229",
       "recommendation": "skip",
-      "total_score": 47
+      "total_score": 51
     }
   ],
   "dropped_items": [],

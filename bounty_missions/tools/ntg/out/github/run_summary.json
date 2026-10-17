@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-17T19:24:13Z",
+  "generated_at_utc": "2026-10-17T22:18:55Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
@@ -31,6 +31,21 @@
       ]
     },
     {
+      "repo": "SecureBananaLabs/bug-bounty",
+      "number": 13331,
+      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
+      "recommendation": "pursue",
+      "total_score": 97,
+      "bounty_amount_usd": 780,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:regression"
+      ]
+    },
+    {
       "repo": "callstackincubator/simlock",
       "number": 648,
       "title": "Bug hunt: confirmed findings from the bug bounty sweep",
@@ -52,32 +67,20 @@
       ]
     },
     {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 13331,
-      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
-      "recommendation": "pursue",
-      "total_score": 83,
-      "bounty_amount_usd": 780,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora"
-      ]
-    },
-    {
       "repo": "bloknayrb/tandem",
       "number": 2229,
       "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
       "recommendation": "skip",
-      "total_score": 47,
+      "total_score": 51,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
       "decision_signals": [
         "platform:polar.sh",
+        "action:regression",
         "action:fix",
-        "task:fix"
+        "task:fix",
+        "task:add "
       ]
     }
   ],
