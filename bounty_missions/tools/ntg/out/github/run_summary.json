@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-17T04:25:47Z",
+  "generated_at_utc": "2026-10-17T09:21:17Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
     "skip": 2
   },
@@ -28,6 +28,26 @@
         "task:fix",
         "task:implement",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "callstackincubator/simlock",
+      "number": 648,
+      "title": "Bug hunt: confirmed findings from the bug bounty sweep",
+      "recommendation": "pursue",
+      "total_score": 99,
+      "bounty_amount_usd": 0,
+      "competition_risk": 12,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "negative:alternatives",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:1"
       ]
     },
     {
