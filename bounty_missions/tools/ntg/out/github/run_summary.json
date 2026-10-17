@@ -1,36 +1,16 @@
 {
-  "generated_at_utc": "2026-10-17T13:44:15Z",
+  "generated_at_utc": "2026-10-17T17:10:31Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
     "merged": 4
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
-    "skip": 2
+    "skip": 3
   },
   "top_candidates": [
-    {
-      "repo": "callstackincubator/simlock",
-      "number": 648,
-      "title": "Bug hunt: confirmed findings from the bug bounty sweep",
-      "recommendation": "pursue",
-      "total_score": 100,
-      "bounty_amount_usd": 0,
-      "competition_risk": 12,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "negative:alternatives",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:1"
-      ]
-    },
     {
       "repo": "chatmcp/mcpso",
       "number": 5414,
@@ -47,6 +27,27 @@
         "action:regression",
         "task:fix",
         "task:implement",
+        "existing-work:1"
+      ]
+    },
+    {
+      "repo": "callstackincubator/simlock",
+      "number": 648,
+      "title": "Bug hunt: confirmed findings from the bug bounty sweep",
+      "recommendation": "skip",
+      "total_score": 88,
+      "bounty_amount_usd": 0,
+      "competition_risk": 24,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "negative:alternatives",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:replace",
+        "claims:1",
         "existing-work:1"
       ]
     },
