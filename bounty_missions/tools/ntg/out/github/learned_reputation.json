@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-18T05:54:02Z",
+  "generated_at_utc": "2026-10-18T11:04:52Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -32,6 +32,15 @@
         648
       ]
     },
+    "tenstorrent/tt-metal": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        61242
+      ]
+    },
     "topoteretes/cognee": {
       "total_seen": 1,
       "skip_count": 1,
@@ -60,6 +69,16 @@
       "pursue_count": 0,
       "unique_issues": [
         5916
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        61242
       ]
     },
     {
