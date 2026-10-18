@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-17T22:18:55Z",
+  "generated_at_utc": "2026-10-18T01:02:35Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 0,
-    "merged": 4
+    "merged": 5
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 3
+    "skip": 4
   },
   "top_candidates": [
     {
@@ -64,6 +64,24 @@
         "task:replace",
         "claims:1",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "topoteretes/cognee",
+      "number": 5916,
+      "title": "Hackathon [Feature]: Add Polar customer-state, subscriptions & benefit-grants data-source connector",
+      "recommendation": "skip",
+      "total_score": 64,
+      "bounty_amount_usd": 0,
+      "competition_risk": 6,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "action:acceptance criteria",
+        "action:error",
+        "task:support",
+        "task:replace",
+        "support:support-politeness"
       ]
     },
     {

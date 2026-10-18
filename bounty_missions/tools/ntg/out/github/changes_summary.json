@@ -25,6 +25,14 @@
       "total_score": 88
     },
     {
+      "repo": "topoteretes/cognee",
+      "number": 5916,
+      "title": "Hackathon [Feature]: Add Polar customer-state, subscriptions & benefit-grants data-source connector",
+      "url": "https://github.com/topoteretes/cognee/issues/5916",
+      "recommendation": "skip",
+      "total_score": 64
+    },
+    {
       "repo": "bloknayrb/tandem",
       "number": 2229,
       "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
