@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-18T01:02:35Z",
+  "generated_at_utc": "2026-10-18T05:54:02Z",
   "source_counts": {
     "github": 5,
     "algora": 0,
@@ -89,16 +89,14 @@
       "number": 2229,
       "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
       "recommendation": "skip",
-      "total_score": 51,
+      "total_score": 45,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
       "decision_signals": [
         "platform:polar.sh",
-        "action:regression",
         "action:fix",
-        "task:fix",
-        "task:add "
+        "task:fix"
       ]
     }
   ],

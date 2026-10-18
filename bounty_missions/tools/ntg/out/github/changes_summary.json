@@ -38,7 +38,7 @@
       "title": "fix(license-issuance): refund discriminator doesn't match Polar's Order schema; $0 order.paid unconfirmed",
       "url": "https://github.com/bloknayrb/tandem/issues/2229",
       "recommendation": "skip",
-      "total_score": 51
+      "total_score": 45
     }
   ],
   "dropped_items": [],
