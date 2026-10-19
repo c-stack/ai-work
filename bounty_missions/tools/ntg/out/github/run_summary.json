@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-19T06:17:07Z",
+  "generated_at_utc": "2026-10-19T13:32:30Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 0,
-    "merged": 3
+    "merged": 2
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 2
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -24,27 +24,6 @@
         "bounty:bounty",
         "platform:algora",
         "action:regression"
-      ]
-    },
-    {
-      "repo": "callstackincubator/simlock",
-      "number": 648,
-      "title": "Bug hunt: confirmed findings from the bug bounty sweep",
-      "recommendation": "skip",
-      "total_score": 87,
-      "bounty_amount_usd": 0,
-      "competition_risk": 24,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "negative:alternatives",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:replace",
-        "claims:1",
-        "existing-work:1"
       ]
     },
     {
