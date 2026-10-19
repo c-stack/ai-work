@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T13:32:30Z",
+  "generated_at_utc": "2026-10-19T19:56:39Z",
   "source_counts": {
     "github": 2,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 13331,
       "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
       "recommendation": "pursue",
-      "total_score": 97,
+      "total_score": 96,
       "bounty_amount_usd": 780,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

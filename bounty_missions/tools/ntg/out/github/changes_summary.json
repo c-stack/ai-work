@@ -6,7 +6,7 @@
       "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
       "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
       "recommendation": "pursue",
-      "total_score": 97
+      "total_score": 96
     },
     {
       "repo": "tenstorrent/tt-metal",
