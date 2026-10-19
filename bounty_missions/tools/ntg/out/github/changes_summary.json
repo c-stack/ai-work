@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "chatmcp/mcpso",
-      "number": 5414,
-      "title": "Submit MCP Server: BountyRadar MCP",
-      "url": "https://github.com/chatmcp/mcpso/issues/5414",
-      "recommendation": "skip",
-      "total_score": 99
-    },
-    {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 13331,
       "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
@@ -31,14 +23,6 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/61242",
       "recommendation": "skip",
       "total_score": 83
-    },
-    {
-      "repo": "topoteretes/cognee",
-      "number": 5916,
-      "title": "Hackathon [Feature]: Add Polar customer-state, subscriptions & benefit-grants data-source connector",
-      "url": "https://github.com/topoteretes/cognee/issues/5916",
-      "recommendation": "skip",
-      "total_score": 64
     }
   ],
   "dropped_items": [],

@@ -1,19 +1,10 @@
 {
-  "generated_at_utc": "2026-10-18T23:12:43Z",
+  "generated_at_utc": "2026-10-19T01:17:12Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "chatmcp/mcpso": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        5414
-      ]
-    },
     "SecureBananaLabs/bug-bounty": {
       "total_seen": 1,
       "skip_count": 0,
@@ -40,28 +31,9 @@
       "unique_issues": [
         61242
       ]
-    },
-    "topoteretes/cognee": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        5916
-      ]
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "topoteretes/cognee",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        5916
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "total_seen": 1,
@@ -70,16 +42,6 @@
       "pursue_count": 0,
       "unique_issues": [
         61242
-      ]
-    },
-    {
-      "repo": "chatmcp/mcpso",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        5414
       ]
     },
     {

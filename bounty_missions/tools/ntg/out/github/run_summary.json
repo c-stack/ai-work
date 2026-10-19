@@ -1,35 +1,16 @@
 {
-  "generated_at_utc": "2026-10-18T23:12:43Z",
+  "generated_at_utc": "2026-10-19T01:17:12Z",
   "source_counts": {
-    "github": 5,
+    "github": 3,
     "algora": 0,
-    "merged": 5
+    "merged": 3
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 4
+    "skip": 2
   },
   "top_candidates": [
-    {
-      "repo": "chatmcp/mcpso",
-      "number": 5414,
-      "title": "Submit MCP Server: BountyRadar MCP",
-      "recommendation": "skip",
-      "total_score": 99,
-      "bounty_amount_usd": 0,
-      "competition_risk": 16,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:root cause",
-        "action:regression",
-        "task:fix",
-        "task:implement",
-        "existing-work:1"
-      ]
-    },
     {
       "repo": "SecureBananaLabs/bug-bounty",
       "number": 13331,
@@ -81,24 +62,6 @@
         "task:fix",
         "task:remove",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "topoteretes/cognee",
-      "number": 5916,
-      "title": "Hackathon [Feature]: Add Polar customer-state, subscriptions & benefit-grants data-source connector",
-      "recommendation": "skip",
-      "total_score": 64,
-      "bounty_amount_usd": 0,
-      "competition_risk": 6,
-      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "action:acceptance criteria",
-        "action:error",
-        "task:support",
-        "task:replace",
-        "support:support-politeness"
       ]
     }
   ],
