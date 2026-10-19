@@ -14,7 +14,7 @@
       "title": "Bug hunt: confirmed findings from the bug bounty sweep",
       "url": "https://github.com/callstackincubator/simlock/issues/648",
       "recommendation": "skip",
-      "total_score": 88
+      "total_score": 87
     },
     {
       "repo": "tenstorrent/tt-metal",
