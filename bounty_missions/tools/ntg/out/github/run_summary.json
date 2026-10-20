@@ -1,31 +1,16 @@
 {
-  "generated_at_utc": "2026-10-19T23:42:26Z",
+  "generated_at_utc": "2026-10-20T04:50:55Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 0,
-    "merged": 2
+    "merged": 1
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 13331,
-      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
-      "recommendation": "pursue",
-      "total_score": 96,
-      "bounty_amount_usd": 780,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:regression"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 61242,

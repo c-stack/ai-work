@@ -1,27 +1,6 @@
 {
-  "generated_at_utc": "2026-10-19T23:42:26Z",
+  "generated_at_utc": "2026-10-20T04:50:55Z",
   "triage_profile": "aggressive",
-  "count": 1,
-  "items": [
-    {
-      "repo": "SecureBananaLabs/bug-bounty",
-      "number": 13331,
-      "title": "PAYMENT: USDC on Base wallet (Opire/Algora deliveries)",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/13331",
-      "recommendation": "pursue",
-      "total_score": 96,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 29,
-      "actionability": 26,
-      "bounty_amount_usd": 780,
-      "bounty_amount_signal": "generic_amount",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:regression"
-      ]
-    }
-  ]
+  "count": 0,
+  "items": []
 }
