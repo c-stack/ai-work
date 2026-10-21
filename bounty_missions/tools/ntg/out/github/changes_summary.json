@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "lambdaclass/stabileo",
+      "number": 505,
+      "title": "Public bug bounty for wrong-result bugs",
+      "url": "https://github.com/lambdaclass/stabileo/issues/505",
+      "recommendation": "pursue",
+      "total_score": 96
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 61242,
       "title": "ttnn.logiteps_bw uses [eps, 1 - eps] instead of [0, 1] when eps < 0 (returning finite negative gradients instead of NaN) and executes 10 redundant device dispatches",

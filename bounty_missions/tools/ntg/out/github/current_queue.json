@@ -1,6 +1,30 @@
 {
-  "generated_at_utc": "2026-10-20T22:22:49Z",
+  "generated_at_utc": "2026-10-21T01:35:47Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "lambdaclass/stabileo",
+      "number": 505,
+      "title": "Public bug bounty for wrong-result bugs",
+      "url": "https://github.com/lambdaclass/stabileo/issues/505",
+      "recommendation": "pursue",
+      "total_score": 96,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 34,
+      "actionability": 20,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:bug"
+      ]
+    }
+  ]
 }
