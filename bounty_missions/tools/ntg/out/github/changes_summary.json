@@ -6,7 +6,7 @@
       "title": "ttnn.log_sigmoid_bw returns 0.0 instead of NaN on bfloat16 NaN inputs (and runs 13 dispatches instead of 3), and ttnn.hardshrink_bw returns wrong gradients at NaN and at x == 0 when lambd < 0",
       "url": "https://github.com/tenstorrent/tt-metal/issues/61901",
       "recommendation": "review",
-      "total_score": 107
+      "total_score": 106
     },
     {
       "repo": "tenstorrent/tt-metal",

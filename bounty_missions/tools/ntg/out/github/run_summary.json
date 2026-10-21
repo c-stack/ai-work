@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-21T18:39:32Z",
+  "generated_at_utc": "2026-10-21T22:21:59Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
@@ -16,9 +16,9 @@
       "number": 61901,
       "title": "ttnn.log_sigmoid_bw returns 0.0 instead of NaN on bfloat16 NaN inputs (and runs 13 dispatches instead of 3), and ttnn.hardshrink_bw returns wrong gradients at NaN and at x == 0 when lambd < 0",
       "recommendation": "review",
-      "total_score": 107,
+      "total_score": 106,
       "bounty_amount_usd": 0,
-      "competition_risk": 3,
+      "competition_risk": 6,
       "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
