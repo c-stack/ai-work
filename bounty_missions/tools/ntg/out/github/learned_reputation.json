@@ -1,19 +1,10 @@
 {
-  "generated_at_utc": "2026-10-22T18:33:08Z",
+  "generated_at_utc": "2026-10-22T22:20:50Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "BasedHardware/omi": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        23294
-      ]
-    },
     "tenstorrent/tt-metal": {
       "total_seen": 2,
       "skip_count": 0,
@@ -54,16 +45,6 @@
       "unique_issues": [
         61894,
         61901
-      ]
-    },
-    {
-      "repo": "BasedHardware/omi",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        23294
       ]
     }
   ]

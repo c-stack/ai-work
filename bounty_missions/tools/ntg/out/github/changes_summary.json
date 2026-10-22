@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "BasedHardware/omi",
-      "number": 23294,
-      "title": "[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)",
-      "url": "https://github.com/BasedHardware/omi/issues/23294",
-      "recommendation": "pursue",
-      "total_score": 110
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 61901,
       "title": "ttnn.log_sigmoid_bw returns 0.0 instead of NaN on bfloat16 NaN inputs (and runs 13 dispatches instead of 3), and ttnn.hardshrink_bw returns wrong gradients at NaN and at x == 0 when lambd < 0",
@@ -30,7 +22,7 @@
       "title": "Public bug bounty for wrong-result bugs",
       "url": "https://github.com/lambdaclass/stabileo/issues/505",
       "recommendation": "skip",
-      "total_score": 76
+      "total_score": 78
     }
   ],
   "dropped_items": [],

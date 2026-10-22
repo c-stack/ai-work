@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-10-22T18:33:08Z",
+  "generated_at_utc": "2026-10-22T22:20:50Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 0,
-    "merged": 4
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 2,
     "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "BasedHardware/omi",
-      "number": 23294,
-      "title": "[Bounty proposal] fix(goals): get_user_goals drops active goals by limiting before filtering ($50)",
-      "recommendation": "pursue",
-      "total_score": 110,
-      "bounty_amount_usd": 50,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:implement"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 61901,
@@ -68,7 +50,7 @@
       "number": 505,
       "title": "Public bug bounty for wrong-result bugs",
       "recommendation": "skip",
-      "total_score": 76,
+      "total_score": 78,
       "bounty_amount_usd": 10,
       "competition_risk": 16,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -79,7 +61,7 @@
         "action:regression",
         "action:fix",
         "task:fix",
-        "task:bug",
+        "task:replace",
         "existing-work:1"
       ]
     }
