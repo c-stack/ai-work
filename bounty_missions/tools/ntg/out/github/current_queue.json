@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-22T01:32:21Z",
+  "generated_at_utc": "2026-10-22T07:35:33Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -26,6 +26,29 @@
       ]
     },
     {
+      "repo": "lambdaclass/stabileo",
+      "number": 505,
+      "title": "Public bug bounty for wrong-result bugs",
+      "url": "https://github.com/lambdaclass/stabileo/issues/505",
+      "recommendation": "pursue",
+      "total_score": 106,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 42,
+      "actionability": 22,
+      "bounty_amount_usd": 420,
+      "bounty_amount_signal": "generic_amount",
+      "competition_risk": 4,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 61894,
       "title": "[Bug Report] ttnn.silu_bw returns NaN at +/-inf and drops output_mem_config when allocating default input_grad",
@@ -43,29 +66,6 @@
         "bounty:bounty",
         "action:steps to reproduce",
         "action:expected behavior",
-        "task:fix",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "lambdaclass/stabileo",
-      "number": 505,
-      "title": "Public bug bounty for wrong-result bugs",
-      "url": "https://github.com/lambdaclass/stabileo/issues/505",
-      "recommendation": "pursue",
-      "total_score": 96,
-      "repo_primary_language": "TypeScript",
-      "bounty_confidence": 34,
-      "actionability": 20,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:regression",
-        "action:fix",
         "task:fix",
         "task:bug"
       ]

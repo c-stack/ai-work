@@ -9,20 +9,20 @@
       "total_score": 106
     },
     {
+      "repo": "lambdaclass/stabileo",
+      "number": 505,
+      "title": "Public bug bounty for wrong-result bugs",
+      "url": "https://github.com/lambdaclass/stabileo/issues/505",
+      "recommendation": "pursue",
+      "total_score": 106
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 61894,
       "title": "[Bug Report] ttnn.silu_bw returns NaN at +/-inf and drops output_mem_config when allocating default input_grad",
       "url": "https://github.com/tenstorrent/tt-metal/issues/61894",
       "recommendation": "review",
       "total_score": 105
-    },
-    {
-      "repo": "lambdaclass/stabileo",
-      "number": 505,
-      "title": "Public bug bounty for wrong-result bugs",
-      "url": "https://github.com/lambdaclass/stabileo/issues/505",
-      "recommendation": "pursue",
-      "total_score": 96
     }
   ],
   "dropped_items": [],
