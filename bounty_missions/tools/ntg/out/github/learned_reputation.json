@@ -1,17 +1,16 @@
 {
-  "generated_at_utc": "2026-10-21T22:21:59Z",
+  "generated_at_utc": "2026-10-22T01:32:21Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
     "tenstorrent/tt-metal": {
-      "total_seen": 3,
-      "skip_count": 1,
+      "total_seen": 2,
+      "skip_count": 0,
       "review_count": 2,
       "pursue_count": 0,
       "unique_issues": [
-        61242,
         61894,
         61901
       ]
@@ -29,12 +28,11 @@
   "top_repeat_skips": [
     {
       "repo": "tenstorrent/tt-metal",
-      "total_seen": 3,
-      "skip_count": 1,
+      "total_seen": 2,
+      "skip_count": 0,
       "review_count": 2,
       "pursue_count": 0,
       "unique_issues": [
-        61242,
         61894,
         61901
       ]

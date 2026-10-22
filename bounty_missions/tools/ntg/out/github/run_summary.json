@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-21T22:21:59Z",
+  "generated_at_utc": "2026-10-22T01:32:21Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 0,
-    "merged": 4
+    "merged": 3
   },
   "recommendations": {
     "pursue": 1,
     "review": 2,
-    "skip": 1
+    "skip": 0
   },
   "top_candidates": [
     {
@@ -61,23 +61,6 @@
         "action:fix",
         "task:fix",
         "task:bug"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 61242,
-      "title": "ttnn.logiteps_bw uses [eps, 1 - eps] instead of [0, 1] when eps < 0 (returning finite negative gradients instead of NaN) and executes 10 redundant device dispatches",
-      "recommendation": "skip",
-      "total_score": 82,
-      "bounty_amount_usd": 0,
-      "competition_risk": 15,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:remove",
-        "existing-work:1"
       ]
     }
   ],
