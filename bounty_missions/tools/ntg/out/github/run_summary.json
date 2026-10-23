@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-23T01:31:45Z",
+  "generated_at_utc": "2026-10-23T07:32:21Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -50,9 +50,9 @@
       "number": 505,
       "title": "Public bug bounty for wrong-result bugs",
       "recommendation": "skip",
-      "total_score": 77,
+      "total_score": 84,
       "bounty_amount_usd": 10,
-      "competition_risk": 16,
+      "competition_risk": 24,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bug bounty",
@@ -61,7 +61,8 @@
         "action:regression",
         "action:fix",
         "task:fix",
-        "task:replace",
+        "task:support",
+        "claims:1",
         "existing-work:1"
       ]
     }
