@@ -2,5 +2,5 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
-| review | 106 | tenstorrent/tt-metal | 61901 | Python | Plausible bounty with enough detail to inspect manually. | bounty:bounty, action:root cause, action:error, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/61901) |
-| review | 105 | tenstorrent/tt-metal | 61894 | Python | Plausible bounty with enough detail to inspect manually. | bounty:bounty, action:steps to reproduce, action:expected behavior, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/61894) |
+| review | 105 | tenstorrent/tt-metal | 61901 | Python | Plausible bounty with enough detail to inspect manually. | bounty:bounty, action:root cause, action:error, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/61901) |
+| review | 104 | tenstorrent/tt-metal | 61894 | Python | Plausible bounty with enough detail to inspect manually. | bounty:bounty, action:steps to reproduce, action:expected behavior, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/61894) |
