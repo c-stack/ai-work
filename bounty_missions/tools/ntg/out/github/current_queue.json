@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-24T00:42:27Z",
+  "generated_at_utc": "2026-10-24T05:53:49Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -45,6 +45,30 @@
         "action:expected behavior",
         "task:fix",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "benelabs/crucible",
+      "number": 1368,
+      "title": "Question: Bounty program clarification \u2014 84 merged PRs from Dimank92",
+      "url": "https://github.com/benelabs/crucible/issues/1368",
+      "recommendation": "pursue",
+      "total_score": 80,
+      "repo_primary_language": "Rust",
+      "bounty_confidence": 23,
+      "actionability": 19,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:implement",
+        "support:support-politeness",
+        "bounty-check:reward-unclear"
       ]
     }
   ]

@@ -22,7 +22,15 @@
       "title": "Public bug bounty for wrong-result bugs",
       "url": "https://github.com/lambdaclass/stabileo/issues/505",
       "recommendation": "skip",
-      "total_score": 84
+      "total_score": 91
+    },
+    {
+      "repo": "benelabs/crucible",
+      "number": 1368,
+      "title": "Question: Bounty program clarification \u2014 84 merged PRs from Dimank92",
+      "url": "https://github.com/benelabs/crucible/issues/1368",
+      "recommendation": "pursue",
+      "total_score": 80
     }
   ],
   "dropped_items": [],

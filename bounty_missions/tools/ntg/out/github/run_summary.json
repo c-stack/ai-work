@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-10-24T00:42:27Z",
+  "generated_at_utc": "2026-10-24T05:53:49Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 2,
     "skip": 1
   },
@@ -50,7 +50,7 @@
       "number": 505,
       "title": "Public bug bounty for wrong-result bugs",
       "recommendation": "skip",
-      "total_score": 84,
+      "total_score": 91,
       "bounty_amount_usd": 10,
       "competition_risk": 24,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -58,12 +58,31 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "negative:settlement",
+        "action:failing",
         "action:regression",
-        "action:fix",
         "task:fix",
         "task:support",
         "claims:1",
         "existing-work:1"
+      ]
+    },
+    {
+      "repo": "benelabs/crucible",
+      "number": 1368,
+      "title": "Question: Bounty program clarification \u2014 84 merged PRs from Dimank92",
+      "recommendation": "pursue",
+      "total_score": 80,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora",
+        "action:fix",
+        "task:fix",
+        "task:implement",
+        "support:support-politeness",
+        "bounty-check:reward-unclear"
       ]
     }
   ],
