@@ -1,71 +1,16 @@
 {
-  "generated_at_utc": "2026-10-24T23:14:24Z",
+  "generated_at_utc": "2026-10-25T01:12:22Z",
   "source_counts": {
-    "github": 4,
+    "github": 1,
     "algora": 0,
-    "merged": 4
+    "merged": 1
   },
   "recommendations": {
     "pursue": 1,
-    "review": 2,
-    "skip": 1
+    "review": 0,
+    "skip": 0
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 61901,
-      "title": "ttnn.log_sigmoid_bw returns 0.0 instead of NaN on bfloat16 NaN inputs (and runs 13 dispatches instead of 3), and ttnn.hardshrink_bw returns wrong gradients at NaN and at x == 0 when lambd < 0",
-      "recommendation": "review",
-      "total_score": 105,
-      "bounty_amount_usd": 0,
-      "competition_risk": 6,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:error"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 61894,
-      "title": "[Bug Report] ttnn.silu_bw returns NaN at +/-inf and drops output_mem_config when allocating default input_grad",
-      "recommendation": "review",
-      "total_score": 104,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "lambdaclass/stabileo",
-      "number": 505,
-      "title": "Public bug bounty for wrong-result bugs",
-      "recommendation": "skip",
-      "total_score": 91,
-      "bounty_amount_usd": 10,
-      "competition_risk": 24,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "negative:settlement",
-        "action:failing",
-        "action:regression",
-        "task:fix",
-        "task:support",
-        "claims:1",
-        "existing-work:1"
-      ]
-    },
     {
       "repo": "benelabs/crucible",
       "number": 1368,

@@ -1,29 +1,10 @@
 {
-  "generated_at_utc": "2026-10-24T23:14:24Z",
+  "generated_at_utc": "2026-10-25T01:12:22Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "tenstorrent/tt-metal": {
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 0,
-      "unique_issues": [
-        61894,
-        61901
-      ]
-    },
-    "lambdaclass/stabileo": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        505
-      ]
-    },
     "benelabs/crucible": {
       "total_seen": 1,
       "skip_count": 0,
@@ -35,27 +16,6 @@
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "lambdaclass/stabileo",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        505
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 2,
-      "skip_count": 0,
-      "review_count": 2,
-      "pursue_count": 0,
-      "unique_issues": [
-        61894,
-        61901
-      ]
-    },
     {
       "repo": "benelabs/crucible",
       "total_seen": 1,

@@ -1,30 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 61901,
-      "title": "ttnn.log_sigmoid_bw returns 0.0 instead of NaN on bfloat16 NaN inputs (and runs 13 dispatches instead of 3), and ttnn.hardshrink_bw returns wrong gradients at NaN and at x == 0 when lambd < 0",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/61901",
-      "recommendation": "review",
-      "total_score": 105
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 61894,
-      "title": "[Bug Report] ttnn.silu_bw returns NaN at +/-inf and drops output_mem_config when allocating default input_grad",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/61894",
-      "recommendation": "review",
-      "total_score": 104
-    },
-    {
-      "repo": "lambdaclass/stabileo",
-      "number": 505,
-      "title": "Public bug bounty for wrong-result bugs",
-      "url": "https://github.com/lambdaclass/stabileo/issues/505",
-      "recommendation": "skip",
-      "total_score": 91
-    },
-    {
       "repo": "benelabs/crucible",
       "number": 1368,
       "title": "Question: Bounty program clarification \u2014 84 merged PRs from Dimank92",
