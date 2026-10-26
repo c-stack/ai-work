@@ -1,12 +1,28 @@
 {
   "new_items": [
     {
+      "repo": "anthropics/claude-code",
+      "number": 105287,
+      "title": "[Bug] Cyber Safeguard False Positive Blocks Authorized Bug Bounty Testing",
+      "url": "https://github.com/anthropics/claude-code/issues/105287",
+      "recommendation": "pursue",
+      "total_score": 101
+    },
+    {
       "repo": "benelabs/crucible",
       "number": 1368,
       "title": "Question: Bounty program clarification \u2014 84 merged PRs from Dimank92",
       "url": "https://github.com/benelabs/crucible/issues/1368",
       "recommendation": "pursue",
       "total_score": 79
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 62571,
+      "title": "Bounty $[750] Improve Qwen3-TTS Code Predictor Accuracy",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/62571",
+      "recommendation": "review",
+      "total_score": 69
     }
   ],
   "dropped_items": [],

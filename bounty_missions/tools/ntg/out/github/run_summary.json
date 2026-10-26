@@ -1,16 +1,31 @@
 {
-  "generated_at_utc": "2026-10-26T19:19:32Z",
+  "generated_at_utc": "2026-10-26T23:53:29Z",
   "source_counts": {
-    "github": 1,
+    "github": 3,
     "algora": 0,
-    "merged": 1
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 0,
+    "pursue": 2,
+    "review": 1,
     "skip": 0
   },
   "top_candidates": [
+    {
+      "repo": "anthropics/claude-code",
+      "number": 105287,
+      "title": "[Bug] Cyber Safeguard False Positive Blocks Authorized Bug Bounty Testing",
+      "recommendation": "pursue",
+      "total_score": 101,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
     {
       "repo": "benelabs/crucible",
       "number": 1368,
@@ -28,6 +43,23 @@
         "task:implement",
         "support:support-politeness",
         "bounty-check:reward-unclear"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 62571,
+      "title": "Bounty $[750] Improve Qwen3-TTS Code Predictor Accuracy",
+      "recommendation": "review",
+      "total_score": 69,
+      "bounty_amount_usd": 0,
+      "competition_risk": 20,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "task:support",
+        "task:implement",
+        "claims:1"
       ]
     }
   ],

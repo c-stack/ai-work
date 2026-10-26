@@ -1,8 +1,28 @@
 {
-  "generated_at_utc": "2026-10-26T19:19:32Z",
+  "generated_at_utc": "2026-10-26T23:53:29Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 3,
   "items": [
+    {
+      "repo": "anthropics/claude-code",
+      "number": 105287,
+      "title": "[Bug] Cyber Safeguard False Positive Blocks Authorized Bug Bounty Testing",
+      "url": "https://github.com/anthropics/claude-code/issues/105287",
+      "recommendation": "pursue",
+      "total_score": 101,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 34,
+      "actionability": 20,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
     {
       "repo": "benelabs/crucible",
       "number": 1368,
@@ -25,6 +45,28 @@
         "task:implement",
         "support:support-politeness",
         "bounty-check:reward-unclear"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 62571,
+      "title": "Bounty $[750] Improve Qwen3-TTS Code Predictor Accuracy",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/62571",
+      "recommendation": "review",
+      "total_score": 69,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 22,
+      "actionability": 22,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 20,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "task:support",
+        "task:implement",
+        "claims:1"
       ]
     }
   ]
