@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-10-25T22:33:20Z",
+  "generated_at_utc": "2026-10-26T01:10:12Z",
   "triage_profile": "aggressive",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "repo": "benelabs/crucible",
@@ -25,6 +25,25 @@
         "task:implement",
         "support:support-politeness",
         "bounty-check:reward-unclear"
+      ]
+    },
+    {
+      "repo": "chatmcp/mcpso",
+      "number": 6028,
+      "title": "[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)",
+      "url": "https://github.com/chatmcp/mcpso/issues/6028",
+      "recommendation": "review",
+      "total_score": 78,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 27,
+      "actionability": 4,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
       ]
     }
   ]

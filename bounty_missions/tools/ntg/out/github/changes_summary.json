@@ -7,6 +7,14 @@
       "url": "https://github.com/benelabs/crucible/issues/1368",
       "recommendation": "pursue",
       "total_score": 80
+    },
+    {
+      "repo": "chatmcp/mcpso",
+      "number": 6028,
+      "title": "[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)",
+      "url": "https://github.com/chatmcp/mcpso/issues/6028",
+      "recommendation": "review",
+      "total_score": 78
     }
   ],
   "dropped_items": [],

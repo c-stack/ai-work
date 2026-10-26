@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-25T22:33:20Z",
+  "generated_at_utc": "2026-10-26T01:10:12Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
     "pursue": 1,
-    "review": 0,
+    "review": 1,
     "skip": 0
   },
   "top_candidates": [
@@ -28,6 +28,20 @@
         "task:implement",
         "support:support-politeness",
         "bounty-check:reward-unclear"
+      ]
+    },
+    {
+      "repo": "chatmcp/mcpso",
+      "number": 6028,
+      "title": "[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)",
+      "recommendation": "review",
+      "total_score": 78,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
+      "decision_signals": [
+        "bounty:bounty",
+        "platform:algora"
       ]
     }
   ],
