@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 62681,
+      "title": "[Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/62681",
+      "recommendation": "pursue",
+      "total_score": 121
+    },
+    {
       "repo": "anthropics/claude-code",
       "number": 105287,
       "title": "[Bug] Cyber Safeguard False Positive Blocks Authorized Bug Bounty Testing",

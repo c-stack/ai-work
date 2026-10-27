@@ -1,8 +1,31 @@
 {
-  "generated_at_utc": "2026-10-27T10:34:02Z",
+  "generated_at_utc": "2026-10-27T16:38:37Z",
   "triage_profile": "aggressive",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 62681,
+      "title": "[Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/62681",
+      "recommendation": "pursue",
+      "total_score": 121,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 40,
+      "actionability": 42,
+      "bounty_amount_usd": 3000,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 10,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:1"
+      ]
+    },
     {
       "repo": "anthropics/claude-code",
       "number": 105287,
