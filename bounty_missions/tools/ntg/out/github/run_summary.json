@@ -1,47 +1,32 @@
 {
-  "generated_at_utc": "2026-10-27T16:38:37Z",
+  "generated_at_utc": "2026-10-27T21:19:34Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 0,
-    "merged": 4
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 2,
     "review": 1,
     "skip": 0
   },
   "top_candidates": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 62681,
-      "title": "[Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)",
+      "repo": "paraspell/xcm-tools",
+      "number": 2349,
+      "title": "[Bug bounty] BifrostPolkadot PEN self-referential location",
       "recommendation": "pursue",
-      "total_score": 121,
-      "bounty_amount_usd": 3000,
-      "competition_risk": 10,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:1"
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "number": 105287,
-      "title": "[Bug] Cyber Safeguard False Positive Blocks Authorized Bug Bounty Testing",
-      "recommendation": "pursue",
-      "total_score": 101,
+      "total_score": 116,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 11,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
-        "task:bug"
+        "action:expected behavior",
+        "action:root cause",
+        "task:fix",
+        "task:support"
       ]
     },
     {

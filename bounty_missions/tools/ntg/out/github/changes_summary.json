@@ -1,20 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 62681,
-      "title": "[Bounty $3000] Static checker for compute-kernel API ordering rules (init / uninit / reconfig)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/62681",
+      "repo": "paraspell/xcm-tools",
+      "number": 2349,
+      "title": "[Bug bounty] BifrostPolkadot PEN self-referential location",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2349",
       "recommendation": "pursue",
-      "total_score": 121
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "number": 105287,
-      "title": "[Bug] Cyber Safeguard False Positive Blocks Authorized Bug Bounty Testing",
-      "url": "https://github.com/anthropics/claude-code/issues/105287",
-      "recommendation": "pursue",
-      "total_score": 101
+      "total_score": 116
     },
     {
       "repo": "benelabs/crucible",
