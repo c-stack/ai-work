@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-28T16:03:10Z",
+  "generated_at_utc": "2026-10-28T21:04:52Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -48,7 +48,7 @@
       "number": 62571,
       "title": "Bounty $[750] Improve Qwen3-TTS Code Predictor Accuracy",
       "recommendation": "review",
-      "total_score": 69,
+      "total_score": 68,
       "bounty_amount_usd": 0,
       "competition_risk": 20,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
