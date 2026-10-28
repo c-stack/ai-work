@@ -1,13 +1,13 @@
 {
-  "generated_at_utc": "2026-10-27T21:19:34Z",
+  "generated_at_utc": "2026-10-28T01:22:03Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
     "merged": 3
   },
   "recommendations": {
-    "pursue": 2,
-    "review": 1,
+    "pursue": 1,
+    "review": 2,
     "skip": 0
   },
   "top_candidates": [
@@ -30,22 +30,17 @@
       ]
     },
     {
-      "repo": "benelabs/crucible",
-      "number": 1368,
-      "title": "Question: Bounty program clarification \u2014 84 merged PRs from Dimank92",
-      "recommendation": "pursue",
-      "total_score": 79,
+      "repo": "chatmcp/mcpso",
+      "number": 6253,
+      "title": "[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)",
+      "recommendation": "review",
+      "total_score": 78,
       "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 0,
+      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
       "decision_signals": [
         "bounty:bounty",
-        "platform:algora",
-        "action:fix",
-        "task:fix",
-        "task:implement",
-        "support:support-politeness",
-        "bounty-check:reward-unclear"
+        "platform:algora"
       ]
     },
     {
