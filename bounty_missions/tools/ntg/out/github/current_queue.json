@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T20:18:04Z",
+  "generated_at_utc": "2026-10-29T23:59:05Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -32,7 +32,7 @@
       "title": "[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)",
       "url": "https://github.com/chatmcp/mcpso/issues/6253",
       "recommendation": "review",
-      "total_score": 78,
+      "total_score": 77,
       "repo_primary_language": "TypeScript",
       "bounty_confidence": 27,
       "actionability": 4,
