@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-29T23:59:05Z",
+  "generated_at_utc": "2026-10-30T05:48:44Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -22,28 +22,9 @@
       "unique_issues": [
         6253
       ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        62571
-      ]
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        62571
-      ]
-    },
     {
       "repo": "paraspell/xcm-tools",
       "total_seen": 1,
