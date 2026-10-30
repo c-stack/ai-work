@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-10-30T18:37:43Z",
+  "generated_at_utc": "2026-10-30T22:58:41Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
     "pursue": 1,
     "review": 1,
-    "skip": 1
+    "skip": 2
   },
   "top_candidates": [
     {
@@ -56,6 +56,20 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "wannabespace/tamery",
+      "number": 696,
+      "title": "Site: customer quotes section on the homepage",
+      "recommendation": "skip",
+      "total_score": 43,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "task:add "
       ]
     }
   ],

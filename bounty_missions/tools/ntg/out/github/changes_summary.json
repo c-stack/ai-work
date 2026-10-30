@@ -23,6 +23,14 @@
       "url": "https://github.com/ethereum-optimism/optimism/issues/23807",
       "recommendation": "skip",
       "total_score": 69
+    },
+    {
+      "repo": "wannabespace/tamery",
+      "number": 696,
+      "title": "Site: customer quotes section on the homepage",
+      "url": "https://github.com/wannabespace/tamery/issues/696",
+      "recommendation": "skip",
+      "total_score": 43
     }
   ],
   "dropped_items": [],

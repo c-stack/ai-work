@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-30T18:37:43Z",
+  "generated_at_utc": "2026-10-30T22:58:41Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -31,9 +31,28 @@
       "unique_issues": [
         23807
       ]
+    },
+    "wannabespace/tamery": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        696
+      ]
     }
   },
   "top_repeat_skips": [
+    {
+      "repo": "wannabespace/tamery",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        696
+      ]
+    },
     {
       "repo": "ethereum-optimism/optimism",
       "total_seen": 1,
