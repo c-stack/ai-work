@@ -1,46 +1,29 @@
 {
-  "generated_at_utc": "2026-10-30T22:58:41Z",
+  "generated_at_utc": "2026-10-31T02:23:19Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 0,
-    "merged": 4
+    "merged": 3
   },
   "recommendations": {
     "pursue": 1,
-    "review": 1,
+    "review": 0,
     "skip": 2
   },
   "top_candidates": [
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2349,
-      "title": "[Bug bounty] BifrostPolkadot PEN self-referential location",
+      "repo": "anthropics/claude-code",
+      "number": 106189,
+      "title": "[Bug] Model classifier over-triggers on legitimate bug bounty work",
       "recommendation": "pursue",
-      "total_score": 115,
+      "total_score": 95,
       "bounty_amount_usd": 0,
-      "competition_risk": 11,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bug bounty",
         "bounty:bounty",
-        "action:expected behavior",
-        "action:root cause",
-        "task:fix",
-        "task:support"
-      ]
-    },
-    {
-      "repo": "chatmcp/mcpso",
-      "number": 6253,
-      "title": "[Submit] Remote MCP Server: Agent Bounty Feed (io.github.dailydollar-bot/agent-bounty-feed)",
-      "recommendation": "review",
-      "total_score": 77,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Likely bounty, but the issue still needs manual scoping before coding.",
-      "decision_signals": [
-        "bounty:bounty",
-        "platform:algora"
+        "task:bug"
       ]
     },
     {

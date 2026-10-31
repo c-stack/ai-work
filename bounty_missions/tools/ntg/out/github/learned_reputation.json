@@ -1,26 +1,17 @@
 {
-  "generated_at_utc": "2026-10-30T22:58:41Z",
+  "generated_at_utc": "2026-10-31T02:23:19Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "paraspell/xcm-tools": {
+    "anthropics/claude-code": {
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        2349
-      ]
-    },
-    "chatmcp/mcpso": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        6253
+        106189
       ]
     },
     "ethereum-optimism/optimism": {
@@ -64,23 +55,13 @@
       ]
     },
     {
-      "repo": "paraspell/xcm-tools",
+      "repo": "anthropics/claude-code",
       "total_seen": 1,
       "skip_count": 0,
       "review_count": 0,
       "pursue_count": 1,
       "unique_issues": [
-        2349
-      ]
-    },
-    {
-      "repo": "chatmcp/mcpso",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 1,
-      "pursue_count": 0,
-      "unique_issues": [
-        6253
+        106189
       ]
     }
   ]
