@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-01T06:03:50Z",
+  "generated_at_utc": "2026-11-01T13:24:35Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 2374,
       "title": "[Bug bounty] SWAP: getRouterFees does not forward disableFallback to getSwapFee",
       "recommendation": "pursue",
-      "total_score": 110,
+      "total_score": 109,
       "bounty_amount_usd": 0,
       "competition_risk": 8,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -34,7 +34,7 @@
       "number": 106189,
       "title": "[Bug] Model classifier over-triggers on legitimate bug bounty work",
       "recommendation": "pursue",
-      "total_score": 95,
+      "total_score": 94,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

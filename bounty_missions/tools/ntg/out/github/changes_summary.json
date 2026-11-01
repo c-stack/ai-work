@@ -6,7 +6,7 @@
       "title": "[Bug bounty] SWAP: getRouterFees does not forward disableFallback to getSwapFee",
       "url": "https://github.com/paraspell/xcm-tools/issues/2374",
       "recommendation": "pursue",
-      "total_score": 110
+      "total_score": 109
     },
     {
       "repo": "anthropics/claude-code",
@@ -14,7 +14,7 @@
       "title": "[Bug] Model classifier over-triggers on legitimate bug bounty work",
       "url": "https://github.com/anthropics/claude-code/issues/106189",
       "recommendation": "pursue",
-      "total_score": 95
+      "total_score": 94
     },
     {
       "repo": "ethereum-optimism/optimism",
