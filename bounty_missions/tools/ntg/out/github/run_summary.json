@@ -1,29 +1,32 @@
 {
-  "generated_at_utc": "2026-11-01T18:56:40Z",
+  "generated_at_utc": "2026-11-01T22:49:44Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
     "merged": 3
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 2
+    "skip": 3
   },
   "top_candidates": [
     {
-      "repo": "anthropics/claude-code",
-      "number": 106589,
-      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
-      "recommendation": "pursue",
-      "total_score": 95,
+      "repo": "tenstorrent/tt-metal",
+      "number": 63675,
+      "title": "[ttnn/slice]: ends inside the tile padding pass and return padding [tt-robot]",
+      "recommendation": "skip",
+      "total_score": 93,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "competition_risk": 12,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
-        "bounty:bug bounty",
         "bounty:bounty",
-        "task:bug"
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:error",
+        "existing-work:1"
       ]
     },
     {
@@ -46,7 +49,7 @@
       "number": 696,
       "title": "Site: customer quotes section on the homepage",
       "recommendation": "skip",
-      "total_score": 43,
+      "total_score": 42,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",

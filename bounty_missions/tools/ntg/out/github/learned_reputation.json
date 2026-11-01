@@ -1,17 +1,17 @@
 {
-  "generated_at_utc": "2026-11-01T18:56:40Z",
+  "generated_at_utc": "2026-11-01T22:49:44Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "anthropics/claude-code": {
+    "tenstorrent/tt-metal": {
       "total_seen": 1,
-      "skip_count": 0,
+      "skip_count": 1,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
-        106589
+        63675
       ]
     },
     "ethereum-optimism/optimism": {
@@ -45,6 +45,16 @@
       ]
     },
     {
+      "repo": "tenstorrent/tt-metal",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        63675
+      ]
+    },
+    {
       "repo": "ethereum-optimism/optimism",
       "total_seen": 1,
       "skip_count": 1,
@@ -52,16 +62,6 @@
       "pursue_count": 0,
       "unique_issues": [
         23807
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        106589
       ]
     }
   ]
