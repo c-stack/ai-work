@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-10-31T23:24:16Z",
+  "generated_at_utc": "2026-11-01T06:03:50Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "paraspell/xcm-tools": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        2374
+      ]
+    },
     "anthropics/claude-code": {
       "total_seen": 1,
       "skip_count": 0,
@@ -52,6 +61,16 @@
       "pursue_count": 0,
       "unique_issues": [
         23807
+      ]
+    },
+    {
+      "repo": "paraspell/xcm-tools",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        2374
       ]
     },
     {

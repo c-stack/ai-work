@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "paraspell/xcm-tools",
+      "number": 2374,
+      "title": "[Bug bounty] SWAP: getRouterFees does not forward disableFallback to getSwapFee",
+      "url": "https://github.com/paraspell/xcm-tools/issues/2374",
+      "recommendation": "pursue",
+      "total_score": 110
+    },
+    {
       "repo": "anthropics/claude-code",
       "number": 106189,
       "title": "[Bug] Model classifier over-triggers on legitimate bug bounty work",

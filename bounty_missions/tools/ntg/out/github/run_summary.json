@@ -1,16 +1,34 @@
 {
-  "generated_at_utc": "2026-10-31T23:24:16Z",
+  "generated_at_utc": "2026-11-01T06:03:50Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
     "skip": 2
   },
   "top_candidates": [
+    {
+      "repo": "paraspell/xcm-tools",
+      "number": 2374,
+      "title": "[Bug bounty] SWAP: getRouterFees does not forward disableFallback to getSwapFee",
+      "recommendation": "pursue",
+      "total_score": 110,
+      "bounty_amount_usd": 0,
+      "competition_risk": 8,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "action:expected behavior",
+        "action:error",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "anthropics/claude-code",
       "number": 106189,
