@@ -1,20 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2374,
-      "title": "[Bug bounty] SWAP: getRouterFees does not forward disableFallback to getSwapFee",
-      "url": "https://github.com/paraspell/xcm-tools/issues/2374",
-      "recommendation": "pursue",
-      "total_score": 109
-    },
-    {
       "repo": "anthropics/claude-code",
-      "number": 106189,
-      "title": "[Bug] Model classifier over-triggers on legitimate bug bounty work",
-      "url": "https://github.com/anthropics/claude-code/issues/106189",
+      "number": 106589,
+      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
+      "url": "https://github.com/anthropics/claude-code/issues/106589",
       "recommendation": "pursue",
-      "total_score": 94
+      "total_score": 95
     },
     {
       "repo": "ethereum-optimism/optimism",
@@ -22,7 +14,7 @@
       "title": "Set bug bounty scope for interop",
       "url": "https://github.com/ethereum-optimism/optimism/issues/23807",
       "recommendation": "skip",
-      "total_score": 69
+      "total_score": 68
     },
     {
       "repo": "wannabespace/tamery",

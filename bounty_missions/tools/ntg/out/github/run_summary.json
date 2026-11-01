@@ -1,40 +1,22 @@
 {
-  "generated_at_utc": "2026-11-01T13:24:35Z",
+  "generated_at_utc": "2026-11-01T18:56:40Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 0,
-    "merged": 4
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 1,
     "review": 0,
     "skip": 2
   },
   "top_candidates": [
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2374,
-      "title": "[Bug bounty] SWAP: getRouterFees does not forward disableFallback to getSwapFee",
-      "recommendation": "pursue",
-      "total_score": 109,
-      "bounty_amount_usd": 0,
-      "competition_risk": 8,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "action:expected behavior",
-        "action:error",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
       "repo": "anthropics/claude-code",
-      "number": 106189,
-      "title": "[Bug] Model classifier over-triggers on legitimate bug bounty work",
+      "number": 106589,
+      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
       "recommendation": "pursue",
-      "total_score": 94,
+      "total_score": 95,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -49,7 +31,7 @@
       "number": 23807,
       "title": "Set bug bounty scope for interop",
       "recommendation": "skip",
-      "total_score": 69,
+      "total_score": 68,
       "bounty_amount_usd": 0,
       "competition_risk": 8,
       "decision_reason": "Issue details are too thin to estimate a quick fix path.",
