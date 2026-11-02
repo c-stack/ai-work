@@ -1,31 +1,16 @@
 {
-  "generated_at_utc": "2026-11-02T11:06:12Z",
+  "generated_at_utc": "2026-11-02T20:46:53Z",
   "source_counts": {
-    "github": 5,
+    "github": 3,
     "algora": 0,
-    "merged": 5
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 0,
-    "skip": 4
+    "skip": 3
   },
   "top_candidates": [
-    {
-      "repo": "anthropics/claude-code",
-      "number": 106589,
-      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
-      "recommendation": "pursue",
-      "total_score": 95,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 63675,
@@ -71,27 +56,6 @@
       "decision_signals": [
         "platform:polar.sh",
         "task:add "
-      ]
-    },
-    {
-      "repo": "okou-ai/okou",
-      "number": 44570,
-      "title": "feat(connectors): replace polar http connector with official mcp",
-      "recommendation": "skip",
-      "total_score": 25,
-      "bounty_amount_usd": 0,
-      "competition_risk": 38,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "negative:article",
-        "negative:migration",
-        "action:acceptance criteria",
-        "action:fix",
-        "task:fix",
-        "task:support",
-        "claims:2",
-        "existing-work:1"
       ]
     }
   ],

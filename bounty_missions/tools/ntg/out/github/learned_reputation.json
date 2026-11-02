@@ -1,19 +1,10 @@
 {
-  "generated_at_utc": "2026-11-02T11:06:12Z",
+  "generated_at_utc": "2026-11-02T20:46:53Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "anthropics/claude-code": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        106589
-      ]
-    },
     "tenstorrent/tt-metal": {
       "total_seen": 1,
       "skip_count": 1,
@@ -40,15 +31,6 @@
       "unique_issues": [
         696
       ]
-    },
-    "okou-ai/okou": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        44570
-      ]
     }
   },
   "top_repeat_skips": [
@@ -73,16 +55,6 @@
       ]
     },
     {
-      "repo": "okou-ai/okou",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        44570
-      ]
-    },
-    {
       "repo": "ethereum-optimism/optimism",
       "total_seen": 1,
       "skip_count": 1,
@@ -90,16 +62,6 @@
       "pursue_count": 0,
       "unique_issues": [
         23807
-      ]
-    },
-    {
-      "repo": "anthropics/claude-code",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        106589
       ]
     }
   ]
