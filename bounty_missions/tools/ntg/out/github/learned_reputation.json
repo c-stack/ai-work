@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-02T02:31:41Z",
+  "generated_at_utc": "2026-11-02T11:06:12Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -40,6 +40,15 @@
       "unique_issues": [
         696
       ]
+    },
+    "okou-ai/okou": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        44570
+      ]
     }
   },
   "top_repeat_skips": [
@@ -61,6 +70,16 @@
       "pursue_count": 0,
       "unique_issues": [
         63675
+      ]
+    },
+    {
+      "repo": "okou-ai/okou",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        44570
       ]
     },
     {

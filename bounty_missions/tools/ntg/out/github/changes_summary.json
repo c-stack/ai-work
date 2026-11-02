@@ -31,6 +31,14 @@
       "url": "https://github.com/wannabespace/tamery/issues/696",
       "recommendation": "skip",
       "total_score": 42
+    },
+    {
+      "repo": "okou-ai/okou",
+      "number": 44570,
+      "title": "feat(connectors): replace polar http connector with official mcp",
+      "url": "https://github.com/okou-ai/okou/issues/44570",
+      "recommendation": "skip",
+      "total_score": 25
     }
   ],
   "dropped_items": [],

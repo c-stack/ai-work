@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-11-02T02:31:41Z",
+  "generated_at_utc": "2026-11-02T11:06:12Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 0,
-    "merged": 4
+    "merged": 5
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 3
+    "skip": 4
   },
   "top_candidates": [
     {
@@ -71,6 +71,27 @@
       "decision_signals": [
         "platform:polar.sh",
         "task:add "
+      ]
+    },
+    {
+      "repo": "okou-ai/okou",
+      "number": 44570,
+      "title": "feat(connectors): replace polar http connector with official mcp",
+      "recommendation": "skip",
+      "total_score": 25,
+      "bounty_amount_usd": 0,
+      "competition_risk": 38,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "platform:polar.sh",
+        "negative:article",
+        "negative:migration",
+        "action:acceptance criteria",
+        "action:fix",
+        "task:fix",
+        "task:support",
+        "claims:2",
+        "existing-work:1"
       ]
     }
   ],
