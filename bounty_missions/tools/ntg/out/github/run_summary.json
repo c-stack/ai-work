@@ -1,16 +1,31 @@
 {
-  "generated_at_utc": "2026-11-01T22:49:44Z",
+  "generated_at_utc": "2026-11-02T02:31:41Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
     "skip": 3
   },
   "top_candidates": [
+    {
+      "repo": "anthropics/claude-code",
+      "number": 106589,
+      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
+      "recommendation": "pursue",
+      "total_score": 95,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 63675,
