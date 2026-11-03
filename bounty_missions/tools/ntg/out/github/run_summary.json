@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-03T18:27:17Z",
+  "generated_at_utc": "2026-11-03T23:59:21Z",
   "source_counts": {
     "github": 1,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 63675,
       "title": "[ttnn/slice]: ends inside the tile padding pass and return padding [tt-robot]",
       "recommendation": "skip",
-      "total_score": 93,
+      "total_score": 92,
       "bounty_amount_usd": 0,
       "competition_risk": 12,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
