@@ -1,16 +1,31 @@
 {
-  "generated_at_utc": "2026-11-02T20:46:53Z",
+  "generated_at_utc": "2026-11-03T02:55:40Z",
   "source_counts": {
-    "github": 3,
+    "github": 2,
     "algora": 0,
-    "merged": 3
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
-    "skip": 3
+    "skip": 1
   },
   "top_candidates": [
+    {
+      "repo": "anthropics/claude-code",
+      "number": 106589,
+      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
+      "recommendation": "pursue",
+      "total_score": 95,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 63675,
@@ -27,35 +42,6 @@
         "task:fix",
         "task:error",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "ethereum-optimism/optimism",
-      "number": 23807,
-      "title": "Set bug bounty scope for interop",
-      "recommendation": "skip",
-      "total_score": 68,
-      "bounty_amount_usd": 0,
-      "competition_risk": 8,
-      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "wannabespace/tamery",
-      "number": 696,
-      "title": "Site: customer quotes section on the homepage",
-      "recommendation": "skip",
-      "total_score": 42,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "platform:polar.sh",
-        "task:add "
       ]
     }
   ],

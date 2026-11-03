@@ -1,6 +1,27 @@
 {
-  "generated_at_utc": "2026-11-02T20:46:53Z",
+  "generated_at_utc": "2026-11-03T02:55:40Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "anthropics/claude-code",
+      "number": 106589,
+      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
+      "url": "https://github.com/anthropics/claude-code/issues/106589",
+      "recommendation": "pursue",
+      "total_score": 95,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 34,
+      "actionability": 14,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    }
+  ]
 }
