@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-02T20:46:53Z",
+  "generated_at_utc": "2026-11-03T10:52:45Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261102T204623Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261103T105222Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
@@ -14,22 +14,6 @@
         "url": "https://github.com/tenstorrent/tt-metal/issues/63675",
         "recommendation": "skip",
         "total_score": 93
-      },
-      {
-        "repo": "ethereum-optimism/optimism",
-        "number": 23807,
-        "title": "Set bug bounty scope for interop",
-        "url": "https://github.com/ethereum-optimism/optimism/issues/23807",
-        "recommendation": "skip",
-        "total_score": 68
-      },
-      {
-        "repo": "wannabespace/tamery",
-        "number": 696,
-        "title": "Site: customer quotes section on the homepage",
-        "url": "https://github.com/wannabespace/tamery/issues/696",
-        "recommendation": "skip",
-        "total_score": 42
       }
     ],
     "recommendation_changes": []

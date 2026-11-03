@@ -1,14 +1,6 @@
 {
   "new_items": [
     {
-      "repo": "anthropics/claude-code",
-      "number": 106589,
-      "title": "[Bug] Legitimate bug bounty request incorrectly flagged by cyber safeguard",
-      "url": "https://github.com/anthropics/claude-code/issues/106589",
-      "recommendation": "pursue",
-      "total_score": 95
-    },
-    {
       "repo": "tenstorrent/tt-metal",
       "number": 63675,
       "title": "[ttnn/slice]: ends inside the tile padding pass and return padding [tt-robot]",
