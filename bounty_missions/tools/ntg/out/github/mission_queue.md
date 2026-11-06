@@ -2,5 +2,4 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
-| review | 103 | tenstorrent/tt-metal | 64600 | Python | Plausible bounty with enough detail to inspect manually. | bounty:bounty, action:steps to reproduce, action:expected behavior, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/64600) |
-| pursue | 93 | tenstorrent/tt-metal | 64575 | Python | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, negative:spam, action:error, action:regression | [open](https://github.com/tenstorrent/tt-metal/issues/64575) |
+| review | 79 | tenstorrent/tt-metal | 64575 | Python | Possible bounty wording, but the issue reads partly like end-user support. | bounty:bounty, negative:spam, action:error, action:regression | [open](https://github.com/tenstorrent/tt-metal/issues/64575) |
