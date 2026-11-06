@@ -1,32 +1,51 @@
 {
-  "generated_at_utc": "2026-11-04T21:53:21Z",
+  "generated_at_utc": "2026-11-06T06:56:09Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 0,
-    "review": 0,
-    "skip": 1
+    "pursue": 1,
+    "review": 1,
+    "skip": 0
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 63675,
-      "title": "[ttnn/slice]: ends inside the tile padding pass and return padding [tt-robot]",
-      "recommendation": "skip",
-      "total_score": 92,
+      "number": 64600,
+      "title": "[Bug Report] ttnn.addcdiv composite fallback (_addcdiv) returns +-inf instead of NaN at 0/0, ignores -0.0 divisor sign, and overwrites input_a (NaN / opposite-sign inf) when input_c == 0",
+      "recommendation": "review",
+      "total_score": 103,
       "bounty_amount_usd": 0,
-      "competition_risk": 12,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
       "decision_signals": [
         "bounty:bounty",
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64575,
+      "title": "[Bounty $750] Fix sharded softmax on offset core grids",
+      "recommendation": "pursue",
+      "total_score": 92,
+      "bounty_amount_usd": 750,
+      "competition_risk": 15,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:spam",
         "action:error",
         "action:regression",
         "task:fix",
-        "task:error",
-        "existing-work:1"
+        "task:support",
+        "claims:1",
+        "support:support-politeness"
       ]
     }
   ],

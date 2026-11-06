@@ -2,10 +2,18 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 63675,
-      "title": "[ttnn/slice]: ends inside the tile padding pass and return padding [tt-robot]",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/63675",
-      "recommendation": "skip",
+      "number": 64600,
+      "title": "[Bug Report] ttnn.addcdiv composite fallback (_addcdiv) returns +-inf instead of NaN at 0/0, ignores -0.0 divisor sign, and overwrites input_a (NaN / opposite-sign inf) when input_c == 0",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/64600",
+      "recommendation": "review",
+      "total_score": 103
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64575,
+      "title": "[Bounty $750] Fix sharded softmax on offset core grids",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
+      "recommendation": "pursue",
       "total_score": 92
     }
   ],
