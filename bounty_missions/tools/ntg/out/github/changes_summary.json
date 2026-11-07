@@ -14,7 +14,7 @@
       "title": "[Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64647",
       "recommendation": "skip",
-      "total_score": 86
+      "total_score": 85
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -22,7 +22,7 @@
       "title": "[Bounty $750] Fix sharded softmax on offset core grids",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
       "recommendation": "review",
-      "total_score": 79
+      "total_score": 81
     }
   ],
   "dropped_items": [],

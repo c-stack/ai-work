@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-07T14:01:42Z",
+  "generated_at_utc": "2026-11-07T18:48:09Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -34,7 +34,7 @@
       "number": 64647,
       "title": "[Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
       "recommendation": "skip",
-      "total_score": 86,
+      "total_score": 85,
       "bounty_amount_usd": 750,
       "competition_risk": 36,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -53,7 +53,7 @@
       "number": 64575,
       "title": "[Bounty $750] Fix sharded softmax on offset core grids",
       "recommendation": "review",
-      "total_score": 79,
+      "total_score": 81,
       "bounty_amount_usd": 750,
       "competition_risk": 23,
       "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
