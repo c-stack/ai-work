@@ -1,49 +1,31 @@
 {
-  "generated_at_utc": "2026-11-08T10:23:57Z",
+  "generated_at_utc": "2026-11-08T17:03:52Z",
   "source_counts": {
-    "github": 4,
+    "github": 3,
     "algora": 0,
-    "merged": 4
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 0,
     "review": 1,
     "skip": 2
   },
   "top_candidates": [
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2456,
-      "title": "[Bug bounty] Playground custom asset modal silently fails on fractional decimals",
+      "repo": "tenstorrent/tt-metal",
+      "number": 64876,
+      "title": "[Bounty proposal] Switch numeric_stable default to true in softmax in-place APIs now that #28531 is fixed",
       "recommendation": "skip",
-      "total_score": 111,
-      "bounty_amount_usd": 0,
-      "competition_risk": 23,
+      "total_score": 107,
+      "bounty_amount_usd": 500,
+      "competition_risk": 12,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
-        "bounty:bug bounty",
         "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
+        "action:fix",
         "task:fix",
-        "task:add ",
+        "task:implement",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64840,
-      "title": "[Bounty proposal] scale_causal_mask_hw_dims_softmax_in_place: mask geometry is not validated against the shard block, and the hw-dims reader wrap can read past the mask",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:error"
       ]
     },
     {

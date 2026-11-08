@@ -1,28 +1,19 @@
 {
-  "generated_at_utc": "2026-11-08T10:23:57Z",
+  "generated_at_utc": "2026-11-08T17:03:52Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "paraspell/xcm-tools": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2456
-      ]
-    },
     "tenstorrent/tt-metal": {
       "total_seen": 3,
-      "skip_count": 1,
+      "skip_count": 2,
       "review_count": 1,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
         64575,
         64647,
-        64840
+        64876
       ]
     }
   },
@@ -30,23 +21,13 @@
     {
       "repo": "tenstorrent/tt-metal",
       "total_seen": 3,
-      "skip_count": 1,
+      "skip_count": 2,
       "review_count": 1,
-      "pursue_count": 1,
+      "pursue_count": 0,
       "unique_issues": [
         64575,
         64647,
-        64840
-      ]
-    },
-    {
-      "repo": "paraspell/xcm-tools",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2456
+        64876
       ]
     }
   ]

@@ -1,20 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "paraspell/xcm-tools",
-      "number": 2456,
-      "title": "[Bug bounty] Playground custom asset modal silently fails on fractional decimals",
-      "url": "https://github.com/paraspell/xcm-tools/issues/2456",
-      "recommendation": "skip",
-      "total_score": 111
-    },
-    {
       "repo": "tenstorrent/tt-metal",
-      "number": 64840,
-      "title": "[Bounty proposal] scale_causal_mask_hw_dims_softmax_in_place: mask geometry is not validated against the shard block, and the hw-dims reader wrap can read past the mask",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64840",
-      "recommendation": "pursue",
-      "total_score": 103
+      "number": 64876,
+      "title": "[Bounty proposal] Switch numeric_stable default to true in softmax in-place APIs now that #28531 is fixed",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/64876",
+      "recommendation": "skip",
+      "total_score": 107
     },
     {
       "repo": "tenstorrent/tt-metal",

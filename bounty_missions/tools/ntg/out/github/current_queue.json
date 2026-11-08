@@ -1,29 +1,8 @@
 {
-  "generated_at_utc": "2026-11-08T10:23:57Z",
+  "generated_at_utc": "2026-11-08T17:03:52Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 1,
   "items": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64840,
-      "title": "[Bounty proposal] scale_causal_mask_hw_dims_softmax_in_place: mask geometry is not validated against the shard block, and the hw-dims reader wrap can read past the mask",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64840",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 22,
-      "actionability": 36,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:error"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 64575,
