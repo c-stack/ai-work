@@ -2,11 +2,11 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 64876,
-      "title": "[Bounty proposal] Switch numeric_stable default to true in softmax in-place APIs now that #28531 is fixed",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64876",
-      "recommendation": "skip",
-      "total_score": 102
+      "number": 64960,
+      "title": "[Bounty proposal] Fix ttnn.grid_sample memory_config overrides, sharded/interleaved factories, and padding OOB reads",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/64960",
+      "recommendation": "pursue",
+      "total_score": 96
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -14,15 +14,15 @@
       "title": "[Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64647",
       "recommendation": "skip",
-      "total_score": 82
+      "total_score": 81
     },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 64575,
       "title": "[Bounty $750] Fix sharded softmax on offset core grids",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
-      "recommendation": "skip",
-      "total_score": 80
+      "recommendation": "review",
+      "total_score": 79
     }
   ],
   "dropped_items": [],

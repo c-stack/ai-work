@@ -1,6 +1,53 @@
 {
-  "generated_at_utc": "2026-11-09T07:59:10Z",
+  "generated_at_utc": "2026-11-09T18:48:53Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 2,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64960,
+      "title": "[Bounty proposal] Fix ttnn.grid_sample memory_config overrides, sharded/interleaved factories, and padding OOB reads",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/64960",
+      "recommendation": "pursue",
+      "total_score": 96,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 22,
+      "actionability": 30,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:fix",
+        "task:fix",
+        "task:replace"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64575,
+      "title": "[Bounty $750] Fix sharded softmax on offset core grids",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
+      "recommendation": "review",
+      "total_score": 79,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 20,
+      "actionability": 37,
+      "bounty_amount_usd": 750,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 23,
+      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
+      "decision_signals": [
+        "bounty:bounty",
+        "negative:spam",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:support",
+        "claims:1",
+        "support:support-politeness"
+      ]
+    }
+  ]
 }
