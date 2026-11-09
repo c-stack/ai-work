@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T21:11:04Z",
+  "generated_at_utc": "2026-11-09T00:55:24Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 64876,
       "title": "[Bounty proposal] Switch numeric_stable default to true in softmax in-place APIs now that #28531 is fixed",
       "recommendation": "skip",
-      "total_score": 107,
+      "total_score": 104,
       "bounty_amount_usd": 500,
       "competition_risk": 12,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -33,7 +33,7 @@
       "number": 64647,
       "title": "[Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
       "recommendation": "skip",
-      "total_score": 85,
+      "total_score": 82,
       "bounty_amount_usd": 750,
       "competition_risk": 36,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
@@ -52,7 +52,7 @@
       "number": 64575,
       "title": "[Bounty $750] Fix sharded softmax on offset core grids",
       "recommendation": "review",
-      "total_score": 81,
+      "total_score": 77,
       "bounty_amount_usd": 750,
       "competition_risk": 23,
       "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",

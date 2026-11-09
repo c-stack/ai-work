@@ -6,7 +6,7 @@
       "title": "[Bounty proposal] Switch numeric_stable default to true in softmax in-place APIs now that #28531 is fixed",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64876",
       "recommendation": "skip",
-      "total_score": 107
+      "total_score": 104
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -14,7 +14,7 @@
       "title": "[Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64647",
       "recommendation": "skip",
-      "total_score": 85
+      "total_score": 82
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -22,7 +22,7 @@
       "title": "[Bounty $750] Fix sharded softmax on offset core grids",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
       "recommendation": "review",
-      "total_score": 81
+      "total_score": 77
     }
   ],
   "dropped_items": [],
