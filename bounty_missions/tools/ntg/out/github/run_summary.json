@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-09T00:55:24Z",
+  "generated_at_utc": "2026-11-09T07:59:10Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -7,8 +7,8 @@
   },
   "recommendations": {
     "pursue": 0,
-    "review": 1,
-    "skip": 2
+    "review": 0,
+    "skip": 3
   },
   "top_candidates": [
     {
@@ -16,9 +16,9 @@
       "number": 64876,
       "title": "[Bounty proposal] Switch numeric_stable default to true in softmax in-place APIs now that #28531 is fixed",
       "recommendation": "skip",
-      "total_score": 104,
+      "total_score": 102,
       "bounty_amount_usd": 500,
-      "competition_risk": 12,
+      "competition_risk": 15,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
@@ -51,16 +51,16 @@
       "repo": "tenstorrent/tt-metal",
       "number": 64575,
       "title": "[Bounty $750] Fix sharded softmax on offset core grids",
-      "recommendation": "review",
-      "total_score": 77,
+      "recommendation": "skip",
+      "total_score": 80,
       "bounty_amount_usd": 750,
-      "competition_risk": 23,
-      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
+      "competition_risk": 24,
+      "decision_reason": "Looks more like an end-user support request than a contributor bounty.",
       "decision_signals": [
         "bounty:bounty",
         "negative:spam",
+        "action:root cause",
         "action:error",
-        "action:regression",
         "task:fix",
         "task:support",
         "claims:1",

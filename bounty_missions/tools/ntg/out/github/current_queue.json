@@ -1,32 +1,6 @@
 {
-  "generated_at_utc": "2026-11-09T00:55:24Z",
+  "generated_at_utc": "2026-11-09T07:59:10Z",
   "triage_profile": "aggressive",
-  "count": 1,
-  "items": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64575,
-      "title": "[Bounty $750] Fix sharded softmax on offset core grids",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
-      "recommendation": "review",
-      "total_score": 77,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 20,
-      "actionability": 35,
-      "bounty_amount_usd": 750,
-      "bounty_amount_signal": "contextual_amount",
-      "competition_risk": 23,
-      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:spam",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:support",
-        "claims:1",
-        "support:support-politeness"
-      ]
-    }
-  ]
+  "count": 0,
+  "items": []
 }
