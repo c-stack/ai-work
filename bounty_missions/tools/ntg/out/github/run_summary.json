@@ -1,16 +1,50 @@
 {
-  "generated_at_utc": "2026-11-09T18:48:53Z",
+  "generated_at_utc": "2026-11-10T02:08:13Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
     "merged": 3
   },
   "recommendations": {
-    "pursue": 1,
-    "review": 1,
-    "skip": 1
+    "pursue": 3,
+    "review": 0,
+    "skip": 0
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64933,
+      "title": "[Bounty proposal] Fix ttnn.upsample BLOCK_SHARDED + COL_MAJOR core-coord swap, stick_nbytes divisor, and config shard orientation (re-enables #17795 tests)",
+      "recommendation": "pursue",
+      "total_score": 120,
+      "bounty_amount_usd": 750,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:remove"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64958,
+      "title": "[Bounty proposal] Fix ttnn.rotate crashes, device hangs, and CB misbinding across sharded/interleaved memory_config transitions",
+      "recommendation": "pursue",
+      "total_score": 114,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:fix",
+        "task:fix",
+        "task:support"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 64960,
@@ -25,45 +59,6 @@
         "action:fix",
         "task:fix",
         "task:replace"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64647,
-      "title": "[Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
-      "recommendation": "skip",
-      "total_score": 81,
-      "bounty_amount_usd": 750,
-      "competition_risk": 36,
-      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "action:regression",
-        "task:fix",
-        "task:support",
-        "claims:1",
-        "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64575,
-      "title": "[Bounty $750] Fix sharded softmax on offset core grids",
-      "recommendation": "review",
-      "total_score": 79,
-      "bounty_amount_usd": 750,
-      "competition_risk": 23,
-      "decision_reason": "Possible bounty wording, but the issue reads partly like end-user support.",
-      "decision_signals": [
-        "bounty:bounty",
-        "negative:spam",
-        "action:root cause",
-        "action:error",
-        "task:fix",
-        "task:support",
-        "claims:1",
-        "support:support-politeness"
       ]
     }
   ],
