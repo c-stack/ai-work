@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-11T06:19:19Z",
+  "generated_at_utc": "2026-11-11T15:11:41Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 64958,
       "title": "[Bounty proposal] Fix ttnn.rotate crashes, device hangs, and CB misbinding across sharded/interleaved memory_config transitions",
       "recommendation": "pursue",
-      "total_score": 114,
+      "total_score": 113,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -51,7 +51,7 @@
       "number": 64960,
       "title": "[Bounty proposal] Fix ttnn.grid_sample memory_config overrides, sharded/interleaved factories, and padding OOB reads",
       "recommendation": "pursue",
-      "total_score": 96,
+      "total_score": 95,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

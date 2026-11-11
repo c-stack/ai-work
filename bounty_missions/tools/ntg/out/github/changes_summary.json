@@ -6,7 +6,7 @@
       "title": "[Bounty proposal] Fix ttnn.rotate crashes, device hangs, and CB misbinding across sharded/interleaved memory_config transitions",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64958",
       "recommendation": "pursue",
-      "total_score": 114
+      "total_score": 113
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -22,7 +22,7 @@
       "title": "[Bounty proposal] Fix ttnn.grid_sample memory_config overrides, sharded/interleaved factories, and padding OOB reads",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64960",
       "recommendation": "pursue",
-      "total_score": 96
+      "total_score": 95
     }
   ],
   "dropped_items": [],
