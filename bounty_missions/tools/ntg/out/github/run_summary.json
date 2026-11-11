@@ -1,33 +1,16 @@
 {
-  "generated_at_utc": "2026-11-10T23:22:00Z",
+  "generated_at_utc": "2026-11-11T06:19:19Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
     "merged": 3
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 2,
     "review": 0,
-    "skip": 0
+    "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64933,
-      "title": "[Bounty proposal] Fix ttnn.upsample BLOCK_SHARDED + COL_MAJOR core-coord swap, stick_nbytes divisor, and config shard orientation (re-enables #17795 tests)",
-      "recommendation": "pursue",
-      "total_score": 120,
-      "bounty_amount_usd": 750,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:regression",
-        "action:fix",
-        "task:fix",
-        "task:remove"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 64958,
@@ -43,6 +26,24 @@
         "action:fix",
         "task:fix",
         "task:support"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64933,
+      "title": "[Bounty proposal] Fix ttnn.upsample BLOCK_SHARDED + COL_MAJOR core-coord swap, stick_nbytes divisor, and config shard orientation (re-enables #17795 tests)",
+      "recommendation": "skip",
+      "total_score": 105,
+      "bounty_amount_usd": 750,
+      "competition_risk": 15,
+      "decision_reason": "Existing PR or prior work is already referenced on the issue.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:regression",
+        "action:fix",
+        "task:fix",
+        "task:remove",
+        "existing-work:1"
       ]
     },
     {

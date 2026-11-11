@@ -2,19 +2,19 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 64933,
-      "title": "[Bounty proposal] Fix ttnn.upsample BLOCK_SHARDED + COL_MAJOR core-coord swap, stick_nbytes divisor, and config shard orientation (re-enables #17795 tests)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64933",
-      "recommendation": "pursue",
-      "total_score": 120
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
       "number": 64958,
       "title": "[Bounty proposal] Fix ttnn.rotate crashes, device hangs, and CB misbinding across sharded/interleaved memory_config transitions",
       "url": "https://github.com/tenstorrent/tt-metal/issues/64958",
       "recommendation": "pursue",
       "total_score": 114
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 64933,
+      "title": "[Bounty proposal] Fix ttnn.upsample BLOCK_SHARDED + COL_MAJOR core-coord swap, stick_nbytes divisor, and config shard orientation (re-enables #17795 tests)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/64933",
+      "recommendation": "skip",
+      "total_score": 105
     },
     {
       "repo": "tenstorrent/tt-metal",
