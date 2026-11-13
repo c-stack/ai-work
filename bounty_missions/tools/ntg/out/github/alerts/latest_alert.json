@@ -1,35 +1,19 @@
 {
-  "generated_at_utc": "2026-11-09T07:59:10Z",
+  "generated_at_utc": "2026-11-13T00:23:40Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261109T075848Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261113T002319Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
       {
         "repo": "tenstorrent/tt-metal",
-        "number": 64876,
-        "title": "[Bounty proposal] Switch numeric_stable default to true in softmax in-place APIs now that #28531 is fixed",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/64876",
+        "number": 65437,
+        "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/65437",
         "recommendation": "skip",
-        "total_score": 102
-      },
-      {
-        "repo": "tenstorrent/tt-metal",
-        "number": 64647,
-        "title": "[Bounty $750] Fix remaining sharded scale_mask_softmax mask handling issues",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/64647",
-        "recommendation": "skip",
-        "total_score": 82
-      },
-      {
-        "repo": "tenstorrent/tt-metal",
-        "number": 64575,
-        "title": "[Bounty $750] Fix sharded softmax on offset core grids",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/64575",
-        "recommendation": "skip",
-        "total_score": 80
+        "total_score": 77
       }
     ],
     "recommendation_changes": []

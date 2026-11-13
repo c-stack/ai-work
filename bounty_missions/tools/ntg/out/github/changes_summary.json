@@ -2,27 +2,11 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 64958,
-      "title": "[Bounty proposal] Fix ttnn.rotate crashes, device hangs, and CB misbinding across sharded/interleaved memory_config transitions",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64958",
-      "recommendation": "pursue",
-      "total_score": 113
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64933,
-      "title": "[Bounty proposal] Fix ttnn.upsample BLOCK_SHARDED + COL_MAJOR core-coord swap, stick_nbytes divisor, and config shard orientation (re-enables #17795 tests)",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64933",
+      "number": 65437,
+      "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/65437",
       "recommendation": "skip",
-      "total_score": 105
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64960,
-      "title": "[Bounty proposal] Fix ttnn.grid_sample memory_config overrides, sharded/interleaved factories, and padding OOB reads",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/64960",
-      "recommendation": "pursue",
-      "total_score": 95
+      "total_score": 77
     }
   ],
   "dropped_items": [],

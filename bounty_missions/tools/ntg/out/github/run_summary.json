@@ -1,65 +1,34 @@
 {
-  "generated_at_utc": "2026-11-12T18:56:03Z",
+  "generated_at_utc": "2026-11-13T00:23:40Z",
   "source_counts": {
-    "github": 3,
+    "github": 1,
     "algora": 0,
-    "merged": 3
+    "merged": 1
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 0,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 64958,
-      "title": "[Bounty proposal] Fix ttnn.rotate crashes, device hangs, and CB misbinding across sharded/interleaved memory_config transitions",
-      "recommendation": "pursue",
-      "total_score": 113,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:fix",
-        "task:fix",
-        "task:support"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64933,
-      "title": "[Bounty proposal] Fix ttnn.upsample BLOCK_SHARDED + COL_MAJOR core-coord swap, stick_nbytes divisor, and config shard orientation (re-enables #17795 tests)",
+      "number": 65437,
+      "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
       "recommendation": "skip",
-      "total_score": 105,
-      "bounty_amount_usd": 750,
-      "competition_risk": 15,
+      "total_score": 77,
+      "bounty_amount_usd": 2000,
+      "competition_risk": 30,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
+        "negative:benchmark",
+        "action:error",
         "action:regression",
-        "action:fix",
         "task:fix",
-        "task:remove",
+        "task:support",
+        "claims:1",
         "existing-work:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 64960,
-      "title": "[Bounty proposal] Fix ttnn.grid_sample memory_config overrides, sharded/interleaved factories, and padding OOB reads",
-      "recommendation": "pursue",
-      "total_score": 95,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:replace"
       ]
     }
   ],
