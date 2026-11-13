@@ -15,6 +15,14 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/65437",
       "recommendation": "skip",
       "total_score": 77
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 65554,
+      "title": "[tt-train] GRPOTrainer.from_yaml for the GRPO example drivers",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/65554",
+      "recommendation": "skip",
+      "total_score": 40
     }
   ],
   "dropped_items": [],
