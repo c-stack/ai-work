@@ -6,7 +6,7 @@
       "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65437",
       "recommendation": "skip",
-      "total_score": 77
+      "total_score": 83
     }
   ],
   "dropped_items": [],
