@@ -1,28 +1,45 @@
 {
-  "generated_at_utc": "2026-11-13T07:57:56Z",
+  "generated_at_utc": "2026-11-13T16:23:52Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 65472,
+      "title": "[Bounty Proposal] Fix missing output_mem_config propagation and unpinned intermediate allocations in ttnn.binary_backward",
+      "recommendation": "pursue",
+      "total_score": 114,
+      "bounty_amount_usd": 750,
+      "competition_risk": 10,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix",
+        "task:implement",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 65437,
       "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
       "recommendation": "skip",
-      "total_score": 83,
+      "total_score": 77,
       "bounty_amount_usd": 2000,
-      "competition_risk": 32,
+      "competition_risk": 30,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",
-        "platform:algora",
         "negative:benchmark",
         "action:error",
         "action:regression",

@@ -2,11 +2,19 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 65472,
+      "title": "[Bounty Proposal] Fix missing output_mem_config propagation and unpinned intermediate allocations in ttnn.binary_backward",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/65472",
+      "recommendation": "pursue",
+      "total_score": 114
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 65437,
       "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65437",
       "recommendation": "skip",
-      "total_score": 83
+      "total_score": 77
     }
   ],
   "dropped_items": [],

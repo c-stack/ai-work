@@ -1,6 +1,30 @@
 {
-  "generated_at_utc": "2026-11-13T07:57:56Z",
+  "generated_at_utc": "2026-11-13T16:23:52Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 65472,
+      "title": "[Bounty Proposal] Fix missing output_mem_config propagation and unpinned intermediate allocations in ttnn.binary_backward",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/65472",
+      "recommendation": "pursue",
+      "total_score": 114,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 34,
+      "actionability": 44,
+      "bounty_amount_usd": 750,
+      "bounty_amount_signal": "contextual_amount",
+      "competition_risk": 10,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix",
+        "task:implement",
+        "claims:1"
+      ]
+    }
+  ]
 }
