@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-14T03:15:12Z",
+  "generated_at_utc": "2026-11-14T10:31:42Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -34,7 +34,7 @@
       "number": 65437,
       "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
       "recommendation": "skip",
-      "total_score": 76,
+      "total_score": 79,
       "bounty_amount_usd": 2000,
       "competition_risk": 32,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
