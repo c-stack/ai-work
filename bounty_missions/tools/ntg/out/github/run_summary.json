@@ -1,16 +1,33 @@
 {
-  "generated_at_utc": "2026-11-14T10:31:42Z",
+  "generated_at_utc": "2026-11-14T17:07:32Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
-    "pursue": 1,
+    "pursue": 2,
     "review": 0,
     "skip": 2
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 65634,
+      "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
+      "recommendation": "pursue",
+      "total_score": 118,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:replace"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 65472,
@@ -36,7 +53,7 @@
       "recommendation": "skip",
       "total_score": 79,
       "bounty_amount_usd": 2000,
-      "competition_risk": 32,
+      "competition_risk": 33,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",
       "decision_signals": [
         "bounty:bounty",

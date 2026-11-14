@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 65634,
+      "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/65634",
+      "recommendation": "pursue",
+      "total_score": 118
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 65472,
       "title": "[Bounty Proposal] Fix missing output_mem_config propagation and unpinned intermediate allocations in ttnn.binary_backward",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65472",
