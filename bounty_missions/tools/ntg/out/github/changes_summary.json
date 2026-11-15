@@ -30,7 +30,7 @@
       "title": "[Bug]: bounty hunter - prices for rewards shop are not correct",
       "url": "https://github.com/RSPSApp/tsps/issues/4757",
       "recommendation": "pursue",
-      "total_score": 91
+      "total_score": 90
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -46,7 +46,7 @@
       "title": "[tt-train] GRPOTrainer.from_yaml for the GRPO example drivers",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65554",
       "recommendation": "skip",
-      "total_score": 40
+      "total_score": 39
     }
   ],
   "dropped_items": [],

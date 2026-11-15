@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-15T17:10:47Z",
+  "generated_at_utc": "2026-11-15T21:49:49Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -76,7 +76,7 @@
       "title": "[Bug]: bounty hunter - prices for rewards shop are not correct",
       "url": "https://github.com/RSPSApp/tsps/issues/4757",
       "recommendation": "pursue",
-      "total_score": 91,
+      "total_score": 90,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 22,
       "actionability": 30,
