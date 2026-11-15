@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-15T01:55:42Z",
+  "generated_at_utc": "2026-11-15T09:26:14Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -18,12 +18,13 @@
       ]
     },
     "RSPSApp/tsps": {
-      "total_seen": 1,
+      "total_seen": 2,
       "skip_count": 0,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 2,
       "unique_issues": [
-        4757
+        4757,
+        5644
       ]
     }
   },
@@ -43,12 +44,13 @@
     },
     {
       "repo": "RSPSApp/tsps",
-      "total_seen": 1,
+      "total_seen": 2,
       "skip_count": 0,
       "review_count": 0,
-      "pursue_count": 1,
+      "pursue_count": 2,
       "unique_issues": [
-        4757
+        4757,
+        5644
       ]
     }
   ]
