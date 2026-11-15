@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-11-14T21:29:44Z",
+  "generated_at_utc": "2026-11-15T01:55:42Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 0,
-    "merged": 4
+    "merged": 5
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 3,
     "review": 0,
     "skip": 2
   },
@@ -47,11 +47,29 @@
       ]
     },
     {
+      "repo": "RSPSApp/tsps",
+      "number": 4757,
+      "title": "[Bug]: bounty hunter - prices for rewards shop are not correct",
+      "recommendation": "pursue",
+      "total_score": 91,
+      "bounty_amount_usd": 0,
+      "competition_risk": 7,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:bug",
+        "template-gaps:1"
+      ]
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 65437,
       "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
       "recommendation": "skip",
-      "total_score": 79,
+      "total_score": 78,
       "bounty_amount_usd": 2000,
       "competition_risk": 33,
       "decision_reason": "Existing PR or prior work is already referenced on the issue.",

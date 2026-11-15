@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-14T21:29:44Z",
+  "generated_at_utc": "2026-11-15T01:55:42Z",
   "triage_profile": "aggressive",
-  "count": 2,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -46,6 +46,29 @@
         "task:fix",
         "task:implement",
         "claims:1"
+      ]
+    },
+    {
+      "repo": "RSPSApp/tsps",
+      "number": 4757,
+      "title": "[Bug]: bounty hunter - prices for rewards shop are not correct",
+      "url": "https://github.com/RSPSApp/tsps/issues/4757",
+      "recommendation": "pursue",
+      "total_score": 91,
+      "repo_primary_language": "JavaScript",
+      "bounty_confidence": 22,
+      "actionability": 30,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 7,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:bug",
+        "template-gaps:1"
       ]
     }
   ]

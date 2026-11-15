@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-14T21:29:44Z",
+  "generated_at_utc": "2026-11-15T01:55:42Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -16,6 +16,15 @@
         65554,
         65634
       ]
+    },
+    "RSPSApp/tsps": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        4757
+      ]
     }
   },
   "top_repeat_skips": [
@@ -30,6 +39,16 @@
         65472,
         65554,
         65634
+      ]
+    },
+    {
+      "repo": "RSPSApp/tsps",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        4757
       ]
     }
   ]

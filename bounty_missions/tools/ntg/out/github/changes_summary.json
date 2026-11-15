@@ -17,12 +17,20 @@
       "total_score": 114
     },
     {
+      "repo": "RSPSApp/tsps",
+      "number": 4757,
+      "title": "[Bug]: bounty hunter - prices for rewards shop are not correct",
+      "url": "https://github.com/RSPSApp/tsps/issues/4757",
+      "recommendation": "pursue",
+      "total_score": 91
+    },
+    {
       "repo": "tenstorrent/tt-metal",
       "number": 65437,
       "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65437",
       "recommendation": "skip",
-      "total_score": 79
+      "total_score": 78
     },
     {
       "repo": "tenstorrent/tt-metal",
