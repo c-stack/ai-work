@@ -6,7 +6,7 @@
       "title": "[Bounty Proposal] Fix silent NaN index corruption, outer-padding OOB indices, preallocated output hazards, and Quasar build failure in ttnn.argmax NC & W%32==0 paths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65627",
       "recommendation": "pursue",
-      "total_score": 122
+      "total_score": 121
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -14,7 +14,7 @@
       "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65634",
       "recommendation": "pursue",
-      "total_score": 118
+      "total_score": 117
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -25,20 +25,12 @@
       "total_score": 112
     },
     {
-      "repo": "RSPSApp/tsps",
-      "number": 5877,
-      "title": "[Bug]: bounty hunter - incorrect prices for shops",
-      "url": "https://github.com/RSPSApp/tsps/issues/5877",
+      "repo": "QuilibriumNetwork/monorepo",
+      "number": 1409,
+      "title": "Asking for a Bug Bounty",
+      "url": "https://github.com/QuilibriumNetwork/monorepo/issues/1409",
       "recommendation": "pursue",
-      "total_score": 100
-    },
-    {
-      "repo": "RSPSApp/tsps",
-      "number": 5644,
-      "title": "[Bug]: bounty hunter - skulling system and bot BH drops/inventory",
-      "url": "https://github.com/RSPSApp/tsps/issues/5644",
-      "recommendation": "pursue",
-      "total_score": 90
+      "total_score": 87
     },
     {
       "repo": "tenstorrent/tt-metal",

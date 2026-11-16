@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-16T09:43:29Z",
+  "generated_at_utc": "2026-11-16T20:29:05Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -9,7 +9,7 @@
       "title": "[Bounty Proposal] Fix silent NaN index corruption, outer-padding OOB indices, preallocated output hazards, and Quasar build failure in ttnn.argmax NC & W%32==0 paths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65627",
       "recommendation": "pursue",
-      "total_score": 122,
+      "total_score": 121,
       "repo_primary_language": "Python",
       "bounty_confidence": 22,
       "actionability": 56,
@@ -31,7 +31,7 @@
       "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65634",
       "recommendation": "pursue",
-      "total_score": 118,
+      "total_score": 117,
       "repo_primary_language": "Python",
       "bounty_confidence": 22,
       "actionability": 52,
@@ -71,48 +71,23 @@
       ]
     },
     {
-      "repo": "RSPSApp/tsps",
-      "number": 5877,
-      "title": "[Bug]: bounty hunter - incorrect prices for shops",
-      "url": "https://github.com/RSPSApp/tsps/issues/5877",
+      "repo": "QuilibriumNetwork/monorepo",
+      "number": 1409,
+      "title": "Asking for a Bug Bounty",
+      "url": "https://github.com/QuilibriumNetwork/monorepo/issues/1409",
       "recommendation": "pursue",
-      "total_score": 100,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 22,
-      "actionability": 36,
+      "total_score": 87,
+      "repo_primary_language": "Rust",
+      "bounty_confidence": 34,
+      "actionability": 10,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
       "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
+        "bounty:bug bounty",
         "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:bug",
-        "template-gaps:1"
-      ]
-    },
-    {
-      "repo": "RSPSApp/tsps",
-      "number": 5644,
-      "title": "[Bug]: bounty hunter - skulling system and bot BH drops/inventory",
-      "url": "https://github.com/RSPSApp/tsps/issues/5644",
-      "recommendation": "pursue",
-      "total_score": 90,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 22,
-      "actionability": 30,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 6,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:bug",
-        "template-gaps:1"
+        "task:bug"
       ]
     }
   ]
