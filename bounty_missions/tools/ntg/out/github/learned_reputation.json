@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T02:07:35Z",
+  "generated_at_utc": "2026-11-16T09:43:29Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
@@ -26,15 +26,6 @@
         5644,
         5877
       ]
-    },
-    "PHPOffice/PHPWord": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2974
-      ]
     }
   },
   "top_repeat_skips": [
@@ -49,16 +40,6 @@
         65554,
         65627,
         65634
-      ]
-    },
-    {
-      "repo": "PHPOffice/PHPWord",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        2974
       ]
     },
     {

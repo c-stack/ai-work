@@ -30,7 +30,7 @@
       "title": "[Bug]: bounty hunter - incorrect prices for shops",
       "url": "https://github.com/RSPSApp/tsps/issues/5877",
       "recommendation": "pursue",
-      "total_score": 92
+      "total_score": 100
     },
     {
       "repo": "RSPSApp/tsps",
@@ -38,15 +38,7 @@
       "title": "[Bug]: bounty hunter - skulling system and bot BH drops/inventory",
       "url": "https://github.com/RSPSApp/tsps/issues/5644",
       "recommendation": "pursue",
-      "total_score": 91
-    },
-    {
-      "repo": "PHPOffice/PHPWord",
-      "number": 2974,
-      "title": "Support for phpunit 12",
-      "url": "https://github.com/PHPOffice/PHPWord/issues/2974",
-      "recommendation": "skip",
-      "total_score": 47
+      "total_score": 90
     },
     {
       "repo": "tenstorrent/tt-metal",

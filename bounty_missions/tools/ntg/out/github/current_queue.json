@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T02:07:35Z",
+  "generated_at_utc": "2026-11-16T09:43:29Z",
   "triage_profile": "aggressive",
   "count": 5,
   "items": [
@@ -76,13 +76,13 @@
       "title": "[Bug]: bounty hunter - incorrect prices for shops",
       "url": "https://github.com/RSPSApp/tsps/issues/5877",
       "recommendation": "pursue",
-      "total_score": 92,
+      "total_score": 100,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 22,
       "actionability": 36,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 9,
+      "competition_risk": 0,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -90,7 +90,6 @@
         "action:expected behavior",
         "task:fix",
         "task:bug",
-        "claims:1",
         "template-gaps:1"
       ]
     },
@@ -100,7 +99,7 @@
       "title": "[Bug]: bounty hunter - skulling system and bot BH drops/inventory",
       "url": "https://github.com/RSPSApp/tsps/issues/5644",
       "recommendation": "pursue",
-      "total_score": 91,
+      "total_score": 90,
       "repo_primary_language": "JavaScript",
       "bounty_confidence": 22,
       "actionability": 30,
