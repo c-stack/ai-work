@@ -6,7 +6,7 @@
       "title": "[Bounty Proposal] Fix silent NaN index corruption, outer-padding OOB indices, preallocated output hazards, and Quasar build failure in ttnn.argmax NC & W%32==0 paths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65627",
       "recommendation": "pursue",
-      "total_score": 121
+      "total_score": 119
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -14,31 +14,23 @@
       "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65634",
       "recommendation": "pursue",
-      "total_score": 117
+      "total_score": 115
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 65472,
-      "title": "[Bounty Proposal] Fix missing output_mem_config propagation and unpinned intermediate allocations in ttnn.binary_backward",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/65472",
+      "number": 65680,
+      "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/65680",
       "recommendation": "pursue",
-      "total_score": 112
+      "total_score": 104
     },
     {
-      "repo": "QuilibriumNetwork/monorepo",
-      "number": 1409,
-      "title": "Asking for a Bug Bounty",
-      "url": "https://github.com/QuilibriumNetwork/monorepo/issues/1409",
+      "repo": "RSPSApp/tsps",
+      "number": 5877,
+      "title": "[Bug]: bounty hunter - incorrect prices for shops",
+      "url": "https://github.com/RSPSApp/tsps/issues/5877",
       "recommendation": "pursue",
-      "total_score": 87
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 65554,
-      "title": "[tt-train] GRPOTrainer.from_yaml for the GRPO example drivers",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/65554",
-      "recommendation": "skip",
-      "total_score": 39
+      "total_score": 98
     }
   ],
   "dropped_items": [],

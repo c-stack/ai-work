@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-11-16T20:29:05Z",
+  "generated_at_utc": "2026-11-17T03:54:14Z",
   "source_counts": {
-    "github": 5,
+    "github": 4,
     "algora": 0,
-    "merged": 5
+    "merged": 4
   },
   "recommendations": {
     "pursue": 4,
     "review": 0,
-    "skip": 1
+    "skip": 0
   },
   "top_candidates": [
     {
@@ -16,9 +16,9 @@
       "number": 65627,
       "title": "[Bounty Proposal] Fix silent NaN index corruption, outer-padding OOB indices, preallocated output hazards, and Quasar build failure in ttnn.argmax NC & W%32==0 paths",
       "recommendation": "pursue",
-      "total_score": 121,
+      "total_score": 119,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -33,9 +33,9 @@
       "number": 65634,
       "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
       "recommendation": "pursue",
-      "total_score": 117,
+      "total_score": 115,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
@@ -47,48 +47,36 @@
     },
     {
       "repo": "tenstorrent/tt-metal",
-      "number": 65472,
-      "title": "[Bounty Proposal] Fix missing output_mem_config propagation and unpinned intermediate allocations in ttnn.binary_backward",
+      "number": 65680,
+      "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
       "recommendation": "pursue",
-      "total_score": 112,
-      "bounty_amount_usd": 750,
-      "competition_risk": 12,
+      "total_score": 104,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
-        "action:root cause",
-        "action:regression",
+        "action:fix",
         "task:fix",
-        "task:implement",
-        "claims:1"
+        "task:add "
       ]
     },
     {
-      "repo": "QuilibriumNetwork/monorepo",
-      "number": 1409,
-      "title": "Asking for a Bug Bounty",
+      "repo": "RSPSApp/tsps",
+      "number": 5877,
+      "title": "[Bug]: bounty hunter - incorrect prices for shops",
       "recommendation": "pursue",
-      "total_score": 87,
+      "total_score": 98,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 11,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
-        "bounty:bug bounty",
         "bounty:bounty",
-        "task:bug"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 65554,
-      "title": "[tt-train] GRPOTrainer.from_yaml for the GRPO example drivers",
-      "recommendation": "skip",
-      "total_score": 39,
-      "bounty_amount_usd": 0,
-      "competition_risk": 0,
-      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
-      "decision_signals": [
-        "task:add "
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:replace",
+        "template-gaps:1"
       ]
     }
   ],
