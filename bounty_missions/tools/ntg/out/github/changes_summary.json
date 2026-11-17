@@ -6,7 +6,7 @@
       "title": "[Bounty Proposal] Fix silent NaN index corruption, outer-padding OOB indices, preallocated output hazards, and Quasar build failure in ttnn.argmax NC & W%32==0 paths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65627",
       "recommendation": "pursue",
-      "total_score": 120
+      "total_score": 119
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -14,15 +14,7 @@
       "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65634",
       "recommendation": "pursue",
-      "total_score": 116
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 65680,
-      "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/65680",
-      "recommendation": "pursue",
-      "total_score": 104
+      "total_score": 115
     },
     {
       "repo": "RSPSApp/tsps",
@@ -31,6 +23,22 @@
       "url": "https://github.com/RSPSApp/tsps/issues/5877",
       "recommendation": "pursue",
       "total_score": 98
+    },
+    {
+      "repo": "FreezingMoon/AncientBeast",
+      "number": 3252,
+      "title": "OpenCollective banners eagerly loads redundant avatars on match start for hidden views [bounty: 40 XTR]",
+      "url": "https://github.com/FreezingMoon/AncientBeast/issues/3252",
+      "recommendation": "review",
+      "total_score": 96
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 66079,
+      "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/66079",
+      "recommendation": "pursue",
+      "total_score": 95
     }
   ],
   "dropped_items": [],

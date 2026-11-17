@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-17T13:26:11Z",
+  "generated_at_utc": "2026-11-17T22:23:52Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 5,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -9,7 +9,7 @@
       "title": "[Bounty Proposal] Fix silent NaN index corruption, outer-padding OOB indices, preallocated output hazards, and Quasar build failure in ttnn.argmax NC & W%32==0 paths",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65627",
       "recommendation": "pursue",
-      "total_score": 120,
+      "total_score": 119,
       "repo_primary_language": "Python",
       "bounty_confidence": 22,
       "actionability": 56,
@@ -31,7 +31,7 @@
       "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65634",
       "recommendation": "pursue",
-      "total_score": 116,
+      "total_score": 115,
       "repo_primary_language": "Python",
       "bounty_confidence": 22,
       "actionability": 52,
@@ -45,27 +45,6 @@
         "action:error",
         "task:fix",
         "task:replace"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 65680,
-      "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/65680",
-      "recommendation": "pursue",
-      "total_score": 104,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 22,
-      "actionability": 40,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:add "
       ]
     },
     {
@@ -89,6 +68,49 @@
         "task:fix",
         "task:replace",
         "template-gaps:1"
+      ]
+    },
+    {
+      "repo": "FreezingMoon/AncientBeast",
+      "number": 3252,
+      "title": "OpenCollective banners eagerly loads redundant avatars on match start for hidden views [bounty: 40 XTR]",
+      "url": "https://github.com/FreezingMoon/AncientBeast/issues/3252",
+      "recommendation": "review",
+      "total_score": 96,
+      "repo_primary_language": "TypeScript",
+      "bounty_confidence": 22,
+      "actionability": 48,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 18,
+      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:steps to reproduce",
+        "action:expected behavior",
+        "task:fix",
+        "task:broken",
+        "claims:1"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 66079,
+      "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/66079",
+      "recommendation": "pursue",
+      "total_score": 95,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 22,
+      "actionability": 30,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "task:error"
       ]
     }
   ]
