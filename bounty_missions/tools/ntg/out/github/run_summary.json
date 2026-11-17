@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-17T03:54:14Z",
+  "generated_at_utc": "2026-11-17T13:26:11Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 65627,
       "title": "[Bounty Proposal] Fix silent NaN index corruption, outer-padding OOB indices, preallocated output hazards, and Quasar build failure in ttnn.argmax NC & W%32==0 paths",
       "recommendation": "pursue",
-      "total_score": 119,
+      "total_score": 120,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -33,7 +33,7 @@
       "number": 65634,
       "title": "[Bounty Proposal] Fix ttnn.sampling and ttnn.moe Quasar DataflowBuffer drain deadlocks, missing pack_init retargets, legacy CircularBuffer mask hazard, and runtime k / W bounds",
       "recommendation": "pursue",
-      "total_score": 115,
+      "total_score": 116,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
