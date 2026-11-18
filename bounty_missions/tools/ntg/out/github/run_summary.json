@@ -1,16 +1,33 @@
 {
-  "generated_at_utc": "2026-11-18T13:58:32Z",
+  "generated_at_utc": "2026-11-18T21:57:20Z",
   "source_counts": {
-    "github": 4,
+    "github": 5,
     "algora": 0,
-    "merged": 4
+    "merged": 5
   },
   "recommendations": {
-    "pursue": 3,
+    "pursue": 4,
     "review": 1,
     "skip": 0
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 66242,
+      "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
+      "recommendation": "pursue",
+      "total_score": 113,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 65680,
@@ -68,7 +85,7 @@
       "number": 66079,
       "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
       "recommendation": "pursue",
-      "total_score": 95,
+      "total_score": 94,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",

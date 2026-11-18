@@ -2,6 +2,14 @@
   "new_items": [
     {
       "repo": "tenstorrent/tt-metal",
+      "number": 66242,
+      "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/66242",
+      "recommendation": "pursue",
+      "total_score": 113
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
       "number": 65680,
       "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65680",
@@ -30,7 +38,7 @@
       "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66079",
       "recommendation": "pursue",
-      "total_score": 95
+      "total_score": 94
     }
   ],
   "dropped_items": [],

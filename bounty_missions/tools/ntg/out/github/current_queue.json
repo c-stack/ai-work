@@ -1,8 +1,30 @@
 {
-  "generated_at_utc": "2026-11-18T13:58:32Z",
+  "generated_at_utc": "2026-11-18T21:57:20Z",
   "triage_profile": "aggressive",
-  "count": 4,
+  "count": 5,
   "items": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 66242,
+      "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/66242",
+      "recommendation": "pursue",
+      "total_score": 113,
+      "repo_primary_language": "Python",
+      "bounty_confidence": 22,
+      "actionability": 46,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 65680,
@@ -76,7 +98,7 @@
       "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66079",
       "recommendation": "pursue",
-      "total_score": 95,
+      "total_score": 94,
       "repo_primary_language": "Python",
       "bounty_confidence": 22,
       "actionability": 30,
