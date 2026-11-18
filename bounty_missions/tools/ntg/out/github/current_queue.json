@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-18T04:20:35Z",
+  "generated_at_utc": "2026-11-18T13:58:32Z",
   "triage_profile": "aggressive",
   "count": 4,
   "items": [
@@ -9,7 +9,7 @@
       "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
       "url": "https://github.com/tenstorrent/tt-metal/issues/65680",
       "recommendation": "pursue",
-      "total_score": 104,
+      "total_score": 103,
       "repo_primary_language": "Python",
       "bounty_confidence": 22,
       "actionability": 40,
