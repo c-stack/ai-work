@@ -1,12 +1,12 @@
 {
-  "generated_at_utc": "2026-11-18T21:57:20Z",
+  "generated_at_utc": "2026-11-19T03:27:36Z",
   "source_counts": {
-    "github": 5,
+    "github": 3,
     "algora": 0,
-    "merged": 5
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 4,
+    "pursue": 2,
     "review": 1,
     "skip": 0
   },
@@ -26,40 +26,6 @@
         "action:regression",
         "task:fix",
         "task:add "
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 65680,
-      "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "RSPSApp/tsps",
-      "number": 5877,
-      "title": "[Bug]: bounty hunter - incorrect prices for shops",
-      "recommendation": "pursue",
-      "total_score": 98,
-      "bounty_amount_usd": 0,
-      "competition_risk": 11,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:replace",
-        "template-gaps:1"
       ]
     },
     {

@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-18T21:57:20Z",
+  "generated_at_utc": "2026-11-19T03:27:36Z",
   "triage_profile": "aggressive",
-  "count": 5,
+  "count": 3,
   "items": [
     {
       "repo": "tenstorrent/tt-metal",
@@ -23,50 +23,6 @@
         "action:regression",
         "task:fix",
         "task:add "
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 65680,
-      "title": "[Bounty Proposal] Fix 8 correctness, L1 OOB corruption, NOC alignment, Quasar DataflowBuffer drain deadlocks, and device-hang defects in TTNN MoE Routing (moe_routing_remap, moe_expert_token_remap, topk_router_gpt) and Gated Delta Attention",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/65680",
-      "recommendation": "pursue",
-      "total_score": 103,
-      "repo_primary_language": "Python",
-      "bounty_confidence": 22,
-      "actionability": 40,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:fix",
-        "task:fix",
-        "task:add "
-      ]
-    },
-    {
-      "repo": "RSPSApp/tsps",
-      "number": 5877,
-      "title": "[Bug]: bounty hunter - incorrect prices for shops",
-      "url": "https://github.com/RSPSApp/tsps/issues/5877",
-      "recommendation": "pursue",
-      "total_score": 98,
-      "repo_primary_language": "JavaScript",
-      "bounty_confidence": 22,
-      "actionability": 38,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 11,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:replace",
-        "template-gaps:1"
       ]
     },
     {
