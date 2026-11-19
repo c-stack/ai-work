@@ -6,7 +6,7 @@
       "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66242",
       "recommendation": "pursue",
-      "total_score": 113
+      "total_score": 107
     },
     {
       "repo": "FreezingMoon/AncientBeast",
@@ -22,7 +22,7 @@
       "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66079",
       "recommendation": "pursue",
-      "total_score": 94
+      "total_score": 89
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -30,7 +30,7 @@
       "title": "\u2602\ufe0f Trainer Infrastructure Improvements for Productization of Training",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66411",
       "recommendation": "skip",
-      "total_score": 42
+      "total_score": 37
     }
   ],
   "dropped_items": [],
