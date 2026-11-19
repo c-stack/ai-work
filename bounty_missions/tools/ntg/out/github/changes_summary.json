@@ -14,7 +14,7 @@
       "title": "OpenCollective banners eagerly loads redundant avatars on match start for hidden views [bounty: 40 XTR]",
       "url": "https://github.com/FreezingMoon/AncientBeast/issues/3252",
       "recommendation": "review",
-      "total_score": 96
+      "total_score": 95
     },
     {
       "repo": "tenstorrent/tt-metal",
@@ -23,6 +23,14 @@
       "url": "https://github.com/tenstorrent/tt-metal/issues/66079",
       "recommendation": "pursue",
       "total_score": 94
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 66411,
+      "title": "\u2602\ufe0f Trainer Infrastructure Improvements for Productization of Training",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/66411",
+      "recommendation": "skip",
+      "total_score": 42
     }
   ],
   "dropped_items": [],

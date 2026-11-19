@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-11-19T03:27:36Z",
+  "generated_at_utc": "2026-11-19T13:05:56Z",
   "source_counts": {
-    "github": 3,
+    "github": 4,
     "algora": 0,
-    "merged": 3
+    "merged": 4
   },
   "recommendations": {
     "pursue": 2,
     "review": 1,
-    "skip": 0
+    "skip": 1
   },
   "top_candidates": [
     {
@@ -33,7 +33,7 @@
       "number": 3252,
       "title": "OpenCollective banners eagerly loads redundant avatars on match start for hidden views [bounty: 40 XTR]",
       "recommendation": "review",
-      "total_score": 96,
+      "total_score": 95,
       "bounty_amount_usd": 0,
       "competition_risk": 18,
       "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
@@ -59,6 +59,23 @@
         "bounty:bounty",
         "action:error",
         "task:error"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 66411,
+      "title": "\u2602\ufe0f Trainer Infrastructure Improvements for Productization of Training",
+      "recommendation": "skip",
+      "total_score": 42,
+      "bounty_amount_usd": 0,
+      "competition_risk": 8,
+      "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",
+      "decision_signals": [
+        "negative:benchmark",
+        "negative:benchmarks",
+        "action:fix",
+        "task:fix",
+        "task:support"
       ]
     }
   ],
