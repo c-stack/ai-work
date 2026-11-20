@@ -1,33 +1,16 @@
 {
-  "generated_at_utc": "2026-11-20T11:46:21Z",
+  "generated_at_utc": "2026-11-20T20:19:30Z",
   "source_counts": {
-    "github": 4,
+    "github": 2,
     "algora": 0,
-    "merged": 4
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 2,
+    "pursue": 0,
     "review": 1,
     "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 66242,
-      "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
-      "recommendation": "pursue",
-      "total_score": 109,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:root cause",
-        "action:regression",
-        "task:fix",
-        "task:replace"
-      ]
-    },
     {
       "repo": "FreezingMoon/AncientBeast",
       "number": 3252,
@@ -44,21 +27,6 @@
         "task:fix",
         "task:broken",
         "claims:1"
-      ]
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 66079,
-      "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
-      "recommendation": "pursue",
-      "total_score": 89,
-      "bounty_amount_usd": 0,
-      "competition_risk": 3,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:error",
-        "task:error"
       ]
     },
     {

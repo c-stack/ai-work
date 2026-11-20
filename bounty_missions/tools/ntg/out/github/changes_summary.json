@@ -1,28 +1,12 @@
 {
   "new_items": [
     {
-      "repo": "tenstorrent/tt-metal",
-      "number": 66242,
-      "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/66242",
-      "recommendation": "pursue",
-      "total_score": 109
-    },
-    {
       "repo": "FreezingMoon/AncientBeast",
       "number": 3252,
       "title": "OpenCollective banners eagerly loads redundant avatars on match start for hidden views [bounty: 40 XTR]",
       "url": "https://github.com/FreezingMoon/AncientBeast/issues/3252",
       "recommendation": "review",
       "total_score": 95
-    },
-    {
-      "repo": "tenstorrent/tt-metal",
-      "number": 66079,
-      "title": "[Bounty Proposal] ttnn.sampling: temperature applied before max-subtraction makes sampled probabilities depend on logit magnitude",
-      "url": "https://github.com/tenstorrent/tt-metal/issues/66079",
-      "recommendation": "pursue",
-      "total_score": 89
     },
     {
       "repo": "tenstorrent/tt-metal",
