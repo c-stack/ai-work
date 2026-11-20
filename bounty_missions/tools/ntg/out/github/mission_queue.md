@@ -2,6 +2,6 @@
 
 | Recommendation | Total | Repo | Issue | Language | Why | Signals | Link |
 | --- | ---: | --- | ---: | --- | --- | --- | --- |
-| pursue | 107 | tenstorrent/tt-metal | 66242 | C++ | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, action:root cause, action:regression, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/66242) |
+| pursue | 109 | tenstorrent/tt-metal | 66242 | C++ | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, action:root cause, action:regression, task:fix | [open](https://github.com/tenstorrent/tt-metal/issues/66242) |
 | review | 95 | FreezingMoon/AncientBeast | 3252 | TypeScript | Bounty looks real, but active discussion increases takeover risk. | bounty:bounty, action:steps to reproduce, action:expected behavior, task:fix | [open](https://github.com/FreezingMoon/AncientBeast/issues/3252) |
 | pursue | 89 | tenstorrent/tt-metal | 66079 | C++ | Direct bounty signals, actionable issue details, and low competition risk. | bounty:bounty, action:error, task:error | [open](https://github.com/tenstorrent/tt-metal/issues/66079) |

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T03:15:22Z",
+  "generated_at_utc": "2026-11-20T11:46:21Z",
   "source_counts": {
     "github": 4,
     "algora": 0,
@@ -16,16 +16,16 @@
       "number": 66242,
       "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
       "recommendation": "pursue",
-      "total_score": 107,
+      "total_score": 109,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "action:root cause",
         "action:regression",
         "task:fix",
-        "task:add "
+        "task:replace"
       ]
     },
     {
@@ -66,7 +66,7 @@
       "number": 66411,
       "title": "\u2602\ufe0f Trainer Infrastructure Improvements for Productization of Training",
       "recommendation": "skip",
-      "total_score": 37,
+      "total_score": 36,
       "bounty_amount_usd": 0,
       "competition_risk": 8,
       "decision_reason": "The text matches noisy non-bounty patterns more than reliable bounty evidence.",

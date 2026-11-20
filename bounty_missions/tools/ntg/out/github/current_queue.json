@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-20T03:15:22Z",
+  "generated_at_utc": "2026-11-20T11:46:21Z",
   "triage_profile": "aggressive",
   "count": 3,
   "items": [
@@ -9,20 +9,20 @@
       "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66242",
       "recommendation": "pursue",
-      "total_score": 107,
+      "total_score": 109,
       "repo_primary_language": "C++",
       "bounty_confidence": 22,
-      "actionability": 46,
+      "actionability": 50,
       "bounty_amount_usd": 0,
       "bounty_amount_signal": "",
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
       "decision_signals": [
         "bounty:bounty",
         "action:root cause",
         "action:regression",
         "task:fix",
-        "task:add "
+        "task:replace"
       ]
     },
     {

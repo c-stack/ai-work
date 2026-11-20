@@ -6,7 +6,7 @@
       "title": "[Bounty Proposal] moreh_softmax / moreh_logsoftmax: max shift masks padding to 0, returns 0 / +inf for negative rows on non-tile-aligned dims",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66242",
       "recommendation": "pursue",
-      "total_score": 107
+      "total_score": 109
     },
     {
       "repo": "FreezingMoon/AncientBeast",
@@ -30,7 +30,7 @@
       "title": "\u2602\ufe0f Trainer Infrastructure Improvements for Productization of Training",
       "url": "https://github.com/tenstorrent/tt-metal/issues/66411",
       "recommendation": "skip",
-      "total_score": 37
+      "total_score": 36
     }
   ],
   "dropped_items": [],
