@@ -1,34 +1,16 @@
 {
-  "generated_at_utc": "2026-11-20T20:19:30Z",
+  "generated_at_utc": "2026-11-21T02:14:17Z",
   "source_counts": {
-    "github": 2,
+    "github": 1,
     "algora": 0,
-    "merged": 2
+    "merged": 1
   },
   "recommendations": {
     "pursue": 0,
-    "review": 1,
+    "review": 0,
     "skip": 1
   },
   "top_candidates": [
-    {
-      "repo": "FreezingMoon/AncientBeast",
-      "number": 3252,
-      "title": "OpenCollective banners eagerly loads redundant avatars on match start for hidden views [bounty: 40 XTR]",
-      "recommendation": "review",
-      "total_score": 95,
-      "bounty_amount_usd": 0,
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:broken",
-        "claims:1"
-      ]
-    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 66411,

@@ -1,30 +1,6 @@
 {
-  "generated_at_utc": "2026-11-20T20:19:30Z",
+  "generated_at_utc": "2026-11-21T02:14:17Z",
   "triage_profile": "aggressive",
-  "count": 1,
-  "items": [
-    {
-      "repo": "FreezingMoon/AncientBeast",
-      "number": 3252,
-      "title": "OpenCollective banners eagerly loads redundant avatars on match start for hidden views [bounty: 40 XTR]",
-      "url": "https://github.com/FreezingMoon/AncientBeast/issues/3252",
-      "recommendation": "review",
-      "total_score": 95,
-      "repo_primary_language": "TypeScript",
-      "bounty_confidence": 22,
-      "actionability": 48,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 18,
-      "decision_reason": "Bounty looks real, but active discussion increases takeover risk.",
-      "decision_signals": [
-        "bounty:bounty",
-        "action:steps to reproduce",
-        "action:expected behavior",
-        "task:fix",
-        "task:broken",
-        "claims:1"
-      ]
-    }
-  ]
+  "count": 0,
+  "items": []
 }

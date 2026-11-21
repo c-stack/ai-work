@@ -1,19 +1,19 @@
 {
-  "generated_at_utc": "2026-11-13T07:57:56Z",
+  "generated_at_utc": "2026-11-21T02:14:17Z",
   "queue_count": 0,
   "triage_profile": "aggressive",
-  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261113T075734Z",
+  "snapshot_dir": "bounty_missions/tools/ntg/out/github/runs/20261121T021347Z",
   "new_queue_items": [],
   "changed_queue_items": [],
   "changes_summary": {
     "new_items": [
       {
         "repo": "tenstorrent/tt-metal",
-        "number": 65437,
-        "title": "[Bounty $2,000] Restore OpenVLA execution and action correctness",
-        "url": "https://github.com/tenstorrent/tt-metal/issues/65437",
+        "number": 66411,
+        "title": "\u2602\ufe0f Trainer Infrastructure Improvements for Productization of Training",
+        "url": "https://github.com/tenstorrent/tt-metal/issues/66411",
         "recommendation": "skip",
-        "total_score": 83
+        "total_score": 36
       }
     ],
     "recommendation_changes": []
