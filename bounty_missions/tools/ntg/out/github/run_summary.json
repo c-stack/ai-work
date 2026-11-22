@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-11-22T11:31:07Z",
+  "generated_at_utc": "2026-11-22T19:40:08Z",
   "source_counts": {
-    "github": 2,
+    "github": 3,
     "algora": 0,
-    "merged": 2
+    "merged": 3
   },
   "recommendations": {
     "pursue": 1,
     "review": 0,
-    "skip": 1
+    "skip": 2
   },
   "top_candidates": [
     {
@@ -26,6 +26,22 @@
         "negative:blog",
         "task:add ",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "projectdiscovery/nuclei",
+      "number": 8306,
+      "title": "file protocol: readChunk discards bytes for files < 1024 bytes, silently bypassing the deny-mime filter",
+      "recommendation": "skip",
+      "total_score": 72,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
+      "decision_signals": [
+        "action:root cause",
+        "action:error",
+        "task:fix",
+        "task:error"
       ]
     },
     {
