@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-11-21T23:16:06Z",
+  "generated_at_utc": "2026-11-22T03:15:14Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "mitre-attack/attack-stix-data": {
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        81
+      ]
+    },
     "tenstorrent/tt-metal": {
       "total_seen": 1,
       "skip_count": 1,
@@ -24,6 +33,16 @@
       "pursue_count": 0,
       "unique_issues": [
         66411
+      ]
+    },
+    {
+      "repo": "mitre-attack/attack-stix-data",
+      "total_seen": 1,
+      "skip_count": 0,
+      "review_count": 0,
+      "pursue_count": 1,
+      "unique_issues": [
+        81
       ]
     }
   ]

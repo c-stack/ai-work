@@ -1,16 +1,33 @@
 {
-  "generated_at_utc": "2026-11-21T23:16:06Z",
+  "generated_at_utc": "2026-11-22T03:15:14Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
     "skip": 1
   },
   "top_candidates": [
+    {
+      "repo": "mitre-attack/attack-stix-data",
+      "number": 81,
+      "title": "T1195.001 Procedure Suggestion: PhantomRaven Supply-Chain Compromise and Bug Bounty Monetization\n",
+      "recommendation": "pursue",
+      "total_score": 79,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "negative:blog",
+        "task:add ",
+        "task:bug"
+      ]
+    },
     {
       "repo": "tenstorrent/tt-metal",
       "number": 66411,
