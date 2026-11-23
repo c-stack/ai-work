@@ -1,6 +1,14 @@
 {
   "new_items": [
     {
+      "repo": "nockchain/nockchain",
+      "number": 227,
+      "title": "Regarding Bug Bounty Report",
+      "url": "https://github.com/nockchain/nockchain/issues/227",
+      "recommendation": "skip",
+      "total_score": 80
+    },
+    {
       "repo": "projectdiscovery/nuclei",
       "number": 8306,
       "title": "file protocol: readChunk discards bytes for files < 1024 bytes, silently bypassing the deny-mime filter",

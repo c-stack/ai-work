@@ -1,10 +1,19 @@
 {
-  "generated_at_utc": "2026-11-23T00:53:28Z",
+  "generated_at_utc": "2026-11-23T09:05:02Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
+    "nockchain/nockchain": {
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        227
+      ]
+    },
     "projectdiscovery/nuclei": {
       "total_seen": 1,
       "skip_count": 1,
@@ -24,6 +33,16 @@
       "pursue_count": 0,
       "unique_issues": [
         8306
+      ]
+    },
+    {
+      "repo": "nockchain/nockchain",
+      "total_seen": 1,
+      "skip_count": 1,
+      "review_count": 0,
+      "pursue_count": 0,
+      "unique_issues": [
+        227
       ]
     }
   ]

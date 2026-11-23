@@ -1,16 +1,31 @@
 {
-  "generated_at_utc": "2026-11-23T00:53:28Z",
+  "generated_at_utc": "2026-11-23T09:05:02Z",
   "source_counts": {
-    "github": 1,
+    "github": 2,
     "algora": 0,
-    "merged": 1
+    "merged": 2
   },
   "recommendations": {
     "pursue": 0,
     "review": 0,
-    "skip": 1
+    "skip": 2
   },
   "top_candidates": [
+    {
+      "repo": "nockchain/nockchain",
+      "number": 227,
+      "title": "Regarding Bug Bounty Report",
+      "recommendation": "skip",
+      "total_score": 80,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Issue details are too thin to estimate a quick fix path.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
     {
       "repo": "projectdiscovery/nuclei",
       "number": 8306,
