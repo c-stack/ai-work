@@ -1,19 +1,10 @@
 {
-  "generated_at_utc": "2026-11-22T19:40:08Z",
+  "generated_at_utc": "2026-11-23T00:53:28Z",
   "history_window_runs": 12,
   "history_min_skip_runs": 4,
   "history_min_unique_issues": 2,
   "blocked_repos": [],
   "repo_stats": {
-    "mitre-attack/attack-stix-data": {
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        81
-      ]
-    },
     "projectdiscovery/nuclei": {
       "total_seen": 1,
       "skip_count": 1,
@@ -22,28 +13,9 @@
       "unique_issues": [
         8306
       ]
-    },
-    "tenstorrent/tt-metal": {
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        66411
-      ]
     }
   },
   "top_repeat_skips": [
-    {
-      "repo": "tenstorrent/tt-metal",
-      "total_seen": 1,
-      "skip_count": 1,
-      "review_count": 0,
-      "pursue_count": 0,
-      "unique_issues": [
-        66411
-      ]
-    },
     {
       "repo": "projectdiscovery/nuclei",
       "total_seen": 1,
@@ -52,16 +24,6 @@
       "pursue_count": 0,
       "unique_issues": [
         8306
-      ]
-    },
-    {
-      "repo": "mitre-attack/attack-stix-data",
-      "total_seen": 1,
-      "skip_count": 0,
-      "review_count": 0,
-      "pursue_count": 1,
-      "unique_issues": [
-        81
       ]
     }
   ]

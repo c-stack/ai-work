@@ -1,29 +1,6 @@
 {
-  "generated_at_utc": "2026-11-22T19:40:08Z",
+  "generated_at_utc": "2026-11-23T00:53:28Z",
   "triage_profile": "aggressive",
-  "count": 1,
-  "items": [
-    {
-      "repo": "mitre-attack/attack-stix-data",
-      "number": 81,
-      "title": "T1195.001 Procedure Suggestion: PhantomRaven Supply-Chain Compromise and Bug Bounty Monetization\n",
-      "url": "https://github.com/mitre-attack/attack-stix-data/issues/81",
-      "recommendation": "pursue",
-      "total_score": 78,
-      "repo_primary_language": "",
-      "bounty_confidence": 24,
-      "actionability": 18,
-      "bounty_amount_usd": 0,
-      "bounty_amount_signal": "",
-      "competition_risk": 0,
-      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
-      "decision_signals": [
-        "bounty:bug bounty",
-        "bounty:bounty",
-        "negative:blog",
-        "task:add ",
-        "task:bug"
-      ]
-    }
-  ]
+  "count": 0,
+  "items": []
 }
