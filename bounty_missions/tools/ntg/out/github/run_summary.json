@@ -1,24 +1,39 @@
 {
-  "generated_at_utc": "2026-11-24T06:01:57Z",
+  "generated_at_utc": "2026-11-24T17:44:47Z",
   "source_counts": {
-    "github": 2,
+    "github": 3,
     "algora": 0,
-    "merged": 2
+    "merged": 3
   },
   "recommendations": {
-    "pursue": 0,
+    "pursue": 1,
     "review": 0,
     "skip": 2
   },
   "top_candidates": [
     {
+      "repo": "Tarsnap/scrypt",
+      "number": 449,
+      "title": "[bug bounty] Typo in Makefile.am comment: \"preceeding\"",
+      "recommendation": "pursue",
+      "total_score": 90,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    },
+    {
       "repo": "nockchain/nockchain",
       "number": 227,
       "title": "Regarding Bug Bounty Report",
       "recommendation": "skip",
-      "total_score": 80,
+      "total_score": 78,
       "bounty_amount_usd": 0,
-      "competition_risk": 0,
+      "competition_risk": 3,
       "decision_reason": "Issue details are too thin to estimate a quick fix path.",
       "decision_signals": [
         "bounty:bug bounty",

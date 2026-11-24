@@ -1,6 +1,27 @@
 {
-  "generated_at_utc": "2026-11-24T06:01:57Z",
+  "generated_at_utc": "2026-11-24T17:44:47Z",
   "triage_profile": "aggressive",
-  "count": 0,
-  "items": []
+  "count": 1,
+  "items": [
+    {
+      "repo": "Tarsnap/scrypt",
+      "number": 449,
+      "title": "[bug bounty] Typo in Makefile.am comment: \"preceeding\"",
+      "url": "https://github.com/Tarsnap/scrypt/issues/449",
+      "recommendation": "pursue",
+      "total_score": 90,
+      "repo_primary_language": "C",
+      "bounty_confidence": 34,
+      "actionability": 16,
+      "bounty_amount_usd": 0,
+      "bounty_amount_signal": "",
+      "competition_risk": 3,
+      "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
+      "decision_signals": [
+        "bounty:bug bounty",
+        "bounty:bounty",
+        "task:bug"
+      ]
+    }
+  ]
 }

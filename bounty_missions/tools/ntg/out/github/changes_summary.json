@@ -1,12 +1,20 @@
 {
   "new_items": [
     {
+      "repo": "Tarsnap/scrypt",
+      "number": 449,
+      "title": "[bug bounty] Typo in Makefile.am comment: \"preceeding\"",
+      "url": "https://github.com/Tarsnap/scrypt/issues/449",
+      "recommendation": "pursue",
+      "total_score": 90
+    },
+    {
       "repo": "nockchain/nockchain",
       "number": 227,
       "title": "Regarding Bug Bounty Report",
       "url": "https://github.com/nockchain/nockchain/issues/227",
       "recommendation": "skip",
-      "total_score": 80
+      "total_score": 78
     },
     {
       "repo": "projectdiscovery/nuclei",
