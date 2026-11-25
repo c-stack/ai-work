@@ -22,7 +22,7 @@
       "title": "file protocol: readChunk discards bytes for files < 1024 bytes, silently bypassing the deny-mime filter",
       "url": "https://github.com/projectdiscovery/nuclei/issues/8306",
       "recommendation": "skip",
-      "total_score": 72
+      "total_score": 71
     }
   ],
   "dropped_items": [],

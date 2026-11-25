@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T17:44:47Z",
+  "generated_at_utc": "2026-11-25T02:28:31Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -46,7 +46,7 @@
       "number": 8306,
       "title": "file protocol: readChunk discards bytes for files < 1024 bytes, silently bypassing the deny-mime filter",
       "recommendation": "skip",
-      "total_score": 72,
+      "total_score": 71,
       "bounty_amount_usd": 0,
       "competition_risk": 0,
       "decision_reason": "Bounty evidence is too weak to justify opening a workspace.",
