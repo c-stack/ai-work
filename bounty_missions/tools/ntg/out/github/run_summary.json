@@ -1,16 +1,50 @@
 {
-  "generated_at_utc": "2026-11-25T12:55:06Z",
+  "generated_at_utc": "2026-11-25T22:32:18Z",
   "source_counts": {
-    "github": 3,
+    "github": 6,
     "algora": 0,
-    "merged": 3
+    "merged": 6
   },
   "recommendations": {
     "pursue": 1,
-    "review": 0,
+    "review": 3,
     "skip": 2
   },
   "top_candidates": [
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 67321,
+      "title": "Host (non-device) tensors crash the process with SIGSEGV in ttnn.exp (all unary ops), where, concat/stack, split, tilize/untilize, repeat_interleave and clone instead of raising",
+      "recommendation": "review",
+      "total_score": 96,
+      "bounty_amount_usd": 0,
+      "competition_risk": 3,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:error",
+        "action:regression",
+        "task:fix",
+        "task:add "
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 67317,
+      "title": "ttnn.floor_div(tensor, -0.0) and ttnn.div_bw(..., scalar=-0.0) return infinities with the wrong sign: the scalar == 0 branch ignores the sign of zero",
+      "recommendation": "review",
+      "total_score": 90,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:fix",
+        "task:fix",
+        "task:add "
+      ]
+    },
     {
       "repo": "Tarsnap/scrypt",
       "number": 449,
@@ -24,6 +58,23 @@
         "bounty:bug bounty",
         "bounty:bounty",
         "task:bug"
+      ]
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 67322,
+      "title": "ttnn.pow_bw returns all-zero gradients for any exponent with |exponent| < 1.19e-6 (torch zeroes only exponent == 0)",
+      "recommendation": "review",
+      "total_score": 84,
+      "bounty_amount_usd": 0,
+      "competition_risk": 0,
+      "decision_reason": "Plausible bounty with enough detail to inspect manually.",
+      "decision_signals": [
+        "bounty:bounty",
+        "action:root cause",
+        "action:fix",
+        "task:fix",
+        "task:add "
       ]
     },
     {

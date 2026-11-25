@@ -1,12 +1,36 @@
 {
   "new_items": [
     {
+      "repo": "tenstorrent/tt-metal",
+      "number": 67321,
+      "title": "Host (non-device) tensors crash the process with SIGSEGV in ttnn.exp (all unary ops), where, concat/stack, split, tilize/untilize, repeat_interleave and clone instead of raising",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/67321",
+      "recommendation": "review",
+      "total_score": 96
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 67317,
+      "title": "ttnn.floor_div(tensor, -0.0) and ttnn.div_bw(..., scalar=-0.0) return infinities with the wrong sign: the scalar == 0 branch ignores the sign of zero",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/67317",
+      "recommendation": "review",
+      "total_score": 90
+    },
+    {
       "repo": "Tarsnap/scrypt",
       "number": 449,
       "title": "[bug bounty] Typo in Makefile.am comment: \"preceeding\"",
       "url": "https://github.com/Tarsnap/scrypt/issues/449",
       "recommendation": "pursue",
       "total_score": 89
+    },
+    {
+      "repo": "tenstorrent/tt-metal",
+      "number": 67322,
+      "title": "ttnn.pow_bw returns all-zero gradients for any exponent with |exponent| < 1.19e-6 (torch zeroes only exponent == 0)",
+      "url": "https://github.com/tenstorrent/tt-metal/issues/67322",
+      "recommendation": "review",
+      "total_score": 84
     },
     {
       "repo": "nockchain/nockchain",
