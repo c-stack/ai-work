@@ -6,7 +6,7 @@
       "title": "[bug bounty] Typo in Makefile.am comment: \"preceeding\"",
       "url": "https://github.com/Tarsnap/scrypt/issues/449",
       "recommendation": "pursue",
-      "total_score": 90
+      "total_score": 89
     },
     {
       "repo": "nockchain/nockchain",
@@ -14,7 +14,7 @@
       "title": "Regarding Bug Bounty Report",
       "url": "https://github.com/nockchain/nockchain/issues/227",
       "recommendation": "skip",
-      "total_score": 78
+      "total_score": 77
     },
     {
       "repo": "projectdiscovery/nuclei",

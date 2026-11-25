@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-25T02:28:31Z",
+  "generated_at_utc": "2026-11-25T12:55:06Z",
   "source_counts": {
     "github": 3,
     "algora": 0,
@@ -16,7 +16,7 @@
       "number": 449,
       "title": "[bug bounty] Typo in Makefile.am comment: \"preceeding\"",
       "recommendation": "pursue",
-      "total_score": 90,
+      "total_score": 89,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Direct bounty signals, actionable issue details, and low competition risk.",
@@ -31,7 +31,7 @@
       "number": 227,
       "title": "Regarding Bug Bounty Report",
       "recommendation": "skip",
-      "total_score": 78,
+      "total_score": 77,
       "bounty_amount_usd": 0,
       "competition_risk": 3,
       "decision_reason": "Issue details are too thin to estimate a quick fix path.",
